@@ -1,0 +1,42 @@
+[17:04:21.709] Initializing OverLight Mod build 2
+[17:04:21.709] Compiled: Aug  1 2017 14:13:38 CL:1900
+[17:04:21.709] OS: Windows Version 6.1538.9200
+[17:04:21.709] D3D9UseVersion: 0
+[17:04:21.709] DXVersion: 2304
+[17:04:21.709] windowsVersion: 4
+[17:04:21.709] CPU Supports MMX: 0
+[17:04:21.709] CPU Supports 3DNow: 0
+[17:04:21.709] CPU Supports SSE: 0
+[17:04:21.709] CPU Supports SSE2: 0
+[17:04:21.725] SA:MP 0.3.7 was detected. g_dwSAMP_Addr: 0x03C60000
+[17:04:24.054] proxyIDirect3DDevice9 constructor called. Original IDirect3DDevice9 interface address is 0x0ED16FA0
+[17:04:30.243] proxyIDirect3DDevice9::Reset()
+[17:04:30.282] proxyID3DDevice9_InitOurShit()
+[17:04:30.918] Could not find the speedometer files, disabling it.
+[17:04:42.377] proxyIDirect3DDevice9::Reset()
+[17:04:42.377] proxyID3DDevice9_UnInitOurShit
+[17:04:42.417] proxyID3DDevice9_InitOurShit()
+[17:04:43.642] byteAuthBSLen 43
+[17:04:43.642] auth_bs 1373BDCA32DC1F4401B49D6FD986364DC5F9B8FFB84
+[17:04:43.642] NEW byteAuthBSLen 43
+[17:04:43.642] NEW auth_bs 12A522312BAAEE6058C56902FC0AF2FA4A37367055D
+[17:05:31.620] proxyIDirect3DDevice9::Reset()
+[17:05:31.620] proxyID3DDevice9_UnInitOurShit
+[17:05:31.912] proxyID3DDevice9_InitOurShit()
+[17:05:57.382] proxyIDirect3DDevice9::Reset()
+[17:05:57.383] proxyID3DDevice9_UnInitOurShit
+[17:05:57.672] proxyID3DDevice9_InitOurShit()
+[17:06:10.894] proxyIDirect3DDevice9::Reset()
+[17:06:10.895] proxyID3DDevice9_UnInitOurShit
+[17:06:11.231] proxyID3DDevice9_InitOurShit()
+[17:07:36.633] proxyIDirect3DDevice9::Reset()
+[17:07:36.633] proxyID3DDevice9_UnInitOurShit
+[17:07:37.007] proxyID3DDevice9_InitOurShit()
+[17:23:39.845] proxyIDirect3DDevice9::Reset()
+[17:23:39.845] proxyID3DDevice9_UnInitOurShit
+[17:23:40.147] proxyID3DDevice9_InitOurShit()
+[17:23:47.289] proxyIDirect3DDevice9::Reset()
+[17:23:47.289] proxyID3DDevice9_UnInitOurShit
+[17:23:47.564] proxyID3DDevice9_InitOurShit()
+[17:23:51.470] Exited
+

@@ -1,0 +1,23 @@
+[15:05:26.105] Initializing OverLight Mod build 4
+[15:05:26.105] Compiled: Dec 31 2018 14:18:42 CL:1915
+[15:05:26.105] OS: Windows Version 6.1538.9200
+[15:05:26.105] D3D9UseVersion: 0
+[15:05:26.105] DXVersion: 2304
+[15:05:26.105] windowsVersion: 4
+[15:05:26.105] CPU Supports MMX: 0
+[15:05:26.105] CPU Supports 3DNow: 0
+[15:05:26.105] CPU Supports SSE: 0
+[15:05:26.105] CPU Supports SSE2: 0
+[15:05:26.110] SA:MP 0.3.7 was detected. g_dwSAMP_Addr: 0x03D50000
+[15:05:28.447] proxyIDirect3DDevice9 constructor called. Original IDirect3DDevice9 interface address is 0x0FCE24E0
+[15:05:28.762] proxyIDirect3DDevice9::Reset()
+[15:05:28.792] proxyID3DDevice9_InitOurShit()
+[15:05:37.101] proxyIDirect3DDevice9::Reset()
+[15:05:37.101] proxyID3DDevice9_UnInitOurShit
+[15:05:37.134] proxyID3DDevice9_InitOurShit()
+[15:05:38.469] byteAuthBSLen 43
+[15:05:38.469] auth_bs 1373BDCA32DC1F4401B49D6FD986364DC5F9B8FFB84
+[15:05:38.469] NEW byteAuthBSLen 42
+[15:05:38.469] NEW auth_bs FF6706B63267E4639393343CA5CBC177A2DD745E26
+[15:06:18.012] Exited
+
