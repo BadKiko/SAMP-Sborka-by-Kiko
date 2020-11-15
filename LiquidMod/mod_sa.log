@@ -1,0 +1,26 @@
+[15:34:09.113] Initializing Liquid 4.2 by F11GAR0. & _B1t
+[15:34:09.113] Compiled: May 11 2018 20:31:35 CL:1900
+[15:34:09.113] OS: Windows Version 6.1538.9200
+[15:34:09.113] creating LiquidMod class object
+[15:34:09.113] creating LiquidSync class object
+[15:34:09.113] start LiquidMod initialization
+[15:34:09.119] initialization LiquidMod complete
+[15:34:09.119] randomization fix
+[15:34:09.119] ini loading
+[15:34:09.119] Fucking language loaded from fucking ini. Value: 245411264
+[15:34:09.130] Loading X:\GTA San Andreas With Cheats\LiquidMod\Liquid.ini...
+[15:34:09.131] Parse error:  # (expected '=')
+[15:34:09.131] Parse error:  # (expected '=')
+[15:34:09.131] Unknown setting 'key_fastwarp'
+[15:34:09.132] Warning: setting 'key_quickwarp' was not present in the .ini file
+[15:34:09.132] start ini loading by copying params in LiquidMod
+[15:34:09.132] ini loading fully complete
+[15:34:09.132] have edit comp
+[15:34:09.132] SA:MP 0.3.7 was detected. g_dwSAMP_Addr: 0x03BB0000
+[15:34:09.132] anticheat patched
+[15:34:09.132] samp getted
+[15:34:09.134] init ended
+[15:34:09.169] init ended
+[15:34:10.482] Could not find the speedometer files, disabling it.
+[15:34:18.043] Exited
+
