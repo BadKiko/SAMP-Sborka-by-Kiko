@@ -1,0 +1,17 @@
+1 VERSIONINFO
+FILEVERSION 4,3,1,4
+FILETYPE 0x00000001
+{
+  BLOCK "StringFileInfo"
+	 {
+		 BLOCK "040904E4"
+		 {
+			 VALUE "FileDescription", "La Pirula Project"
+			 VALUE "CompanyName", "P3ti, Pabloko"
+		 }
+	 }
+  BLOCK "VarFileInfo"
+	 {
+		 VALUE "Translation", 0x0409, 1252
+	 }
+}
