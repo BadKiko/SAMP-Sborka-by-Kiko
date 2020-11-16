@@ -1,147 +1,32 @@
-[23:32:44.207] Initializing OverLight Mod build 4
-[23:32:44.208] Compiled: Nov 15 2020 23:32:16 CL:1921
-[23:32:44.208] OS: Windows Version 6.1538.9200
-[23:32:44.208] D3D9UseVersion: 0
-[23:32:44.208] DXVersion: 2304
-[23:32:44.208] windowsVersion: 4
-[23:32:44.208] CPU Supports MMX: 0
-[23:32:44.208] CPU Supports 3DNow: 0
-[23:32:44.208] CPU Supports SSE: 0
-[23:32:44.208] CPU Supports SSE2: 0
-[23:32:44.212] SA:MP 0.3.7 was detected. g_dwSAMP_Addr: 0x03F20000
-[23:32:46.683] proxyIDirect3DDevice9 constructor called. Original IDirect3DDevice9 interface address is 0x103F11A0
-[23:32:47.036] proxyIDirect3DDevice9::Reset()
-[23:32:47.136] proxyID3DDevice9_InitOurShit()
-[23:32:55.518] proxyIDirect3DDevice9::Reset()
-[23:32:55.518] proxyID3DDevice9_UnInitOurShit
-[23:32:55.612] proxyID3DDevice9_InitOurShit()
-[23:32:57.882] byteAuthBSLen 43
-[23:32:57.882] auth_bs 1373BDCA32DC1F4401B49D6FD986364DC5F9B8FFB84
-[23:32:57.882] NEW byteAuthBSLen 43
-[23:32:57.882] NEW auth_bs 1516C519989C716F9BCC714B78BAAA721B7C31AB9EA
-[23:34:13.382] proxyIDirect3DDevice9::Reset()
-[23:34:13.382] proxyID3DDevice9_UnInitOurShit
-[23:34:13.925] proxyID3DDevice9_InitOurShit()
-[23:36:17.271] proxyIDirect3DDevice9::Reset()
-[23:36:17.271] proxyID3DDevice9_UnInitOurShit
-[23:36:17.646] proxyID3DDevice9_InitOurShit()
-[23:37:03.647] proxyIDirect3DDevice9::Reset()
-[23:37:03.647] proxyID3DDevice9_UnInitOurShit
-[23:37:04.101] proxyID3DDevice9_InitOurShit()
-[23:37:28.467] proxyIDirect3DDevice9::Reset()
-[23:37:28.467] proxyID3DDevice9_UnInitOurShit
-[23:37:28.886] proxyID3DDevice9_InitOurShit()
-[23:38:24.084] proxyIDirect3DDevice9::Reset()
-[23:38:24.084] proxyID3DDevice9_UnInitOurShit
-[23:38:24.464] proxyID3DDevice9_InitOurShit()
-[23:38:52.685] proxyIDirect3DDevice9::Reset()
-[23:38:52.685] proxyID3DDevice9_UnInitOurShit
-[23:38:53.141] proxyID3DDevice9_InitOurShit()
-[23:39:46.271] proxyIDirect3DDevice9::Reset()
-[23:39:46.271] proxyID3DDevice9_UnInitOurShit
-[23:39:46.652] proxyID3DDevice9_InitOurShit()
-[23:40:20.191] proxyIDirect3DDevice9::Reset()
-[23:40:20.191] proxyID3DDevice9_UnInitOurShit
-[23:40:20.624] proxyID3DDevice9_InitOurShit()
-[23:40:46.670] proxyIDirect3DDevice9::Reset()
-[23:40:46.670] proxyID3DDevice9_UnInitOurShit
-[23:40:47.123] proxyID3DDevice9_InitOurShit()
-[23:41:00.265] proxyIDirect3DDevice9::Reset()
-[23:41:00.265] proxyID3DDevice9_UnInitOurShit
-[23:41:00.650] proxyID3DDevice9_InitOurShit()
-[23:41:22.474] proxyIDirect3DDevice9::Reset()
-[23:41:22.474] proxyID3DDevice9_UnInitOurShit
-[23:41:22.855] proxyID3DDevice9_InitOurShit()
-[23:42:12.977] proxyIDirect3DDevice9::Reset()
-[23:42:12.977] proxyID3DDevice9_UnInitOurShit
-[23:42:13.376] proxyID3DDevice9_InitOurShit()
-[23:44:57.423] proxyIDirect3DDevice9::Reset()
-[23:44:57.423] proxyID3DDevice9_UnInitOurShit
-[23:44:57.829] proxyID3DDevice9_InitOurShit()
-[23:45:14.993] proxyIDirect3DDevice9::Reset()
-[23:45:14.993] proxyID3DDevice9_UnInitOurShit
-[23:45:15.465] proxyID3DDevice9_InitOurShit()
-[23:46:40.639] proxyIDirect3DDevice9::Reset()
-[23:46:40.639] proxyID3DDevice9_UnInitOurShit
-[23:46:41.041] proxyID3DDevice9_InitOurShit()
-[23:48:57.947] proxyIDirect3DDevice9::Reset()
-[23:48:57.947] proxyID3DDevice9_UnInitOurShit
-[23:48:58.386] proxyID3DDevice9_InitOurShit()
-[23:49:29.938] proxyIDirect3DDevice9::Reset()
-[23:49:29.938] proxyID3DDevice9_UnInitOurShit
-[23:49:30.332] proxyID3DDevice9_InitOurShit()
-[23:50:16.633] proxyIDirect3DDevice9::Reset()
-[23:50:16.633] proxyID3DDevice9_UnInitOurShit
-[23:50:17.136] proxyID3DDevice9_InitOurShit()
-[23:52:27.842] proxyIDirect3DDevice9::Reset()
-[23:52:27.842] proxyID3DDevice9_UnInitOurShit
-[23:52:28.279] proxyID3DDevice9_InitOurShit()
-[23:52:57.994] proxyIDirect3DDevice9::Reset()
-[23:52:57.994] proxyID3DDevice9_UnInitOurShit
-[23:52:58.450] proxyID3DDevice9_InitOurShit()
-[23:53:21.583] proxyIDirect3DDevice9::Reset()
-[23:53:21.583] proxyID3DDevice9_UnInitOurShit
-[23:53:22.076] proxyID3DDevice9_InitOurShit()
-[23:53:44.039] proxyIDirect3DDevice9::Reset()
-[23:53:44.039] proxyID3DDevice9_UnInitOurShit
-[23:53:44.525] proxyID3DDevice9_InitOurShit()
-[23:54:41.197] proxyIDirect3DDevice9::Reset()
-[23:54:41.197] proxyID3DDevice9_UnInitOurShit
-[23:54:41.694] proxyID3DDevice9_InitOurShit()
-[23:55:28.791] proxyIDirect3DDevice9::Reset()
-[23:55:28.791] proxyID3DDevice9_UnInitOurShit
-[23:55:29.272] proxyID3DDevice9_InitOurShit()
-[23:56:43.022] proxyIDirect3DDevice9::Reset()
-[23:56:43.023] proxyID3DDevice9_UnInitOurShit
-[23:56:43.453] proxyID3DDevice9_InitOurShit()
-[23:58:07.926] proxyIDirect3DDevice9::Reset()
-[23:58:07.926] proxyID3DDevice9_UnInitOurShit
-[23:58:08.410] proxyID3DDevice9_InitOurShit()
-[23:58:25.382] proxyIDirect3DDevice9::Reset()
-[23:58:25.382] proxyID3DDevice9_UnInitOurShit
-[23:58:25.795] proxyID3DDevice9_InitOurShit()
-[00:00:04.762] proxyIDirect3DDevice9::Reset()
-[00:00:04.762] proxyID3DDevice9_UnInitOurShit
-[00:00:05.227] proxyID3DDevice9_InitOurShit()
-[00:02:41.612] proxyIDirect3DDevice9::Reset()
-[00:02:41.612] proxyID3DDevice9_UnInitOurShit
-[00:02:42.108] proxyID3DDevice9_InitOurShit()
-[00:02:58.545] proxyIDirect3DDevice9::Reset()
-[00:02:58.545] proxyID3DDevice9_UnInitOurShit
-[00:02:59.145] proxyID3DDevice9_InitOurShit()
-[00:03:59.652] proxyIDirect3DDevice9::Reset()
-[00:03:59.652] proxyID3DDevice9_UnInitOurShit
-[00:04:00.155] proxyID3DDevice9_InitOurShit()
-[00:06:40.112] proxyIDirect3DDevice9::Reset()
-[00:06:40.112] proxyID3DDevice9_UnInitOurShit
-[00:06:40.629] proxyID3DDevice9_InitOurShit()
-[00:08:20.242] proxyIDirect3DDevice9::Reset()
-[00:08:20.242] proxyID3DDevice9_UnInitOurShit
-[00:08:20.694] proxyID3DDevice9_InitOurShit()
-[00:09:33.538] proxyIDirect3DDevice9::Reset()
-[00:09:33.538] proxyID3DDevice9_UnInitOurShit
-[00:09:34.040] proxyID3DDevice9_InitOurShit()
-[00:11:08.269] proxyIDirect3DDevice9::Reset()
-[00:11:08.269] proxyID3DDevice9_UnInitOurShit
-[00:11:08.792] proxyID3DDevice9_InitOurShit()
-[00:11:55.630] proxyIDirect3DDevice9::Reset()
-[00:11:55.630] proxyID3DDevice9_UnInitOurShit
-[00:11:56.119] proxyID3DDevice9_InitOurShit()
-[00:13:24.492] proxyIDirect3DDevice9::Reset()
-[00:13:24.492] proxyID3DDevice9_UnInitOurShit
-[00:13:24.912] proxyID3DDevice9_InitOurShit()
-[00:13:48.654] proxyIDirect3DDevice9::Reset()
-[00:13:48.654] proxyID3DDevice9_UnInitOurShit
-[00:13:49.079] proxyID3DDevice9_InitOurShit()
-[00:14:01.848] proxyIDirect3DDevice9::Reset()
-[00:14:01.848] proxyID3DDevice9_UnInitOurShit
-[00:14:02.351] proxyID3DDevice9_InitOurShit()
-[00:14:59.115] proxyIDirect3DDevice9::Reset()
-[00:14:59.115] proxyID3DDevice9_UnInitOurShit
-[00:14:59.531] proxyID3DDevice9_InitOurShit()
-[00:16:03.431] proxyIDirect3DDevice9::Reset()
-[00:16:03.431] proxyID3DDevice9_UnInitOurShit
-[00:16:03.889] proxyID3DDevice9_InitOurShit()
-[00:16:44.067] proxyIDirect3DDevice9::Reset()
-[00:16:44.067] proxyID3DDevice9_UnInitOurShit
-[00:16:44.528] proxyID3DDevice9_InitOurShit()
+[04:19:58.538] Initializing OverLight Mod build 4
+[04:19:58.538] Compiled: Nov 16 2020 04:18:55 CL:1921
+[04:19:58.539] OS: Windows Version 6.1538.9200
+[04:19:58.539] D3D9UseVersion: 0
+[04:19:58.539] DXVersion: 2304
+[04:19:58.539] windowsVersion: 4
+[04:19:58.539] CPU Supports MMX: 0
+[04:19:58.539] CPU Supports 3DNow: 0
+[04:19:58.539] CPU Supports SSE: 0
+[04:19:58.539] CPU Supports SSE2: 0
+[04:19:58.543] SA:MP 0.3.7 was detected. g_dwSAMP_Addr: 0x03BF0000
+[04:20:01.111] proxyIDirect3DDevice9 constructor called. Original IDirect3DDevice9 interface address is 0x103CC4A0
+[04:20:01.516] proxyIDirect3DDevice9::Reset()
+[04:20:01.692] proxyID3DDevice9_InitOurShit()
+[04:20:09.933] proxyIDirect3DDevice9::Reset()
+[04:20:09.933] proxyID3DDevice9_UnInitOurShit
+[04:20:10.068] proxyID3DDevice9_InitOurShit()
+[04:20:11.909] byteAuthBSLen 43
+[04:20:11.909] auth_bs 1373BDCA32DC1F4401B49D6FD986364DC5F9B8FFB84
+[04:20:11.909] NEW byteAuthBSLen 43
+[04:20:11.909] NEW auth_bs 1552E824204123C65FDE15720A0E2AEF562992061CD
+[04:22:29.814] proxyIDirect3DDevice9::Reset()
+[04:22:29.814] proxyID3DDevice9_UnInitOurShit
+[04:22:30.374] proxyID3DDevice9_InitOurShit()
+[04:23:48.322] proxyIDirect3DDevice9::Reset()
+[04:23:48.322] proxyID3DDevice9_UnInitOurShit
+[04:23:48.831] proxyID3DDevice9_InitOurShit()
+[04:24:36.046] proxyIDirect3DDevice9::Reset()
+[04:24:36.046] proxyID3DDevice9_UnInitOurShit
+[04:24:36.547] proxyID3DDevice9_InitOurShit()
+[04:28:24.508] Exited
+

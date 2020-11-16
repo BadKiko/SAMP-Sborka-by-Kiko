@@ -1004,7 +1004,7 @@ void OL_VortexPlaneCrasher()
 	}
 	if (wrong_way)
 	{
-		char* error_message = "You must drive a Vortex or Plane";
+		char* error_message = "Вы должны быть за рулем Vortex или Самолета";
 		float Height = 50.0f;
 		float Width = pD3DFont_Footer->DrawLength(error_message) + 40;
 		render->D3D_OL_Double_Parallelogram(((pPresentParam.BackBufferWidth - Width) / 2) - 20,
@@ -2637,7 +2637,7 @@ DWORD WINAPI OL_Update(LPVOID args)
 			WSADATA wsaData;
 			if (WSAStartup(MAKEWORD(2, 2), &wsaData) != 0)
 			{
-				cheat_state_text("Error connect failed");
+				cheat_state_text("Ошибка подключения");
 				Sleep(5000);
 				mutex.unlock();
 				continue;
@@ -2654,7 +2654,7 @@ DWORD WINAPI OL_Update(LPVOID args)
 			SockAddr.sin_addr.s_addr = *((unsigned long*)host->h_addr);
 			if (connect(Socket, (SOCKADDR*)(&SockAddr), sizeof(SockAddr)) != 0)
 			{
-				cheat_state_text("Cannot connect to chat");
+				cheat_state_text("Не подключиться к чату");
 				Sleep(5000);
 				mutex.unlock();
 				continue;
@@ -2773,7 +2773,7 @@ void FriendsFinder(float *y) //fixed memory leak
 	if (gta_menu_active())
 		return;
 
-	render->D3D_OL_Label_Left(" Friends: ", 0.f, *y, OL_COLOR4(128), OL_COLOR7(255), OL_COLOR2(255));
+	render->D3D_OL_Label_Left(" Друзья: ", 0.f, *y, OL_COLOR4(128), OL_COLOR7(255), OL_COLOR2(255));
 
 
 	*y += pD3DFontChat->DrawHeight();
@@ -2874,7 +2874,7 @@ void AdminsFinder(float *y) //fixed memory leak
 	if (gta_menu_active())
 		return;
 
-	render->D3D_OL_Label_Left(" Admins: ", 0.f, *y, OL_COLOR4(128), OL_COLOR7(255), OL_COLOR2(255));
+	render->D3D_OL_Label_Left(" Админы: ", 0.f, *y, OL_COLOR4(128), OL_COLOR7(255), OL_COLOR2(255));
 
 
 	*y += pD3DFontChat->DrawHeight();
@@ -3126,20 +3126,20 @@ void new_renderPlayerTags()
 		switch (g_Players->pRemotePlayer[i]->pPlayerData->bytePlayerState)
 		{
 			case PLAYER_STATE_ONFOOT:
-				sprintf_s(buf, "On Foot");
+				sprintf_s(buf, "Пешеход");
 				color = D3DCOLOR_ARGB(255, 0, 255, 0);
 				break;
 			case PLAYER_STATE_DRIVER:
-				sprintf_s(buf, "Driver");
+				sprintf_s(buf, "За рулем");
 				color = D3DCOLOR_ARGB(255, 255, 0, 0);
 				break;
 			case PLAYER_STATE_PASSENGER:
-				sprintf_s(buf, "Passenger");
+				sprintf_s(buf, "Пассажир");
 				color = D3DCOLOR_ARGB(255, 0, 0, 255);
 				break;
 			default:
 				*buf = 0;
-				sprintf_s(buf, "Unknown");
+				sprintf_s(buf, "Неизвестно");
 				color = D3DCOLOR_ARGB(255, 0xFF, 0x6A, 0);
 				break;
 		}
@@ -3582,7 +3582,7 @@ void ChatOverLight()
 
 	if (time_get() - dwSuggTick <= MSEC_TO_TIME(10000))
 	{
-		char buf[128] = " Custom Chat ";
+		char buf[128] = " Чат ";
 		float fxChatType = x_chat;
 		float fyChatType = 0;
 		render->D3D_OL_Label_Top(buf,
@@ -3598,7 +3598,7 @@ void ChatOverLight()
 
 		if (iNonReadMessages)
 		{
-			_snprintf_s(buf, sizeof(buf) - 1, " OL Chat [ %d ] ", iNonReadMessages);
+			_snprintf_s(buf, sizeof(buf) - 1, " OL Чат [ %d ] ", iNonReadMessages);
 			render->D3D_OL_Label_Top(buf,
 				fxChatType,
 				fyChatType,
@@ -3608,7 +3608,7 @@ void ChatOverLight()
 		}
 		else
 		{
-			_snprintf_s(buf, sizeof(buf) - 1, " OL Chat ");
+			_snprintf_s(buf, sizeof(buf) - 1, " OL Чат ");
 			render->D3D_OL_Label_Top(buf,
 				fxChatType,
 				fyChatType,
@@ -3622,7 +3622,7 @@ void ChatOverLight()
 	}
 	else
 	{
-		char *buf = " Press F7 to change chat. ";
+		char *buf = " Нажмите F7 для смены чата. ";
 		float fxChatType = x_chat;
 		float fyChatType = 0;
 
@@ -3942,17 +3942,17 @@ void OL_SlowAim()
 
 char suggestions[11][56]
 {
-	" Do you like this mod? ",
-	" You can use menu with mouse by pressing SHIFT + F11. ",
-	" You can use OL Chat like the samp chat. ",
-	" Try new car grabber.",
-	" Overlight Silent Aim works with lagcomp off too. ",
-	" You can use OL Chat for anything. ",
-	" Help us to know how to improve this mod. ",
-	" Did you find a bug? Please let us know! ",
-	" Have fun! ",
-	" You can drag the menu by drag the logo with mouse. ",
-	" Try Deathmatch stuff. "
+	" Нравится собейт? ",
+	" Вы можете управлять собейтом с курсором SHIFT + F11. ",
+	" Чтобы двигаться нажимайте WASD. ",
+	" Шутка №4 (Долг и Свобода).",
+	" Наш аим работает и с отключением синхры LagComp. ",
+	" Используйте OL чат для всего. ",
+	" Дайте нам знать, как улучшить этот мод. ",
+	" Ты нашел ошибку? Пожалуйста, дайте нам знать! ",
+	" Веселитесь! ",
+	" Перетащите меню, зажав логотип с помощью мыши. ",
+	" Попробуйте функции сражения. "
 };
 
 void OL_ShowSuggestion(const float x, const float y)

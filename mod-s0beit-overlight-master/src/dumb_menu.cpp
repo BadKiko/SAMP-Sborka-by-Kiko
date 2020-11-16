@@ -3373,37 +3373,37 @@ void menu_maybe_init ( void )
 	/** Menu Items **/
 	/* main menu */
 
-	menu_item_add(menu_main, NULL, "\tOverLight v4 - beta", ID_NONE, MENU_COLOR_SEPARATOR, NULL);
+	menu_item_add(menu_main, NULL, "\tOverLight v4", ID_NONE, MENU_COLOR_SEPARATOR, NULL);
 	struct menu *OverLight_CarFunctions_Menu;
 	OverLight_CarFunctions_Menu = menu_new(menu_main, 0, OverLight_CarFunctions_Callback);
 	
-	menu_item_add(menu_main, OverLight_CarFunctions_Menu, "Car Functions", ID_NONE, MENU_COLOR_DEFAULT, NULL);
-	menu_item_add(OverLight_CarFunctions_Menu, NULL , "\tCar Functions", ID_NONE, MENU_COLOR_DEFAULT, NULL);
-	menu_item_add(OverLight_CarFunctions_Menu, NULL, "Car Streamed Grabber", ID_CAR_STREAMED_GRABBER, MENU_COLOR_DEFAULT, NULL, "Make lag with streamed vehicles.");
-	menu_item_add(OverLight_CarFunctions_Menu, NULL, "Car Map (All) Grabber", ID_CAR_MAP_GRABBER, MENU_COLOR_DEFAULT, NULL, "Make lag with all vehicles in server.");
-	menu_item_add(OverLight_CarFunctions_Menu, NULL, "Car Trailer Grabber", ID_TRAILER_GRABBER, MENU_COLOR_DEFAULT, NULL, "Make lag with streamed vehicles.");
-	menu_item_add(OverLight_CarFunctions_Menu, NULL, "Car Shooter", ID_CAR_SHOOTER, MENU_COLOR_DEFAULT, NULL, "Shot vehicles per click.");
-	menu_item_add(OverLight_CarFunctions_Menu, NULL, "Car Shooter Once", ID_SHOOTER_ONCE, MENU_COLOR_DEFAULT, NULL, "Shot a vehicle per click.");
-	menu_item_add(OverLight_CarFunctions_Menu, NULL, "Fus Ro Dah", ID_FUS_RO_DAH, MENU_COLOR_DEFAULT, NULL, "Shot all streamed vehicles.");
-	menu_item_add(OverLight_CarFunctions_Menu, NULL, "Pick Vehicle", ID_PICK_CAR, MENU_COLOR_DEFAULT, NULL, "Drag the vehicle with aim.");
-	menu_item_add(OverLight_CarFunctions_Menu, NULL, "Door Storm", ID_DOOR_STORM, MENU_COLOR_DEFAULT, NULL, "It makes a storm of doors of current vehicle.");
-	menu_item_add(OverLight_CarFunctions_Menu, NULL, "Vehicle Bugger", ID_VEHICLE_BUGGER, MENU_COLOR_DEFAULT, NULL, "The vehicles get fall down or become undrivable.");
-	menu_item_add(OverLight_CarFunctions_Menu, NULL, "\tKEK Mode", ID_NONE, MENU_COLOR_DEFAULT, NULL);
-	menu_item_add(OverLight_CarFunctions_Menu, NULL, "Invisible/Bugger Bike", ID_INVISIBLE_BIKE, MENU_COLOR_DEFAULT, NULL, "Make your body and bike invisible. Nice Troll!");
-	menu_item_add(OverLight_CarFunctions_Menu, NULL, "Invisible/Bugger Bike v2", ID_INVISIBLE_BIKE_2, MENU_COLOR_DEFAULT, NULL, "Make your body and bike invisible. Nice Troll!");
-	menu_item_add(OverLight_CarFunctions_Menu, NULL, "Fix Invisible Fire", ID_FIX_INVISIBLE_FIRE, MENU_COLOR_DEFAULT, NULL, "Fix the fire when your body is invisible");
-	menu_item_add(OverLight_CarFunctions_Menu, NULL, "\tCar Function from another Player", ID_NONE, MENU_COLOR_DEFAULT, NULL);
-	menu_item_add(OverLight_CarFunctions_Menu, NULL, "Use Nearest Player", ID_USE_NEAREST_TARGET, MENU_COLOR_DEFAULT, NULL);
-	menu_item_add(OverLight_CarFunctions_Menu, NULL, "\aPlayer: //", ID_SELECT_PLAYER_TARGET, MENU_COLOR_DEFAULT, NULL, "Disable \"Use nearest...\" to use it with - +");
-	menu_item_add(OverLight_CarFunctions_Menu, NULL, "Fantozzi's Cloud", ID_FANTOZZI_CLOUD, MENU_COLOR_DEFAULT, NULL, "Make a cloud of vehicle on upside." );
-	menu_item_add(OverLight_CarFunctions_Menu, NULL, "Fake Car Shooter", ID_FAKE_CAR_SHOOTER, MENU_COLOR_DEFAULT, NULL, "Troll for ban who isn't using hack.");
-	menu_item_add(OverLight_CarFunctions_Menu, NULL, "Elevator from Vehicle", ID_VEHICLE_ELEVATOR, MENU_COLOR_DEFAULT, NULL, "Drag the player in sky.");
-	menu_item_add(OverLight_CarFunctions_Menu, NULL, "Elevator Down from Vehicle", ID_VEHICLE_ELEVATOR_DOWN, MENU_COLOR_DEFAULT, NULL, "Drag the player in sky.");
+	menu_item_add(menu_main, OverLight_CarFunctions_Menu, "Функции транспорта", ID_NONE, MENU_COLOR_DEFAULT, NULL);
+	menu_item_add(OverLight_CarFunctions_Menu, NULL , "\tФункции транспорта", ID_NONE, MENU_COLOR_DEFAULT, NULL);
+	menu_item_add(OverLight_CarFunctions_Menu, NULL, "Машины в одну точку", ID_CAR_STREAMED_GRABBER, MENU_COLOR_DEFAULT, NULL, "Спавнит машины из зоны стрима в одну точку, из-за чего лагает игра у других игроков.");
+	menu_item_add(OverLight_CarFunctions_Menu, NULL, "Все машины в одну точку", ID_CAR_MAP_GRABBER, MENU_COLOR_DEFAULT, NULL, "Спавнит машины всего сервера в одну точку.");
+	menu_item_add(OverLight_CarFunctions_Menu, NULL, "Прицепы в одну точку", ID_TRAILER_GRABBER, MENU_COLOR_DEFAULT, NULL, "Спавнит машины в одну точку, из-за чего лагает игра у других игроков.");
+	menu_item_add(OverLight_CarFunctions_Menu, NULL, "Стрельба машинами", ID_CAR_SHOOTER, MENU_COLOR_DEFAULT, NULL, "Обычная стрельба машинами.");
+	menu_item_add(OverLight_CarFunctions_Menu, NULL, "Стрельба одной машиной", ID_SHOOTER_ONCE, MENU_COLOR_DEFAULT, NULL, "Выпускает только одну машину за один клик.");
+	menu_item_add(OverLight_CarFunctions_Menu, NULL, "Стрельба машинами стрима", ID_FUS_RO_DAH, MENU_COLOR_DEFAULT, NULL, "Выпускает все машины стрима за один клик.");
+	menu_item_add(OverLight_CarFunctions_Menu, NULL, "Взять машину", ID_PICK_CAR, MENU_COLOR_DEFAULT, NULL, "Перемещайте машину с помощью вашего прицела");
+	menu_item_add(OverLight_CarFunctions_Menu, NULL, "Вихрь дверей", ID_DOOR_STORM, MENU_COLOR_DEFAULT, NULL, "Нужно сидеть в машине, закручивает машину и постоянно выбрасывает двери.");
+	menu_item_add(OverLight_CarFunctions_Menu, NULL, "Баг транспорта", ID_VEHICLE_BUGGER, MENU_COLOR_DEFAULT, NULL, "Машины падают под карту или просто становятся нерабочими.");
+	menu_item_add(OverLight_CarFunctions_Menu, NULL, "\tКЕК Штуки", ID_NONE, MENU_COLOR_DEFAULT, NULL);
+	menu_item_add(OverLight_CarFunctions_Menu, NULL, "Невидимый/Лагающий Байк", ID_INVISIBLE_BIKE, MENU_COLOR_DEFAULT, NULL, "Делает вас и байк невидимыми, вас видно только на миникарте, давите людей с наслаждением.");
+	menu_item_add(OverLight_CarFunctions_Menu, NULL, "Невидимый/Лагающий Байк v2", ID_INVISIBLE_BIKE_2, MENU_COLOR_DEFAULT, NULL, "Делает вас и байк невидимыми, вас видно только на миникарте, давите людей с наслаждением v2.");
+	menu_item_add(OverLight_CarFunctions_Menu, NULL, "Починка огня", ID_FIX_INVISIBLE_FIRE, MENU_COLOR_DEFAULT, NULL, "Убирает огонь когда ваше тело невидимое");
+	menu_item_add(OverLight_CarFunctions_Menu, NULL, "\tФункции транспорта на игроков", ID_NONE, MENU_COLOR_DEFAULT, NULL);
+	menu_item_add(OverLight_CarFunctions_Menu, NULL, "Юзать на близкого игрока", ID_USE_NEAREST_TARGET, MENU_COLOR_DEFAULT, NULL);
+	menu_item_add(OverLight_CarFunctions_Menu, NULL, "\aИгрок: //", ID_SELECT_PLAYER_TARGET, MENU_COLOR_DEFAULT, NULL, "Отключите \"Юзать на близкого игрока.\" чтобы выбрать определенного игрока.");
+	menu_item_add(OverLight_CarFunctions_Menu, NULL, "Облако машин", ID_FANTOZZI_CLOUD, MENU_COLOR_DEFAULT, NULL, "Создает облако машин которое обрушивается на игрока." );
+	menu_item_add(OverLight_CarFunctions_Menu, NULL, "Подставная стрельба т/с", ID_FAKE_CAR_SHOOTER, MENU_COLOR_DEFAULT, NULL, "Стрельба машинами от лица другого игрока.");
+	menu_item_add(OverLight_CarFunctions_Menu, NULL, "Лифт машинами (вверх)", ID_VEHICLE_ELEVATOR, MENU_COLOR_DEFAULT, NULL, "Поднимает игрока вверх за счет машин.");
+	menu_item_add(OverLight_CarFunctions_Menu, NULL, "Лифт машинами (вниз)", ID_VEHICLE_ELEVATOR_DOWN, MENU_COLOR_DEFAULT, NULL, "Утаскивает игрока вниз за счет машин.");
 
-	menu_item_add(OverLight_CarFunctions_Menu, NULL, "\tKick Passenger", ID_NONE, MENU_COLOR_DEFAULT, NULL);
-	menu_item_add(OverLight_CarFunctions_Menu, NULL, "\aPassenger: //", ID_SELECT_PASSENGER_TARGET, MENU_COLOR_DEFAULT, NULL);
-	menu_item_add(OverLight_CarFunctions_Menu, NULL, "Kick Passenger", ID_KICK_PASSENGER, MENU_COLOR_DEFAULT, NULL, "Put out a passenger.");
-	menu_item_add(OverLight_CarFunctions_Menu, NULL, "Steal Passenger", ID_STEAL_PASSENGER, MENU_COLOR_DEFAULT, NULL, "Steal a seat of a passenger.");
+	menu_item_add(OverLight_CarFunctions_Menu, NULL, "\tФункции с пассажиром", ID_NONE, MENU_COLOR_DEFAULT, NULL);
+	menu_item_add(OverLight_CarFunctions_Menu, NULL, "\aПассажир: //", ID_SELECT_PASSENGER_TARGET, MENU_COLOR_DEFAULT, NULL);
+	menu_item_add(OverLight_CarFunctions_Menu, NULL, "Выпихнуть пассажира", ID_KICK_PASSENGER, MENU_COLOR_DEFAULT, NULL, "Вытолкнуть пассажриа из т/с.");
+	menu_item_add(OverLight_CarFunctions_Menu, NULL, "Украсть место", ID_STEAL_PASSENGER, MENU_COLOR_DEFAULT, NULL, "Украсть место пассажира.");
 	menu_item_add(OverLight_CarFunctions_Menu, NULL, "\tKid Crashers [not R2]", ID_NONE, MENU_COLOR_DEFAULT, NULL);
 	menu_item_add(OverLight_CarFunctions_Menu, NULL, "Vortex Crasher", ID_VORTEX_CRASHER, MENU_COLOR_DEFAULT, NULL, "Out-of-date.");
 	menu_item_add(OverLight_CarFunctions_Menu, NULL, "Plane Crasher", ID_PLANE_CRASHER, MENU_COLOR_DEFAULT, NULL, "Out-of-date.");

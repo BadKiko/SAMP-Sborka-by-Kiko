@@ -1358,7 +1358,7 @@ void renderPlayerInfoList(void)
 			break;
 
 		case PLAYER_STATE_ONFOOT:
-			_snprintf_s(buf, sizeof(buf) - 1, "Имя: %s (ID: %d), Статус: На ногах, Здоровье: %d, Бронья: %d, Дистанция: %0.2f",
+			_snprintf_s(buf, sizeof(buf) - 1, "Имя: %s (ID: %d), Статус: Пешеход, Здоровье: %d, Бронья: %d, Дистанция: %0.2f",
 				szPlayerName, i, iPlayerHealth, iPlayerArmor, vect3_dist((float *)pos, &self->base.matrix[4 * 3]));
 			pD3DFont_sampStuff->PrintShadow(width, height, color, buf);
 			break;
@@ -2497,15 +2497,15 @@ void renderPlayerInfo(int iPlayerID)
 		pD3DFontFixed->PrintShadow(20.0f, y, color, buf);
 		(y) += 1.0f + pD3DFontFixed->DrawHeight();
 
-		sprintf(buf, "    pLocalPlayer->aimData.byteCamExtZoom: %u", g_Players->pLocalPlayer->aimData.byteCamExtZoom);
+		sprintf(buf, "    Увеличить масштаб камеры при выходе (Cam_Ext_Zoom): %u", g_Players->pLocalPlayer->aimData.byteCamExtZoom);
 		pD3DFontFixed->PrintShadow(20.0f, y, color, buf);
 		(y) += 1.0f + pD3DFontFixed->DrawHeight();
 
-		sprintf(buf, "    pLocalPlayer->aimData.byteWeaponState: %u", g_Players->pLocalPlayer->aimData.byteWeaponState);
+		sprintf(buf, "    Статус оружия: %u", g_Players->pLocalPlayer->aimData.byteWeaponState);
 		pD3DFontFixed->PrintShadow(20.0f, y, color, buf);
 		(y) += 1.0f + pD3DFontFixed->DrawHeight();
 
-		sprintf(buf, "    pLocalPlayer->aimData.byteUnk: %u", g_Players->pLocalPlayer->aimData.byteUnk);
+		sprintf(buf, "    byteUnk: %u", g_Players->pLocalPlayer->aimData.byteUnk);
 		pD3DFontFixed->PrintShadow(20.0f, y, color, buf);
 		(y) += 1.0f + pD3DFontFixed->DrawHeight();
 
@@ -2528,7 +2528,7 @@ void renderPlayerInfo(int iPlayerID)
 	}
 
 	//Remote Player
-	sprintf(buf, "Infos on player %s(%d)", getPlayerName(iPlayerID), iPlayerID);
+	sprintf(buf, "Информация по игроку %s(%d)", getPlayerName(iPlayerID), iPlayerID);
 	pD3DFontFixed->PrintShadow(20.0f, y, color, buf);
 	(y) += 1.0f + pD3DFontFixed->DrawHeight();
 
@@ -2537,13 +2537,13 @@ void renderPlayerInfo(int iPlayerID)
 		float	position[3];
 		color = samp_color_get(iPlayerID);
 
-		sprintf(buf, "Team ID: %u", g_Players->pRemotePlayer[iPlayerID]->pPlayerData->byteTeamID);
+		sprintf(buf, "ID Команды: %u", g_Players->pRemotePlayer[iPlayerID]->pPlayerData->byteTeamID);
 		pD3DFontFixed->PrintShadow(20.0f, y, color, buf);
 		(y) += 1.0f + pD3DFontFixed->DrawHeight();
 
 		pD3DFontFixed->PrintShadow(20.0f, y, color, " ");
 		(y) += 1.0f + pD3DFontFixed->DrawHeight();
-		sprintf(buf, "colors: %u", color);
+		sprintf(buf, "Цвет: %u", color);
 		pD3DFontFixed->PrintShadow(20.0f, y, color, buf);
 		(y) += 1.0f + pD3DFontFixed->DrawHeight();
 
@@ -2551,14 +2551,14 @@ void renderPlayerInfo(int iPlayerID)
 		if (g_Players->pRemotePlayer[iPlayerID]->pPlayerData == NULL
 			|| g_Players->pRemotePlayer[iPlayerID]->pPlayerData->pSAMP_Actor == NULL)
 		{
-			pD3DFontFixed->PrintShadow(20.0f, y, D3DCOLOR_XRGB(200, 0, 0), "Player is streamed out or invalid.");
+			pD3DFontFixed->PrintShadow(20.0f, y, D3DCOLOR_XRGB(200, 0, 0), "Игрок вышел из зоны стрима или отключился.");
 			return;
 		}
 		else
 		{
 			vect3_copy(&g_Players->pRemotePlayer[iPlayerID]->pPlayerData->onFootData.fPosition[0], position);
 
-			sprintf(buf, "Player state: %u", g_Players->pRemotePlayer[iPlayerID]->pPlayerData->bytePlayerState);
+			sprintf(buf, "Статус игрока: %u", g_Players->pRemotePlayer[iPlayerID]->pPlayerData->bytePlayerState);
 			pD3DFontFixed->PrintShadow(20.0f, y, color, buf);
 			(y) += 1.0f + pD3DFontFixed->DrawHeight();
 
@@ -2600,15 +2600,15 @@ void renderPlayerInfo(int iPlayerID)
 				if (bShowKeys)
 				{
 
-					sprintf(buf, "Left/right keys: %u", sLeftRightKeys);
+					sprintf(buf, "Кнопки влево/вправо: %u", sLeftRightKeys);
 					pD3DFontFixed->PrintShadow(20.0f, y, color, buf);
 					(y) += 1.0f + pD3DFontFixed->DrawHeight();
 
-					sprintf(buf, "Up/down keys: %u", sUpDownKeys);
+					sprintf(buf, "Кнопки вверх/вниз: %u", sUpDownKeys);
 					pD3DFontFixed->PrintShadow(20.0f, y, color, buf);
 					(y) += 1.0f + pD3DFontFixed->DrawHeight();
 
-					sprintf(buf, "Key state(s): %u", sKeys);
+					sprintf(buf, "Другие кнопки: %u", sKeys);
 					pD3DFontFixed->PrintShadow(20.0f, y, color, buf);
 					(y) += 1.0f + pD3DFontFixed->DrawHeight();
 
@@ -2617,10 +2617,10 @@ void renderPlayerInfo(int iPlayerID)
 				}
 			}
 
-			sprintf(buf, "Actor health: %0.2f", g_Players->pRemotePlayer[iPlayerID]->pPlayerData->fActorHealth);
+			sprintf(buf, "Здоровье игрока: %0.2f", g_Players->pRemotePlayer[iPlayerID]->pPlayerData->fActorHealth);
 			pD3DFontFixed->PrintShadow(20.0f, y, color, buf);
 			(y) += 1.0f + pD3DFontFixed->DrawHeight();
-			sprintf(buf, "Actor armor: %0.2f", g_Players->pRemotePlayer[iPlayerID]->pPlayerData->fActorArmor);
+			sprintf(buf, "Бронья игрока: %0.2f", g_Players->pRemotePlayer[iPlayerID]->pPlayerData->fActorArmor);
 			pD3DFontFixed->PrintShadow(20.0f, y, color, buf);
 			(y) += 1.0f + pD3DFontFixed->DrawHeight();
 
@@ -2631,7 +2631,7 @@ void renderPlayerInfo(int iPlayerID)
 
 				vect3_copy(&g_Players->pRemotePlayer[iPlayerID]->pPlayerData->pSAMP_Vehicle->pGTA_Vehicle->base.
 					matrix[4 * 3], position);
-				pD3DFontFixed->PrintShadow(20.0f, y, color, "The player is in a vehicle.");
+				pD3DFontFixed->PrintShadow(20.0f, y, color, "Игрок в т/с.");
 				(y) += 1.0f + pD3DFontFixed->DrawHeight();
 				sprintf(buf, "Vehicle ID: %u", g_Players->pRemotePlayer[iPlayerID]->pPlayerData->sVehicleID);
 				pD3DFontFixed->PrintShadow(20.0f, y, color, buf);
@@ -2640,7 +2640,7 @@ void renderPlayerInfo(int iPlayerID)
 				if (g_Players->pRemotePlayer[iPlayerID]->pPlayerData->pSAMP_Vehicle->pGTA_Vehicle == NULL)
 				{
 #ifdef M0D_DEV
-					sprintf(buf, " Something is wrong with samp vehicle struct.");
+					sprintf(buf, " Чё-то пошло не так с структурой машин сампа (Something is wrong with samp vehicle struct)");
 					pD3DFontFixed->PrintShadow(20.0f, y, color, buf);
 					(y) += 1.0f + pD3DFontFixed->DrawHeight();
 #endif
@@ -2650,22 +2650,22 @@ void renderPlayerInfo(int iPlayerID)
 				char	*veh_name = (char *)gta_vehicle_get_by_id(g_Players->pRemotePlayer[iPlayerID]->pPlayerData->pSAMP_Vehicle->pGTA_Vehicle->base.model_alt_id)->name;
 				if (veh_name != NULL)
 				{
-					sprintf(buf, "Vehicle type: %s", veh_name);
+					sprintf(buf, "Название т/с: %s", veh_name);
 				}
 
 				pD3DFontFixed->PrintShadow(20.0f, y, color, buf);
 				(y) += 1.0f + pD3DFontFixed->DrawHeight();
-				sprintf(buf, "Seat ID: %u", g_Players->pRemotePlayer[iPlayerID]->pPlayerData->byteSeatID);
+				sprintf(buf, "ID Сидения: %u", g_Players->pRemotePlayer[iPlayerID]->pPlayerData->byteSeatID);
 				pD3DFontFixed->PrintShadow(20.0f, y, color, buf);
 				(y) += 1.0f + pD3DFontFixed->DrawHeight();
-				sprintf(buf, "Vehicle position: %0.2f %0.2f %0.2f",
+				sprintf(buf, "Позиция т/с: %0.2f %0.2f %0.2f",
 					g_Players->pRemotePlayer[iPlayerID]->pPlayerData->pSAMP_Vehicle->pGTA_Vehicle->base.matrix[4 * 3],
 					g_Players->pRemotePlayer[iPlayerID]->pPlayerData->pSAMP_Vehicle->pGTA_Vehicle->base.matrix[4 * 3 + 1],
 					g_Players->pRemotePlayer[iPlayerID]->pPlayerData->pSAMP_Vehicle->pGTA_Vehicle->base.matrix[4 * 3 + 2]);
 				pD3DFontFixed->PrintShadow(20.0f, y, color, buf);
 				(y) += 1.0f + pD3DFontFixed->DrawHeight();
 
-				sprintf(buf, "Vehicle quaternion: %0.2f %0.2f %0.2f %0.2f",
+				sprintf(buf, "Поворот (кватернион) т/с: %0.2f %0.2f %0.2f %0.2f",
 					g_Players->pRemotePlayer[iPlayerID]->pPlayerData->inCarData.fQuaternion[0],
 					g_Players->pRemotePlayer[iPlayerID]->pPlayerData->inCarData.fQuaternion[1],
 					g_Players->pRemotePlayer[iPlayerID]->pPlayerData->inCarData.fQuaternion[2],
@@ -2673,12 +2673,12 @@ void renderPlayerInfo(int iPlayerID)
 				pD3DFontFixed->PrintShadow(20.0f, y, color, buf);
 				(y) += 1.0f + pD3DFontFixed->DrawHeight();
 
-				sprintf(buf, "Vehicle health: %0.1f", g_Players->pRemotePlayer[iPlayerID]->pPlayerData->pSAMP_Vehicle->pGTA_Vehicle->hitpoints);
+				sprintf(buf, "Здоровье машины: %0.1f", g_Players->pRemotePlayer[iPlayerID]->pPlayerData->pSAMP_Vehicle->pGTA_Vehicle->hitpoints);
 				pD3DFontFixed->PrintShadow(20.0f, y, color, buf);
 				(y) += 1.0f + pD3DFontFixed->DrawHeight();
 				if (g_Players->pRemotePlayer[iPlayerID]->pPlayerData->byteSeatID == 0)
 				{
-					sprintf(buf, "Vehicle speed: %0.2f %0.2f %0.2f (%0.2f km/h)",
+					sprintf(buf, "Скорость т/с: %0.2f %0.2f %0.2f (%0.2f km/h)",
 						g_Players->pRemotePlayer[iPlayerID]->pPlayerData->inCarData.fMoveSpeed[0],
 						g_Players->pRemotePlayer[iPlayerID]->pPlayerData->inCarData.fMoveSpeed[1],
 						g_Players->pRemotePlayer[iPlayerID]->pPlayerData->inCarData.fMoveSpeed[2],
@@ -2688,7 +2688,7 @@ void renderPlayerInfo(int iPlayerID)
 				}
 				else
 				{
-					sprintf(buf, "Passenger driveby: %i",
+					sprintf(buf, "Пассажир: %i",
 						g_Players->pRemotePlayer[iPlayerID]->pPlayerData->iPassengerDriveBy);
 					pD3DFontFixed->PrintShadow(20.0f, y, color, buf);
 					(y) += 1.0f + pD3DFontFixed->DrawHeight();
@@ -2716,14 +2716,14 @@ void renderPlayerInfo(int iPlayerID)
 			}
 			else
 			{
-				sprintf(buf, "Actor position: %0.2f %0.2f %0.2f",
+				sprintf(buf, "Позиция игрока: %0.2f %0.2f %0.2f",
 					g_Players->pRemotePlayer[iPlayerID]->pPlayerData->onFootData.fPosition[0],
 					g_Players->pRemotePlayer[iPlayerID]->pPlayerData->onFootData.fPosition[1],
 					g_Players->pRemotePlayer[iPlayerID]->pPlayerData->onFootData.fPosition[2]);
 				pD3DFontFixed->PrintShadow(20.0f, y, color, buf);
 				(y) += 1.0f + pD3DFontFixed->DrawHeight();
 
-				sprintf(buf, "Actor quaternion: %0.2f %0.2f %0.2f %0.2f",
+				sprintf(buf, "Поворот (кватернион) игрока: %0.2f %0.2f %0.2f %0.2f",
 					g_Players->pRemotePlayer[iPlayerID]->pPlayerData->onFootData.fQuaternion[0],
 					g_Players->pRemotePlayer[iPlayerID]->pPlayerData->onFootData.fQuaternion[1],
 					g_Players->pRemotePlayer[iPlayerID]->pPlayerData->onFootData.fQuaternion[2],
@@ -2731,22 +2731,22 @@ void renderPlayerInfo(int iPlayerID)
 				pD3DFontFixed->PrintShadow(20.0f, y, color, buf);
 				(y) += 1.0f + pD3DFontFixed->DrawHeight();
 
-				sprintf(buf, "Actor speed: %0.2f km/h", (float)(vect3_length(g_Players->pRemotePlayer[iPlayerID]->pPlayerData->onFootData.fMoveSpeed) * 170));
+				sprintf(buf, "Скорость игрока: %0.2f km/h", (float)(vect3_length(g_Players->pRemotePlayer[iPlayerID]->pPlayerData->onFootData.fMoveSpeed) * 170));
 				pD3DFontFixed->PrintShadow(20.0f, y, color, buf);
 				(y) += 1.0f + pD3DFontFixed->DrawHeight();
 
 				pD3DFontFixed->PrintShadow(20.0f, y, color, " ");
 				(y) += 1.0f + pD3DFontFixed->DrawHeight();
 
-				sprintf(buf, "Special action: %i", g_Players->pRemotePlayer[iPlayerID]->pPlayerData->onFootData.byteSpecialAction);
+				sprintf(buf, "Специальные действия: %i", g_Players->pRemotePlayer[iPlayerID]->pPlayerData->onFootData.byteSpecialAction);
 				pD3DFontFixed->PrintShadow(20.0f, y, color, buf);
 				(y) += 1.0f + pD3DFontFixed->DrawHeight();
 
-				sprintf(buf, "Current animation ID: %d", g_Players->pRemotePlayer[iPlayerID]->pPlayerData->onFootData.sCurrentAnimationID);
+				sprintf(buf, "ID Текущей анимации: %d", g_Players->pRemotePlayer[iPlayerID]->pPlayerData->onFootData.sCurrentAnimationID);
 				pD3DFontFixed->PrintShadow(20.0f, y, color, buf);
 				(y) += 1.0f + pD3DFontFixed->DrawHeight();
 
-				sprintf(buf, "Animation flags: %d", g_Players->pRemotePlayer[iPlayerID]->pPlayerData->onFootData.sAnimFlags);
+				sprintf(buf, "Флаг анимации (Anim_Flag): %d", g_Players->pRemotePlayer[iPlayerID]->pPlayerData->onFootData.sAnimFlags);
 				pD3DFontFixed->PrintShadow(20.0f, y, color, buf);
 				(y) += 1.0f + pD3DFontFixed->DrawHeight();
 			}
@@ -2760,7 +2760,7 @@ void renderPlayerInfo(int iPlayerID)
 		pos_self = pPedSelf->GetPosition();
 
 		float	self_pos[3] = { pos_self->fX, pos_self->fY, pos_self->fZ };
-		sprintf(buf, "Distance: %0.2f", vect3_dist(position, self_pos));
+		sprintf(buf, "Дистанция: %0.2f", vect3_dist(position, self_pos));
 		pD3DFontFixed->PrintShadow(20.0f, y, color, buf);
 		(y) += 1.0f + pD3DFontFixed->DrawHeight();
 	}
@@ -3497,7 +3497,7 @@ void renderHandler()
 					render->D3D_OL_Parallelogram((((float)pPresentParam.BackBufferWidth - 250.0f) / 2.0f) + 1.f + fProgress,
 						(float)pPresentParam.BackBufferHeight / 2.f + 6.f, 250.f + 16.f - fProgress, 18.f, 0xFF000000);
 
-					pD3DFont_Menu->Print("ПРЕДУПРЕЖДЕНИЕ: Вы используете БЕТА версию собейта, так еще и КАСТОМ от какого-то дауна Kiko.", OL_COLOR5(255),
+					pD3DFont_Menu->Print("ПРЕДУПРЕЖДЕНИЕ: Вы используете БЕТА версию собейта. Перевел: Kiko.", OL_COLOR5(255),
 						20.f, (float)pPresentParam.BackBufferHeight - pD3DFont_Menu->DrawHeight() - 20.f, false, false);
 				}
 			}
@@ -3575,7 +3575,7 @@ void renderHandler()
 
 				if (cheat_state->_generic.vehicles_freeze)
 				{
-					CheatName = " Заморозка ";
+					CheatName = " Разморозка ";
 					ParWidth = pD3DFont_Footer->DrawLength(CheatName);
 					render->D3D_OL_Label(CheatName, x + ParHeight, ParPosY, OL_COLOR4(128), OL_COLOR7(255), OL_COLOR2(255));
 					x += ParHeight + ParWidth;
@@ -3624,7 +3624,7 @@ void renderHandler()
 			{
 				if (cheat_state->vehicle.air_brake)
 				{
-					CheatName = " AirBrk ";
+					CheatName = " АирБрэйк ";
 					ParWidth = pD3DFont_Footer->DrawLength(CheatName);
 					render->D3D_OL_Label(CheatName, x + ParHeight, ParPosY, OL_COLOR4(128), OL_COLOR7(255), OL_COLOR2(255));
 					x += ParHeight + ParWidth;
@@ -3642,7 +3642,7 @@ void renderHandler()
 
 				if (cheat_state->vehicle.brkdance)
 				{
-					CheatName = " BrkDance ";
+					CheatName = " BrakeDance ";
 					ParWidth = pD3DFont_Footer->DrawLength(CheatName);
 					render->D3D_OL_Label(CheatName, x + ParHeight, ParPosY, OL_COLOR4(128), OL_COLOR7(255), OL_COLOR2(255));
 					x += ParHeight + ParWidth;
@@ -3651,7 +3651,7 @@ void renderHandler()
 
 				if (cheat_state->vehicle.spiderWheels_on)
 				{
-					CheatName = " Spider ";
+					CheatName = " Паук ";
 					ParWidth = pD3DFont_Footer->DrawLength(CheatName);
 					render->D3D_OL_Label(CheatName, x + ParHeight, ParPosY, OL_COLOR4(128), OL_COLOR7(255), OL_COLOR2(255));
 					x += ParHeight + ParWidth;
@@ -3660,7 +3660,7 @@ void renderHandler()
 
 				if (cheat_state->vehicle.fly)
 				{
-					CheatName = " Fly ";
+					CheatName = " Полет ";
 					ParWidth = pD3DFont_Footer->DrawLength(CheatName);
 					render->D3D_OL_Label(CheatName, x + ParHeight, ParPosY, OL_COLOR4(128), OL_COLOR7(255), OL_COLOR2(255));
 					x += ParHeight + ParWidth;
@@ -3669,7 +3669,7 @@ void renderHandler()
 
 				if (cheat_state->vehicle.freezerot)
 				{
-					CheatName = " FreezeRot ";
+					CheatName = " Заморозить поворот ";
 					ParWidth = pD3DFont_Footer->DrawLength(CheatName);
 					render->D3D_OL_Label(CheatName, x + ParHeight, ParPosY, OL_COLOR4(128), OL_COLOR7(255), OL_COLOR2(255));
 					x += ParHeight + ParWidth;
@@ -3677,7 +3677,7 @@ void renderHandler()
 				}
 				if (!bCheatsOn)
 				{
-					CheatName = " No Cheats Active ";
+					CheatName = " Читы не активированы ";
 					ParWidth = pD3DFont_Footer->DrawLength(CheatName);
 					render->D3D_OL_Label(CheatName, x + ParHeight, ParPosY, OL_COLOR4(128), OL_COLOR7(255), OL_COLOR2(255));
 					x += ParHeight + ParWidth;
@@ -3689,7 +3689,7 @@ void renderHandler()
 			{
 				if (cheat_state->actor.air_brake)
 				{
-					CheatName = " AirBrk ";
+					CheatName = " АирБрэйк ";
 					ParWidth = pD3DFont_Footer->DrawLength(CheatName);
 					render->D3D_OL_Label(CheatName, x + ParHeight, ParPosY, OL_COLOR4(128), OL_COLOR7(255), OL_COLOR2(255));
 					x += ParHeight + ParWidth;
@@ -3707,7 +3707,7 @@ void renderHandler()
 
 				if (cheat_state->actor.autoaim)
 				{
-					CheatName = " Aim ";
+					CheatName = " Аим ";
 					ParWidth = pD3DFont_Footer->DrawLength(CheatName);
 					render->D3D_OL_Label(CheatName, x + ParHeight, ParPosY, OL_COLOR4(128), OL_COLOR7(255), OL_COLOR2(255));
 					x += ParHeight + ParWidth;
@@ -3716,7 +3716,7 @@ void renderHandler()
 
 				if (cheat_state->actor.fly_on)
 				{
-					CheatName = " Fly ";
+					CheatName = " Полет ";
 					ParWidth = pD3DFont_Footer->DrawLength(CheatName);
 					render->D3D_OL_Label(CheatName, x + ParHeight, ParPosY, OL_COLOR4(128), OL_COLOR7(255), OL_COLOR2(255));
 					x += ParHeight + ParWidth;
@@ -3725,7 +3725,7 @@ void renderHandler()
 
 				if (cheat_state->actor.surf)
 				{
-					CheatName = " Surf ";
+					CheatName = " Скольжение ";
 					ParWidth = pD3DFont_Footer->DrawLength(CheatName);
 					render->D3D_OL_Label(CheatName, x + ParHeight, ParPosY, OL_COLOR4(128), OL_COLOR7(255), OL_COLOR2(255));
 					x += ParHeight + ParWidth;
@@ -3734,7 +3734,7 @@ void renderHandler()
 
 				if (!bCheatsOn)
 				{
-					CheatName = " No Cheats Active ";
+					CheatName = " Читы не активированы ";
 					ParWidth = pD3DFont_Footer->DrawLength(CheatName);
 					render->D3D_OL_Label(CheatName, x + ParHeight, ParPosY, OL_COLOR4(128), OL_COLOR7(255), OL_COLOR2(255));
 					x += ParHeight + ParWidth;
@@ -3763,33 +3763,33 @@ void renderHandler()
 					float x2 = 0;
 					float y2 = (float)(pPresentParam.BackBufferHeight) - (pD3DFont_Footer->DrawHeight() + 10.0f) - 2.0f - pD3DFontChat->DrawHeight();
 
-					_snprintf_s(buf, sizeof(buf) - 1, " Vehicles in Stream: %d ", g_NewModSa->iVehiclesStreaming);
+					_snprintf_s(buf, sizeof(buf) - 1, " Т/с в зоне стрима: %d ", g_NewModSa->iVehiclesStreaming);
 					render->D3D_OL_LabelRounded(buf, ParHeight * 1.5f + x2, y2, OL_COLOR4(127), OL_COLOR2(255));
 					x2 += pD3DFontChat->DrawLength(buf) + 2.0f + pD3DFontChat->DrawHeight();
 
-					_snprintf_s(buf, sizeof(buf) - 1, " Players in Stream: %d ", pPools->GetPedCount() - 1);//g_NewModSa->iPlayersStreaming);
+					_snprintf_s(buf, sizeof(buf) - 1, " Игроки в зоне стрима: %d ", pPools->GetPedCount() - 1);//g_NewModSa->iPlayersStreaming);
 					render->D3D_OL_LabelRounded(buf, ParHeight * 1.5f + x2, y2, OL_COLOR4(127), OL_COLOR2(255));
 					x2 += pD3DFontChat->DrawLength(buf) + 2.0f + pD3DFontChat->DrawHeight();
-					_snprintf_s(buf, sizeof(buf) - 1, " Friends in Stream: %d ", g_NewModSa->iFriendsStreaming);
+					_snprintf_s(buf, sizeof(buf) - 1, " Друзья в зоне стрима: %d ", g_NewModSa->iFriendsStreaming);
 					render->D3D_OL_LabelRounded(buf, ParHeight * 1.5f + x2, y2, OL_COLOR4(127), OL_COLOR2(255));
 					x2 += pD3DFontChat->DrawLength(buf) + 2.0f + pD3DFontChat->DrawHeight();
-					_snprintf_s(buf, sizeof(buf) - 1, " Lagcomp: %s ", g_NewModSa->byteLagComp ? "On" : "Off");
+					_snprintf_s(buf, sizeof(buf) - 1, " Синхра стрельбы (LagComp): %s ", g_NewModSa->byteLagComp ? "On" : "Off");
 					render->D3D_OL_LabelRounded(buf, ParHeight * 1.5f + x2, y2, OL_COLOR4(127), OL_COLOR2(255));
 					x2 += pD3DFontChat->DrawLength(buf) + 2.0f + pD3DFontChat->DrawHeight();
 
 
-					_snprintf_s(buf, sizeof(buf) - 1, " MEM: %d MB ", getMemoryUsed());
+					_snprintf_s(buf, sizeof(buf) - 1, " Память: %d MB ", getMemoryUsed());
 					render->D3D_OL_LabelRounded(buf, ParHeight * 1.5f + x2, y2, OL_COLOR4(127), OL_COLOR2(255));
 					x2 += pD3DFontChat->DrawLength(buf) + 2.0f + pD3DFontChat->DrawHeight();
 
 					x2 = ParHeight;
 					y2 -= pD3DFontChat->DrawHeight() + 4.0f;
-					_snprintf_s(buf, sizeof(buf) - 1, " Bots Joined: %d ", g_BotFuncs->BotSettings.ClientJoined);
+					_snprintf_s(buf, sizeof(buf) - 1, " Подключено ботов: %d ", g_BotFuncs->BotSettings.ClientJoined);
 					render->D3D_OL_LabelRounded(buf, ParHeight * 1.5f + x2, y2, OL_COLOR4(127), OL_COLOR2(255));
 					x2 += pD3DFontChat->DrawLength(buf) + 2.0f + pD3DFontChat->DrawHeight();
 					if (g_BotFuncs->Client_in_Queue > 0)
 					{
-						_snprintf_s(buf, sizeof(buf) - 1, " Bots in Queue: %d ", g_BotFuncs->Client_in_Queue);
+						_snprintf_s(buf, sizeof(buf) - 1, " Боты в очереди: %d ", g_BotFuncs->Client_in_Queue);
 						render->D3D_OL_LabelRounded(buf, ParHeight * 1.5f + x2, y2, OL_COLOR4(127), OL_COLOR2(255));
 						x2 += pD3DFontChat->DrawLength(buf) + 2.0f + pD3DFontChat->DrawHeight();
 					}
@@ -3798,7 +3798,7 @@ void renderHandler()
 					pD3DFontChat->Print(buf, OL_COLOR2(255), ParHeight * 1.5f + x2, ParPosY - ParHeight + 10.0f - pD3DFontChat->DrawHeight(), false, false);
 					x2 += pD3DFontChat->DrawLength(buf);
 					*/
-					_snprintf_s(buf, sizeof(buf) - 1, " Updated Version: %s ", OLCheats->bOL_VersionUpdate ? "No, Update please!" : "Yes");
+					_snprintf_s(buf, sizeof(buf) - 1, " Обновленная версия: %s ", OLCheats->bOL_VersionUpdate ? "Нет, Обновите пожалуйста!" : "Да");
 					render->D3D_OL_LabelRounded(buf, ParHeight * 1.5f + x2, y2, OL_COLOR4(127), OL_COLOR2(255));
 					x2 += pD3DFontChat->DrawLength(buf) + 2.0f + pD3DFontChat->DrawHeight();
 
