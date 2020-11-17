@@ -1,41 +1,41 @@
-18/11/2020 02:00:05.964 Log started.
-18/11/2020 02:00:05.964 Unprotecting memory region '.text': 0x00001000 (size: 0x00456000)
-18/11/2020 02:00:05.964 Unprotecting memory region '.rdata': 0x00458000 (size: 0x0004C000)
-18/11/2020 02:00:05.964 Unprotecting memory region '.text': 0x008B1000 (size: 0x0064A000)
-18/11/2020 02:00:05.965 Unloading plugins...
-18/11/2020 02:00:05.965 Started on game of version: SA 1.0 us
-18/11/2020 02:00:05.965 Injecting MenuStatusNotifier...
-18/11/2020 02:00:05.965 Replacing call: 0x0057B9FD
-18/11/2020 02:00:05.965 Injecting DmaFix...
-18/11/2020 02:00:05.965 Replacing call: 0x0053E981
-18/11/2020 02:00:05.965 Injecting TextManager...
-18/11/2020 02:00:05.965 Injecting function at: 0x006A0050
-18/11/2020 02:00:05.965 Injecting SoundSystem...
-18/11/2020 02:00:05.965 Replacing call: 0x007487A8
-18/11/2020 02:00:05.965 Injecting CustomOpcodeSystem...
-18/11/2020 02:00:05.965 Injecting ScriptEngine...
-18/11/2020 02:00:05.965 Replacing call: 0x0046A21B
-18/11/2020 02:00:05.965 Replacing call: 0x0058D552
-18/11/2020 02:00:05.965 Replacing call: 0x0058FCE4
-18/11/2020 02:00:05.965 Replacing call: 0x0053BDD7
-18/11/2020 02:00:05.965 Replacing call: 0x005BA340
-18/11/2020 02:00:05.965 Replacing call: 0x005D4FD7
-18/11/2020 02:00:05.966 Replacing call: 0x005D18F0
-18/11/2020 02:00:05.966 Replacing call: 0x005D14D5
-18/11/2020 02:00:05.966 Injecting function at: 0x004667DB
-18/11/2020 02:00:06.871 Creating main window...
-18/11/2020 02:00:06.901 Found sound device 0: No sound
-18/11/2020 02:00:06.901 Found sound device 1 (default): Динамики (Steam Streaming Speakers)
-18/11/2020 02:00:06.901 Found sound device 2: Динамики (Steam Streaming Microphone)
-18/11/2020 02:00:06.901 Found sound device 3: Динамики (Realtek(R) Audio)
-18/11/2020 02:00:06.901 Found sound device 4: PHL 243V7 (NVIDIA High Definition Audio)
-18/11/2020 02:00:06.901 Found sound device 5: Realtek Digital Output (Realtek(R) Audio)
-18/11/2020 02:00:06.901 Found sound device 6: Line 1 (Virtual Audio Cable)
-18/11/2020 02:00:06.901 On system found 7 devices, 7 enabled devices, assuming device to use: 1 (Динамики (Steam Streaming Speakers))
-18/11/2020 02:00:06.969 SoundSystem initialized
-18/11/2020 02:00:06.973 Floating-point audio supported!
-18/11/2020 02:00:06.975 Audio hardware acceleration disabled (no EAX)
-18/11/2020 02:00:17.198 Scripts exclusively initialized
-18/11/2020 02:00:17.201 Deleting dynamic fxts...
-18/11/2020 02:00:17.201 Cleaning up script data... 0 files, 0 libs, 0 file scans, 0 allocations...
-18/11/2020 02:00:17.201 Searching for cleo scripts
+18/11/2020 02:37:53.310 Log started.
+18/11/2020 02:37:53.310 Unprotecting memory region '.text': 0x00001000 (size: 0x00456000)
+18/11/2020 02:37:53.310 Unprotecting memory region '.rdata': 0x00458000 (size: 0x0004C000)
+18/11/2020 02:37:53.310 Unprotecting memory region '.text': 0x008B1000 (size: 0x0064A000)
+18/11/2020 02:37:53.311 Unloading plugins...
+18/11/2020 02:37:53.311 Started on game of version: SA 1.0 us
+18/11/2020 02:37:53.311 Injecting MenuStatusNotifier...
+18/11/2020 02:37:53.311 Replacing call: 0x0057B9FD
+18/11/2020 02:37:53.311 Injecting DmaFix...
+18/11/2020 02:37:53.311 Replacing call: 0x0053E981
+18/11/2020 02:37:53.311 Injecting TextManager...
+18/11/2020 02:37:53.311 Injecting function at: 0x006A0050
+18/11/2020 02:37:53.311 Injecting SoundSystem...
+18/11/2020 02:37:53.311 Replacing call: 0x007487A8
+18/11/2020 02:37:53.311 Injecting CustomOpcodeSystem...
+18/11/2020 02:37:53.311 Injecting ScriptEngine...
+18/11/2020 02:37:53.311 Replacing call: 0x0046A21B
+18/11/2020 02:37:53.311 Replacing call: 0x0058D552
+18/11/2020 02:37:53.311 Replacing call: 0x0058FCE4
+18/11/2020 02:37:53.311 Replacing call: 0x0053BDD7
+18/11/2020 02:37:53.311 Replacing call: 0x005BA340
+18/11/2020 02:37:53.311 Replacing call: 0x005D4FD7
+18/11/2020 02:37:53.311 Replacing call: 0x005D18F0
+18/11/2020 02:37:53.311 Replacing call: 0x005D14D5
+18/11/2020 02:37:53.311 Injecting function at: 0x004667DB
+18/11/2020 02:37:54.262 Creating main window...
+18/11/2020 02:37:54.300 Found sound device 0: No sound
+18/11/2020 02:37:54.300 Found sound device 1 (default): Динамики (Steam Streaming Speakers)
+18/11/2020 02:37:54.300 Found sound device 2: Динамики (Steam Streaming Microphone)
+18/11/2020 02:37:54.300 Found sound device 3: Динамики (Realtek(R) Audio)
+18/11/2020 02:37:54.300 Found sound device 4: PHL 243V7 (NVIDIA High Definition Audio)
+18/11/2020 02:37:54.300 Found sound device 5: Realtek Digital Output (Realtek(R) Audio)
+18/11/2020 02:37:54.300 Found sound device 6: Line 1 (Virtual Audio Cable)
+18/11/2020 02:37:54.300 On system found 7 devices, 7 enabled devices, assuming device to use: 1 (Динамики (Steam Streaming Speakers))
+18/11/2020 02:37:54.369 SoundSystem initialized
+18/11/2020 02:37:54.373 Floating-point audio supported!
+18/11/2020 02:37:54.375 Audio hardware acceleration disabled (no EAX)
+18/11/2020 02:38:04.698 Scripts exclusively initialized
+18/11/2020 02:38:04.702 Deleting dynamic fxts...
+18/11/2020 02:38:04.702 Cleaning up script data... 0 files, 0 libs, 0 file scans, 0 allocations...
+18/11/2020 02:38:04.702 Searching for cleo scripts
