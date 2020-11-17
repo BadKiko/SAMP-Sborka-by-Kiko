@@ -3478,7 +3478,7 @@ void menu_maybe_init(void)
 	menu_item_add(OverLight_DM_Stuff_Menu, NULL, "Включить рассинхрон", ID_FAKE_LAG_SPEED, MENU_COLOR_DEFAULT, NULL);
 	menu_item_add(OverLight_DM_Stuff_Menu, NULL, "\aРассинхрон при скорости: //", ID_SPEED_MULTIPLIER, MENU_COLOR_DEFAULT, NULL);
 	menu_item_add(OverLight_DM_Stuff_Menu, NULL, "\tУтилиты", ID_NONE, MENU_COLOR_DEFAULT, NULL);
-	menu_item_add(OverLight_DM_Stuff_Menu, NULL, "Повторитель выстрелов", ID_SHOT_REPEATER, MENU_COLOR_DEFAULT, NULL, "Отправьте назад пулю, которую вы получили. У вас должно быть оружие в руках.");
+	menu_item_add(OverLight_DM_Stuff_Menu, NULL, "Отражение выстрелов", ID_SHOT_REPEATER, MENU_COLOR_DEFAULT, NULL, "Отправьте назад пулю, которую вы получили. У вас должно быть оружие в руках.");
 	menu_item_add(OverLight_DM_Stuff_Menu, NULL, "Draw Finder (Поиск рисунков)", ID_DRAW_FINDER, MENU_COLOR_DEFAULT, NULL);
 	menu_item_add(OverLight_DM_Stuff_Menu, NULL, "Пользовательский ВХ", ID_CHAMS, MENU_COLOR_DEFAULT, NULL);
 	OverLight_Chams_Advanced = menu_new(OverLight_DM_Stuff_Menu, 0, OverLight_Chams_Callback);
@@ -3558,11 +3558,11 @@ void menu_maybe_init(void)
 	menu_item_add(OverLight_Bot_Stuff_Menu, NULL, "Темп", ID_BOT_DELAY, MENU_COLOR_DEFAULT, NULL);
 
 
-	menu_item_add(OverLight_Bot_Stuff_Menu, NULL, "\tSync Modifications", ID_NONE, MENU_COLOR_SEPARATOR, NULL);
-	menu_item_add(OverLight_Bot_Stuff_Menu, NULL, "Fake Ping", ID_FAKE_PING, MENU_COLOR_DEFAULT, NULL);
-	menu_item_add(OverLight_Bot_Stuff_Menu, NULL, "\aIncrease Ping: 0", ID_INCREASE_PING, MENU_COLOR_DEFAULT, NULL);
-	menu_item_add(OverLight_Bot_Stuff_Menu, NULL, "\tFriends", ID_NONE, MENU_COLOR_DEFAULT, NULL);
-	menu_item_add(OverLight_Bot_Stuff_Menu, NULL, "Use Friends on Target", ID_USE_FRIEND_TARGET3, MENU_COLOR_DEFAULT, NULL);
+	menu_item_add(OverLight_Bot_Stuff_Menu, NULL, "\tСинхронизация", ID_NONE, MENU_COLOR_SEPARATOR, NULL);
+	menu_item_add(OverLight_Bot_Stuff_Menu, NULL, "Изменить пинг бота", ID_FAKE_PING, MENU_COLOR_DEFAULT, NULL);
+	menu_item_add(OverLight_Bot_Stuff_Menu, NULL, "\aПинг: 0", ID_INCREASE_PING, MENU_COLOR_DEFAULT, NULL);
+	menu_item_add(OverLight_Bot_Stuff_Menu, NULL, "\tДрузья", ID_NONE, MENU_COLOR_DEFAULT, NULL);
+	menu_item_add(OverLight_Bot_Stuff_Menu, NULL, "Друзья - цели", ID_USE_FRIEND_TARGET3, MENU_COLOR_DEFAULT, NULL);
 
 
 	menu_item_add(OverLight_Bot_Pick_Control_Advanced, NULL, "\tBot Pick/Control Advanced", ID_NONE, MENU_COLOR_DEFAULT, NULL);
@@ -3575,38 +3575,38 @@ void menu_maybe_init(void)
 	//OverLight_Bot_Advanced = menu_new(OverLight_Bot_Stuff_Menu, 0, OverLight_Client_Stuff_Callback);
 	//menu_item_add(OverLight_Bot_Stuff_Menu, OverLight_Bot_Advanced, "Bot Advanced Options", ID_NONE, MENU_COLOR_DEFAULT, NULL);
 	//Advanced Follow
-	menu_item_add(OverLight_Bot_Follow_Advanced, NULL, "Copy Health", ID_BOT_COPY_HEALTH, MENU_COLOR_DEFAULT, NULL);
-	menu_item_add(OverLight_Bot_Follow_Advanced, NULL, "Copy Armor", ID_BOT_COPY_ARMOR, MENU_COLOR_DEFAULT, NULL);
-	menu_item_add(OverLight_Bot_Follow_Advanced, NULL, "Copy Weapon", ID_BOT_COPY_WEAPON, MENU_COLOR_DEFAULT, NULL);
-	menu_item_add(OverLight_Bot_Follow_Advanced, NULL, "Copy Chat", ID_BOT_COPY_CHAT, MENU_COLOR_DEFAULT, NULL);
-	menu_item_add(OverLight_Bot_Follow_Advanced, NULL, "Copy RPC (commands, chat, etc..)", ID_BOT_COPY_RPC, MENU_COLOR_DEFAULT, NULL);
+	menu_item_add(OverLight_Bot_Follow_Advanced, NULL, "Копировать здоровье", ID_BOT_COPY_HEALTH, MENU_COLOR_DEFAULT, NULL);
+	menu_item_add(OverLight_Bot_Follow_Advanced, NULL, "Копировать бронью", ID_BOT_COPY_ARMOR, MENU_COLOR_DEFAULT, NULL);
+	menu_item_add(OverLight_Bot_Follow_Advanced, NULL, "Копировать оружие", ID_BOT_COPY_WEAPON, MENU_COLOR_DEFAULT, NULL);
+	menu_item_add(OverLight_Bot_Follow_Advanced, NULL, "Копировать чати", ID_BOT_COPY_CHAT, MENU_COLOR_DEFAULT, NULL);
+	menu_item_add(OverLight_Bot_Follow_Advanced, NULL, "Копировать НОП (команды, чат, и тд)", ID_BOT_COPY_RPC, MENU_COLOR_DEFAULT, NULL);
 
 	struct menu* OverLight_Client_Stuff_Menu;
 	struct menu* OverLight_Graphics_Stuff_Menu;
 	OverLight_Client_Stuff_Menu = menu_new(menu_main, 0, OverLight_Client_Stuff_Callback);
-	menu_item_add(menu_main, OverLight_Client_Stuff_Menu, "Client Stuff", ID_NONE, MENU_COLOR_DEFAULT, NULL);
-	menu_item_add(OverLight_Client_Stuff_Menu, NULL, "\tAnti Crashers/Troll", ID_NONE, MENU_COLOR_DEFAULT, NULL);
-	menu_item_add(OverLight_Client_Stuff_Menu, NULL, "Anti Car Controll/Troll", ID_ANTI_CAR_TROLL, MENU_COLOR_DEFAULT, NULL);
-	menu_item_add(OverLight_Client_Stuff_Menu, NULL, "Anti Bullet Crasher", ID_ANTI_BULLET_CRASHER, MENU_COLOR_DEFAULT, NULL);
-	menu_item_add(OverLight_Client_Stuff_Menu, NULL, "Anti Bad Vehicles", ID_ANTI_BAD_VEHICLES, MENU_COLOR_DEFAULT, NULL);
-	menu_item_add(OverLight_Client_Stuff_Menu, NULL, "\tChange Graphics", ID_NONE, MENU_COLOR_DEFAULT, NULL);
+	menu_item_add(menu_main, OverLight_Client_Stuff_Menu, "Функции клиента", ID_NONE, MENU_COLOR_DEFAULT, NULL);
+	menu_item_add(OverLight_Client_Stuff_Menu, NULL, "\tАнти-крашер", ID_NONE, MENU_COLOR_DEFAULT, NULL);
+	menu_item_add(OverLight_Client_Stuff_Menu, NULL, "Анти-перехват управления т/с", ID_ANTI_CAR_TROLL, MENU_COLOR_DEFAULT, NULL);
+	menu_item_add(OverLight_Client_Stuff_Menu, NULL, "Анти-Bullet крашер", ID_ANTI_BULLET_CRASHER, MENU_COLOR_DEFAULT, NULL);
+	menu_item_add(OverLight_Client_Stuff_Menu, NULL, "Анти-невалидные т/с", ID_ANTI_BAD_VEHICLES, MENU_COLOR_DEFAULT, NULL);
+	menu_item_add(OverLight_Client_Stuff_Menu, NULL, "\tИзменить графику", ID_NONE, MENU_COLOR_DEFAULT, NULL);
 	OverLight_Graphics_Stuff_Menu = menu_new(OverLight_Client_Stuff_Menu, 0, OverLight_Change_Graphics_Callback);
-	menu_item_add(OverLight_Client_Stuff_Menu, OverLight_Graphics_Stuff_Menu, "GTA Graphics Stuff", ID_NONE, MENU_COLOR_DEFAULT, NULL);
-	menu_item_add(OverLight_Client_Stuff_Menu, NULL, "\tFunctions for kids", ID_NONE, MENU_COLOR_DEFAULT, NULL);
-	menu_item_add(OverLight_Client_Stuff_Menu, NULL, "Remote RCON Attack", ID_RCON_ATTACK, MENU_COLOR_DEFAULT, NULL);
-	menu_item_add(OverLight_Client_Stuff_Menu, NULL, "Server Lag", ID_SERVER_LAG, MENU_COLOR_DEFAULT, NULL);
-	menu_item_add(OverLight_Client_Stuff_Menu, NULL, "\aMessages Limit: ///sec", ID_MESSAGES_LIMIT, MENU_COLOR_DEFAULT, NULL);
-	menu_item_add(OverLight_Client_Stuff_Menu, NULL, "Change Serial GPCI", ID_CHANGE_GPCI, MENU_COLOR_DEFAULT, NULL);
-	menu_item_add(OverLight_Client_Stuff_Menu, NULL, "Join Flood", ID_JOIN_FLOOD, MENU_COLOR_DEFAULT, NULL);
-	menu_item_add(OverLight_Client_Stuff_Menu, NULL, "Fake FPS", ID_FAKE_FPS, MENU_COLOR_DEFAULT, NULL);
+	menu_item_add(OverLight_Client_Stuff_Menu, OverLight_Graphics_Stuff_Menu, "Функции ГТА графики", ID_NONE, MENU_COLOR_DEFAULT, NULL);
+	menu_item_add(OverLight_Client_Stuff_Menu, NULL, "\tФункции для детей", ID_NONE, MENU_COLOR_DEFAULT, NULL);
+	menu_item_add(OverLight_Client_Stuff_Menu, NULL, "Удаленная RCON Атака", ID_RCON_ATTACK, MENU_COLOR_DEFAULT, NULL);
+	menu_item_add(OverLight_Client_Stuff_Menu, NULL, "Лаги сервера", ID_SERVER_LAG, MENU_COLOR_DEFAULT, NULL);
+	menu_item_add(OverLight_Client_Stuff_Menu, NULL, "\aТемп сообщений: ///сек", ID_MESSAGES_LIMIT, MENU_COLOR_DEFAULT, NULL);
+	menu_item_add(OverLight_Client_Stuff_Menu, NULL, "Изменять GPCI", ID_CHANGE_GPCI, MENU_COLOR_DEFAULT, NULL);
+	menu_item_add(OverLight_Client_Stuff_Menu, NULL, "Флуд подключениями", ID_JOIN_FLOOD, MENU_COLOR_DEFAULT, NULL);
+	menu_item_add(OverLight_Client_Stuff_Menu, NULL, "Поставить FPS", ID_FAKE_FPS, MENU_COLOR_DEFAULT, NULL);
 	menu_item_add(OverLight_Client_Stuff_Menu, NULL, "FPS: //", ID_SELECT_FAKE_FPS, MENU_COLOR_DEFAULT, NULL);
-	menu_item_add(OverLight_Client_Stuff_Menu, NULL, "Anti Loading", ID_ANTI_LOADING, MENU_COLOR_DEFAULT, NULL);
+	menu_item_add(OverLight_Client_Stuff_Menu, NULL, "Анти-загрузка", ID_ANTI_LOADING, MENU_COLOR_DEFAULT, NULL);
 
 
 
-	menu_item_add(OverLight_Graphics_Stuff_Menu, NULL, "\tGTA Graphics Stuff", ID_NONE, MENU_COLOR_DEFAULT, NULL);
-	menu_item_add(OverLight_Graphics_Stuff_Menu, NULL, "Enable Change Graphics", ID_CHANGE_GRAPHICS, MENU_COLOR_DEFAULT, NULL);
-	menu_item_add(OverLight_Graphics_Stuff_Menu, NULL, "\aMat. Sharpness Power: //", ID_SHARPNESS_POWER, MENU_COLOR_DEFAULT, NULL);
+	menu_item_add(OverLight_Graphics_Stuff_Menu, NULL, "\tФункции ГТА графики", ID_NONE, MENU_COLOR_DEFAULT, NULL);
+	menu_item_add(OverLight_Graphics_Stuff_Menu, NULL, "Включить свою графику", ID_CHANGE_GRAPHICS, MENU_COLOR_DEFAULT, NULL);
+	menu_item_add(OverLight_Graphics_Stuff_Menu, NULL, "\aЧеткость материалов: //", ID_SHARPNESS_POWER, MENU_COLOR_DEFAULT, NULL);
 	menu_item_add(OverLight_Graphics_Stuff_Menu, NULL, "\aLight Cutoff Range: //", ID_LIGHT_RANGE, MENU_COLOR_DEFAULT, NULL);
 	menu_item_add(OverLight_Graphics_Stuff_Menu, NULL, "\aMat. Shininess: //", ID_MAT_SHININESS, MENU_COLOR_DEFAULT, NULL);
 	menu_item_add(OverLight_Graphics_Stuff_Menu, NULL, "\aLight Shininess: //", ID_LIGHT_SHININESS, MENU_COLOR_DEFAULT, NULL);

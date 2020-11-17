@@ -1,5 +1,5 @@
-[02:42:05.773328] (system)	Session started.
-[02:42:05.775328] (debug)	Module handle: 7B2E0000
+[08:38:02.710717] (system)	Session started.
+[08:38:02.712719] (debug)	Module handle: 7B1B0000
 
 MoonLoader v.026.5-beta loaded.
 Developers: FYP, hnnssy, EvgeN 1137
@@ -7,145 +7,113 @@ Developers: FYP, hnnssy, EvgeN 1137
 Copyright (c) 2016, BlastHack Team
 http://blast.hk/moonloader/
 
-[02:42:05.775328] (info)	Working directory: X:\GTA San Andreas With Cheats\moonloader
-[02:42:05.775328] (debug)	FP Control: 0009001F
-[02:42:05.775328] (debug)	Game: GTA SA 1.0.0.0 US
-[02:42:05.775328] (system)	Installing pre-game hooks...
-[02:42:05.778327] (system)	Hooks installed.
-[02:42:09.585629] (debug)	Initializing opcode handler table
-[02:42:09.585629] (debug)	package.path = X:\GTA San Andreas With Cheats\moonloader\lib\?.lua;X:\GTA San Andreas With Cheats\moonloader\lib\?\init.lua;X:\GTA San Andreas With Cheats\moonloader\?.lua;X:\GTA San Andreas With Cheats\moonloader\?\init.lua;.\?.lua;X:\GTA San Andreas With Cheats\moonloader\lib\?.luac;X:\GTA San Andreas With Cheats\moonloader\lib\?\init.luac;X:\GTA San Andreas With Cheats\moonloader\?.luac;X:\GTA San Andreas With Cheats\moonloader\?\init.luac;.\?.luac
-[02:42:09.585629] (debug)	package.cpath = X:\GTA San Andreas With Cheats\moonloader\lib\?.dll;
-[02:42:09.587633] (system)	Loading script 'X:\GTA San Andreas With Cheats\moonloader\AntiRvanka.lua'...
-[02:42:09.587633] (debug)	New script: 0EE5A5EC
-[02:42:09.594631] (system)	AntiRvanka.lua: Loaded successfully.
-[02:42:09.594631] (system)	Loading script 'X:\GTA San Andreas With Cheats\moonloader\arz_carslap.luac'...
-[02:42:09.594631] (debug)	New script: 0EE599AC
-[02:42:09.600631] (system)	arz_carslap.luac: Loaded successfully.
-[02:42:09.600631] (system)	Loading script 'X:\GTA San Andreas With Cheats\moonloader\AutoReboot.lua'...
-[02:42:09.600631] (debug)	New script: 0EE59B34
-[02:42:09.602632] (system)	ML-AutoReboot: Loaded successfully.
-[02:42:09.602632] (system)	Loading script 'X:\GTA San Andreas With Cheats\moonloader\bypass.lua'...
-[02:42:09.602632] (debug)	New script: 0EE5A8FC
-[02:42:09.606632] (system)	bypass.lua: Loaded successfully.
-[02:42:09.606632] (system)	Loading script 'X:\GTA San Andreas With Cheats\moonloader\bypasser.lua'...
-[02:42:09.606632] (debug)	New script: 0EE5AA84
-[02:42:09.622632] (system)	bypasser.lua: Loaded successfully.
-[02:42:09.622632] (system)	Loading script 'X:\GTA San Andreas With Cheats\moonloader\carshot.lua'...
-[02:42:09.622632] (debug)	New script: 0EE59CBC
-[02:42:09.628633] (system)	carshot.lua: Loaded successfully.
-[02:42:09.628633] (system)	Loading script 'X:\GTA San Andreas With Cheats\moonloader\carshot_chat_add.lua'...
-[02:42:09.628633] (debug)	New script: 0D8DCAEC
-[02:42:09.638635] (system)	CSChatAdd: Loaded successfully.
-[02:42:09.638635] (system)	Loading script 'X:\GTA San Andreas With Cheats\moonloader\CheatHelper.lua'...
-[02:42:09.638635] (debug)	New script: 154A7E3C
-[02:42:09.650635] (system)	CheatHelper: Loaded successfully.
-[02:42:09.650635] (system)	Loading script 'X:\GTA San Andreas With Cheats\moonloader\check-moonloader-updates.lua'...
-[02:42:09.650635] (debug)	New script: 154A8D8C
-[02:42:09.652636] (system)	Check MoonLoader Updates: Loaded successfully.
-[02:42:09.652636] (system)	Loading script 'X:\GTA San Andreas With Cheats\moonloader\CreepTonInvis.luac'...
-[02:42:09.652636] (debug)	New script: 154A85E4
-[02:42:09.676637] (system)	CreepTonInvis.luac: Loaded successfully.
-[02:42:09.676637] (system)	Loading script 'X:\GTA San Andreas With Cheats\moonloader\egun.luac'...
-[02:42:09.676637] (debug)	New script: 154A8F14
-[02:42:09.693638] (system)	egun.luac: Loaded successfully.
-[02:42:09.694638] (system)	Loading script 'X:\GTA San Andreas With Cheats\moonloader\EnterCar.lua'...
-[02:42:09.694638] (debug)	New script: 154A8A7C
-[02:42:09.701640] (system)	EnterCar.lua: Loaded successfully.
-[02:42:09.701640] (system)	Loading script 'X:\GTA San Andreas With Cheats\moonloader\F-CAR.lua'...
-[02:42:09.701640] (debug)	New script: 154A93AC
-[02:42:09.713641] (system)	F-CAR.lua: Loaded successfully.
-[02:42:09.713641] (system)	Loading script 'X:\GTA San Andreas With Cheats\moonloader\fly.luac'...
-[02:42:09.713641] (debug)	New script: 154A7FC4
-[02:42:09.718640] (system)	fly.luac: Loaded successfully.
-[02:42:09.718640] (system)	Loading script 'X:\GTA San Andreas With Cheats\moonloader\gagarin.lua'...
-[02:42:09.718640] (debug)	New script: 154A814C
-[02:42:09.723641] (system)	gagarin.lua: Loaded successfully.
-[02:42:09.723641] (system)	Loading script 'X:\GTA San Andreas With Cheats\moonloader\GORYASHIYCAR.luac'...
-[02:42:09.723641] (debug)	New script: 154A82D4
-[02:42:09.739642] (system)	GORYASHIYCAR.luac: Loaded successfully.
-[02:42:09.739642] (system)	Loading script 'X:\GTA San Andreas With Cheats\moonloader\INVI.lua'...
-[02:42:09.739642] (debug)	New script: 154A88F4
-[02:42:09.744643] (system)	INVI.lua: Loaded successfully.
-[02:42:09.744643] (system)	Loading script 'X:\GTA San Andreas With Cheats\moonloader\Multi_AyE_Cheats_by ]GsH[MeG@LaDo[N].luac'...
-[02:42:09.744643] (debug)	New script: 154A909C
-[02:42:09.753643] (system)	Multi Cheats by ]GsH[MeG@LaDo[N]: Loaded successfully.
-[02:42:09.753643] (system)	Loading script 'X:\GTA San Andreas With Cheats\moonloader\POMOYKA MODE.lua'...
-[02:42:09.753643] (debug)	New script: 154A845C
-[02:42:09.757643] (system)	POMOYKAMod: Loaded successfully.
-[02:42:09.757643] (system)	Loading script 'X:\GTA San Andreas With Cheats\moonloader\RainbowClist.lua'...
-[02:42:09.757643] (debug)	New script: 154A9B54
-[02:42:09.765645] (system)	RainbowClist: Loaded successfully.
-[02:42:09.765645] (system)	Loading script 'X:\GTA San Andreas With Cheats\moonloader\reload_all.lua'...
-[02:42:09.765645] (debug)	New script: 154A9224
-[02:42:09.766644] (system)	ML-ReloadAll: Loaded successfully.
-[02:42:09.766644] (system)	Loading script 'X:\GTA San Andreas With Cheats\moonloader\scar.lua'...
-[02:42:09.766644] (debug)	New script: 154A876C
-[02:42:09.769644] (system)	scar.lua: Loaded successfully.
-[02:42:09.770644] (system)	Loading script 'X:\GTA San Andreas With Cheats\moonloader\SF Integration.lua'...
-[02:42:09.770644] (debug)	New script: 154A8C04
-[02:42:09.771645] (system)	SF Integration: Loaded successfully.
-[02:42:09.771645] (system)	Loading script 'X:\GTA San Andreas With Cheats\moonloader\SlapperBYs3nder.luac'...
-[02:42:09.771645] (debug)	New script: 154A9534
-[02:42:09.779645] (system)	SlapperBYs3nder.luac: Loaded successfully.
-[02:42:09.780645] (system)	Loading script 'X:\GTA San Andreas With Cheats\moonloader\syncer.lua'...
-[02:42:09.780645] (debug)	New script: 154A96BC
-[02:42:09.793646] (system)	syncer.lua: Loaded successfully.
-[02:42:09.793646] (system)	Loading script 'X:\GTA San Andreas With Cheats\moonloader\Teleport.luac'...
-[02:42:09.793646] (debug)	New script: 154A9844
-[02:42:09.798646] (system)	Teleport.luac: Loaded successfully.
-[02:42:09.798646] (system)	Loading script 'X:\GTA San Andreas With Cheats\moonloader\thrower.luac'...
-[02:42:09.798646] (debug)	New script: 154A99CC
-[02:42:09.803647] (system)	thrower.luac: Loaded successfully.
-[02:42:09.803647] (system)	Loading script 'X:\GTA San Andreas With Cheats\moonloader\UltraFuck.luac'...
-[02:42:09.803647] (debug)	New script: 1554BDE4
-[02:42:09.817647] (system)	UltraFuck: Loaded successfully.
-[02:42:09.817647] (system)	Loading script 'X:\GTA San Andreas With Cheats\moonloader\vcrash.lua'...
-[02:42:09.817647] (debug)	New script: 1554C404
-[02:42:09.821648] (system)	vcrash.lua: Loaded successfully.
-[02:42:09.821648] (system)	Loading script 'X:\GTA San Andreas With Cheats\moonloader\VCrashModify.lua'...
-[02:42:09.821648] (debug)	New script: 1554CBAC
-[02:42:09.826648] (system)	VCrashModify: Loaded successfully.
-[02:42:17.135521] (system)	Installing post-load hooks...
-[02:42:17.135521] (system)	Hooks installed.
-[02:42:17.577541] (error)	AntiRvanka.lua: opcode '0AF8' call caused an unhandled exception
+[08:38:02.712719] (info)	Working directory: X:\GTA San Andreas With Cheats\moonloader
+[08:38:02.712719] (debug)	FP Control: 0009001F
+[08:38:02.712719] (debug)	Game: GTA SA 1.0.0.0 US
+[08:38:02.712719] (system)	Installing pre-game hooks...
+[08:38:02.714718] (system)	Hooks installed.
+[08:38:08.571159] (debug)	Initializing opcode handler table
+[08:38:08.571159] (debug)	package.path = X:\GTA San Andreas With Cheats\moonloader\lib\?.lua;X:\GTA San Andreas With Cheats\moonloader\lib\?\init.lua;X:\GTA San Andreas With Cheats\moonloader\?.lua;X:\GTA San Andreas With Cheats\moonloader\?\init.lua;.\?.lua;X:\GTA San Andreas With Cheats\moonloader\lib\?.luac;X:\GTA San Andreas With Cheats\moonloader\lib\?\init.luac;X:\GTA San Andreas With Cheats\moonloader\?.luac;X:\GTA San Andreas With Cheats\moonloader\?\init.luac;.\?.luac
+[08:38:08.571159] (debug)	package.cpath = X:\GTA San Andreas With Cheats\moonloader\lib\?.dll;
+[08:38:08.573158] (system)	Loading script 'X:\GTA San Andreas With Cheats\moonloader\AntiRvanka.lua'...
+[08:38:08.573158] (debug)	New script: 0D74E094
+[08:38:08.698167] (system)	AntiRvanka.lua: Loaded successfully.
+[08:38:08.698167] (system)	Loading script 'X:\GTA San Andreas With Cheats\moonloader\arz_carslap.luac'...
+[08:38:08.698167] (debug)	New script: 0D74E3A4
+[08:38:08.712168] (system)	arz_carslap.luac: Loaded successfully.
+[08:38:08.712168] (system)	Loading script 'X:\GTA San Andreas With Cheats\moonloader\AutoReboot.lua'...
+[08:38:08.712168] (debug)	New script: 0D7D755C
+[08:38:08.723169] (system)	ML-AutoReboot: Loaded successfully.
+[08:38:08.723169] (system)	Loading script 'X:\GTA San Andreas With Cheats\moonloader\bypass.lua'...
+[08:38:08.724168] (debug)	New script: 152830F4
+[08:38:08.741169] (system)	bypass.lua: Loaded successfully.
+[08:38:08.741169] (system)	Loading script 'X:\GTA San Andreas With Cheats\moonloader\bypasser.lua'...
+[08:38:08.741169] (debug)	New script: 15282C5C
+[08:38:08.898181] (system)	bypasser.lua: Loaded successfully.
+[08:38:08.898181] (system)	Loading script 'X:\GTA San Andreas With Cheats\moonloader\carshot.lua'...
+[08:38:08.898181] (debug)	New script: 152827C4
+[08:38:08.924183] (system)	carshot.lua: Loaded successfully.
+[08:38:08.924183] (system)	Loading script 'X:\GTA San Andreas With Cheats\moonloader\carshot_chat_add.lua'...
+[08:38:08.924183] (debug)	New script: 152821A4
+[08:38:08.943185] (system)	CSChatAdd: Loaded successfully.
+[08:38:08.943185] (system)	Loading script 'X:\GTA San Andreas With Cheats\moonloader\CheatHelper.lua'...
+[08:38:08.943185] (debug)	New script: 1528232C
+[08:38:08.963187] (system)	CheatHelper: Loaded successfully.
+[08:38:08.963187] (system)	Loading script 'X:\GTA San Andreas With Cheats\moonloader\check-moonloader-updates.lua'...
+[08:38:08.963187] (debug)	New script: 15282F6C
+[08:38:08.985188] (system)	Check MoonLoader Updates: Loaded successfully.
+[08:38:08.985188] (system)	Loading script 'X:\GTA San Andreas With Cheats\moonloader\CreepTonInvis.luac'...
+[08:38:08.985188] (debug)	New script: 15282DE4
+[08:38:09.505227] (system)	CreepTonInvis.luac: Loaded successfully.
+[08:38:09.505227] (system)	Loading script 'X:\GTA San Andreas With Cheats\moonloader\egun.luac'...
+[08:38:09.505227] (debug)	New script: 15283D34
+[08:38:09.553234] (system)	egun.luac: Loaded successfully.
+[08:38:09.553234] (system)	Loading script 'X:\GTA San Andreas With Cheats\moonloader\EnterCar.lua'...
+[08:38:09.553234] (debug)	New script: 152824B4
+[08:38:09.599234] (system)	EnterCar.lua: Loaded successfully.
+[08:38:09.599234] (system)	Loading script 'X:\GTA San Andreas With Cheats\moonloader\F-CAR.lua'...
+[08:38:09.599234] (debug)	New script: 15283404
+[08:38:09.629236] (system)	F-CAR.lua: Loaded successfully.
+[08:38:09.629236] (system)	Loading script 'X:\GTA San Andreas With Cheats\moonloader\fly.luac'...
+[08:38:09.630236] (debug)	New script: 15283714
+[08:38:09.654238] (system)	fly.luac: Loaded successfully.
+[08:38:09.654238] (system)	Loading script 'X:\GTA San Andreas With Cheats\moonloader\gagarin.lua'...
+[08:38:09.655238] (debug)	New script: 1528263C
+[08:38:09.682241] (system)	gagarin.lua: Loaded successfully.
+[08:38:09.682241] (system)	Loading script 'X:\GTA San Andreas With Cheats\moonloader\GORYASHIYCAR.luac'...
+[08:38:09.682241] (debug)	New script: 1528358C
+[08:38:09.717242] (system)	GORYASHIYCAR.luac: Loaded successfully.
+[08:38:09.717242] (system)	Loading script 'X:\GTA San Andreas With Cheats\moonloader\INVI.lua'...
+[08:38:09.717242] (debug)	New script: 1528389C
+[08:38:09.765247] (system)	INVI.lua: Loaded successfully.
+[08:38:09.765247] (system)	Loading script 'X:\GTA San Andreas With Cheats\moonloader\Multi_AyE_Cheats_by ]GsH[MeG@LaDo[N].luac'...
+[08:38:09.765247] (debug)	New script: 1528294C
+[08:38:09.822251] (system)	Multi Cheats by ]GsH[MeG@LaDo[N]: Loaded successfully.
+[08:38:09.822251] (system)	Loading script 'X:\GTA San Andreas With Cheats\moonloader\POMOYKA MODE.lua'...
+[08:38:09.822251] (debug)	New script: 15283A24
+[08:38:09.848252] (system)	POMOYKAMod: Loaded successfully.
+[08:38:09.848252] (system)	Loading script 'X:\GTA San Andreas With Cheats\moonloader\RainbowClist.lua'...
+[08:38:09.848252] (debug)	New script: 15282AD4
+[08:38:09.907257] (system)	RainbowClist: Loaded successfully.
+[08:38:09.907257] (system)	Loading script 'X:\GTA San Andreas With Cheats\moonloader\reload_all.lua'...
+[08:38:09.907257] (debug)	New script: 15283BAC
+[08:38:09.916258] (system)	ML-ReloadAll: Loaded successfully.
+[08:38:09.916258] (system)	Loading script 'X:\GTA San Andreas With Cheats\moonloader\scar.lua'...
+[08:38:09.916258] (debug)	New script: 15283EBC
+[08:38:09.944260] (system)	scar.lua: Loaded successfully.
+[08:38:09.944260] (system)	Loading script 'X:\GTA San Andreas With Cheats\moonloader\SF Integration.lua'...
+[08:38:09.944260] (debug)	New script: 153240CC
+[08:38:09.967263] (system)	SF Integration: Loaded successfully.
+[08:38:09.967263] (system)	Loading script 'X:\GTA San Andreas With Cheats\moonloader\SlapperBYs3nder.luac'...
+[08:38:09.967263] (debug)	New script: 15323DBC
+[08:38:09.989265] (system)	SlapperBYs3nder.luac: Loaded successfully.
+[08:38:09.989265] (system)	Loading script 'X:\GTA San Andreas With Cheats\moonloader\syncer.lua'...
+[08:38:09.990264] (debug)	New script: 15324254
+[08:38:10.033268] (system)	syncer.lua: Loaded successfully.
+[08:38:10.033268] (system)	Loading script 'X:\GTA San Andreas With Cheats\moonloader\Teleport.luac'...
+[08:38:10.033268] (debug)	New script: 153229D4
+[08:38:10.067270] (system)	Teleport.luac: Loaded successfully.
+[08:38:10.068274] (system)	Loading script 'X:\GTA San Andreas With Cheats\moonloader\thrower.luac'...
+[08:38:10.068274] (debug)	New script: 153226C4
+[08:38:10.092272] (system)	thrower.luac: Loaded successfully.
+[08:38:10.092272] (system)	Loading script 'X:\GTA San Andreas With Cheats\moonloader\UltraFuck.luac'...
+[08:38:10.092272] (debug)	New script: 15322E6C
+[08:38:10.208281] (system)	UltraFuck: Loaded successfully.
+[08:38:10.208281] (system)	Loading script 'X:\GTA San Andreas With Cheats\moonloader\vcrash.lua'...
+[08:38:10.208281] (debug)	New script: 1532253C
+[08:38:10.268288] (system)	vcrash.lua: Loaded successfully.
+[08:38:10.268288] (system)	Loading script 'X:\GTA San Andreas With Cheats\moonloader\VCrashModify.lua'...
+[08:38:10.268288] (debug)	New script: 1532348C
+[08:38:10.366296] (system)	VCrashModify: Loaded successfully.
+[08:38:21.116001] (system)	Installing post-load hooks...
+[08:38:21.117001] (system)	Hooks installed.
+[08:38:21.563034] (error)	AntiRvanka.lua: opcode '0AF8' call caused an unhandled exception
 stack traceback:
 	[C]: in function 'sampAddChatMessage'
 	X:\GTA San Andreas With Cheats\moonloader\AntiRvanka.lua:61: in function 'sendMessage'
 	X:\GTA San Andreas With Cheats\moonloader\AntiRvanka.lua:7: in function <X:\GTA San Andreas With Cheats\moonloader\AntiRvanka.lua:5>
-[02:42:17.577541] (error)	AntiRvanka.lua: Script died due to an error. (0EE5A5EC)
-[02:42:18.195503] (system)	Loading script 'X:\GTA San Andreas With Cheats\moonloader\config\UltraFuck\Scripts\Spee.lua'...
-[02:42:18.195503] (debug)	New script: 1554BAD4
-[02:42:18.212504] (system)	Spee.lua: Loaded successfully.
-[02:42:18.547694] (script)	UltraFuck: {FFFFFF}Обновления не были найдены, текущая версия 2.2
-[03:09:50.592634] (system)	Unloading...
-[03:09:50.592634] (system)	arz_carslap.luac: Script terminated. (0EE599AC)
-[03:09:50.592634] (system)	ML-AutoReboot: Script terminated. (0EE59B34)
-[03:09:50.593634] (system)	bypass.lua: Script terminated. (0EE5A8FC)
-[03:09:50.593634] (system)	bypasser.lua: Script terminated. (0EE5AA84)
-[03:09:50.594635] (system)	carshot.lua: Script terminated. (0EE59CBC)
-[03:09:50.595635] (system)	CSChatAdd: Script terminated. (0D8DCAEC)
-[03:09:50.596635] (system)	CheatHelper: Script terminated. (154A7E3C)
-[03:09:50.597634] (system)	Check MoonLoader Updates: Script terminated. (154A8D8C)
-[03:09:50.598634] (system)	CreepTonInvis.luac: Script terminated. (154A85E4)
-[03:09:50.599634] (system)	egun.luac: Script terminated. (154A8F14)
-[03:09:50.600635] (system)	EnterCar.lua: Script terminated. (154A8A7C)
-[03:09:50.601635] (system)	F-CAR.lua: Script terminated. (154A93AC)
-[03:09:50.602635] (system)	fly.luac: Script terminated. (154A7FC4)
-[03:09:50.602635] (system)	gagarin.lua: Script terminated. (154A814C)
-[03:09:50.611635] (system)	GORYASHIYCAR.luac: Script terminated. (154A82D4)
-[03:09:50.614635] (system)	INVI.lua: Script terminated. (154A88F4)
-[03:09:50.615636] (system)	Multi Cheats by ]GsH[MeG@LaDo[N]: Script terminated. (154A909C)
-[03:09:50.617635] (system)	POMOYKAMod: Script terminated. (154A845C)
-[03:09:50.617635] (system)	RainbowClist: Script terminated. (154A9B54)
-[03:09:50.619636] (system)	ML-ReloadAll: Script terminated. (154A9224)
-[03:09:50.619636] (system)	scar.lua: Script terminated. (154A876C)
-[03:09:50.620636] (system)	SF Integration: Script terminated. (154A8C04)
-[03:09:50.620636] (system)	SlapperBYs3nder.luac: Script terminated. (154A9534)
-[03:09:50.621637] (system)	syncer.lua: Script terminated. (154A96BC)
-[03:09:50.622636] (system)	Teleport.luac: Script terminated. (154A9844)
-[03:09:50.623637] (system)	thrower.luac: Script terminated. (154A99CC)
-[03:09:50.631636] (system)	UltraFuck: Script terminated. (1554BDE4)
-[03:09:50.637638] (system)	vcrash.lua: Script terminated. (1554C404)
-[03:09:50.637638] (system)	VCrashModify: Script terminated. (1554CBAC)
-[03:09:50.640637] (system)	Spee.lua: Script terminated. (1554BAD4)
-[03:09:50.662640] (system)	Session terminated.
+[08:38:21.563034] (error)	AntiRvanka.lua: Script died due to an error. (0D74E094)
+[08:38:22.491104] (system)	Loading script 'X:\GTA San Andreas With Cheats\moonloader\config\UltraFuck\Scripts\Spee.lua'...
+[08:38:22.491104] (debug)	New script: 1532317C
+[08:38:23.071147] (system)	Spee.lua: Loaded successfully.
+[08:38:23.784623] (script)	UltraFuck: {FFFFFF}Обновления не были найдены, текущая версия 2.2

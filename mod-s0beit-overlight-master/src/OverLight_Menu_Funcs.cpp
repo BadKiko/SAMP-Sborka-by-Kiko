@@ -695,7 +695,7 @@ int OverLight_Bot_Stuff_Callback(int op, struct menu_item *item)
 			break;
 
 		case ID_INCREASE_PING:
-			snprintf(name, sizeof(name), "\aIncrease Ping: %d", g_BotFuncs->BotSettings.incrasePing);
+			snprintf(name, sizeof(name), "\aÏèíã: %d", g_BotFuncs->BotSettings.incrasePing);
 			menu_item_name_set(item, name);
 			break;
 
