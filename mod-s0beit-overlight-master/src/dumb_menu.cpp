@@ -3691,7 +3691,7 @@ void menu_maybe_init(void)
 		menu_item_add(menu_main, menu_players, "Players", ID_NONE, MENU_COLOR_DEFAULT, NULL);
 		snprintf(name, sizeof(name), "Fav. server list (%d/%d)", iServersCount, INI_SERVERS_MAX);
 		menu_item_add(menu_main, menu_servers, name, ID_NONE, MENU_COLOR_DEFAULT, NULL);
-		menu_item_add(menu_main, menu_sampmisc, "SA:MP Misc.", ID_NONE, MENU_COLOR_DEFAULT, NULL);
+		menu_item_add(menu_main, menu_sampmisc, "SA:MP Разное.", ID_NONE, MENU_COLOR_DEFAULT, NULL);
 		snprintf(name, sizeof(name), "SA:MP Patches (%d/%d)", iSAMPPatchesCount, INI_SAMPPATCHES_MAX);
 		menu_item_add(menu_main, menu_samppatches, name, ID_NONE, MENU_COLOR_DEFAULT, NULL);
 	}
