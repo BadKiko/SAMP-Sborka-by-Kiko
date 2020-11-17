@@ -803,7 +803,6 @@ int gta_weapon_ammo_set(struct actor_info *info, int slot, int ammo)
 int gta_weapon_ammo_clip_set(struct actor_info *info, int slot, int ammo_clip)
 {
 	uint32_t	ammo_clip_old = info->weapon[slot].ammo_clip;
-
 	if (ammo_clip >= 0)
 		info->weapon[slot].ammo_clip = ammo_clip;
 
