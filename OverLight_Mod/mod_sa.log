@@ -1,32 +1,26 @@
-[04:19:58.538] Initializing OverLight Mod build 4
-[04:19:58.538] Compiled: Nov 16 2020 04:18:55 CL:1921
-[04:19:58.539] OS: Windows Version 6.1538.9200
-[04:19:58.539] D3D9UseVersion: 0
-[04:19:58.539] DXVersion: 2304
-[04:19:58.539] windowsVersion: 4
-[04:19:58.539] CPU Supports MMX: 0
-[04:19:58.539] CPU Supports 3DNow: 0
-[04:19:58.539] CPU Supports SSE: 0
-[04:19:58.539] CPU Supports SSE2: 0
-[04:19:58.543] SA:MP 0.3.7 was detected. g_dwSAMP_Addr: 0x03BF0000
-[04:20:01.111] proxyIDirect3DDevice9 constructor called. Original IDirect3DDevice9 interface address is 0x103CC4A0
-[04:20:01.516] proxyIDirect3DDevice9::Reset()
-[04:20:01.692] proxyID3DDevice9_InitOurShit()
-[04:20:09.933] proxyIDirect3DDevice9::Reset()
-[04:20:09.933] proxyID3DDevice9_UnInitOurShit
-[04:20:10.068] proxyID3DDevice9_InitOurShit()
-[04:20:11.909] byteAuthBSLen 43
-[04:20:11.909] auth_bs 1373BDCA32DC1F4401B49D6FD986364DC5F9B8FFB84
-[04:20:11.909] NEW byteAuthBSLen 43
-[04:20:11.909] NEW auth_bs 1552E824204123C65FDE15720A0E2AEF562992061CD
-[04:22:29.814] proxyIDirect3DDevice9::Reset()
-[04:22:29.814] proxyID3DDevice9_UnInitOurShit
-[04:22:30.374] proxyID3DDevice9_InitOurShit()
-[04:23:48.322] proxyIDirect3DDevice9::Reset()
-[04:23:48.322] proxyID3DDevice9_UnInitOurShit
-[04:23:48.831] proxyID3DDevice9_InitOurShit()
-[04:24:36.046] proxyIDirect3DDevice9::Reset()
-[04:24:36.046] proxyID3DDevice9_UnInitOurShit
-[04:24:36.547] proxyID3DDevice9_InitOurShit()
-[04:28:24.508] Exited
+[02:42:07.158] Initializing OverLight Mod build 4
+[02:42:07.158] Compiled: Nov 17 2020 02:41:22 CL:1921
+[02:42:07.158] OS: Windows Version 6.1538.9200
+[02:42:07.158] D3D9UseVersion: 0
+[02:42:07.158] DXVersion: 2304
+[02:42:07.158] windowsVersion: 4
+[02:42:07.158] CPU Supports MMX: 0
+[02:42:07.158] CPU Supports 3DNow: 0
+[02:42:07.158] CPU Supports SSE: 0
+[02:42:07.158] CPU Supports SSE2: 0
+[02:42:07.162] SA:MP 0.3.7 was detected. g_dwSAMP_Addr: 0x03C10000
+[02:42:09.547] proxyIDirect3DDevice9 constructor called. Original IDirect3DDevice9 interface address is 0x0EEEFB40
+[02:42:09.859] proxyIDirect3DDevice9::Reset()
+[02:42:09.906] proxyID3DDevice9_InitOurShit()
+[02:42:19.431] byteAuthBSLen 43
+[02:42:19.431] auth_bs 1373BDCA32DC1F4401B49D6FD986364DC5F9B8FFB84
+[02:42:19.431] NEW byteAuthBSLen 43
+[02:42:19.431] NEW auth_bs 1593267E4639393343CA5CBC177A2DD745F7F619D2C
+[02:45:35.628] proxyIDirect3DDevice9::Reset()
+[02:45:35.628] proxyID3DDevice9_UnInitOurShit
+[02:45:35.928] proxyID3DDevice9_InitOurShit()
+[03:09:44.459] proxyIDirect3DDevice9::Reset()
+[03:09:44.459] proxyID3DDevice9_UnInitOurShit
+[03:09:44.834] proxyID3DDevice9_InitOurShit()
+[03:09:50.649] Exited
 

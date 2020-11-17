@@ -164,12 +164,12 @@ int OverLight_CarFunctions_Callback(int op, struct menu_item *item)
 
 				if (IsPlayerStreamed(OLCheats->Target_PlayerID))
 				{
-					snprintf(name, sizeof(name), "\aTarget: %s <%d>", getPlayerName(OLCheats->Target_PlayerID), OLCheats->Target_PlayerID);
+					snprintf(name, sizeof(name), "\aИгрок: %s <%d>", getPlayerName(OLCheats->Target_PlayerID), OLCheats->Target_PlayerID);
 					menu_item_name_set(item, name);
 				}
 				else
 				{
-					snprintf(name, sizeof(name), "\aTarget: <%d> [Unstreamed]", OLCheats->Target_PlayerID);
+					snprintf(name, sizeof(name), "\aИгрок: <%d> [Нет игрока]", OLCheats->Target_PlayerID);
 					menu_item_name_set(item, name);
 				}
 			}
@@ -184,12 +184,12 @@ int OverLight_CarFunctions_Callback(int op, struct menu_item *item)
 
 				if (IsPlayerStreamed(OLCheats->Target_Passenger_PlayerID))
 				{
-					snprintf(name, sizeof(name), "\aPassenger: %s <%d>", getPlayerName(OLCheats->Target_Passenger_PlayerID), OLCheats->Target_Passenger_PlayerID);
+					snprintf(name, sizeof(name), "\aПассажир: %s <%d>", getPlayerName(OLCheats->Target_Passenger_PlayerID), OLCheats->Target_Passenger_PlayerID);
 					menu_item_name_set(item, name);
 				}
 				else
 				{
-					snprintf(name, sizeof(name), "\aPassenger: <%d> [Unstreamed]", OLCheats->Target_Passenger_PlayerID);
+					snprintf(name, sizeof(name), "\aПассажир: <%d> [Нет игрока]", OLCheats->Target_Passenger_PlayerID);
 					menu_item_name_set(item, name);
 				}
 			}
@@ -201,7 +201,7 @@ int OverLight_CarFunctions_Callback(int op, struct menu_item *item)
 
 		case ID_CAR_SEND_RATE:
 		{
-			snprintf(name, sizeof(name), "\aCar Send Rate: %d", OLCheats->SendRateCarCheatTick);
+			snprintf(name, sizeof(name), "\aТемп: %d", OLCheats->SendRateCarCheatTick);
 			menu_item_name_set(item, name);
 			return 0;
 		}
@@ -324,12 +324,12 @@ int OverLight_PlayerFunctions_Callback(int op, struct menu_item *item)
 				char name[128];
 				if (IsPlayerStreamed(OLCheats->Target_PlayerID))
 				{
-					snprintf(name, sizeof(name), "\aTarget: %s <%d>", getPlayerName(OLCheats->Target_PlayerID), OLCheats->Target_PlayerID);
+					snprintf(name, sizeof(name), "\aИгрок: %s <%d>", getPlayerName(OLCheats->Target_PlayerID), OLCheats->Target_PlayerID);
 					menu_item_name_set(item, name);
 				}
 				else
 				{
-					snprintf(name, sizeof(name), "\aTarget: <%d> [Unstreamed]", OLCheats->Target_PlayerID);
+					snprintf(name, sizeof(name), "\aИгрок: <%d> [Нет игрока]", OLCheats->Target_PlayerID);
 					menu_item_name_set(item, name);
 				}
 			}
@@ -459,14 +459,14 @@ int OverLight_DM_Stuff_Callback(int op, struct menu_item *item)
 		case ID_SLOWINC:
 		{
 			char name[128];
-			snprintf(name, sizeof(name), "\aSlow Aim: %.2f", OLCheats->fSlowValue);
+			snprintf(name, sizeof(name), "\aСила чувствительности: %.2f", OLCheats->fSlowValue);
 			menu_item_name_set(item, name);
 			return OLCheats->bSlowAim;
 		}
 		case ID_SPEED_MULTIPLIER:
 		{
 			char name[128];
-			snprintf(name, sizeof(name), "\aSpeed Multipler: %.2f", OLCheats->fMultiplierFakeSpeed);
+			snprintf(name, sizeof(name), "\aРассинхрон при скорости: %.2f", OLCheats->fMultiplierFakeSpeed);
 			menu_item_name_set(item, name);
 			break;
 		}
@@ -475,7 +475,7 @@ int OverLight_DM_Stuff_Callback(int op, struct menu_item *item)
 		case ID_FAKE_LAG_TIME_SYNC:
 		{
 			char name[128];
-			snprintf(name, sizeof(name), "\aTime Sync: %d ms", OLCheats->dwTimeFakeLagSync);
+			snprintf(name, sizeof(name), "\aВремя синхронизации: %d мс", OLCheats->dwTimeFakeLagSync);
 			menu_item_name_set(item, name);
 			return OLCheats->bFakeLagSync;
 			break;
@@ -483,7 +483,7 @@ int OverLight_DM_Stuff_Callback(int op, struct menu_item *item)
 		case ID_FAKE_LAG_TIME_DESYNC:
 		{
 			char name[128];
-			snprintf(name, sizeof(name), "\aTime Desync (AFK): %d ms", OLCheats->dwTimeFakeLagDesync);
+			snprintf(name, sizeof(name), "\aВремя рассинхрона (АФК): %d мс", OLCheats->dwTimeFakeLagDesync);
 			menu_item_name_set(item, name);
 			return OLCheats->bFakeLagSync;
 			break;
@@ -573,7 +573,7 @@ int OverLight_Silent_Aim_Stuff_Callback(int op, struct menu_item *item)
 		case ID_INACCURATE_AIM:
 		{
 			char name[128];
-			snprintf(name, sizeof(name), "\aRandom Max Imprecision: %.2f", OLCheats->fInaccurateAim);
+			snprintf(name, sizeof(name), "\aСлучайное смещение прицела: %.2f", OLCheats->fInaccurateAim);
 			menu_item_name_set(item, name);
 			break;
 		}
@@ -678,7 +678,7 @@ int OverLight_Bot_Stuff_Callback(int op, struct menu_item *item)
 		{
 			char name[128];
 		case ID_N_CONNECT_BOT:
-			snprintf(name, sizeof(name), "\aConnect %d Bots", g_BotFuncs->N_Client_to_Add_In_Queue);
+			snprintf(name, sizeof(name), "\aПодключить %d бота(ов)", g_BotFuncs->N_Client_to_Add_In_Queue);
 			menu_item_name_set(item, name);
 			break;
 
@@ -728,14 +728,14 @@ int OverLight_Bot_Stuff_Callback(int op, struct menu_item *item)
 		}
 		case ID_BOT_WEAPON:
 		{
-			snprintf(name, sizeof(name), "\aBot Att.Weapon ID: %d", g_BotFuncs->BotSettings.uiAttackWeaponID);
+			snprintf(name, sizeof(name), "\aID Оружия для атаки: %d", g_BotFuncs->BotSettings.uiAttackWeaponID);
 			menu_item_name_set(item, name);
 			break;
 		}
 
 		case ID_BOT_DELAY:
 		{
-			snprintf(name, sizeof(name), "\aBot Delay: %d ms", g_BotFuncs->BotSettings.UpdateSendRate);
+			snprintf(name, sizeof(name), "\aТемп: %d мс", g_BotFuncs->BotSettings.UpdateSendRate);
 			menu_item_name_set(item, name);
 			return true;
 		}
@@ -746,12 +746,12 @@ int OverLight_Bot_Stuff_Callback(int op, struct menu_item *item)
 			{
 				if (IsPlayerStreamed(TargetID))
 				{
-					snprintf(name, sizeof(name), "\aTarget ID: %s <%d>", getPlayerName(TargetID), TargetID);
+					snprintf(name, sizeof(name), "\aИгрок: %s <%d>", getPlayerName(TargetID), TargetID);
 					menu_item_name_set(item, name);
 				}
 				else
 				{
-					snprintf(name, sizeof(name), "\aTarget ID: <%d> [Unstreamed]", TargetID);
+					snprintf(name, sizeof(name), "\aИгрок: <%d> [Нет игрока]", TargetID);
 					menu_item_name_set(item, name);
 				}
 			}
@@ -791,7 +791,7 @@ int OverLight_Bot_Stuff_Callback(int op, struct menu_item *item)
 			break;
 		case ID_BOT_FOLLOW_SEL_ANIM:
 		{
-			snprintf(name, sizeof(name), "\aBot Foll. Anim: %d", g_BotFuncs->BotSettings.sBotFollowAnimID);
+			snprintf(name, sizeof(name), "\aID Анимации: %d", g_BotFuncs->BotSettings.sBotFollowAnimID);
 			menu_item_name_set(item, name);
 			break;
 		}
