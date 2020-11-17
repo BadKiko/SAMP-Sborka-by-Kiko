@@ -1,22 +1,34 @@
-[01:35:15.356] Initializing OverLight Mod build 4
-[01:35:15.356] Compiled: Nov 17 2020 22:19:50 CL:1921
-[01:35:15.356] OS: Windows Version 6.1538.9200
-[01:35:15.356] D3D9UseVersion: 0
-[01:35:15.356] DXVersion: 2304
-[01:35:15.356] windowsVersion: 4
-[01:35:15.356] CPU Supports MMX: 0
-[01:35:15.356] CPU Supports 3DNow: 0
-[01:35:15.356] CPU Supports SSE: 0
-[01:35:15.356] CPU Supports SSE2: 0
-[01:35:15.361] Unknown weapon 'Fist' in weapon_slot[0]
-[01:35:15.364] Warning: setting 'weapon_slot[]' was not present in the mod_sa.ini file
-[01:35:15.364] SA:MP 0.3.7 was detected. g_dwSAMP_Addr: 0x03DA0000
-[01:35:17.828] proxyIDirect3DDevice9 constructor called. Original IDirect3DDevice9 interface address is 0x10373600
-[01:35:18.158] proxyIDirect3DDevice9::Reset()
-[01:35:18.226] proxyID3DDevice9_InitOurShit()
-[01:35:27.927] byteAuthBSLen 43
-[01:35:27.927] auth_bs 1373BDCA32DC1F4401B49D6FD986364DC5F9B8FFB84
-[01:35:27.927] NEW byteAuthBSLen 43
-[01:35:27.927] NEW auth_bs 14D93343CA5CBC177A2DD745F7F619E5661E5FD3F88
-[01:35:53.577] Exited
+[02:00:07.402] Initializing OverLight Mod build 4
+[02:00:07.403] Compiled: Nov 18 2020 01:58:50 CL:1921
+[02:00:07.403] OS: Windows Version 6.1538.9200
+[02:00:07.403] D3D9UseVersion: 0
+[02:00:07.403] DXVersion: 2304
+[02:00:07.403] windowsVersion: 4
+[02:00:07.403] CPU Supports MMX: 0
+[02:00:07.403] CPU Supports 3DNow: 0
+[02:00:07.403] CPU Supports SSE: 0
+[02:00:07.403] CPU Supports SSE2: 0
+[02:00:07.416] Unknown weapon 'Fist' in weapon_slot[0]
+[02:00:07.423] Warning: setting 'weapon_slot[]' was not present in the mod_sa.ini file
+[02:00:07.423] SA:MP 0.3.7 was detected. g_dwSAMP_Addr: 0x03AE0000
+[02:00:10.001] proxyIDirect3DDevice9 constructor called. Original IDirect3DDevice9 interface address is 0x107519A0
+[02:00:10.303] proxyIDirect3DDevice9::Reset()
+[02:00:10.372] proxyID3DDevice9_InitOurShit()
+[02:00:19.931] byteAuthBSLen 43
+[02:00:19.931] auth_bs 1373BDCA32DC1F4401B49D6FD986364DC5F9B8FFB84
+[02:00:19.931] NEW byteAuthBSLen 43
+[02:00:19.931] NEW auth_bs 14DB63267E4639393343CA5CBC177A2DD745F7F6074
+[02:01:23.269] proxyIDirect3DDevice9::Reset()
+[02:01:23.269] proxyID3DDevice9_UnInitOurShit
+[02:01:23.592] proxyID3DDevice9_InitOurShit()
+[02:02:02.635] proxyIDirect3DDevice9::Reset()
+[02:02:02.635] proxyID3DDevice9_UnInitOurShit
+[02:02:03.968] proxyID3DDevice9_InitOurShit()
+[02:05:05.856] proxyIDirect3DDevice9::Reset()
+[02:05:05.856] proxyID3DDevice9_UnInitOurShit
+[02:05:06.323] proxyID3DDevice9_InitOurShit()
+[02:07:08.242] proxyIDirect3DDevice9::Reset()
+[02:07:08.242] proxyID3DDevice9_UnInitOurShit
+[02:07:08.618] proxyID3DDevice9_InitOurShit()
+[02:18:29.579] Exited
 

@@ -815,34 +815,34 @@ const char *gta_vehicle_class_name(int id)
 	switch (id)
 	{
 	case VEHICLE_CLASS_CAR:
-		return "Regular cars";
+		return "Обычные автомобили";
 
 	case VEHICLE_CLASS_CAR_FAST:
-		return "Fast cars";
+		return "Быстрые автомобили";
 
 	case VEHICLE_CLASS_HEAVY:
-		return "Heavy vehicles";
+		return "Большие автомобили";
 
 	case VEHICLE_CLASS_HELI:
-		return "Helicopters";
+		return "Вертолеты";
 
 	case VEHICLE_CLASS_AIRPLANE:
-		return "Airplanes";
+		return "Самолеты";
 
 	case VEHICLE_CLASS_BIKE:
-		return "Bikes";
+		return "Велосипеды";
 
 	case VEHICLE_CLASS_BOAT:
-		return "Boats";
+		return "Лодки";
 
 	case VEHICLE_CLASS_MINI:
-		return "Small vehicles";
+		return "Малые автомобили";
 
 	case VEHICLE_CLASS_TRAILER:
-		return "Trailers";
+		return "Прицепы";
 	}
 
-	return "Unknown class (bug)";
+	return "Неизвестный класс (баг)";
 }
 
 const struct vehicle_entry *gta_vehicle_get_by_id(int id)
