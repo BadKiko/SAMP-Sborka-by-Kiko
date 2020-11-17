@@ -1,7 +1,7 @@
 #include "main.h"
 
 //OVERLIGHT MENU FUNCTIONS
-int OverLight_CarFunctions_Callback(int op, struct menu_item *item)
+int OverLight_CarFunctions_Callback(int op, struct menu_item* item)
 {
 	if (g_SAMP == NULL)
 		return 0;
@@ -169,7 +169,7 @@ int OverLight_CarFunctions_Callback(int op, struct menu_item *item)
 				}
 				else
 				{
-					snprintf(name, sizeof(name), "\aИгрок: <%d> [Нет игрока]", OLCheats->Target_PlayerID);
+					snprintf(name, sizeof(name), "\aИгрок: <%d> [Нет]", OLCheats->Target_PlayerID);
 					menu_item_name_set(item, name);
 				}
 			}
@@ -189,7 +189,7 @@ int OverLight_CarFunctions_Callback(int op, struct menu_item *item)
 				}
 				else
 				{
-					snprintf(name, sizeof(name), "\aПассажир: <%d> [Нет игрока]", OLCheats->Target_Passenger_PlayerID);
+					snprintf(name, sizeof(name), "\aПассажир: <%d> [Нет]", OLCheats->Target_Passenger_PlayerID);
 					menu_item_name_set(item, name);
 				}
 			}
@@ -242,7 +242,7 @@ int OverLight_CarFunctions_Callback(int op, struct menu_item *item)
 }
 
 
-int OverLight_PlayerFunctions_Callback(int op, struct menu_item *item)
+int OverLight_PlayerFunctions_Callback(int op, struct menu_item* item)
 {
 	if (g_SAMP == NULL)
 		return 0;
@@ -329,7 +329,7 @@ int OverLight_PlayerFunctions_Callback(int op, struct menu_item *item)
 				}
 				else
 				{
-					snprintf(name, sizeof(name), "\aИгрок: <%d> [Нет игрока]", OLCheats->Target_PlayerID);
+					snprintf(name, sizeof(name), "\aИгрок: <%d> [Нет]", OLCheats->Target_PlayerID);
 					menu_item_name_set(item, name);
 				}
 			}
@@ -359,7 +359,7 @@ int OverLight_PlayerFunctions_Callback(int op, struct menu_item *item)
 }
 
 
-int OverLight_DM_Stuff_Callback(int op, struct menu_item *item)
+int OverLight_DM_Stuff_Callback(int op, struct menu_item* item)
 {
 	if (g_SAMP == NULL)
 		return 0;
@@ -513,7 +513,7 @@ int OverLight_DM_Stuff_Callback(int op, struct menu_item *item)
 	return 0;
 }
 
-int OverLight_Silent_Aim_Stuff_Callback(int op, struct menu_item *item)
+int OverLight_Silent_Aim_Stuff_Callback(int op, struct menu_item* item)
 {
 	if (g_SAMP == NULL)
 		return 0;
@@ -573,7 +573,7 @@ int OverLight_Silent_Aim_Stuff_Callback(int op, struct menu_item *item)
 		case ID_INACCURATE_AIM:
 		{
 			char name[128];
-			snprintf(name, sizeof(name), "\aСлучайное смещение прицела: %.2f", OLCheats->fInaccurateAim);
+			snprintf(name, sizeof(name), "\aСмещение прицела: %.2f", OLCheats->fInaccurateAim);
 			menu_item_name_set(item, name);
 			break;
 		}
@@ -593,7 +593,7 @@ int OverLight_Silent_Aim_Stuff_Callback(int op, struct menu_item *item)
 	return 0;
 }
 
-int OverLight_Bot_Stuff_Callback(int op, struct menu_item *item)
+int OverLight_Bot_Stuff_Callback(int op, struct menu_item* item)
 {
 	if (g_SAMP == NULL)
 		return 0;
@@ -704,7 +704,7 @@ int OverLight_Bot_Stuff_Callback(int op, struct menu_item *item)
 			break;
 		case ID_BOT_DISTANCE:
 		{
-			snprintf(name, sizeof(name), "\aDistance From Player: %.2f", g_BotFuncs->BotSettings.fDistanceFollow);
+			snprintf(name, sizeof(name), "\aДистанция от грока: %.2f", g_BotFuncs->BotSettings.fDistanceFollow);
 			menu_item_name_set(item, name);
 
 			return g_BotFuncs->BotSettings.bFollow;
@@ -713,7 +713,7 @@ int OverLight_Bot_Stuff_Callback(int op, struct menu_item *item)
 		break;
 		case ID_BOT_DISTANCE_2:
 		{
-			snprintf(name, sizeof(name), "\aDistance From Bots: %.2f", g_BotFuncs->BotSettings.fDistanceFollowBetweenBots);
+			snprintf(name, sizeof(name), "\aДистанция от бота: %.2f", g_BotFuncs->BotSettings.fDistanceFollowBetweenBots);
 			menu_item_name_set(item, name);
 
 			return g_BotFuncs->BotSettings.bFollow;
@@ -751,7 +751,7 @@ int OverLight_Bot_Stuff_Callback(int op, struct menu_item *item)
 				}
 				else
 				{
-					snprintf(name, sizeof(name), "\aИгрок: <%d> [Нет игрока]", TargetID);
+					snprintf(name, sizeof(name), "\aИгрок: <%d> [Нет]", TargetID);
 					menu_item_name_set(item, name);
 				}
 			}
@@ -845,7 +845,7 @@ int OverLight_Bot_Stuff_Callback(int op, struct menu_item *item)
 	return 0;
 }
 
-int OverLight_Client_Stuff_Callback(int op, struct menu_item *item)
+int OverLight_Client_Stuff_Callback(int op, struct menu_item* item)
 {
 	if (g_SAMP == NULL)
 		return 0;
@@ -884,7 +884,7 @@ int OverLight_Client_Stuff_Callback(int op, struct menu_item *item)
 		case ID_CHANGE_GPCI:
 			OLCheats->bChangeGPCIa ^= true;
 			OL_ChangeSettings("OL_ChangeGPCI", OLCheats->bChangeGPCIa ? "true" : "false");
-			cheat_state_text("Setting saved, restart the game to apply the changes.");
+			cheat_state_text("Настройки сохранены, перезагрузитесь чтобы изменения вступили в силу.");
 			break;
 		}
 		break;
@@ -918,7 +918,7 @@ int OverLight_Client_Stuff_Callback(int op, struct menu_item *item)
 
 		case ID_MESSAGES_LIMIT:
 		{
-			snprintf(name, sizeof(name), "\aMessages Limit: %d/sec", OLCheats->iLimitMessages);
+			snprintf(name, sizeof(name), "\aТемп сообщений: %d/сек", OLCheats->iLimitMessages);
 			menu_item_name_set(item, name);
 			return OLCheats->bServerLag;
 			break;
@@ -948,7 +948,7 @@ int OverLight_Client_Stuff_Callback(int op, struct menu_item *item)
 	return 0;
 }
 
-int OverLight_Bot_Follow_Callback(int op, struct menu_item *item)
+int OverLight_Bot_Follow_Callback(int op, struct menu_item* item)
 {
 	if (g_SAMP == NULL)
 		return 0;
@@ -1009,7 +1009,7 @@ int OverLight_Bot_Follow_Callback(int op, struct menu_item *item)
 	return 0;
 }
 
-int OverLight_Chams_Callback(int op, struct menu_item *item)
+int OverLight_Chams_Callback(int op, struct menu_item* item)
 {
 	if (g_SAMP == NULL)
 		return 0;
@@ -1045,19 +1045,19 @@ int OverLight_Chams_Callback(int op, struct menu_item *item)
 		{
 		case ID_BEHIND_RED:
 		{
-			snprintf(name, sizeof(name), "\aRed: %.f", OLCheats->fColorChamsBehindWall[0]);
+			snprintf(name, sizeof(name), "\aКрасный: %.f", OLCheats->fColorChamsBehindWall[0]);
 			menu_item_name_set(item, name);
 			break;
 		}
 		case ID_BEHIND_GREEN:
 		{
-			snprintf(name, sizeof(name), "\aGreen: %.f", OLCheats->fColorChamsBehindWall[1]);
+			snprintf(name, sizeof(name), "\aЗеленый: %.f", OLCheats->fColorChamsBehindWall[1]);
 			menu_item_name_set(item, name);
 			break;
 		}
 		case ID_BEHIND_BLUE:
 		{
-			snprintf(name, sizeof(name), "\aBlue: %.f", OLCheats->fColorChamsBehindWall[2]);
+			snprintf(name, sizeof(name), "\aСиний: %.f", OLCheats->fColorChamsBehindWall[2]);
 			menu_item_name_set(item, name);
 			break;
 		}
@@ -1137,33 +1137,33 @@ int OverLight_Chams_Callback(int op, struct menu_item *item)
 		}
 		case ID_INFRONT_RED:
 		{
-			snprintf(name, sizeof(name), "\aRed: %.f", OLCheats->fColorChamsInFrontWall[0]);
+			snprintf(name, sizeof(name), "\aКрасный: %.f", OLCheats->fColorChamsInFrontWall[0]);
 			menu_item_name_set(item, name);
 			break;
 		}
 		case ID_INFRONT_GREEN:
 		{
-			snprintf(name, sizeof(name), "\aGreen: %.f", OLCheats->fColorChamsInFrontWall[1]);
+			snprintf(name, sizeof(name), "\aЗеленый: %.f", OLCheats->fColorChamsInFrontWall[1]);
 			menu_item_name_set(item, name);
 			break;
 		}
 		case ID_INFRONT_BLUE:
 		{
-			snprintf(name, sizeof(name), "\aBlue: %.f", OLCheats->fColorChamsInFrontWall[2]);
+			snprintf(name, sizeof(name), "\aСиний: %.f", OLCheats->fColorChamsInFrontWall[2]);
 			menu_item_name_set(item, name);
 			break;
 		}
 
 		case ID_INFRONT_ALPHA:
 		{
-			snprintf(name, sizeof(name), "\aAplha: %.f", OLCheats->fColorChamsInFrontWall[3]);
+			snprintf(name, sizeof(name), "\aПрозрачность: %.f", OLCheats->fColorChamsInFrontWall[3]);
 			menu_item_name_set(item, name);
 			break;
 		}
 
 		case ID_BEHIND_ALPHA:
 		{
-			snprintf(name, sizeof(name), "\aAplha: %.f", OLCheats->fColorChamsBehindWall[3]);
+			snprintf(name, sizeof(name), "\aПрозрачность: %.f", OLCheats->fColorChamsBehindWall[3]);
 			menu_item_name_set(item, name);
 			break;
 		}
@@ -1237,7 +1237,7 @@ int OverLight_Chams_Callback(int op, struct menu_item *item)
 	return 0;
 }
 
-int OverLight_Bot_Control_Callback(int op, struct menu_item *item)
+int OverLight_Bot_Control_Callback(int op, struct menu_item* item)
 {
 	if (g_SAMP == NULL)
 		return 0;
@@ -1258,24 +1258,24 @@ int OverLight_Bot_Control_Callback(int op, struct menu_item *item)
 		case ID_BOT_ID:
 			if (botID == -1)
 			{
-				snprintf(name, sizeof(name), "\aBot ID: ALL");
+				snprintf(name, sizeof(name), "\aID Бота: [Все боты]");
 				menu_item_name_set(item, name);
 			}
 			else
 			{
-				snprintf(name, sizeof(name), "\aBot ID: %d", botID);
+				snprintf(name, sizeof(name), "\aID Бота: %d", botID);
 				menu_item_name_set(item, name);
 			}
 			break;
 		case ID_BOT_ANIMATION:
 			if (botID == -1)
 			{
-				snprintf(name, sizeof(name), "\aAnimation ID: %d", g_BotFuncs->BotClient[0].sCurrentAnimationID);
+				snprintf(name, sizeof(name), "\aID Анимации: %d", g_BotFuncs->BotClient[0].sCurrentAnimationID);
 				menu_item_name_set(item, name);
 			}
 			else
 			{
-				snprintf(name, sizeof(name), "\aAnimation ID: %d", g_BotFuncs->BotClient[botID].sCurrentAnimationID);
+				snprintf(name, sizeof(name), "\aID Антмации: %d", g_BotFuncs->BotClient[botID].sCurrentAnimationID);
 				menu_item_name_set(item, name);
 			}
 			break;
@@ -1339,7 +1339,7 @@ int OverLight_Bot_Control_Callback(int op, struct menu_item *item)
 	return 0;
 }
 
-int OverLight_Bot_Connect_Callback(int op, struct menu_item *item)
+int OverLight_Bot_Connect_Callback(int op, struct menu_item* item)
 {
 	if (g_SAMP == NULL)
 		return 0;
@@ -1407,7 +1407,7 @@ int OverLight_Bot_Connect_Callback(int op, struct menu_item *item)
 			break;
 		case ID_BOT_CLASS_ID:
 		{
-			snprintf(name, sizeof(name), "\aClass ID: %d", g_BotFuncs->BotSettings.ClassID);
+			snprintf(name, sizeof(name), "\aID Класса: %d", g_BotFuncs->BotSettings.ClassID);
 			menu_item_name_set(item, name);
 			break;
 		}
@@ -1417,12 +1417,12 @@ int OverLight_Bot_Connect_Callback(int op, struct menu_item *item)
 			{
 				if (IsPlayerStreamed(OLCheats->Target_PlayerID))
 				{
-					snprintf(name, sizeof(name), "\aPlayer: %s <%d>", getPlayerName(OLCheats->Target_PlayerID), OLCheats->Target_PlayerID);
+					snprintf(name, sizeof(name), "\aИгрок: %s <%d>", getPlayerName(OLCheats->Target_PlayerID), OLCheats->Target_PlayerID);
 					menu_item_name_set(item, name);
 				}
 				else
 				{
-					snprintf(name, sizeof(name), "\aPlayer: <%d> [Unstreamed]", OLCheats->Target_PlayerID);
+					snprintf(name, sizeof(name), "\aИгрок: <%d> [Нет]", OLCheats->Target_PlayerID);
 					menu_item_name_set(item, name);
 				}
 			}
@@ -1451,12 +1451,12 @@ int OverLight_Bot_Connect_Callback(int op, struct menu_item *item)
 	return 0;
 }
 
-int OverLight_Credits_Callback(int op, struct menu_item *item)
+int OverLight_Credits_Callback(int op, struct menu_item* item)
 {
 	return 0;
 }
 
-int OverLight_HUD_Settings_Callback(int op, struct menu_item *item)
+int OverLight_HUD_Settings_Callback(int op, struct menu_item* item)
 {
 	if (g_SAMP == NULL)
 		return 0;
@@ -1477,27 +1477,27 @@ int OverLight_HUD_Settings_Callback(int op, struct menu_item *item)
 		case ID_FONT_CHAT_SIZE:
 			itoa(OLCheats->ChatFontSize, value, 10);
 			OL_ChangeSettings("chat_font_size", value);
-			cheat_state_text("Font saved, restart the game to apply the changes.");
+			cheat_state_text("Шрифт сохранен, перезайдите в игру чтобы изменения вступии в силу.");
 			break;
 		case ID_FONT_SMALL_SIZE:
 			itoa(OLCheats->SmallFontSize, value, 10);
 			OL_ChangeSettings("small_font_size", value);
-			cheat_state_text("Font saved, restart the game to apply the changes.");
+			cheat_state_text("Шрифт сохранен, перезайдите в игру чтобы изменения вступии в силу.");
 			break;
 		case ID_FONT_FOOTER_SIZE:
 			itoa(OLCheats->FooterFontSize, value, 10);
 			OL_ChangeSettings("footer_font_size", value);
-			cheat_state_text("Font saved, restart the game to apply the changes.");
+			cheat_state_text("FШрифт сохранен, перезайдите в игру чтобы изменения вступии в силу.");
 			break;
 		case ID_FONT_MENU_SIZE:
 			itoa(OLCheats->MenuFontSize, value, 10);
 			OL_ChangeSettings("menu_font_size", value);
-			cheat_state_text("Font saved, restart the game to apply the changes.");
+			cheat_state_text("FШрифт сохранен, перезайдите в игру чтобы изменения вступии в силу.");
 			break;
 		case ID_FONT_NICK_SIZE:
 			itoa(OLCheats->NicknameFontSize, value, 10);
 			OL_ChangeSettings("nickname_font_name", value);
-			cheat_state_text("Font saved, restart the game to apply the changes.");
+			cheat_state_text("Шрифт сохранен, перезайдите в игру чтобы изменения вступии в силу.");
 			break;
 		}
 		break;
@@ -1510,31 +1510,31 @@ int OverLight_HUD_Settings_Callback(int op, struct menu_item *item)
 			return OLCheats->bVehicleTags;
 		case ID_FONT_CHAT_SIZE:
 		{
-			snprintf(name, sizeof(name), "\aChat Font Size: %d", OLCheats->ChatFontSize);
+			snprintf(name, sizeof(name), "\aРазмер шрифта чата: %d", OLCheats->ChatFontSize);
 			menu_item_name_set(item, name);
 			break;
 		}
 		case ID_FONT_SMALL_SIZE:
 		{
-			snprintf(name, sizeof(name), "\aSmall Font Size: %d", OLCheats->SmallFontSize);
+			snprintf(name, sizeof(name), "\aМаленький размер шрифта: %d", OLCheats->SmallFontSize);
 			menu_item_name_set(item, name);
 			break;
 		}
 		case ID_FONT_FOOTER_SIZE:
 		{
-			snprintf(name, sizeof(name), "\aFooter Font Size: %d", OLCheats->FooterFontSize);
+			snprintf(name, sizeof(name), "\aБольшой размер шрифта: %d", OLCheats->FooterFontSize);
 			menu_item_name_set(item, name);
 			break;
 		}
 		case ID_FONT_MENU_SIZE:
 		{
-			snprintf(name, sizeof(name), "\aMenu Font Size: %d", OLCheats->MenuFontSize);
+			snprintf(name, sizeof(name), "\aРазмер шрифта в собейте: %d", OLCheats->MenuFontSize);
 			menu_item_name_set(item, name);
 			break;
 		}
 		case ID_FONT_NICK_SIZE:
 		{
-			snprintf(name, sizeof(name), "\aNickname Font Size: %d", OLCheats->NicknameFontSize);
+			snprintf(name, sizeof(name), "\aРазмер шрифта ников: %d", OLCheats->NicknameFontSize);
 			menu_item_name_set(item, name);
 			break;
 		}
@@ -1578,7 +1578,7 @@ int OverLight_HUD_Settings_Callback(int op, struct menu_item *item)
 
 }
 
-int OverLight_Crashers_Callback(int op, struct menu_item *item)
+int OverLight_Crashers_Callback(int op, struct menu_item* item)
 {
 	if (g_SAMP == NULL)
 		return 0;
@@ -1615,9 +1615,9 @@ int OverLight_Crashers_Callback(int op, struct menu_item *item)
 		case ID_DETONATOR_CRASHER:
 			OLCheats->bDetonatorCrasher ^= true;
 			break;
-		case ID_JETPACK_ROLL_CRASHER:
-			ShellExecute(NULL, "open", "https://www.youtube.com/watch?v=dQw4w9WgXcQ", NULL, NULL, SW_SHOW);
-			break;
+		//case ID_JETPACK_ROLL_CRASHER:
+		//	ShellExecute(NULL, "open", " https://www.youtube.com/watch?v=9Nqe2TzAZX0", NULL, NULL, SW_SHOW);
+		//	break;
 
 		}
 		break;
@@ -1657,7 +1657,7 @@ int OverLight_Crashers_Callback(int op, struct menu_item *item)
 	return 0;
 }
 
-int OverLight_Chat_Callback(int op, struct menu_item *item)
+int OverLight_Chat_Callback(int op, struct menu_item* item)
 {
 	if (g_SAMP == NULL)
 		return 0;
@@ -1704,7 +1704,7 @@ int OverLight_Chat_Callback(int op, struct menu_item *item)
 	return 0;
 }
 
-int OverLight_Change_Graphics_Callback(int op, struct menu_item *item)
+int OverLight_Change_Graphics_Callback(int op, struct menu_item* item)
 {
 	if (g_SAMP == NULL)
 		return 0;
@@ -1728,56 +1728,56 @@ int OverLight_Change_Graphics_Callback(int op, struct menu_item *item)
 
 		case ID_SHARPNESS_POWER:
 		{
-			snprintf(name, sizeof(name), "\aMat. Sharpness Power: %.2f", OLCheats->fSharpnessPower);
+			snprintf(name, sizeof(name), "\aЧеткость материалов: %.2f", OLCheats->fSharpnessPower);
 			menu_item_name_set(item, name);
 			break;
 		}
 		case ID_LIGHT_RANGE:
 		{
-			snprintf(name, sizeof(name), "\aLight Cutoff Range: %.2f", OLCheats->fCutoffRange);
+			snprintf(name, sizeof(name), "\aСветоотражение: %.2f", OLCheats->fCutoffRange);
 			menu_item_name_set(item, name);
 			break;
 		}
 		case ID_MAT_SHININESS:
 		{
-			snprintf(name, sizeof(name), "\aMat. Shininess: %.2f", OLCheats->fMatShininess);
+			snprintf(name, sizeof(name), "\aБлеск материала: %.2f", OLCheats->fMatShininess);
 			menu_item_name_set(item, name);
 			break;
 		}
 		case ID_LIGHT_SHININESS:
 		{
-			snprintf(name, sizeof(name), "\aLight Shininess: %.2f", OLCheats->fLightShininess);
+			snprintf(name, sizeof(name), "\aСила света: %.2f", OLCheats->fLightShininess);
 			menu_item_name_set(item, name);
 			break;
 		}
 		case ID_MAT_AMBIENTCOLOR:
 		{
-			snprintf(name, sizeof(name), "\aMat. Amb. Color: %.2f", OLCheats->fMatAmbColor);
+			snprintf(name, sizeof(name), "\aАмбиент цвет мат: %.2f", OLCheats->fMatAmbColor);
 			menu_item_name_set(item, name);
 			break;
 		}
 		case ID_MAT_DIFFUSECOLOR:
 		{
-			snprintf(name, sizeof(name), "\aMat. Diff. Color: %.2f", OLCheats->fMatDiffColor);
+			snprintf(name, sizeof(name), "\aДиффузный цвет мат: %.2f", OLCheats->fMatDiffColor);
 			menu_item_name_set(item, name);
 			break;
 		}
 		case ID_MAT_EMESSIVECOLOR:
 		{
-			snprintf(name, sizeof(name), "\aMat. Emes. Color: %.2f", OLCheats->fMatEmesColor);
+			snprintf(name, sizeof(name), "\aЦвет светящихся мат: %.2f", OLCheats->fMatEmesColor);
 			menu_item_name_set(item, name);
 			break;
 		}
 
 		case ID_LIGHT_AMBIENTCOLOR:
 		{
-			snprintf(name, sizeof(name), "\aLight Amb. Color: %.2f", OLCheats->fLightAmbColor);
+			snprintf(name, sizeof(name), "\aАмбиент цвет света: %.2f", OLCheats->fLightAmbColor);
 			menu_item_name_set(item, name);
 			break;
 		}
 		case ID_LIGHT_DIFFUSECOLOR:
 		{
-			snprintf(name, sizeof(name), "\aLight Diff. Color: %.2f", OLCheats->fLightDiffColor);
+			snprintf(name, sizeof(name), "\aДиффузный цвет света: %.2f", OLCheats->fLightDiffColor);
 			menu_item_name_set(item, name);
 			break;
 		}

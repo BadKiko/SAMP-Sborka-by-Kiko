@@ -56,10 +56,10 @@
 #define RUNMODE_SAMP			1
 
 
-#define OL_COLOR1(a) D3DCOLOR_ARGB(255, 133, 10, 185)
+#define OL_COLOR1(a) D3DCOLOR_ARGB(a, 133, 10, 185) // стрелочки 
 #define OL_COLOR1_2(a) D3DCOLOR_ARGB(100, 23, 23, 23) 
-#define OL_COLOR2(a) D3DCOLOR_ARGB(a, 133, 10, 185) 
-#define OL_COLOR3(a) D3DCOLOR_ARGB(a, 133, 10, 185)
+#define OL_COLOR2(a) D3DCOLOR_ARGB(a, 133, 10, 185) // Просто текст и загрузка
+#define OL_COLOR3(a) D3DCOLOR_ARGB(a, 101, 0, 155) // Выключенные функции
 #define OL_COLOR4(a) D3DCOLOR_ARGB(180, 3, 3, 3) 
 #define OL_COLOR5(a) D3DCOLOR_ARGB(a, 133, 10, 185)
 #define OL_COLOR6(a) D3DCOLOR_ARGB(a, 133, 10, 185)

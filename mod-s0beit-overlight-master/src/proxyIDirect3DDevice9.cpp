@@ -3463,7 +3463,6 @@ void renderHandler()
 							(int)(pPresentParam.BackBufferHeight - 1) - (int)pD3DFont_Footer->DrawHeight() - 3,
 							(int)(pPresentParam.BackBufferWidth + 14), 22, bar_color, NULL);
 
-						//HUD_TEXT( x, D3DCOLOR_ARGB(127, 255, 255, 255), NAME );
 					}
 				}
 
@@ -3817,7 +3816,6 @@ void renderHandler()
 				if (time_get() - cheat_state->text_time > MSEC_TO_TIME(2000))
 					alpha -= (time_get() - cheat_state->text_time - MSEC_TO_TIME(2000)) * 255 / MSEC_TO_TIME(1000);
 
-				//color = D3DCOLOR_ARGB( alpha, 255, 255, 255 );
 
 				_snprintf_s(buf, sizeof(buf) - 1, "%s <-", cheat_state->text);
 				pD3DFont_Footer->PrintShadow(pPresentParam.BackBufferWidth - pD3DFont_Footer->DrawLength(buf) - 3.0f, 1,

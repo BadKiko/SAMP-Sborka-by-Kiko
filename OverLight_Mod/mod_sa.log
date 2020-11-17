@@ -1,51 +1,22 @@
-[08:38:06.142] Initializing OverLight Mod build 4
-[08:38:06.174] Compiled: Nov 17 2020 08:36:15 CL:1921
-[08:38:06.174] OS: Windows Version 6.1538.9200
-[08:38:06.174] D3D9UseVersion: 0
-[08:38:06.174] DXVersion: 2304
-[08:38:06.174] windowsVersion: 4
-[08:38:06.174] CPU Supports MMX: 0
-[08:38:06.174] CPU Supports 3DNow: 0
-[08:38:06.174] CPU Supports SSE: 0
-[08:38:06.174] CPU Supports SSE2: 0
-[08:38:06.198] SA:MP 0.3.7 was detected. g_dwSAMP_Addr: 0x03CF0000
-[08:38:08.506] proxyIDirect3DDevice9 constructor called. Original IDirect3DDevice9 interface address is 0x0EAA4FC0
-[08:38:10.641] proxyIDirect3DDevice9::Reset()
-[08:38:10.769] proxyID3DDevice9_InitOurShit()
-[08:38:24.563] byteAuthBSLen 43
-[08:38:24.563] auth_bs 1373BDCA32DC1F4401B49D6FD986364DC5F9B8FFB84
-[08:38:24.563] NEW byteAuthBSLen 43
-[08:38:24.563] NEW auth_bs 12A04123C65FDE15720A0E2AEF562992062ACF02518
-[08:39:25.579] Авторизация ключа для ID Клиента: 0
-[08:39:25.658] ConnectionAccepted for Client ID: 0
-[08:39:26.295] Авторизация ключа для ID Клиента: 1
-[08:39:26.375] ConnectionAccepted for Client ID: 1
-[08:39:27.070] Авторизация ключа для ID Клиента: 2
-[08:39:27.190] ConnectionAccepted for Client ID: 2
-[08:39:27.906] Авторизация ключа для ID Клиента: 3
-[08:39:27.986] ConnectionAccepted for Client ID: 3
-[08:39:28.686] Авторизация ключа для ID Клиента: 4
-[08:39:38.183] Connection attempt failed. Client ID: 4.
-[08:39:38.983] Авторизация ключа для ID Клиента: 0
-[08:39:39.044] ConnectionAccepted for Client ID: 0
-[08:46:10.750] proxyIDirect3DDevice9::Reset()
-[08:46:10.750] proxyID3DDevice9_UnInitOurShit
-[08:46:11.113] proxyID3DDevice9_InitOurShit()
-[08:46:12.498] Server lost connection. Client ID: 0.
-[08:46:13.860] byteAuthBSLen 43
-[08:46:13.860] auth_bs 1373BDCA32DC1F4401B49D6FD986364DC5F9B8FFB84
-[08:46:13.860] NEW byteAuthBSLen 42
-[08:46:13.860] NEW auth_bs CC629995DB94A8427A7FDAEB294B1CFD72EE7A0DA2
-[08:50:00.286] proxyIDirect3DDevice9::Reset()
-[08:50:00.286] proxyID3DDevice9_UnInitOurShit
-[08:50:00.580] proxyID3DDevice9_InitOurShit()
-[08:57:41.972] proxyIDirect3DDevice9::Reset()
-[08:57:41.972] proxyID3DDevice9_UnInitOurShit
-[08:57:42.225] proxyID3DDevice9_InitOurShit()
-[08:57:45.274] byteAuthBSLen 43
-[08:57:45.274] auth_bs 1373BDCA32DC1F4401B49D6FD986364DC5F9B8FFB84
-[08:57:45.274] NEW byteAuthBSLen 42
-[08:57:45.274] NEW auth_bs C0E66F866B56DBF9FC8A6845238CB33C2EE24046E7
-[09:01:04.329] proxyIDirect3DDevice9::Reset()
-[09:01:04.329] proxyID3DDevice9_UnInitOurShit
-[09:01:04.602] proxyID3DDevice9_InitOurShit()
+[01:35:15.356] Initializing OverLight Mod build 4
+[01:35:15.356] Compiled: Nov 17 2020 22:19:50 CL:1921
+[01:35:15.356] OS: Windows Version 6.1538.9200
+[01:35:15.356] D3D9UseVersion: 0
+[01:35:15.356] DXVersion: 2304
+[01:35:15.356] windowsVersion: 4
+[01:35:15.356] CPU Supports MMX: 0
+[01:35:15.356] CPU Supports 3DNow: 0
+[01:35:15.356] CPU Supports SSE: 0
+[01:35:15.356] CPU Supports SSE2: 0
+[01:35:15.361] Unknown weapon 'Fist' in weapon_slot[0]
+[01:35:15.364] Warning: setting 'weapon_slot[]' was not present in the mod_sa.ini file
+[01:35:15.364] SA:MP 0.3.7 was detected. g_dwSAMP_Addr: 0x03DA0000
+[01:35:17.828] proxyIDirect3DDevice9 constructor called. Original IDirect3DDevice9 interface address is 0x10373600
+[01:35:18.158] proxyIDirect3DDevice9::Reset()
+[01:35:18.226] proxyID3DDevice9_InitOurShit()
+[01:35:27.927] byteAuthBSLen 43
+[01:35:27.927] auth_bs 1373BDCA32DC1F4401B49D6FD986364DC5F9B8FFB84
+[01:35:27.927] NEW byteAuthBSLen 43
+[01:35:27.927] NEW auth_bs 14D93343CA5CBC177A2DD745F7F619E5661E5FD3F88
+[01:35:53.577] Exited
+

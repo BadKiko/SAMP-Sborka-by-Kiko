@@ -909,7 +909,7 @@ void OL_InvisibleBike2()
 			(pPresentParam.BackBufferHeight - Height) / 2,
 			Width + pD3DFont_Footer->DrawHeight(),
 			Height,
-			D3DCOLOR_ARGB(128, 0, 60, 70), D3DCOLOR_ARGB(128, 0, 255, 255));
+			D3DCOLOR_ARGB(128, 0, 60, 70)/*не прицел*/, D3DCOLOR_ARGB(128, 0, 255, 255)); // не прицел
 		pD3DFont_Footer->Print(error_message, D3DCOLOR_ARGB(0xFF, 0x00, 0x99, 0x99),
 			((pPresentParam.BackBufferWidth - Width - pD3DFont_Footer->DrawHeight()) / 2),
 			(pPresentParam.BackBufferHeight - Height + pD3DFont_Footer->DrawHeight()) / 2, false, false);
@@ -1852,8 +1852,8 @@ void OL_RenderFinder()
 	if (OLCheats->bRenderFinder)
 	{
 		static int Color = 50;
-		render->D3DBox((g_NewModSa->fViewFinderPosition[0]) - 20.0f, (g_NewModSa->fViewFinderPosition[1]) - 1.0f, 40.0f, 2.0f, D3DCOLOR_ARGB(255, 0, Color, Color));
-		render->D3DBox((g_NewModSa->fViewFinderPosition[0]) - 1.0f, (g_NewModSa->fViewFinderPosition[1]) - 20.0f, 2.0f, 40.0f, D3DCOLOR_ARGB(255, 0, Color, Color));
+		render->D3DBox((g_NewModSa->fViewFinderPosition[0]) - 20.0f, (g_NewModSa->fViewFinderPosition[1]) - 1.0f, 40.0f, 2.0f, D3DCOLOR_ARGB(255, Color, 0, Color));
+		render->D3DBox((g_NewModSa->fViewFinderPosition[0]) - 1.0f, (g_NewModSa->fViewFinderPosition[1]) - 20.0f, 2.0f, 40.0f, D3DCOLOR_ARGB(255, Color, 0, Color));
 		if (Color < 250)
 			Color += 10;
 		else
@@ -3127,20 +3127,20 @@ void new_renderPlayerTags()
 		{
 			case PLAYER_STATE_ONFOOT:
 				sprintf_s(buf, "Пешеход");
-				color = D3DCOLOR_ARGB(255, 0, 255, 0);
+				color = D3DCOLOR_ARGB(255, 188, 0, 235);
 				break;
 			case PLAYER_STATE_DRIVER:
 				sprintf_s(buf, "За рулем");
-				color = D3DCOLOR_ARGB(255, 255, 0, 0);
+				color = D3DCOLOR_ARGB(255, 98, 0, 235);
 				break;
 			case PLAYER_STATE_PASSENGER:
 				sprintf_s(buf, "Пассажир");
-				color = D3DCOLOR_ARGB(255, 0, 0, 255);
+				color = D3DCOLOR_ARGB(255, 235, 0, 137);
 				break;
 			default:
 				*buf = 0;
 				sprintf_s(buf, "Неизвестно");
-				color = D3DCOLOR_ARGB(255, 0xFF, 0x6A, 0);
+				color = D3DCOLOR_ARGB(255, 235, 0, 55);
 				break;
 		}
 		if (buf)

@@ -698,7 +698,7 @@ void addMessageToChatWindow(const char *text, ...)
 		vsnprintf(tmp, sizeof(tmp) - 1, text, ap);
 		va_end(ap);
 
-		cheat_state_text(tmp, D3DCOLOR_ARGB(255, 0, 200, 200));
+		cheat_state_text(tmp, D3DCOLOR_ARGB(255, 133, 10, 185));
 	}
 }
 
@@ -717,7 +717,7 @@ void addMessageToChatWindowSS(const char *text, ...)
 		vsprintf(tmp, text, ap);
 		va_end(ap);
 
-		addMessageToChatWindow(tmp, D3DCOLOR_ARGB(255, 0, 200, 200));
+		addMessageToChatWindow(tmp, D3DCOLOR_ARGB(255, 133, 10, 185));
 	}
 	else
 	{
@@ -732,7 +732,7 @@ void addMessageToChatWindowSS(const char *text, ...)
 		vsprintf(tmp, text, ap);
 		va_end(ap);
 
-		cheat_state_text(tmp, D3DCOLOR_ARGB(255, 0, 200, 200));
+		cheat_state_text(tmp, D3DCOLOR_ARGB(255, 133, 10, 185)); //статус чита пишется справа вверху
 	}
 }
 

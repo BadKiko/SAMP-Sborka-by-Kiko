@@ -7524,3 +7524,2284 @@
 [17-11-2020 || 03:09:44.834] proxyID3DDevice9_InitOurShit()
 [17-11-2020 || 03:09:50.649] Exited
 
+[17-11-2020 || 08:38:06.158] Initializing OverLight Mod build 4
+[17-11-2020 || 08:38:06.174] Compiled: Nov 17 2020 08:36:15 CL:1921
+[17-11-2020 || 08:38:06.174] OS: Windows Version 6.1538.9200
+[17-11-2020 || 08:38:06.174] D3D9UseVersion: 0
+[17-11-2020 || 08:38:06.174] DXVersion: 2304
+[17-11-2020 || 08:38:06.174] windowsVersion: 4
+[17-11-2020 || 08:38:06.174] CPU Supports MMX: 0
+[17-11-2020 || 08:38:06.174] CPU Supports 3DNow: 0
+[17-11-2020 || 08:38:06.174] CPU Supports SSE: 0
+[17-11-2020 || 08:38:06.174] CPU Supports SSE2: 0
+[17-11-2020 || 08:38:06.198] SA:MP 0.3.7 was detected. g_dwSAMP_Addr: 0x03CF0000
+[17-11-2020 || 08:38:08.506] proxyIDirect3DDevice9 constructor called. Original IDirect3DDevice9 interface address is 0x0EAA4FC0
+[17-11-2020 || 08:38:10.641] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 08:38:10.769] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 08:38:24.563] byteAuthBSLen 43
+[17-11-2020 || 08:38:24.563] auth_bs 1373BDCA32DC1F4401B49D6FD986364DC5F9B8FFB84
+[17-11-2020 || 08:38:24.563] NEW byteAuthBSLen 43
+[17-11-2020 || 08:38:24.563] NEW auth_bs 12A04123C65FDE15720A0E2AEF562992062ACF02518
+[17-11-2020 || 08:39:25.579] Авторизация ключа для ID Клиента: 0
+[17-11-2020 || 08:39:25.658] ConnectionAccepted for Client ID: 0
+[17-11-2020 || 08:39:26.295] Авторизация ключа для ID Клиента: 1
+[17-11-2020 || 08:39:26.375] ConnectionAccepted for Client ID: 1
+[17-11-2020 || 08:39:27.070] Авторизация ключа для ID Клиента: 2
+[17-11-2020 || 08:39:27.190] ConnectionAccepted for Client ID: 2
+[17-11-2020 || 08:39:27.906] Авторизация ключа для ID Клиента: 3
+[17-11-2020 || 08:39:27.986] ConnectionAccepted for Client ID: 3
+[17-11-2020 || 08:39:28.686] Авторизация ключа для ID Клиента: 4
+[17-11-2020 || 08:39:38.183] Connection attempt failed. Client ID: 4.
+[17-11-2020 || 08:39:38.983] Авторизация ключа для ID Клиента: 0
+[17-11-2020 || 08:39:39.044] ConnectionAccepted for Client ID: 0
+[17-11-2020 || 08:46:10.750] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 08:46:10.750] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 08:46:11.113] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 08:46:12.498] Server lost connection. Client ID: 0.
+[17-11-2020 || 08:46:13.860] byteAuthBSLen 43
+[17-11-2020 || 08:46:13.860] auth_bs 1373BDCA32DC1F4401B49D6FD986364DC5F9B8FFB84
+[17-11-2020 || 08:46:13.860] NEW byteAuthBSLen 42
+[17-11-2020 || 08:46:13.860] NEW auth_bs CC629995DB94A8427A7FDAEB294B1CFD72EE7A0DA2
+[17-11-2020 || 08:50:00.286] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 08:50:00.286] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 08:50:00.580] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 08:57:41.972] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 08:57:41.972] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 08:57:42.225] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 08:57:45.274] byteAuthBSLen 43
+[17-11-2020 || 08:57:45.274] auth_bs 1373BDCA32DC1F4401B49D6FD986364DC5F9B8FFB84
+[17-11-2020 || 08:57:45.274] NEW byteAuthBSLen 42
+[17-11-2020 || 08:57:45.274] NEW auth_bs C0E66F866B56DBF9FC8A6845238CB33C2EE24046E7
+[17-11-2020 || 09:01:04.329] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 09:01:04.329] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 09:01:04.602] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 17:50:29.153] Initializing OverLight Mod build 4
+[17-11-2020 || 17:50:29.153] Compiled: Nov 17 2020 17:36:15 CL:1921
+[17-11-2020 || 17:50:29.153] OS: Windows Version 6.1538.9200
+[17-11-2020 || 17:50:29.153] D3D9UseVersion: 0
+[17-11-2020 || 17:50:29.153] DXVersion: 2304
+[17-11-2020 || 17:50:29.153] windowsVersion: 4
+[17-11-2020 || 17:50:29.153] CPU Supports MMX: 0
+[17-11-2020 || 17:50:29.153] CPU Supports 3DNow: 0
+[17-11-2020 || 17:50:29.153] CPU Supports SSE: 0
+[17-11-2020 || 17:50:29.153] CPU Supports SSE2: 0
+[17-11-2020 || 17:50:29.194] SA:MP 0.3.7 was detected. g_dwSAMP_Addr: 0x03CF0000
+[17-11-2020 || 17:50:31.730] proxyIDirect3DDevice9 constructor called. Original IDirect3DDevice9 interface address is 0x0FB54780
+[17-11-2020 || 17:50:33.902] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 17:50:33.938] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 17:50:50.024] byteAuthBSLen 43
+[17-11-2020 || 17:50:50.024] auth_bs 1373BDCA32DC1F4401B49D6FD986364DC5F9B8FFB84
+[17-11-2020 || 17:50:50.024] NEW byteAuthBSLen 43
+[17-11-2020 || 17:50:50.024] NEW auth_bs 149B9BD532E824204123C65FDE15720A0E2AEF561CD
+[17-11-2020 || 18:00:39.274] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 18:00:39.274] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 18:00:39.581] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 18:00:46.772] Exited
+
+[17-11-2020 || 18:02:07.250] Initializing OverLight Mod build 4
+[17-11-2020 || 18:02:07.251] Compiled: Nov 17 2020 18:00:50 CL:1921
+[17-11-2020 || 18:02:07.251] OS: Windows Version 6.1538.9200
+[17-11-2020 || 18:02:07.251] D3D9UseVersion: 0
+[17-11-2020 || 18:02:07.251] DXVersion: 2304
+[17-11-2020 || 18:02:07.251] windowsVersion: 4
+[17-11-2020 || 18:02:07.251] CPU Supports MMX: 0
+[17-11-2020 || 18:02:07.251] CPU Supports 3DNow: 0
+[17-11-2020 || 18:02:07.251] CPU Supports SSE: 0
+[17-11-2020 || 18:02:07.251] CPU Supports SSE2: 0
+[17-11-2020 || 18:02:07.254] SA:MP 0.3.7 was detected. g_dwSAMP_Addr: 0x03C40000
+[17-11-2020 || 18:02:09.590] proxyIDirect3DDevice9 constructor called. Original IDirect3DDevice9 interface address is 0x0FCA67C0
+[17-11-2020 || 18:02:09.908] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 18:02:09.941] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 18:02:19.477] byteAuthBSLen 43
+[17-11-2020 || 18:02:19.477] auth_bs 1373BDCA32DC1F4401B49D6FD986364DC5F9B8FFB84
+[17-11-2020 || 18:02:19.477] NEW byteAuthBSLen 43
+[17-11-2020 || 18:02:19.477] NEW auth_bs 136343CA5CBC177A2DD745F7F619E5661E5FD40BCE7
+[17-11-2020 || 18:04:52.798] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 18:04:52.798] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 18:04:53.066] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 18:05:35.281] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 18:05:35.282] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 18:05:35.555] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 18:06:38.218] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 18:06:38.218] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 18:06:38.480] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 18:07:54.028] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 18:07:54.028] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 18:07:54.304] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 18:08:05.998] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 18:08:05.998] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 18:08:06.262] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 18:09:42.523] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 18:09:42.523] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 18:09:42.887] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 18:11:36.687]  ---------------------------------------------------------------------
+[17-11-2020 || 18:11:36.687]  OverLight Mod build 4 has crashed.
+[17-11-2020 || 18:11:36.687]  Base address: 0x0FD20000, SA:MP base address: 0x03C40000
+[17-11-2020 || 18:11:36.687]  Exception at address: 0x0FD8E396, Last function processed: it_wasnt_us()
+[17-11-2020 || 18:11:36.687] Bot Thread: 
+[17-11-2020 || 18:11:36.688]  Cause: EXCEPTION_ACCESS_VIOLATION
+[17-11-2020 || 18:11:36.688]  Attempted to read from: 0x0000000c
+[17-11-2020 || 18:11:36.688]  EAX: 0x00000002 || ESI: 0x00000000
+[17-11-2020 || 18:11:36.688]  EBX: 0x00000000 || EDI: 0x0003c1ec
+[17-11-2020 || 18:11:36.688]  ECX: 0x00005000 || EBP: 0x20d7ff70
+[17-11-2020 || 18:11:36.688]  EDX: 0x00000000 || ESP: 0x20d7fc4c
+[17-11-2020 || 18:11:36.688]  ---------------------------------------------------------------------
+[17-11-2020 || 18:13:24.206] Initializing OverLight Mod build 4
+[17-11-2020 || 18:13:24.206] Compiled: Nov 17 2020 18:00:50 CL:1921
+[17-11-2020 || 18:13:24.206] OS: Windows Version 6.1538.9200
+[17-11-2020 || 18:13:24.206] D3D9UseVersion: 0
+[17-11-2020 || 18:13:24.206] DXVersion: 2304
+[17-11-2020 || 18:13:24.206] windowsVersion: 4
+[17-11-2020 || 18:13:24.206] CPU Supports MMX: 0
+[17-11-2020 || 18:13:24.206] CPU Supports 3DNow: 0
+[17-11-2020 || 18:13:24.206] CPU Supports SSE: 0
+[17-11-2020 || 18:13:24.206] CPU Supports SSE2: 0
+[17-11-2020 || 18:13:24.210] SA:MP 0.3.7 was detected. g_dwSAMP_Addr: 0x03BA0000
+[17-11-2020 || 18:13:26.557] proxyIDirect3DDevice9 constructor called. Original IDirect3DDevice9 interface address is 0x0FEBD7A0
+[17-11-2020 || 18:13:26.885] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 18:13:26.920] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 18:13:36.520] byteAuthBSLen 43
+[17-11-2020 || 18:13:36.520] auth_bs 1373BDCA32DC1F4401B49D6FD986364DC5F9B8FFB84
+[17-11-2020 || 18:13:36.520] NEW byteAuthBSLen 43
+[17-11-2020 || 18:13:36.520] NEW auth_bs 14D3CA5CBC177A2DD745F7F619E5661E5FD40BE46EA
+[17-11-2020 || 18:15:49.876] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 18:15:49.876] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 18:15:50.166] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 18:16:39.009] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 18:16:39.009] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 18:16:39.267] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 18:20:39.272] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 18:20:39.272] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 18:20:39.907] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 18:20:44.376] Exited
+
+[17-11-2020 || 18:21:46.487] Initializing OverLight Mod build 4
+[17-11-2020 || 18:21:46.487] Compiled: Nov 17 2020 18:20:57 CL:1921
+[17-11-2020 || 18:21:46.487] OS: Windows Version 6.1538.9200
+[17-11-2020 || 18:21:46.487] D3D9UseVersion: 0
+[17-11-2020 || 18:21:46.487] DXVersion: 2304
+[17-11-2020 || 18:21:46.487] windowsVersion: 4
+[17-11-2020 || 18:21:46.487] CPU Supports MMX: 0
+[17-11-2020 || 18:21:46.487] CPU Supports 3DNow: 0
+[17-11-2020 || 18:21:46.487] CPU Supports SSE: 0
+[17-11-2020 || 18:21:46.487] CPU Supports SSE2: 0
+[17-11-2020 || 18:21:46.491] SA:MP 0.3.7 was detected. g_dwSAMP_Addr: 0x03CB0000
+[17-11-2020 || 18:21:48.840] proxyIDirect3DDevice9 constructor called. Original IDirect3DDevice9 interface address is 0x10B5E220
+[17-11-2020 || 18:21:49.319] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 18:21:49.357] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 18:21:58.942] byteAuthBSLen 43
+[17-11-2020 || 18:21:58.942] auth_bs 1373BDCA32DC1F4401B49D6FD986364DC5F9B8FFB84
+[17-11-2020 || 18:21:58.942] NEW byteAuthBSLen 43
+[17-11-2020 || 18:21:58.942] NEW auth_bs 12A65FDE15720A0E2AEF562992062ACF0267510195D
+[17-11-2020 || 18:22:16.069] Exited
+
+[17-11-2020 || 18:24:17.471] Initializing OverLight Mod build 4
+[17-11-2020 || 18:24:17.471] Compiled: Nov 17 2020 18:23:17 CL:1921
+[17-11-2020 || 18:24:17.471] OS: Windows Version 6.1538.9200
+[17-11-2020 || 18:24:17.471] D3D9UseVersion: 0
+[17-11-2020 || 18:24:17.471] DXVersion: 2304
+[17-11-2020 || 18:24:17.471] windowsVersion: 4
+[17-11-2020 || 18:24:17.471] CPU Supports MMX: 0
+[17-11-2020 || 18:24:17.471] CPU Supports 3DNow: 0
+[17-11-2020 || 18:24:17.471] CPU Supports SSE: 0
+[17-11-2020 || 18:24:17.471] CPU Supports SSE2: 0
+[17-11-2020 || 18:24:17.476] SA:MP 0.3.7 was detected. g_dwSAMP_Addr: 0x03E80000
+[17-11-2020 || 18:24:19.816] proxyIDirect3DDevice9 constructor called. Original IDirect3DDevice9 interface address is 0x103780A0
+[17-11-2020 || 18:24:20.137] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 18:24:20.170] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 18:24:29.907] byteAuthBSLen 43
+[17-11-2020 || 18:24:29.907] auth_bs 1373BDCA32DC1F4401B49D6FD986364DC5F9B8FFB84
+[17-11-2020 || 18:24:29.907] NEW byteAuthBSLen 42
+[17-11-2020 || 18:24:29.907] NEW auth_bs FEF562992062ACF02675101AB642522312BAAEE4B0
+[17-11-2020 || 18:25:18.990] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 18:25:18.990] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 18:25:19.270] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 18:25:30.789] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 18:25:30.789] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 18:25:31.220] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 18:25:46.880] wtf, actor_info_get() returned NULL.
+[17-11-2020 || 18:27:04.930] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 18:27:04.930] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 18:27:05.202] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 18:29:48.219] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 18:29:48.219] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 18:29:48.508] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 18:33:03.317] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 18:33:03.317] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 18:33:03.597] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 18:33:26.089] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 18:33:26.090] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 18:33:26.371] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 18:33:35.777] Exited
+
+[17-11-2020 || 18:37:59.385] Initializing OverLight Mod build 4
+[17-11-2020 || 18:37:59.385] Compiled: Nov 17 2020 18:37:17 CL:1921
+[17-11-2020 || 18:37:59.385] OS: Windows Version 6.1538.9200
+[17-11-2020 || 18:37:59.385] D3D9UseVersion: 0
+[17-11-2020 || 18:37:59.385] DXVersion: 2304
+[17-11-2020 || 18:37:59.385] windowsVersion: 4
+[17-11-2020 || 18:37:59.385] CPU Supports MMX: 0
+[17-11-2020 || 18:37:59.385] CPU Supports 3DNow: 0
+[17-11-2020 || 18:37:59.386] CPU Supports SSE: 0
+[17-11-2020 || 18:37:59.386] CPU Supports SSE2: 0
+[17-11-2020 || 18:37:59.389] SA:MP 0.3.7 was detected. g_dwSAMP_Addr: 0x03C80000
+[17-11-2020 || 18:38:01.800] proxyIDirect3DDevice9 constructor called. Original IDirect3DDevice9 interface address is 0x0FD7D960
+[17-11-2020 || 18:38:02.139] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 18:38:02.173] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 18:38:13.618] byteAuthBSLen 43
+[17-11-2020 || 18:38:13.618] auth_bs 1373BDCA32DC1F4401B49D6FD986364DC5F9B8FFB84
+[17-11-2020 || 18:38:13.618] NEW byteAuthBSLen 43
+[17-11-2020 || 18:38:13.618] NEW auth_bs 139FDE15720A0E2AEF562992062ACF02675101AB518
+[17-11-2020 || 18:39:30.412] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 18:39:30.412] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 18:39:30.704] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 18:39:37.673] Exited
+
+[17-11-2020 || 18:41:07.650] Initializing OverLight Mod build 4
+[17-11-2020 || 18:41:07.650] Compiled: Nov 17 2020 18:39:44 CL:1921
+[17-11-2020 || 18:41:07.650] OS: Windows Version 6.1538.9200
+[17-11-2020 || 18:41:07.650] D3D9UseVersion: 0
+[17-11-2020 || 18:41:07.650] DXVersion: 2304
+[17-11-2020 || 18:41:07.650] windowsVersion: 4
+[17-11-2020 || 18:41:07.650] CPU Supports MMX: 0
+[17-11-2020 || 18:41:07.650] CPU Supports 3DNow: 0
+[17-11-2020 || 18:41:07.650] CPU Supports SSE: 0
+[17-11-2020 || 18:41:07.650] CPU Supports SSE2: 0
+[17-11-2020 || 18:41:07.655] SA:MP 0.3.7 was detected. g_dwSAMP_Addr: 0x03E40000
+[17-11-2020 || 18:41:10.009] proxyIDirect3DDevice9 constructor called. Original IDirect3DDevice9 interface address is 0x0FD1BC20
+[17-11-2020 || 18:41:10.322] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 18:41:10.358] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 18:41:19.927] byteAuthBSLen 43
+[17-11-2020 || 18:41:19.927] auth_bs 1373BDCA32DC1F4401B49D6FD986364DC5F9B8FFB84
+[17-11-2020 || 18:41:19.927] NEW byteAuthBSLen 43
+[17-11-2020 || 18:41:19.927] NEW auth_bs 14D3CA5CBC177A2DD745F7F619E5661E5FD40BE46EA
+[17-11-2020 || 18:43:30.923] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 18:43:30.923] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 18:43:31.331] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 18:43:35.956] Exited
+
+[17-11-2020 || 18:44:50.945] Initializing OverLight Mod build 4
+[17-11-2020 || 18:44:50.945] Compiled: Nov 17 2020 18:43:40 CL:1921
+[17-11-2020 || 18:44:50.945] OS: Windows Version 6.1538.9200
+[17-11-2020 || 18:44:50.945] D3D9UseVersion: 0
+[17-11-2020 || 18:44:50.945] DXVersion: 2304
+[17-11-2020 || 18:44:50.945] windowsVersion: 4
+[17-11-2020 || 18:44:50.945] CPU Supports MMX: 0
+[17-11-2020 || 18:44:50.945] CPU Supports 3DNow: 0
+[17-11-2020 || 18:44:50.945] CPU Supports SSE: 0
+[17-11-2020 || 18:44:50.945] CPU Supports SSE2: 0
+[17-11-2020 || 18:44:50.950] SA:MP 0.3.7 was detected. g_dwSAMP_Addr: 0x03B00000
+[17-11-2020 || 18:44:53.300] proxyIDirect3DDevice9 constructor called. Original IDirect3DDevice9 interface address is 0x0FA2D160
+[17-11-2020 || 18:44:53.598] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 18:44:53.631] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 18:45:03.610] byteAuthBSLen 43
+[17-11-2020 || 18:45:03.611] auth_bs 1373BDCA32DC1F4401B49D6FD986364DC5F9B8FFB84
+[17-11-2020 || 18:45:03.611] NEW byteAuthBSLen 43
+[17-11-2020 || 18:45:03.611] NEW auth_bs 14DB63267E4639393343CA5CBC177A2DD745F7F6074
+[17-11-2020 || 18:46:53.818] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 18:46:53.818] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 18:46:54.643] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 18:47:23.656] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 18:47:23.656] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 18:47:24.069] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 18:47:35.497] Exited
+
+[17-11-2020 || 18:49:04.137] Initializing OverLight Mod build 4
+[17-11-2020 || 18:49:04.137] Compiled: Nov 17 2020 18:47:48 CL:1921
+[17-11-2020 || 18:49:04.137] OS: Windows Version 6.1538.9200
+[17-11-2020 || 18:49:04.137] D3D9UseVersion: 0
+[17-11-2020 || 18:49:04.137] DXVersion: 2304
+[17-11-2020 || 18:49:04.137] windowsVersion: 4
+[17-11-2020 || 18:49:04.137] CPU Supports MMX: 0
+[17-11-2020 || 18:49:04.137] CPU Supports 3DNow: 0
+[17-11-2020 || 18:49:04.137] CPU Supports SSE: 0
+[17-11-2020 || 18:49:04.137] CPU Supports SSE2: 0
+[17-11-2020 || 18:49:04.187] SA:MP 0.3.7 was detected. g_dwSAMP_Addr: 0x038B0000
+[17-11-2020 || 18:49:06.552] proxyIDirect3DDevice9 constructor called. Original IDirect3DDevice9 interface address is 0x0FEC32C0
+[17-11-2020 || 18:49:06.843] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 18:49:06.876] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 18:49:17.268] byteAuthBSLen 43
+[17-11-2020 || 18:49:17.268] auth_bs 1373BDCA32DC1F4401B49D6FD986364DC5F9B8FFB84
+[17-11-2020 || 18:49:17.268] NEW byteAuthBSLen 43
+[17-11-2020 || 18:49:17.268] NEW auth_bs 1558C56902FC0AF2FA4A3736706B63267E4639391E7
+[17-11-2020 || 18:55:17.180] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 18:55:17.180] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 18:55:18.238] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 18:55:23.366] Exited
+
+[17-11-2020 || 18:56:16.360] Initializing OverLight Mod build 4
+[17-11-2020 || 18:56:16.360] Compiled: Nov 17 2020 18:55:32 CL:1921
+[17-11-2020 || 18:56:16.360] OS: Windows Version 6.1538.9200
+[17-11-2020 || 18:56:16.360] D3D9UseVersion: 0
+[17-11-2020 || 18:56:16.361] DXVersion: 2304
+[17-11-2020 || 18:56:16.361] windowsVersion: 4
+[17-11-2020 || 18:56:16.361] CPU Supports MMX: 0
+[17-11-2020 || 18:56:16.361] CPU Supports 3DNow: 0
+[17-11-2020 || 18:56:16.361] CPU Supports SSE: 0
+[17-11-2020 || 18:56:16.361] CPU Supports SSE2: 0
+[17-11-2020 || 18:56:16.365] SA:MP 0.3.7 was detected. g_dwSAMP_Addr: 0x03D60000
+[17-11-2020 || 18:56:18.706] proxyIDirect3DDevice9 constructor called. Original IDirect3DDevice9 interface address is 0x0FBF4260
+[17-11-2020 || 18:56:18.974] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 18:56:19.009] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 18:56:28.472] byteAuthBSLen 43
+[17-11-2020 || 18:56:28.472] auth_bs 1373BDCA32DC1F4401B49D6FD986364DC5F9B8FFB84
+[17-11-2020 || 18:56:28.472] NEW byteAuthBSLen 43
+[17-11-2020 || 18:56:28.472] NEW auth_bs 136343CA5CBC177A2DD745F7F619E5661E5FD40BCE7
+[17-11-2020 || 18:57:51.942] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 18:57:51.942] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 18:57:52.225] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 19:08:01.001] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 19:08:01.001] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 19:08:01.602] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 19:08:06.446] Exited
+
+[17-11-2020 || 19:09:05.215] Initializing OverLight Mod build 4
+[17-11-2020 || 19:09:05.215] Compiled: Nov 17 2020 19:08:11 CL:1921
+[17-11-2020 || 19:09:05.215] OS: Windows Version 6.1538.9200
+[17-11-2020 || 19:09:05.215] D3D9UseVersion: 0
+[17-11-2020 || 19:09:05.215] DXVersion: 2304
+[17-11-2020 || 19:09:05.215] windowsVersion: 4
+[17-11-2020 || 19:09:05.215] CPU Supports MMX: 0
+[17-11-2020 || 19:09:05.215] CPU Supports 3DNow: 0
+[17-11-2020 || 19:09:05.215] CPU Supports SSE: 0
+[17-11-2020 || 19:09:05.215] CPU Supports SSE2: 0
+[17-11-2020 || 19:09:05.222] SA:MP 0.3.7 was detected. g_dwSAMP_Addr: 0x03F30000
+[17-11-2020 || 19:09:07.592] proxyIDirect3DDevice9 constructor called. Original IDirect3DDevice9 interface address is 0x104CAC60
+[17-11-2020 || 19:09:07.855] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 19:09:07.889] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 19:09:17.408] byteAuthBSLen 43
+[17-11-2020 || 19:09:17.408] auth_bs 1373BDCA32DC1F4401B49D6FD986364DC5F9B8FFB84
+[17-11-2020 || 19:09:17.408] NEW byteAuthBSLen 43
+[17-11-2020 || 19:09:17.408] NEW auth_bs 1593267E4639393343CA5CBC177A2DD745F7F619D2C
+[17-11-2020 || 19:13:43.719] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 19:13:43.719] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 19:13:44.305] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 19:15:31.752] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 19:15:31.752] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 19:15:32.704] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 19:17:25.501] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 19:17:25.501] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 19:17:26.307] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 19:17:43.934] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 19:17:43.934] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 19:17:44.279] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 19:18:01.297] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 19:18:01.297] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 19:18:02.257] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 19:28:56.143] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 19:28:56.143] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 19:28:56.204] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 19:28:56.876] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 19:28:56.876] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 19:28:56.883] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 19:29:04.262] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 19:29:04.262] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 19:29:04.336] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 19:29:04.952] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 19:29:04.952] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 19:29:05.003] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 19:30:44.722] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 19:30:44.722] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 19:30:45.069] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 19:30:48.066] static_teleport_name[] = ""
+[17-11-2020 || 19:30:48.066] static_teleport_pos[] = 1316.02 -1686.98 13.04   0
+[17-11-2020 || 19:31:42.984] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 19:31:42.984] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 19:31:43.327] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 19:32:11.310] static_teleport_name[] = ""
+[17-11-2020 || 19:32:11.310] static_teleport_pos[] = 1295.96 -1810.02 13.04   0
+[17-11-2020 || 19:32:44.108] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 19:32:44.108] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 19:32:44.472] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 19:33:52.304] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 19:33:52.304] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 19:33:52.685] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 19:35:26.215] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 19:35:26.215] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 19:35:26.596] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 19:35:55.218] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 19:35:55.218] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 19:35:55.563] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 19:39:06.073]  ---------------------------------------------------------------------
+[17-11-2020 || 19:39:06.073]  OverLight Mod build 4 has crashed.
+[17-11-2020 || 19:39:06.073]  Base address: 0x0F130000, SA:MP base address: 0x03F30000
+[17-11-2020 || 19:39:06.073]  Exception at address: 0x0F19E396, Last function processed: it_wasnt_us()
+[17-11-2020 || 19:39:06.073] Bot Thread: 
+[17-11-2020 || 19:39:06.073]  Cause: EXCEPTION_ACCESS_VIOLATION
+[17-11-2020 || 19:39:06.073]  Attempted to read from: 0x0000000c
+[17-11-2020 || 19:39:06.073]  EAX: 0x00000002 || ESI: 0x00000000
+[17-11-2020 || 19:39:06.073]  EBX: 0x00000000 || EDI: 0x0003c1ec
+[17-11-2020 || 19:39:06.073]  ECX: 0x00005000 || EBP: 0x20d7ff70
+[17-11-2020 || 19:39:06.073]  EDX: 0x00000000 || ESP: 0x20d7fc4c
+[17-11-2020 || 19:39:06.073]  ---------------------------------------------------------------------
+[17-11-2020 || 19:50:25.173] Initializing OverLight Mod build 4
+[17-11-2020 || 19:50:25.173] Compiled: Nov 17 2020 19:49:37 CL:1921
+[17-11-2020 || 19:50:25.173] OS: Windows Version 6.1538.9200
+[17-11-2020 || 19:50:25.173] D3D9UseVersion: 0
+[17-11-2020 || 19:50:25.173] DXVersion: 2304
+[17-11-2020 || 19:50:25.173] windowsVersion: 4
+[17-11-2020 || 19:50:25.173] CPU Supports MMX: 0
+[17-11-2020 || 19:50:25.173] CPU Supports 3DNow: 0
+[17-11-2020 || 19:50:25.173] CPU Supports SSE: 0
+[17-11-2020 || 19:50:25.173] CPU Supports SSE2: 0
+[17-11-2020 || 19:50:25.176] Unknown weapon 'Fist' in weapon_slot[0]
+[17-11-2020 || 19:50:25.177] Warning: setting 'weapon_slot[]' was not present in the mod_sa.ini file
+[17-11-2020 || 19:50:25.177] SA:MP 0.3.7 was detected. g_dwSAMP_Addr: 0x03B90000
+[17-11-2020 || 19:50:27.530] proxyIDirect3DDevice9 constructor called. Original IDirect3DDevice9 interface address is 0x0FE2B8A0
+[17-11-2020 || 19:50:27.806] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 19:50:27.844] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 19:50:37.565] byteAuthBSLen 43
+[17-11-2020 || 19:50:37.565] auth_bs 1373BDCA32DC1F4401B49D6FD986364DC5F9B8FFB84
+[17-11-2020 || 19:50:37.565] NEW byteAuthBSLen 43
+[17-11-2020 || 19:50:37.565] NEW auth_bs 103639393343CA5CBC177A2DD745F7F619E5661E529
+[17-11-2020 || 19:51:47.024] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 19:51:47.024] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 19:51:47.344] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 19:53:26.119] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 19:53:26.119] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 19:53:26.424] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 19:53:36.347] Calling jetpack_give()...
+[17-11-2020 || 19:53:36.347] Returned.
+[17-11-2020 || 19:54:53.757] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 19:54:53.757] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 19:54:54.085] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 19:55:12.669] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 19:55:12.669] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 19:55:12.950] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 19:55:38.491] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 19:55:38.491] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 19:55:38.782] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 19:56:01.311] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 19:56:01.311] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 19:56:01.596] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 20:04:43.880]  ---------------------------------------------------------------------
+[17-11-2020 || 20:04:43.880]  OverLight Mod build 4 has crashed.
+[17-11-2020 || 20:04:43.880]  Base address: 0x10830000, SA:MP base address: 0x03B90000
+[17-11-2020 || 20:04:43.880]  Exception at address: 0x1089E396, Last function processed: it_wasnt_us()
+[17-11-2020 || 20:04:43.880] Bot Thread: 
+[17-11-2020 || 20:04:43.880]  Cause: EXCEPTION_ACCESS_VIOLATION
+[17-11-2020 || 20:04:43.880]  Attempted to read from: 0x0000000c
+[17-11-2020 || 20:04:43.880]  EAX: 0x00000002 || ESI: 0x00000000
+[17-11-2020 || 20:04:43.880]  EBX: 0x00000000 || EDI: 0x0003c1ec
+[17-11-2020 || 20:04:43.880]  ECX: 0x00005000 || EBP: 0x20d4ff70
+[17-11-2020 || 20:04:43.880]  EDX: 0x00000000 || ESP: 0x20d4fc4c
+[17-11-2020 || 20:04:43.880]  ---------------------------------------------------------------------
+[17-11-2020 || 20:07:05.328] Initializing OverLight Mod build 4
+[17-11-2020 || 20:07:05.328] Compiled: Nov 17 2020 19:49:37 CL:1921
+[17-11-2020 || 20:07:05.328] OS: Windows Version 6.1538.9200
+[17-11-2020 || 20:07:05.328] D3D9UseVersion: 0
+[17-11-2020 || 20:07:05.328] DXVersion: 2304
+[17-11-2020 || 20:07:05.329] windowsVersion: 4
+[17-11-2020 || 20:07:05.329] CPU Supports MMX: 0
+[17-11-2020 || 20:07:05.329] CPU Supports 3DNow: 0
+[17-11-2020 || 20:07:05.329] CPU Supports SSE: 0
+[17-11-2020 || 20:07:05.329] CPU Supports SSE2: 0
+[17-11-2020 || 20:07:05.331] Unknown weapon 'Fist' in weapon_slot[0]
+[17-11-2020 || 20:07:05.333] Warning: setting 'weapon_slot[]' was not present in the mod_sa.ini file
+[17-11-2020 || 20:07:05.333] SA:MP 0.3.7 was detected. g_dwSAMP_Addr: 0x03DA0000
+[17-11-2020 || 20:07:07.692] proxyIDirect3DDevice9 constructor called. Original IDirect3DDevice9 interface address is 0x0FAF3060
+[17-11-2020 || 20:07:07.961] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 20:07:08.002] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 20:07:17.713] byteAuthBSLen 43
+[17-11-2020 || 20:07:17.713] auth_bs 1373BDCA32DC1F4401B49D6FD986364DC5F9B8FFB84
+[17-11-2020 || 20:07:17.713] NEW byteAuthBSLen 43
+[17-11-2020 || 20:07:17.713] NEW auth_bs 14D3CA5CBC177A2DD745F7F619E5661E5FD40BE46EA
+[17-11-2020 || 20:10:09.929] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 20:10:09.929] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 20:10:10.251] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 20:10:14.085] Exited
+
+[17-11-2020 || 20:10:58.640] Initializing OverLight Mod build 4
+[17-11-2020 || 20:10:58.640] Compiled: Nov 17 2020 20:10:20 CL:1921
+[17-11-2020 || 20:10:58.640] OS: Windows Version 6.1538.9200
+[17-11-2020 || 20:10:58.640] D3D9UseVersion: 0
+[17-11-2020 || 20:10:58.640] DXVersion: 2304
+[17-11-2020 || 20:10:58.640] windowsVersion: 4
+[17-11-2020 || 20:10:58.640] CPU Supports MMX: 0
+[17-11-2020 || 20:10:58.640] CPU Supports 3DNow: 0
+[17-11-2020 || 20:10:58.641] CPU Supports SSE: 0
+[17-11-2020 || 20:10:58.641] CPU Supports SSE2: 0
+[17-11-2020 || 20:10:58.644] Unknown weapon 'Fist' in weapon_slot[0]
+[17-11-2020 || 20:10:58.645] Warning: setting 'weapon_slot[]' was not present in the mod_sa.ini file
+[17-11-2020 || 20:10:58.645] SA:MP 0.3.7 was detected. g_dwSAMP_Addr: 0x03C90000
+[17-11-2020 || 20:11:01.002] proxyIDirect3DDevice9 constructor called. Original IDirect3DDevice9 interface address is 0x0FB01C00
+[17-11-2020 || 20:11:01.278] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 20:11:01.319] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 20:11:10.778] byteAuthBSLen 43
+[17-11-2020 || 20:11:10.778] auth_bs 1373BDCA32DC1F4401B49D6FD986364DC5F9B8FFB84
+[17-11-2020 || 20:11:10.778] NEW byteAuthBSLen 43
+[17-11-2020 || 20:11:10.778] NEW auth_bs 14D93343CA5CBC177A2DD745F7F619E5661E5FD3F88
+[17-11-2020 || 20:11:23.895] wtf, actor_info_get() returned NULL.
+[17-11-2020 || 20:12:13.580] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 20:12:13.580] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 20:12:13.867] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 20:13:55.275] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 20:13:55.275] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 20:13:55.566] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 20:14:30.752] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 20:14:30.752] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 20:14:31.043] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 20:22:36.943] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 20:22:36.943] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 20:22:37.260] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 20:22:41.833] Exited
+
+[17-11-2020 || 20:23:22.178] Initializing OverLight Mod build 4
+[17-11-2020 || 20:23:22.178] Compiled: Nov 17 2020 20:22:45 CL:1921
+[17-11-2020 || 20:23:22.178] OS: Windows Version 6.1538.9200
+[17-11-2020 || 20:23:22.178] D3D9UseVersion: 0
+[17-11-2020 || 20:23:22.178] DXVersion: 2304
+[17-11-2020 || 20:23:22.178] windowsVersion: 4
+[17-11-2020 || 20:23:22.178] CPU Supports MMX: 0
+[17-11-2020 || 20:23:22.178] CPU Supports 3DNow: 0
+[17-11-2020 || 20:23:22.178] CPU Supports SSE: 0
+[17-11-2020 || 20:23:22.178] CPU Supports SSE2: 0
+[17-11-2020 || 20:23:22.181] Unknown weapon 'Fist' in weapon_slot[0]
+[17-11-2020 || 20:23:22.183] Warning: setting 'weapon_slot[]' was not present in the mod_sa.ini file
+[17-11-2020 || 20:23:22.183] SA:MP 0.3.7 was detected. g_dwSAMP_Addr: 0x03C80000
+[17-11-2020 || 20:23:24.575] proxyIDirect3DDevice9 constructor called. Original IDirect3DDevice9 interface address is 0x0FF0B660
+[17-11-2020 || 20:23:25.856] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 20:23:25.935] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 20:23:35.458] byteAuthBSLen 43
+[17-11-2020 || 20:23:35.458] auth_bs 1373BDCA32DC1F4401B49D6FD986364DC5F9B8FFB84
+[17-11-2020 || 20:23:35.458] NEW byteAuthBSLen 43
+[17-11-2020 || 20:23:35.458] NEW auth_bs 14D93343CA5CBC177A2DD745F7F619E5661E5FD3F88
+[17-11-2020 || 20:24:09.902] wtf, actor_info_get() returned NULL.
+[17-11-2020 || 20:25:03.935] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 20:25:03.935] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 20:25:04.219] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 20:25:08.007] Exited
+
+[17-11-2020 || 20:25:38.508] Initializing OverLight Mod build 4
+[17-11-2020 || 20:25:38.508] Compiled: Nov 17 2020 20:22:45 CL:1921
+[17-11-2020 || 20:25:38.508] OS: Windows Version 6.1538.9200
+[17-11-2020 || 20:25:38.508] D3D9UseVersion: 0
+[17-11-2020 || 20:25:38.509] DXVersion: 2304
+[17-11-2020 || 20:25:38.509] windowsVersion: 4
+[17-11-2020 || 20:25:38.509] CPU Supports MMX: 0
+[17-11-2020 || 20:25:38.509] CPU Supports 3DNow: 0
+[17-11-2020 || 20:25:38.509] CPU Supports SSE: 0
+[17-11-2020 || 20:25:38.509] CPU Supports SSE2: 0
+[17-11-2020 || 20:25:38.511] Parse error: юя (expected '=')
+[17-11-2020 || 20:25:38.512] Warning: setting 'run_mode' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.512] Warning: setting 'wine_compatibility' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.512] Warning: setting 'i_have_edited_the_ini_file' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.512] Warning: setting 'fps_limit' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.512] Warning: setting 'basic_mode' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.512] Warning: setting 'key_hp_cheat' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.512] Warning: setting 'hp_minimum' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.513] Warning: setting 'hp_regen' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.513] Warning: setting 'hp_regen_onfoot' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.513] Warning: setting 'hp_actor_explosion_inv' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.513] Warning: setting 'hp_actor_fall_inv' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.513] Warning: setting 'hp_actor_fire_inv' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.513] Warning: setting 'hp_keep_vehicleHPsane' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.513] Warning: setting 'hp_disable_inv_sp_enemies' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.513] Warning: setting 'key_anti_freeze' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.513] Warning: setting 'key_air_brake_mod' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.513] Warning: setting 'key_air_brake_foot_mod' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.513] Warning: setting 'key_air_brake_mod2' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.513] Warning: setting 'key_air_brake_forward' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.513] Warning: setting 'key_air_brake_backward' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.513] Warning: setting 'key_air_brake_left' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.513] Warning: setting 'key_air_brake_right' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.513] Warning: setting 'key_air_brake_up' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.513] Warning: setting 'key_air_brake_down' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.513] Warning: setting 'key_air_brake_rot_yaw1' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.513] Warning: setting 'key_air_brake_rot_yaw2' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.513] Warning: setting 'key_air_brake_rot_roll1' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.513] Warning: setting 'key_air_brake_rot_roll2' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.513] Warning: setting 'key_air_brake_rot_pitch1' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.513] Warning: setting 'key_air_brake_rot_pitch2' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.513] Warning: setting 'air_brake_toggle' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.513] Warning: setting 'air_brake_behaviour' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.513] Warning: setting 'air_brake_speed' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.513] Warning: setting 'air_brake_rot_speed' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.513] Warning: setting 'air_brake_accel_time' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.513] Warning: setting 'key_warp_mod' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.513] Warning: setting 'warp_speed' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.513] Warning: setting 'warp_use_speed' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.513] Warning: setting 'key_blinking_car_lights' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.513] Warning: setting 'enable_car_lights_at_day_time' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.513] Warning: setting 'key_keep_trailer' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.514] Warning: setting 'key_disable_Wall_Collisions' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.514] Warning: setting 'wall_collisions_disableObjects' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.514] Warning: setting 'wall_collisions_disableRender' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.514] Warning: setting 'key_repair_car' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.514] Warning: setting 'key_nitro' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.514] Warning: setting 'key_nitro_mod' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.514] Warning: setting 'nitro_high' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.514] Warning: setting 'nitro_low' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.514] Warning: setting 'nitro_accel_time' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.514] Warning: setting 'nitro_decel_time' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.514] Warning: setting 'key_brake_mod' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.514] Warning: setting 'brake_mult' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.514] Warning: setting 'key_unflip' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.514] Warning: setting 'key_quick_turn_180' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.514] Warning: setting 'key_quick_turn_left' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.514] Warning: setting 'key_quick_turn_right' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.514] Warning: setting 'key_vehicle_hop' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.514] Warning: setting 'vehicle_hop_speed' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.514] Warning: setting 'key_spiderwheels' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.514] Warning: setting 'key_fly_player' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.514] Warning: setting 'key_fly_player_accelerate' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.514] Warning: setting 'key_fly_player_decelerate' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.514] Warning: setting 'key_fly_player_strafeLeft' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.514] Warning: setting 'key_fly_player_strafeRight' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.514] Warning: setting 'key_fly_player_strafeUp' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.514] Warning: setting 'fly_player_speed' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.514] Warning: setting 'fly_player_accel_multiplier' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.514] Warning: setting 'fly_player_decel_multiplier' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.514] Warning: setting 'handling_multiplier' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.514] Warning: setting 'key_protection' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.514] Warning: setting 'protection_spin_cap' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.514] Warning: setting 'protection_speed_cap' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.514] Warning: setting 'protection_min_height' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.514] Warning: setting 'key_stick' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.514] Warning: setting 'key_stick_prev' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.514] Warning: setting 'key_stick_next' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.515] Warning: setting 'key_stick_nearest' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.515] Warning: setting 'key_stick_forward' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.515] Warning: setting 'key_stick_backward' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.515] Warning: setting 'key_stick_left' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.515] Warning: setting 'key_stick_right' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.515] Warning: setting 'key_stick_up' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.515] Warning: setting 'key_stick_down' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.515] Warning: setting 'key_stick_in' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.515] Warning: setting 'key_stick_out' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.515] Warning: setting 'stick_min_height' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.515] Warning: setting 'stick_vect' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.515] Warning: setting 'stick_vect_dist' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.515] Warning: setting 'stick_accel_time' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.515] Warning: setting 'key_teleport_hist' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.515] Warning: setting 'key_teleport[]' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.515] Warning: setting 'key_teleport_set[]' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.515] Warning: setting 'teleport_pos[]' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.515] Warning: setting 'static_teleport_name[]' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.515] Warning: setting 'static_teleport_pos[]' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.515] Warning: setting 'key_checkpoint_1' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.515] Warning: setting 'key_checkpoint_2' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.515] Warning: setting 'checkpoint_min_height' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.515] Warning: setting 'key_self_destruct' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.515] Warning: setting 'key_vehicle_jumper' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.515] Warning: setting 'key_vehicle_occupied_jumper' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.515] Warning: setting 'key_engine' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.515] Warning: setting 'key_autoaim_toggle' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.515] Warning: setting 'use_gta_autoaim' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.515] Warning: setting 'key_map' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.515] Warning: setting 'key_map_show_vehicles' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.515] Warning: setting 'key_weapon' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.515] Warning: setting 'weapon_enabled' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.515] Warning: setting 'restore_weapons_after_death' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.515] Warning: setting 'ammo_random' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.515] Warning: setting 'ammo' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.515] Warning: setting 'ammo_clip' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.515] Warning: setting 'weapon_slot[]' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.515] Warning: setting 'key_money' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.516] Warning: setting 'money_value' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.516] Warning: setting 'money_enabled' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.516] Warning: setting 'money_amount_max' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.516] Warning: setting 'money_amount_rand_min' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.516] Warning: setting 'money_amount_rand_max' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.516] Warning: setting 'money_interval_rand_min' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.516] Warning: setting 'money_interval_rand_max' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.516] Warning: setting 'key_menu' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.516] Warning: setting 'key_menu_up' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.516] Warning: setting 'key_menu_right' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.516] Warning: setting 'key_menu_down' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.516] Warning: setting 'key_menu_left' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.516] Warning: setting 'key_menu_select' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.516] Warning: setting 'key_menu_dec' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.516] Warning: setting 'key_menu_inc' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.516] Warning: setting 'key_menu_mousecontrol' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.516] Warning: setting 'hud_draw_bar' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.516] Warning: setting 'left_bottom_bars_enable' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.516] Warning: setting 'gui[]' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.516] Warning: setting 'hud_indicator_inv' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.516] Warning: setting 'hud_indicator_weapon' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.516] Warning: setting 'hud_indicator_money' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.516] Warning: setting 'hud_indicator_freeze' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.516] Warning: setting 'hud_indicator_inveh_airbrk' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.516] Warning: setting 'hud_indicator_inveh_stick' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.516] Warning: setting 'hud_indicator_inveh_brkdance' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.516] Warning: setting 'hud_indicator_inveh_spider' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.516] Warning: setting 'hud_indicator_inveh_fly' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.516] Warning: setting 'hud_indicator_onfoot_airbrk' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.516] Warning: setting 'hud_indicator_onfoot_stick' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.516] Warning: setting 'hud_indicator_onfoot_aim' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.516] Warning: setting 'hud_indicator_onfoot_fly' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.516] Warning: setting 'hud_indicator_pos' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.516] Warning: setting 'hud_fps_draw' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.516] Warning: setting 'trailer_support' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.516] Warning: setting 'force_hour' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.516] Warning: setting 'force_weather' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.516] Warning: setting 'd3dtext_hud' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.517] Warning: setting 'speedometer_enable' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.517] Warning: setting 'speedometer_old_enable' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.517] Warning: setting 'speedometer_multiplier' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.517] Warning: setting 'speedometer_needle_png_filename' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.517] Warning: setting 'speedometer_speedo_png_filename' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.517] Warning: setting 'chams_on' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.517] Warning: setting 'chams_wireframe' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.517] Warning: setting 'd3dtext_chat' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.517] Warning: setting 'd3dtext_chat_lines' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.517] Warning: setting 'd3dtext_kill' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.517] Warning: setting 'd3dtext_score' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.517] Warning: setting 'd3dtext_labels' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.517] Warning: setting 'd3dtext_labels_maxDist' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.517] Warning: setting 'anti_spam' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.517] Warning: setting 'chatbox_logging' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.517] Warning: setting 'nametags_show' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.517] Warning: setting 'disable_line_of_sight' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.517] Warning: setting 'line_of_sight_dist' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.517] Warning: setting 'markers_show' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.517] Warning: setting 'samp_custom_sendrates_enable' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.517] Warning: setting 'onfoot_sendrate' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.517] Warning: setting 'incar_sendrate' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.517] Warning: setting 'aim_sendrate' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.517] Warning: setting 'headsync_sendrate' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.517] Warning: setting 'clickwarp_enabled' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.517] Warning: setting 'key_clickwarp_enable' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.517] Warning: setting 'key_clickwarp_click' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.517] Warning: setting 'key_player_info_list' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.517] Warning: setting 'key_fast_exit' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.517] Warning: setting 'anti_carjacking' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.517] Warning: setting 'key_brkd_toggle' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.517] Warning: setting 'key_brkd_forward' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.517] Warning: setting 'key_brkd_left' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.517] Warning: setting 'key_brkd_backward' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.518] Warning: setting 'key_brkd_right' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.518] Warning: setting 'key_brkd_rightward' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.518] Warning: setting 'key_brkd_leftward' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.518] Warning: setting 'brkdance_velocity' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.518] Warning: setting 'key_fly_vehicle' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.518] Warning: setting 'key_fly_vehicle_modeChange' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.518] Warning: setting 'fly_vehicle_heliMode' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.518] Warning: setting 'key_rejoin' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.518] Warning: setting 'rejoin_delay' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.518] Warning: setting 'key_vehicles_freeze' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.518] Warning: setting 'key_respawn' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.518] Warning: setting 'key_render_player_tags' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.518] Warning: setting 'player_tags_dist' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.518] Warning: setting 'key_render_vehicle_tags' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.518] Warning: setting 'vehicle_tags_dist' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.518] Warning: setting 'window_mode' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.518] Warning: setting 'window_mode_titlebar' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.518] Warning: setting 'flickering_problem' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.518] Warning: setting 'use_current_name' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.518] Warning: setting 'server[]' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.518] Warning: setting 'mod_commands_activated' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.518] Warning: setting 'chat_secondary_key' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.518] Warning: setting 'chat[]' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.518] Warning: setting 'patch[]' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.518] Warning: setting 'sampPatch[]' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.518] Warning: setting 'netPatch[]' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.518] Warning: setting 'key_panic' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.518] Warning: setting 'custom_runanimation_enabled' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.518] Warning: setting 'esp_vehicles_defaulton' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.518] Warning: setting 'esp_players_defaulton' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.518] Warning: setting 'render_teleport_texts' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.518] Warning: setting 'render_pickup_texts' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.518] Warning: setting 'pickup_tags_dist' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.518] Warning: setting 'render_object_texts' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.519] Warning: setting 'object_tags_dist' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.519] Warning: setting 'enable_clouds' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.519] Warning: setting 'enable_extra_godmode' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.519] Warning: setting 'key_map_teleport' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.519] Warning: setting 'map_must_be_open' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.519] Warning: setting 'key_fastwarp' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.519] Warning: setting 'key_surf' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.519] Warning: setting 'key_freezerot' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.519] Warning: setting 'map_draw_lines' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.519] Warning: setting 'hud_indicator_surf' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:38.519] Warning: setting 'hud_indicator_freezerot' was not present in the mod_sa.ini file
+[17-11-2020 || 20:25:40.917] proxyIDirect3DDevice9 constructor called. Original IDirect3DDevice9 interface address is 0x10403A20
+[17-11-2020 || 20:25:41.257] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 20:25:41.301] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 20:26:28.400] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 20:26:28.400] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 20:26:28.704] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 20:26:32.749] Exited
+
+[17-11-2020 || 20:26:39.830] Initializing OverLight Mod build 4
+[17-11-2020 || 20:26:39.830] Compiled: Nov 17 2020 20:22:45 CL:1921
+[17-11-2020 || 20:26:39.830] OS: Windows Version 6.1538.9200
+[17-11-2020 || 20:26:39.830] D3D9UseVersion: 0
+[17-11-2020 || 20:26:39.830] DXVersion: 2304
+[17-11-2020 || 20:26:39.830] windowsVersion: 4
+[17-11-2020 || 20:26:39.830] CPU Supports MMX: 0
+[17-11-2020 || 20:26:39.830] CPU Supports 3DNow: 0
+[17-11-2020 || 20:26:39.830] CPU Supports SSE: 0
+[17-11-2020 || 20:26:39.830] CPU Supports SSE2: 0
+[17-11-2020 || 20:26:39.833] Unknown weapon 'Fist' in weapon_slot[0]
+[17-11-2020 || 20:26:39.834] Warning: setting 'weapon_slot[]' was not present in the mod_sa.ini file
+[17-11-2020 || 20:26:39.834] SA:MP 0.3.7 was detected. g_dwSAMP_Addr: 0x03D10000
+[17-11-2020 || 20:26:42.209] proxyIDirect3DDevice9 constructor called. Original IDirect3DDevice9 interface address is 0x0FB83E20
+[17-11-2020 || 20:26:42.481] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 20:26:42.522] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 20:26:51.983] byteAuthBSLen 43
+[17-11-2020 || 20:26:51.984] auth_bs 1373BDCA32DC1F4401B49D6FD986364DC5F9B8FFB84
+[17-11-2020 || 20:26:51.984] NEW byteAuthBSLen 43
+[17-11-2020 || 20:26:51.984] NEW auth_bs 136343CA5CBC177A2DD745F7F619E5661E5FD40BCE7
+[17-11-2020 || 20:27:52.565] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 20:27:52.565] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 20:27:52.918] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 20:27:57.027] Exited
+
+[17-11-2020 || 20:28:00.511] Initializing OverLight Mod build 4
+[17-11-2020 || 20:28:00.511] Compiled: Nov 17 2020 20:22:45 CL:1921
+[17-11-2020 || 20:28:00.511] OS: Windows Version 6.1538.9200
+[17-11-2020 || 20:28:00.511] D3D9UseVersion: 0
+[17-11-2020 || 20:28:00.511] DXVersion: 2304
+[17-11-2020 || 20:28:00.512] windowsVersion: 4
+[17-11-2020 || 20:28:00.512] CPU Supports MMX: 0
+[17-11-2020 || 20:28:00.512] CPU Supports 3DNow: 0
+[17-11-2020 || 20:28:00.512] CPU Supports SSE: 0
+[17-11-2020 || 20:28:00.512] CPU Supports SSE2: 0
+[17-11-2020 || 20:28:00.522] Unknown setting 'carshot_speed'
+[17-11-2020 || 20:28:00.523] Unknown setting 'search_pick'
+[17-11-2020 || 20:28:00.523] Unknown setting 'pick_dist'
+[17-11-2020 || 20:28:00.523] Unknown setting 'afk_time'
+[17-11-2020 || 20:28:00.523] Unknown setting 'coord_time'
+[17-11-2020 || 20:28:00.523] Unknown setting 'coord_distance'
+[17-11-2020 || 20:28:00.523] Unknown setting 'coord_height'
+[17-11-2020 || 20:28:00.523] Unknown setting 'antisat_on'
+[17-11-2020 || 20:28:00.523] Unknown setting 'gruz_wait'
+[17-11-2020 || 20:28:00.523] Unknown setting 'gruz_time'
+[17-11-2020 || 20:28:00.523] Unknown setting 'meshok_count'
+[17-11-2020 || 20:28:00.523] Unknown setting 'narko_time'
+[17-11-2020 || 20:28:00.523] Unknown setting 'narko_health'
+[17-11-2020 || 20:28:00.523] Unknown setting 'narko_gramm'
+[17-11-2020 || 20:28:00.523] Unknown setting 'admin_checker'
+[17-11-2020 || 20:28:00.523] Unknown setting 'admin_warning'
+[17-11-2020 || 20:28:00.523] Unknown setting 'show_connects'
+[17-11-2020 || 20:28:00.523] Unknown setting 'friend_checker'
+[17-11-2020 || 20:28:00.523] Unknown setting 'car_find'
+[17-11-2020 || 20:28:00.523] Unknown setting 'dialog_hide'
+[17-11-2020 || 20:28:00.523] Unknown setting 'key_coord'
+[17-11-2020 || 20:28:00.523] Unknown setting 'key_inviz'
+[17-11-2020 || 20:28:00.523] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:28:00.523] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:28:00.523] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:28:00.523] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:28:00.523] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:28:00.523] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:28:00.523] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:28:00.523] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:28:00.523] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:28:00.523] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:28:00.523] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:28:00.523] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:28:00.523] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:28:00.523] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:28:00.523] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:28:00.523] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:28:00.523] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:28:00.523] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:28:00.523] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:28:00.523] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:28:00.523] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:28:00.523] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:28:00.523] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:28:00.523] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:28:00.523] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:28:00.523] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:28:00.523] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:28:00.523] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:28:00.523] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:28:00.523] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:28:00.523] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:28:00.524] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:28:00.524] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:28:00.524] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:28:00.524] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:28:00.524] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:28:00.524] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:28:00.524] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:28:00.524] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:28:00.524] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:28:00.524] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:28:00.524] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:28:00.524] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:28:00.524] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:28:00.524] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:28:00.524] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:28:00.524] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:28:00.524] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:28:00.524] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:28:00.524] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:28:00.524] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:28:00.524] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:28:00.524] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:28:00.524] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:28:00.524] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:28:00.524] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:28:00.524] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:28:00.524] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:28:00.524] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:28:00.524] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:28:00.524] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:28:00.524] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:28:00.524] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:28:00.524] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:28:00.524] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:28:00.524] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:28:00.524] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:28:00.524] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:28:00.524] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:28:00.524] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:28:00.524] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:28:00.524] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:28:00.524] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:28:00.524] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:28:00.524] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:28:00.524] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:28:00.524] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:28:00.524] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:28:00.524] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:28:00.524] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:28:00.524] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:28:00.525] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:28:00.525] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:28:00.525] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:28:00.525] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:28:00.525] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:28:00.525] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:28:00.525] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:28:00.525] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:28:00.525] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:28:00.525] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:28:00.525] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:28:00.525] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:28:00.525] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:28:00.525] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:28:00.525] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:28:00.525] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:28:00.525] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:28:00.525] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:28:00.525] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:28:00.525] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:28:00.525] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:28:00.525] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:28:00.525] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:28:00.525] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:28:00.525] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:28:00.525] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:28:00.525] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:28:00.525] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:28:00.525] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:28:00.525] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:28:00.525] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:28:00.525] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:28:00.525] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:28:00.525] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:28:00.525] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:28:00.525] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:28:00.525] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:28:00.525] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:28:00.525] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:28:00.525] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:28:00.525] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:28:00.525] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:28:00.525] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:28:00.525] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:28:00.525] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:28:00.525] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:28:00.525] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:28:00.525] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:28:00.525] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:28:00.525] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:28:00.525] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:28:00.525] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:28:00.525] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:28:00.525] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:28:00.526] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:28:00.526] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:28:00.526] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:28:00.526] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:28:00.526] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:28:00.526] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:28:00.526] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:28:00.526] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:28:00.526] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:28:00.526] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:28:00.526] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:28:00.526] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:28:00.526] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:28:00.526] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:28:00.526] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:28:00.526] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:28:00.526] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:28:00.526] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:28:00.526] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:28:00.526] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:28:00.526] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:28:00.526] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:28:00.526] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:28:00.526] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:28:00.526] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:28:00.526] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:28:00.526] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:28:00.526] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:28:00.526] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:28:00.526] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:28:00.526] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:28:00.526] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:28:00.526] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:28:00.526] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:28:00.526] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:28:00.526] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:28:00.526] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:28:00.526] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:28:00.526] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:28:00.526] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:28:00.526] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:28:00.526] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:28:00.526] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:28:00.526] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:28:00.526] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:28:00.526] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:28:00.526] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:28:00.526] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:28:00.526] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:28:00.526] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:28:00.526] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:28:00.526] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:28:00.526] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:28:00.526] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:28:00.526] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:28:00.526] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:28:00.526] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:28:00.526] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:28:00.527] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:28:00.527] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:28:00.527] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:28:00.527] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:28:00.527] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:28:00.527] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:28:00.527] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:28:00.527] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:28:00.527] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:28:00.527] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:28:00.527] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:28:00.527] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:28:00.527] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:28:00.527] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:28:00.527] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:28:00.527] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:28:00.527] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:28:00.527] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:28:00.527] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:28:00.527] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:28:00.527] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:28:00.527] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:28:00.527] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:28:00.527] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:28:00.527] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:28:00.527] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:28:00.527] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:28:00.527] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:28:00.527] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:28:00.527] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:28:00.527] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:28:00.527] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:28:00.527] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:28:00.527] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:28:00.527] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:28:00.527] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:28:00.527] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:28:00.527] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:28:00.527] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:28:00.527] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:28:00.527] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:28:00.527] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:28:00.527] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:28:00.527] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:28:00.527] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:28:00.527] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:28:00.527] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:28:00.527] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:28:00.527] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:28:00.527] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:28:00.527] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:28:00.527] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:28:00.527] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:28:00.527] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:28:00.527] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:28:00.528] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:28:00.528] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:28:00.528] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:28:00.528] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:28:00.528] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:28:00.528] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:28:00.528] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:28:00.528] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:28:00.528] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:28:00.528] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:28:00.528] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:28:00.528] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:28:00.528] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:28:00.528] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:28:00.528] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:28:00.528] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:28:00.528] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:28:00.528] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:28:00.528] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:28:00.528] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:28:00.528] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:28:00.528] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:28:00.528] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:28:00.528] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:28:00.528] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:28:00.528] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:28:00.528] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:28:00.528] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:28:00.528] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:28:00.528] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:28:00.528] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:28:00.528] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:28:00.528] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:28:00.528] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:28:00.528] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:28:00.528] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:28:00.528] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:28:00.528] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:28:00.528] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:28:00.528] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:28:00.528] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:28:00.528] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:28:00.528] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:28:00.528] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:28:00.528] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:28:00.528] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:28:00.528] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:28:00.528] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:28:00.528] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:28:00.528] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:28:00.528] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:28:00.528] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:28:00.528] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:28:00.528] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:28:00.528] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:28:00.528] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:28:00.529] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:28:00.529] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:28:00.529] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:28:00.529] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:28:00.529] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:28:00.529] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:28:00.529] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:28:00.529] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:28:00.529] Unknown setting 'fakestat_item'
+[17-11-2020 || 20:28:00.529] Unknown setting 'fakestat_item'
+[17-11-2020 || 20:28:00.529] Unknown setting 'fakestat_item'
+[17-11-2020 || 20:28:00.529] Unknown setting 'fakestat_item'
+[17-11-2020 || 20:28:00.529] Unknown setting 'fakestat_item'
+[17-11-2020 || 20:28:00.529] Unknown setting 'fakestat_item'
+[17-11-2020 || 20:28:00.529] Unknown setting 'fakestat_item'
+[17-11-2020 || 20:28:00.529] Unknown setting 'fakestat_item'
+[17-11-2020 || 20:28:00.529] Unknown setting 'fakestat_item'
+[17-11-2020 || 20:28:00.529] Unknown setting 'fakestat_item'
+[17-11-2020 || 20:28:00.529] Unknown setting 'fakestat_item'
+[17-11-2020 || 20:28:00.529] Unknown setting 'fakestat_item'
+[17-11-2020 || 20:28:00.529] Unknown setting 'fakestat_item'
+[17-11-2020 || 20:28:00.529] Unknown setting 'fakestat_item'
+[17-11-2020 || 20:28:00.529] Unknown setting 'fakestat_item'
+[17-11-2020 || 20:28:00.529] Unknown setting 'fakestat_item'
+[17-11-2020 || 20:28:00.529] Unknown setting 'fakestat_item'
+[17-11-2020 || 20:28:00.529] Unknown setting 'fakestat_item'
+[17-11-2020 || 20:28:00.529] Unknown setting 'fakestat_item'
+[17-11-2020 || 20:28:00.529] Unknown setting 'fakestat_item'
+[17-11-2020 || 20:28:00.529] Unknown setting 'fakestat_item'
+[17-11-2020 || 20:28:00.529] Unknown setting 'fakestat_item'
+[17-11-2020 || 20:28:00.529] Unknown setting 'hud_indicator_newcheats'
+[17-11-2020 || 20:28:00.529] Unknown setting 'hud_indicator_dialog'
+[17-11-2020 || 20:28:00.529] Unknown setting 'hud_indicator_batstat'
+[17-11-2020 || 20:28:00.529] Unknown setting 'hud_indicator_time'
+[17-11-2020 || 20:28:00.530] Unknown weapon 'Fist' in weapon_slot[0]
+[17-11-2020 || 20:28:00.530] Unknown setting 'logo_enable'
+[17-11-2020 || 20:28:00.530] Unknown setting 'recording_activated'
+[17-11-2020 || 20:28:00.530] Unknown setting 'key_recording_record'
+[17-11-2020 || 20:28:00.530] Unknown setting 'recording_maxDistToEntryPoint'
+[17-11-2020 || 20:28:00.530] Unknown setting 'key_recording_continueAfterFinish'
+[17-11-2020 || 20:28:00.530] Unknown setting 'recording_play_customSpeed'
+[17-11-2020 || 20:28:00.530] Unknown setting 'key_recording_play'
+[17-11-2020 || 20:28:00.530] Unknown setting 'key_recording_customSpeed'
+[17-11-2020 || 20:28:00.530] Unknown setting 'key_recording_rev'
+[17-11-2020 || 20:28:00.530] Unknown setting 'key_recording_rev_customSpeed'
+[17-11-2020 || 20:28:00.530] Unknown setting 'secondary_key'
+[17-11-2020 || 20:28:00.530] Unknown setting 'send_spec_data'
+[17-11-2020 || 20:28:00.531] Warning: setting 'key_autoaim_toggle' was not present in the mod_sa.ini file
+[17-11-2020 || 20:28:00.531] Warning: setting 'use_gta_autoaim' was not present in the mod_sa.ini file
+[17-11-2020 || 20:28:00.531] Warning: setting 'weapon_slot[]' was not present in the mod_sa.ini file
+[17-11-2020 || 20:28:00.531] Warning: setting 'key_menu_mousecontrol' was not present in the mod_sa.ini file
+[17-11-2020 || 20:28:00.532] Warning: setting 'left_bottom_bars_enable' was not present in the mod_sa.ini file
+[17-11-2020 || 20:28:00.532] Warning: setting 'anti_carjacking' was not present in the mod_sa.ini file
+[17-11-2020 || 20:28:00.532] Warning: setting 'key_map_teleport' was not present in the mod_sa.ini file
+[17-11-2020 || 20:28:00.532] Warning: setting 'map_must_be_open' was not present in the mod_sa.ini file
+[17-11-2020 || 20:28:00.532] Warning: setting 'key_fastwarp' was not present in the mod_sa.ini file
+[17-11-2020 || 20:28:00.532] Warning: setting 'key_surf' was not present in the mod_sa.ini file
+[17-11-2020 || 20:28:00.532] Warning: setting 'key_freezerot' was not present in the mod_sa.ini file
+[17-11-2020 || 20:28:00.532] Warning: setting 'map_draw_lines' was not present in the mod_sa.ini file
+[17-11-2020 || 20:28:00.532] Warning: setting 'hud_indicator_surf' was not present in the mod_sa.ini file
+[17-11-2020 || 20:28:00.532] Warning: setting 'hud_indicator_freezerot' was not present in the mod_sa.ini file
+[17-11-2020 || 20:28:00.532] SA:MP 0.3.7 was detected. g_dwSAMP_Addr: 0x03B40000
+[17-11-2020 || 20:28:02.891] proxyIDirect3DDevice9 constructor called. Original IDirect3DDevice9 interface address is 0x0FD9BE60
+[17-11-2020 || 20:28:03.181] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 20:28:03.224] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 20:28:12.933] byteAuthBSLen 43
+[17-11-2020 || 20:28:12.933] auth_bs 1373BDCA32DC1F4401B49D6FD986364DC5F9B8FFB84
+[17-11-2020 || 20:28:12.933] NEW byteAuthBSLen 42
+[17-11-2020 || 20:28:12.933] NEW auth_bs DFA5CBC177A2DD745F7F619E5661E5FD40BE4849EA
+[17-11-2020 || 20:30:23.166] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 20:30:23.166] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 20:30:23.449] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 20:31:08.131] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 20:31:08.131] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 20:31:08.411] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 20:31:12.362] Exited
+
+[17-11-2020 || 20:31:17.564] Initializing OverLight Mod build 4
+[17-11-2020 || 20:31:17.564] Compiled: Nov 17 2020 20:22:45 CL:1921
+[17-11-2020 || 20:31:17.564] OS: Windows Version 6.1538.9200
+[17-11-2020 || 20:31:17.564] D3D9UseVersion: 0
+[17-11-2020 || 20:31:17.564] DXVersion: 2304
+[17-11-2020 || 20:31:17.564] windowsVersion: 4
+[17-11-2020 || 20:31:17.564] CPU Supports MMX: 0
+[17-11-2020 || 20:31:17.564] CPU Supports 3DNow: 0
+[17-11-2020 || 20:31:17.564] CPU Supports SSE: 0
+[17-11-2020 || 20:31:17.564] CPU Supports SSE2: 0
+[17-11-2020 || 20:31:17.567] Unknown setting 'carshot_speed'
+[17-11-2020 || 20:31:17.567] Unknown setting 'search_pick'
+[17-11-2020 || 20:31:17.567] Unknown setting 'pick_dist'
+[17-11-2020 || 20:31:17.567] Unknown setting 'afk_time'
+[17-11-2020 || 20:31:17.567] Unknown setting 'coord_time'
+[17-11-2020 || 20:31:17.567] Unknown setting 'coord_distance'
+[17-11-2020 || 20:31:17.567] Unknown setting 'coord_height'
+[17-11-2020 || 20:31:17.567] Unknown setting 'antisat_on'
+[17-11-2020 || 20:31:17.567] Unknown setting 'gruz_wait'
+[17-11-2020 || 20:31:17.567] Unknown setting 'gruz_time'
+[17-11-2020 || 20:31:17.567] Unknown setting 'meshok_count'
+[17-11-2020 || 20:31:17.567] Unknown setting 'narko_time'
+[17-11-2020 || 20:31:17.567] Unknown setting 'narko_health'
+[17-11-2020 || 20:31:17.567] Unknown setting 'narko_gramm'
+[17-11-2020 || 20:31:17.567] Unknown setting 'admin_checker'
+[17-11-2020 || 20:31:17.567] Unknown setting 'admin_warning'
+[17-11-2020 || 20:31:17.567] Unknown setting 'show_connects'
+[17-11-2020 || 20:31:17.567] Unknown setting 'friend_checker'
+[17-11-2020 || 20:31:17.567] Unknown setting 'car_find'
+[17-11-2020 || 20:31:17.567] Unknown setting 'dialog_hide'
+[17-11-2020 || 20:31:17.567] Unknown setting 'key_coord'
+[17-11-2020 || 20:31:17.567] Unknown setting 'key_inviz'
+[17-11-2020 || 20:31:17.567] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:31:17.567] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:31:17.567] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:31:17.567] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:31:17.567] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:31:17.567] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:31:17.567] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:31:17.567] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:31:17.567] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:31:17.567] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:31:17.567] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:31:17.567] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:31:17.567] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:31:17.567] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:31:17.567] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:31:17.567] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:31:17.567] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:31:17.567] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:31:17.567] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:31:17.567] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:31:17.567] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:31:17.567] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:31:17.567] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:31:17.568] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:31:17.568] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:31:17.568] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:31:17.568] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:31:17.568] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:31:17.568] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:31:17.568] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:31:17.568] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:31:17.568] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:31:17.568] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:31:17.568] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:31:17.568] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:31:17.568] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:31:17.568] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:31:17.568] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:31:17.568] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:31:17.568] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:31:17.568] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:31:17.568] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:31:17.568] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:31:17.568] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:31:17.568] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:31:17.568] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:31:17.568] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:31:17.568] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:31:17.568] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:31:17.568] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:31:17.568] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:31:17.568] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:31:17.568] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:31:17.568] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:31:17.568] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:31:17.568] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:31:17.568] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:31:17.568] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:31:17.568] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:31:17.568] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:31:17.568] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:31:17.568] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:31:17.568] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:31:17.568] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:31:17.568] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:31:17.569] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:31:17.569] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:31:17.569] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:31:17.569] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:31:17.569] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:31:17.569] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:31:17.569] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:31:17.569] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:31:17.569] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:31:17.569] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:31:17.569] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:31:17.569] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:31:17.569] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:31:17.569] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:31:17.569] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:31:17.569] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:31:17.569] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:31:17.569] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:31:17.569] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:31:17.569] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:31:17.569] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:31:17.569] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:31:17.569] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:31:17.569] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:31:17.569] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:31:17.569] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:31:17.569] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:31:17.569] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:31:17.569] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:31:17.569] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:31:17.569] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:31:17.569] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:31:17.569] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:31:17.569] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:31:17.569] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:31:17.569] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:31:17.569] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:31:17.569] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:31:17.569] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:31:17.569] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:31:17.569] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:31:17.569] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:31:17.569] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:31:17.569] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:31:17.570] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:31:17.570] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:31:17.570] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:31:17.570] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:31:17.570] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:31:17.570] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:31:17.570] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:31:17.570] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:31:17.570] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:31:17.570] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:31:17.570] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:31:17.570] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:31:17.570] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:31:17.570] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:31:17.570] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:31:17.570] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:31:17.570] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:31:17.570] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:31:17.570] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:31:17.570] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:31:17.570] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:31:17.570] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:31:17.570] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:31:17.570] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:31:17.570] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:31:17.570] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:31:17.570] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:31:17.570] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:31:17.570] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:31:17.570] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:31:17.570] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:31:17.570] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:31:17.570] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:31:17.570] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:31:17.570] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:31:17.570] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:31:17.570] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:31:17.570] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:31:17.570] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:31:17.570] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:31:17.570] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:31:17.570] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:31:17.570] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:31:17.570] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:31:17.570] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:31:17.570] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:31:17.570] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:31:17.571] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:31:17.571] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:31:17.571] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:31:17.571] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:31:17.571] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:31:17.571] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:31:17.571] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:31:17.571] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:31:17.571] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:31:17.571] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:31:17.571] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:31:17.571] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:31:17.571] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:31:17.571] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:31:17.571] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:31:17.571] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:31:17.571] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:31:17.571] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:31:17.571] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:31:17.571] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:31:17.571] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:31:17.571] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:31:17.571] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:31:17.571] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:31:17.571] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:31:17.571] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:31:17.571] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:31:17.571] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:31:17.571] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:31:17.571] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:31:17.571] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:31:17.571] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:31:17.571] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:31:17.571] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:31:17.571] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:31:17.571] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:31:17.571] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:31:17.571] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:31:17.571] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:31:17.571] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:31:17.571] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:31:17.571] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:31:17.571] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:31:17.571] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:31:17.571] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:31:17.571] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:31:17.571] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:31:17.572] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:31:17.572] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:31:17.572] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:31:17.572] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:31:17.572] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:31:17.572] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:31:17.572] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:31:17.572] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:31:17.572] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:31:17.572] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:31:17.572] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:31:17.572] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:31:17.572] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:31:17.572] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:31:17.572] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:31:17.572] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:31:17.572] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:31:17.572] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:31:17.572] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:31:17.572] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:31:17.572] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:31:17.572] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:31:17.572] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:31:17.572] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:31:17.572] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:31:17.572] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:31:17.572] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:31:17.572] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:31:17.572] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:31:17.572] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:31:17.572] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:31:17.572] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:31:17.572] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:31:17.572] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:31:17.572] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:31:17.572] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:31:17.572] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:31:17.572] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:31:17.572] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:31:17.572] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:31:17.572] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:31:17.572] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:31:17.572] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:31:17.572] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:31:17.572] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:31:17.572] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:31:17.572] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:31:17.573] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:31:17.573] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:31:17.573] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:31:17.573] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:31:17.573] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:31:17.573] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:31:17.573] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:31:17.573] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:31:17.573] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:31:17.573] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:31:17.573] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:31:17.573] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:31:17.573] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:31:17.573] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:31:17.573] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:31:17.573] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:31:17.573] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:31:17.573] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:31:17.573] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:31:17.573] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:31:17.573] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:31:17.573] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:31:17.573] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:31:17.573] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:31:17.573] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:31:17.573] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:31:17.573] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:31:17.573] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:31:17.573] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:31:17.573] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:31:17.573] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:31:17.573] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:31:17.573] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:31:17.573] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:31:17.573] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:31:17.573] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:31:17.573] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:31:17.573] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:31:17.573] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:31:17.573] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:31:17.573] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:31:17.573] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:31:17.573] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:31:17.574] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:31:17.574] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:31:17.574] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:31:17.574] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:31:17.574] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:31:17.574] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:31:17.574] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:31:17.574] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:31:17.574] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:31:17.574] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:31:17.574] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:31:17.574] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:31:17.574] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:31:17.574] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:31:17.574] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:31:17.574] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:31:17.574] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:31:17.574] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:31:17.574] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:31:17.574] Unknown setting 'fakestat_item'
+[17-11-2020 || 20:31:17.574] Unknown setting 'fakestat_item'
+[17-11-2020 || 20:31:17.574] Unknown setting 'fakestat_item'
+[17-11-2020 || 20:31:17.574] Unknown setting 'fakestat_item'
+[17-11-2020 || 20:31:17.574] Unknown setting 'fakestat_item'
+[17-11-2020 || 20:31:17.574] Unknown setting 'fakestat_item'
+[17-11-2020 || 20:31:17.574] Unknown setting 'fakestat_item'
+[17-11-2020 || 20:31:17.574] Unknown setting 'fakestat_item'
+[17-11-2020 || 20:31:17.574] Unknown setting 'fakestat_item'
+[17-11-2020 || 20:31:17.574] Unknown setting 'fakestat_item'
+[17-11-2020 || 20:31:17.574] Unknown setting 'fakestat_item'
+[17-11-2020 || 20:31:17.574] Unknown setting 'fakestat_item'
+[17-11-2020 || 20:31:17.574] Unknown setting 'fakestat_item'
+[17-11-2020 || 20:31:17.574] Unknown setting 'fakestat_item'
+[17-11-2020 || 20:31:17.574] Unknown setting 'fakestat_item'
+[17-11-2020 || 20:31:17.574] Unknown setting 'fakestat_item'
+[17-11-2020 || 20:31:17.574] Unknown setting 'fakestat_item'
+[17-11-2020 || 20:31:17.574] Unknown setting 'fakestat_item'
+[17-11-2020 || 20:31:17.574] Unknown setting 'fakestat_item'
+[17-11-2020 || 20:31:17.574] Unknown setting 'fakestat_item'
+[17-11-2020 || 20:31:17.574] Unknown setting 'fakestat_item'
+[17-11-2020 || 20:31:17.574] Unknown setting 'fakestat_item'
+[17-11-2020 || 20:31:17.574] Array index for gui[8] out of bounds
+[17-11-2020 || 20:31:17.574] Array index for gui[8] out of bounds
+[17-11-2020 || 20:31:17.574] Array index for gui[8] out of bounds
+[17-11-2020 || 20:31:17.574] Array index for gui[8] out of bounds
+[17-11-2020 || 20:31:17.574] Unknown setting 'hud_indicator_newcheats'
+[17-11-2020 || 20:31:17.575] Unknown setting 'hud_indicator_dialog'
+[17-11-2020 || 20:31:17.575] Unknown setting 'hud_indicator_batstat'
+[17-11-2020 || 20:31:17.575] Unknown setting 'hud_indicator_time'
+[17-11-2020 || 20:31:17.575] Unknown weapon 'Fist' in weapon_slot[0]
+[17-11-2020 || 20:31:17.575] Unknown setting 'logo_enable'
+[17-11-2020 || 20:31:17.575] Unknown setting 'recording_activated'
+[17-11-2020 || 20:31:17.575] Unknown setting 'key_recording_record'
+[17-11-2020 || 20:31:17.575] Unknown setting 'recording_maxDistToEntryPoint'
+[17-11-2020 || 20:31:17.575] Unknown setting 'key_recording_continueAfterFinish'
+[17-11-2020 || 20:31:17.576] Unknown setting 'recording_play_customSpeed'
+[17-11-2020 || 20:31:17.576] Unknown setting 'key_recording_play'
+[17-11-2020 || 20:31:17.576] Unknown setting 'key_recording_customSpeed'
+[17-11-2020 || 20:31:17.576] Unknown setting 'key_recording_rev'
+[17-11-2020 || 20:31:17.576] Unknown setting 'key_recording_rev_customSpeed'
+[17-11-2020 || 20:31:17.576] Unknown setting 'secondary_key'
+[17-11-2020 || 20:31:17.576] Unknown setting 'send_spec_data'
+[17-11-2020 || 20:31:17.577] Warning: setting 'run_mode' was set multiple times in the mod_sa.ini file
+[17-11-2020 || 20:31:17.577] Warning: setting 'wine_compatibility' was set multiple times in the mod_sa.ini file
+[17-11-2020 || 20:31:17.577] Warning: setting 'key_autoaim_toggle' was not present in the mod_sa.ini file
+[17-11-2020 || 20:31:17.577] Warning: setting 'use_gta_autoaim' was not present in the mod_sa.ini file
+[17-11-2020 || 20:31:17.577] Warning: setting 'weapon_slot[]' was not present in the mod_sa.ini file
+[17-11-2020 || 20:31:17.577] Warning: setting 'key_menu' was set multiple times in the mod_sa.ini file
+[17-11-2020 || 20:31:17.577] Warning: setting 'key_menu_up' was set multiple times in the mod_sa.ini file
+[17-11-2020 || 20:31:17.577] Warning: setting 'key_menu_right' was set multiple times in the mod_sa.ini file
+[17-11-2020 || 20:31:17.577] Warning: setting 'key_menu_down' was set multiple times in the mod_sa.ini file
+[17-11-2020 || 20:31:17.577] Warning: setting 'key_menu_left' was set multiple times in the mod_sa.ini file
+[17-11-2020 || 20:31:17.577] Warning: setting 'key_menu_select' was set multiple times in the mod_sa.ini file
+[17-11-2020 || 20:31:17.577] Warning: setting 'key_menu_dec' was set multiple times in the mod_sa.ini file
+[17-11-2020 || 20:31:17.577] Warning: setting 'key_menu_inc' was set multiple times in the mod_sa.ini file
+[17-11-2020 || 20:31:17.577] Warning: setting 'hud_draw_bar' was set multiple times in the mod_sa.ini file
+[17-11-2020 || 20:31:17.577] Warning: setting 'hud_indicator_inv' was set multiple times in the mod_sa.ini file
+[17-11-2020 || 20:31:17.577] Warning: setting 'hud_indicator_weapon' was set multiple times in the mod_sa.ini file
+[17-11-2020 || 20:31:17.578] Warning: setting 'hud_indicator_money' was set multiple times in the mod_sa.ini file
+[17-11-2020 || 20:31:17.578] Warning: setting 'hud_indicator_freeze' was set multiple times in the mod_sa.ini file
+[17-11-2020 || 20:31:17.578] Warning: setting 'hud_indicator_inveh_airbrk' was set multiple times in the mod_sa.ini file
+[17-11-2020 || 20:31:17.578] Warning: setting 'hud_indicator_inveh_stick' was set multiple times in the mod_sa.ini file
+[17-11-2020 || 20:31:17.578] Warning: setting 'hud_indicator_inveh_brkdance' was set multiple times in the mod_sa.ini file
+[17-11-2020 || 20:31:17.578] Warning: setting 'hud_indicator_inveh_spider' was set multiple times in the mod_sa.ini file
+[17-11-2020 || 20:31:17.578] Warning: setting 'hud_indicator_inveh_fly' was set multiple times in the mod_sa.ini file
+[17-11-2020 || 20:31:17.578] Warning: setting 'hud_indicator_onfoot_airbrk' was set multiple times in the mod_sa.ini file
+[17-11-2020 || 20:31:17.578] Warning: setting 'hud_indicator_onfoot_stick' was set multiple times in the mod_sa.ini file
+[17-11-2020 || 20:31:17.578] Warning: setting 'hud_indicator_onfoot_aim' was set multiple times in the mod_sa.ini file
+[17-11-2020 || 20:31:17.578] Warning: setting 'hud_indicator_onfoot_fly' was set multiple times in the mod_sa.ini file
+[17-11-2020 || 20:31:17.578] Warning: setting 'hud_indicator_pos' was set multiple times in the mod_sa.ini file
+[17-11-2020 || 20:31:17.578] Warning: setting 'hud_fps_draw' was set multiple times in the mod_sa.ini file
+[17-11-2020 || 20:31:17.578] Warning: setting 'anti_carjacking' was not present in the mod_sa.ini file
+[17-11-2020 || 20:31:17.578] Warning: setting 'key_map_teleport' was not present in the mod_sa.ini file
+[17-11-2020 || 20:31:17.578] Warning: setting 'map_must_be_open' was not present in the mod_sa.ini file
+[17-11-2020 || 20:31:17.578] Warning: setting 'key_fastwarp' was not present in the mod_sa.ini file
+[17-11-2020 || 20:31:17.578] Warning: setting 'key_surf' was not present in the mod_sa.ini file
+[17-11-2020 || 20:31:17.578] Warning: setting 'key_freezerot' was not present in the mod_sa.ini file
+[17-11-2020 || 20:31:17.578] Warning: setting 'map_draw_lines' was not present in the mod_sa.ini file
+[17-11-2020 || 20:31:17.578] SA:MP 0.3.7 was detected. g_dwSAMP_Addr: 0x03BB0000
+[17-11-2020 || 20:31:19.957] proxyIDirect3DDevice9 constructor called. Original IDirect3DDevice9 interface address is 0x0FC93E00
+[17-11-2020 || 20:31:20.356] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 20:31:20.420] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 20:31:29.871] byteAuthBSLen 43
+[17-11-2020 || 20:31:29.871] auth_bs 1373BDCA32DC1F4401B49D6FD986364DC5F9B8FFB84
+[17-11-2020 || 20:31:29.871] NEW byteAuthBSLen 43
+[17-11-2020 || 20:31:29.871] NEW auth_bs 136343CA5CBC177A2DD745F7F619E5661E5FD40BCE7
+[17-11-2020 || 20:32:32.218] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 20:32:32.219] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 20:32:32.515] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 20:32:36.786] Exited
+
+[17-11-2020 || 20:32:40.994] Initializing OverLight Mod build 4
+[17-11-2020 || 20:32:40.994] Compiled: Nov 17 2020 20:22:45 CL:1921
+[17-11-2020 || 20:32:40.994] OS: Windows Version 6.1538.9200
+[17-11-2020 || 20:32:40.994] D3D9UseVersion: 0
+[17-11-2020 || 20:32:40.994] DXVersion: 2304
+[17-11-2020 || 20:32:40.994] windowsVersion: 4
+[17-11-2020 || 20:32:40.994] CPU Supports MMX: 0
+[17-11-2020 || 20:32:40.994] CPU Supports 3DNow: 0
+[17-11-2020 || 20:32:40.994] CPU Supports SSE: 0
+[17-11-2020 || 20:32:40.994] CPU Supports SSE2: 0
+[17-11-2020 || 20:32:40.997] Unknown setting 'carshot_speed'
+[17-11-2020 || 20:32:40.997] Unknown setting 'search_pick'
+[17-11-2020 || 20:32:40.997] Unknown setting 'pick_dist'
+[17-11-2020 || 20:32:40.997] Unknown setting 'afk_time'
+[17-11-2020 || 20:32:40.997] Unknown setting 'coord_time'
+[17-11-2020 || 20:32:40.997] Unknown setting 'coord_distance'
+[17-11-2020 || 20:32:40.997] Unknown setting 'coord_height'
+[17-11-2020 || 20:32:40.997] Unknown setting 'antisat_on'
+[17-11-2020 || 20:32:40.997] Unknown setting 'gruz_wait'
+[17-11-2020 || 20:32:40.997] Unknown setting 'gruz_time'
+[17-11-2020 || 20:32:40.997] Unknown setting 'meshok_count'
+[17-11-2020 || 20:32:40.997] Unknown setting 'narko_time'
+[17-11-2020 || 20:32:40.997] Unknown setting 'narko_health'
+[17-11-2020 || 20:32:40.997] Unknown setting 'narko_gramm'
+[17-11-2020 || 20:32:40.997] Unknown setting 'admin_checker'
+[17-11-2020 || 20:32:40.997] Unknown setting 'admin_warning'
+[17-11-2020 || 20:32:40.997] Unknown setting 'show_connects'
+[17-11-2020 || 20:32:40.997] Unknown setting 'friend_checker'
+[17-11-2020 || 20:32:40.997] Unknown setting 'car_find'
+[17-11-2020 || 20:32:40.997] Unknown setting 'dialog_hide'
+[17-11-2020 || 20:32:40.997] Unknown setting 'key_coord'
+[17-11-2020 || 20:32:40.997] Unknown setting 'key_inviz'
+[17-11-2020 || 20:32:40.997] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:32:40.997] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:32:40.997] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:32:40.997] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:32:40.997] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:32:40.997] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:32:40.997] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:32:40.998] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:32:40.998] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:32:40.998] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:32:40.998] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:32:40.998] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:32:40.998] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:32:40.998] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:32:40.998] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:32:40.998] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:32:40.998] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:32:40.998] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:32:40.998] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:32:40.998] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:32:40.998] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:32:40.998] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:32:40.998] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:32:40.998] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:32:40.998] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:32:40.998] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:32:40.998] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:32:40.998] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:32:40.998] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:32:40.998] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:32:40.998] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:32:40.998] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:32:40.998] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:32:40.998] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:32:40.998] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:32:40.998] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:32:40.998] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:32:40.998] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:32:40.998] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:32:40.998] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:32:40.998] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:32:40.998] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:32:40.998] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:32:40.998] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:32:40.998] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:32:40.998] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:32:40.998] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:32:40.998] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:32:40.998] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:32:40.998] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:32:40.999] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:32:40.999] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:32:40.999] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:32:40.999] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:32:40.999] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:32:40.999] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:32:40.999] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:32:40.999] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:32:40.999] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:32:40.999] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:32:40.999] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:32:40.999] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:32:40.999] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:32:40.999] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:32:40.999] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:32:40.999] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:32:40.999] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:32:40.999] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:32:40.999] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:32:40.999] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:32:40.999] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:32:40.999] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:32:40.999] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:32:40.999] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:32:40.999] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:32:40.999] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:32:40.999] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:32:40.999] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:32:40.999] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:32:40.999] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:32:40.999] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:32:40.999] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:32:40.999] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:32:40.999] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:32:40.999] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:32:40.999] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:32:40.999] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:32:40.999] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:32:40.999] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:32:40.999] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:32:40.999] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:32:40.999] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:32:40.999] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:32:41.000] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:32:41.000] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:32:41.000] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:32:41.000] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:32:41.000] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:32:41.000] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:32:41.000] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:32:41.000] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:32:41.000] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:32:41.000] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:32:41.000] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:32:41.000] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:32:41.000] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:32:41.000] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:32:41.000] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:32:41.000] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:32:41.000] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:32:41.000] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:32:41.000] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:32:41.000] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:32:41.000] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:32:41.000] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:32:41.000] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:32:41.000] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:32:41.000] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:32:41.000] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:32:41.000] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:32:41.000] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:32:41.000] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:32:41.000] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:32:41.000] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:32:41.000] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:32:41.000] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:32:41.000] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:32:41.000] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:32:41.000] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:32:41.000] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:32:41.000] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:32:41.000] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:32:41.000] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:32:41.000] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:32:41.000] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:32:41.000] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:32:41.000] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:32:41.000] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:32:41.000] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:32:41.001] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:32:41.001] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:32:41.001] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:32:41.001] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:32:41.001] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:32:41.001] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:32:41.001] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:32:41.001] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:32:41.001] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:32:41.001] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:32:41.001] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:32:41.001] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:32:41.001] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:32:41.001] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:32:41.001] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:32:41.001] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:32:41.001] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:32:41.001] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:32:41.001] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:32:41.001] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:32:41.001] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:32:41.001] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:32:41.001] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:32:41.001] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:32:41.001] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:32:41.001] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:32:41.001] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:32:41.001] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:32:41.001] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:32:41.001] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:32:41.001] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:32:41.001] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:32:41.001] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:32:41.001] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:32:41.001] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:32:41.001] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:32:41.001] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:32:41.001] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:32:41.001] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:32:41.001] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:32:41.001] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:32:41.001] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:32:41.002] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:32:41.002] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:32:41.002] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:32:41.002] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:32:41.002] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:32:41.002] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:32:41.002] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:32:41.002] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:32:41.002] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:32:41.002] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:32:41.002] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:32:41.002] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:32:41.002] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:32:41.002] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:32:41.002] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:32:41.002] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:32:41.002] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:32:41.002] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:32:41.002] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:32:41.002] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:32:41.002] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:32:41.002] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:32:41.002] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:32:41.002] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:32:41.002] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:32:41.002] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:32:41.002] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:32:41.002] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:32:41.002] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:32:41.002] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:32:41.002] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:32:41.002] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:32:41.002] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:32:41.002] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:32:41.002] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:32:41.002] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:32:41.002] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:32:41.002] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:32:41.002] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:32:41.002] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:32:41.002] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:32:41.002] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:32:41.002] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:32:41.002] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:32:41.002] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:32:41.002] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:32:41.003] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:32:41.003] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:32:41.003] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:32:41.003] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:32:41.003] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:32:41.003] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:32:41.003] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:32:41.003] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:32:41.003] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:32:41.003] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:32:41.003] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:32:41.003] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:32:41.003] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:32:41.003] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:32:41.003] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:32:41.003] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:32:41.003] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:32:41.003] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:32:41.003] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:32:41.003] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:32:41.003] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:32:41.003] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:32:41.003] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:32:41.003] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:32:41.003] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:32:41.003] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:32:41.003] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:32:41.003] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:32:41.003] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:32:41.003] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:32:41.003] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:32:41.003] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:32:41.003] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:32:41.003] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:32:41.003] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:32:41.003] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:32:41.003] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:32:41.003] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:32:41.003] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:32:41.003] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:32:41.003] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:32:41.003] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:32:41.003] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:32:41.003] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:32:41.004] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:32:41.004] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:32:41.004] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:32:41.004] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:32:41.004] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:32:41.004] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:32:41.004] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:32:41.004] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:32:41.004] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:32:41.004] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:32:41.004] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:32:41.004] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:32:41.004] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:32:41.004] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:32:41.004] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:32:41.004] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:32:41.004] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:32:41.004] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:32:41.004] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:32:41.004] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:32:41.004] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:32:41.004] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:32:41.004] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:32:41.004] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:32:41.004] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:32:41.004] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:32:41.004] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:32:41.004] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:32:41.004] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:32:41.004] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:32:41.004] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:32:41.004] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:32:41.004] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:32:41.004] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:32:41.004] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:32:41.004] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:32:41.004] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:32:41.004] Unknown setting 'coord_teleport_name'
+[17-11-2020 || 20:32:41.004] Unknown setting 'coord_teleport_posx'
+[17-11-2020 || 20:32:41.004] Unknown setting 'coord_teleport_posy'
+[17-11-2020 || 20:32:41.004] Unknown setting 'coord_teleport_posz'
+[17-11-2020 || 20:32:41.004] Unknown setting 'fakestat_item'
+[17-11-2020 || 20:32:41.004] Unknown setting 'fakestat_item'
+[17-11-2020 || 20:32:41.004] Unknown setting 'fakestat_item'
+[17-11-2020 || 20:32:41.005] Unknown setting 'fakestat_item'
+[17-11-2020 || 20:32:41.005] Unknown setting 'fakestat_item'
+[17-11-2020 || 20:32:41.005] Unknown setting 'fakestat_item'
+[17-11-2020 || 20:32:41.005] Unknown setting 'fakestat_item'
+[17-11-2020 || 20:32:41.005] Unknown setting 'fakestat_item'
+[17-11-2020 || 20:32:41.005] Unknown setting 'fakestat_item'
+[17-11-2020 || 20:32:41.005] Unknown setting 'fakestat_item'
+[17-11-2020 || 20:32:41.005] Unknown setting 'fakestat_item'
+[17-11-2020 || 20:32:41.005] Unknown setting 'fakestat_item'
+[17-11-2020 || 20:32:41.005] Unknown setting 'fakestat_item'
+[17-11-2020 || 20:32:41.005] Unknown setting 'fakestat_item'
+[17-11-2020 || 20:32:41.005] Unknown setting 'fakestat_item'
+[17-11-2020 || 20:32:41.005] Unknown setting 'fakestat_item'
+[17-11-2020 || 20:32:41.005] Unknown setting 'fakestat_item'
+[17-11-2020 || 20:32:41.005] Unknown setting 'fakestat_item'
+[17-11-2020 || 20:32:41.005] Unknown setting 'fakestat_item'
+[17-11-2020 || 20:32:41.005] Unknown setting 'fakestat_item'
+[17-11-2020 || 20:32:41.005] Unknown setting 'fakestat_item'
+[17-11-2020 || 20:32:41.005] Unknown setting 'fakestat_item'
+[17-11-2020 || 20:32:41.006] Unknown weapon 'Fist' in weapon_slot[0]
+[17-11-2020 || 20:32:41.006] Unknown setting 'logo_enable'
+[17-11-2020 || 20:32:41.006] Unknown setting 'recording_activated'
+[17-11-2020 || 20:32:41.006] Unknown setting 'key_recording_record'
+[17-11-2020 || 20:32:41.006] Unknown setting 'recording_maxDistToEntryPoint'
+[17-11-2020 || 20:32:41.006] Unknown setting 'key_recording_continueAfterFinish'
+[17-11-2020 || 20:32:41.006] Unknown setting 'recording_play_customSpeed'
+[17-11-2020 || 20:32:41.006] Unknown setting 'key_recording_play'
+[17-11-2020 || 20:32:41.006] Unknown setting 'key_recording_customSpeed'
+[17-11-2020 || 20:32:41.006] Unknown setting 'key_recording_rev'
+[17-11-2020 || 20:32:41.006] Unknown setting 'key_recording_rev_customSpeed'
+[17-11-2020 || 20:32:41.006] Unknown setting 'secondary_key'
+[17-11-2020 || 20:32:41.006] Unknown setting 'send_spec_data'
+[17-11-2020 || 20:32:41.007] Warning: setting 'key_autoaim_toggle' was not present in the mod_sa.ini file
+[17-11-2020 || 20:32:41.007] Warning: setting 'use_gta_autoaim' was not present in the mod_sa.ini file
+[17-11-2020 || 20:32:41.007] Warning: setting 'weapon_slot[]' was not present in the mod_sa.ini file
+[17-11-2020 || 20:32:41.007] Warning: setting 'anti_carjacking' was not present in the mod_sa.ini file
+[17-11-2020 || 20:32:41.007] Warning: setting 'key_map_teleport' was not present in the mod_sa.ini file
+[17-11-2020 || 20:32:41.007] Warning: setting 'map_must_be_open' was not present in the mod_sa.ini file
+[17-11-2020 || 20:32:41.008] Warning: setting 'key_fastwarp' was not present in the mod_sa.ini file
+[17-11-2020 || 20:32:41.008] Warning: setting 'key_surf' was not present in the mod_sa.ini file
+[17-11-2020 || 20:32:41.008] Warning: setting 'key_freezerot' was not present in the mod_sa.ini file
+[17-11-2020 || 20:32:41.008] Warning: setting 'map_draw_lines' was not present in the mod_sa.ini file
+[17-11-2020 || 20:32:41.008] SA:MP 0.3.7 was detected. g_dwSAMP_Addr: 0x03AE0000
+[17-11-2020 || 20:32:43.374] proxyIDirect3DDevice9 constructor called. Original IDirect3DDevice9 interface address is 0x0FB2AE00
+[17-11-2020 || 20:32:43.650] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 20:32:43.691] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 20:32:53.463] byteAuthBSLen 43
+[17-11-2020 || 20:32:53.463] auth_bs 1373BDCA32DC1F4401B49D6FD986364DC5F9B8FFB84
+[17-11-2020 || 20:32:53.463] NEW byteAuthBSLen 43
+[17-11-2020 || 20:32:53.464] NEW auth_bs 122A3736706B63267E4639393343CA5CBC177A2DC2F
+[17-11-2020 || 20:35:05.980] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 20:35:05.980] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 20:35:06.275] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 20:35:11.181] Exited
+
+[17-11-2020 || 20:35:14.872] Initializing OverLight Mod build 4
+[17-11-2020 || 20:35:14.872] Compiled: Nov 17 2020 20:22:45 CL:1921
+[17-11-2020 || 20:35:14.872] OS: Windows Version 6.1538.9200
+[17-11-2020 || 20:35:14.872] D3D9UseVersion: 0
+[17-11-2020 || 20:35:14.872] DXVersion: 2304
+[17-11-2020 || 20:35:14.872] windowsVersion: 4
+[17-11-2020 || 20:35:14.872] CPU Supports MMX: 0
+[17-11-2020 || 20:35:14.872] CPU Supports 3DNow: 0
+[17-11-2020 || 20:35:14.872] CPU Supports SSE: 0
+[17-11-2020 || 20:35:14.872] CPU Supports SSE2: 0
+[17-11-2020 || 20:35:14.881] Unknown weapon 'Fist' in weapon_slot[0]
+[17-11-2020 || 20:35:14.883] Warning: setting 'weapon_slot[]' was not present in the mod_sa.ini file
+[17-11-2020 || 20:35:14.883] SA:MP 0.3.7 was detected. g_dwSAMP_Addr: 0x03D00000
+[17-11-2020 || 20:35:17.265] proxyIDirect3DDevice9 constructor called. Original IDirect3DDevice9 interface address is 0x0FC46560
+[17-11-2020 || 20:35:17.528] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 20:35:17.571] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 20:35:27.150] byteAuthBSLen 43
+[17-11-2020 || 20:35:27.150] auth_bs 1373BDCA32DC1F4401B49D6FD986364DC5F9B8FFB84
+[17-11-2020 || 20:35:27.150] NEW byteAuthBSLen 43
+[17-11-2020 || 20:35:27.150] NEW auth_bs 136343CA5CBC177A2DD745F7F619E5661E5FD40BCE7
+[17-11-2020 || 20:45:50.922] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 20:45:50.922] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 20:45:51.276] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 20:53:07.156]  ---------------------------------------------------------------------
+[17-11-2020 || 20:53:07.156]  OverLight Mod build 4 has crashed.
+[17-11-2020 || 20:53:07.156]  Base address: 0x0FD60000, SA:MP base address: 0x03D00000
+[17-11-2020 || 20:53:07.156]  Exception at address: 0x0FDCE376, Last function processed: it_wasnt_us()
+[17-11-2020 || 20:53:07.156] Bot Thread: 
+[17-11-2020 || 20:53:07.156]  Cause: EXCEPTION_ACCESS_VIOLATION
+[17-11-2020 || 20:53:07.156]  Attempted to read from: 0x0000000c
+[17-11-2020 || 20:53:07.156]  EAX: 0x00000002 || ESI: 0x00000000
+[17-11-2020 || 20:53:07.157]  EBX: 0x00000000 || EDI: 0x0007ffec
+[17-11-2020 || 20:53:07.157]  ECX: 0x00005000 || EBP: 0x20d5ff70
+[17-11-2020 || 20:53:07.157]  EDX: 0x00000000 || ESP: 0x20d5fc4c
+[17-11-2020 || 20:53:07.157]  ---------------------------------------------------------------------
+[17-11-2020 || 21:21:30.835] Initializing OverLight Mod build 4
+[17-11-2020 || 21:21:30.835] Compiled: Nov 17 2020 21:19:37 CL:1921
+[17-11-2020 || 21:21:30.835] OS: Windows Version 6.1538.9200
+[17-11-2020 || 21:21:30.835] D3D9UseVersion: 0
+[17-11-2020 || 21:21:30.835] DXVersion: 2304
+[17-11-2020 || 21:21:30.835] windowsVersion: 4
+[17-11-2020 || 21:21:30.835] CPU Supports MMX: 0
+[17-11-2020 || 21:21:30.835] CPU Supports 3DNow: 0
+[17-11-2020 || 21:21:30.835] CPU Supports SSE: 0
+[17-11-2020 || 21:21:30.835] CPU Supports SSE2: 0
+[17-11-2020 || 21:21:30.855] Unknown weapon 'Fist' in weapon_slot[0]
+[17-11-2020 || 21:21:30.858] Warning: setting 'weapon_slot[]' was not present in the mod_sa.ini file
+[17-11-2020 || 21:21:30.858] SA:MP 0.3.7 was detected. g_dwSAMP_Addr: 0x03BC0000
+[17-11-2020 || 21:21:33.259] proxyIDirect3DDevice9 constructor called. Original IDirect3DDevice9 interface address is 0x103CF9C0
+[17-11-2020 || 21:21:33.538] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 21:21:33.583] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 21:21:44.356] byteAuthBSLen 43
+[17-11-2020 || 21:21:44.356] auth_bs 1373BDCA32DC1F4401B49D6FD986364DC5F9B8FFB84
+[17-11-2020 || 21:21:44.356] NEW byteAuthBSLen 42
+[17-11-2020 || 21:21:44.356] NEW auth_bs BCB2E68718470515AE0B8D39A5911E6C519989C5E1
+[17-11-2020 || 21:22:32.462] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 21:22:32.462] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 21:22:33.366] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 21:23:11.518] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 21:23:11.518] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 21:23:11.840] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 21:24:16.032] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 21:24:16.033] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 21:24:16.557] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 21:25:11.429] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 21:25:11.429] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 21:25:12.334] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 22:19:40.419] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 22:19:40.419] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 22:19:40.832] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 22:19:46.428] Exited
+
+[17-11-2020 || 22:21:15.552] Initializing OverLight Mod build 4
+[17-11-2020 || 22:21:15.552] Compiled: Nov 17 2020 22:19:50 CL:1921
+[17-11-2020 || 22:21:15.552] OS: Windows Version 6.1538.9200
+[17-11-2020 || 22:21:15.552] D3D9UseVersion: 0
+[17-11-2020 || 22:21:15.552] DXVersion: 2304
+[17-11-2020 || 22:21:15.552] windowsVersion: 4
+[17-11-2020 || 22:21:15.552] CPU Supports MMX: 0
+[17-11-2020 || 22:21:15.552] CPU Supports 3DNow: 0
+[17-11-2020 || 22:21:15.552] CPU Supports SSE: 0
+[17-11-2020 || 22:21:15.552] CPU Supports SSE2: 0
+[17-11-2020 || 22:21:15.573] Unknown weapon 'Fist' in weapon_slot[0]
+[17-11-2020 || 22:21:15.576] Warning: setting 'weapon_slot[]' was not present in the mod_sa.ini file
+[17-11-2020 || 22:21:15.576] SA:MP 0.3.7 was detected. g_dwSAMP_Addr: 0x03BD0000
+[17-11-2020 || 22:21:17.992] proxyIDirect3DDevice9 constructor called. Original IDirect3DDevice9 interface address is 0x10B34A00
+[17-11-2020 || 22:21:18.310] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 22:21:18.360] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 22:21:27.884] byteAuthBSLen 43
+[17-11-2020 || 22:21:27.884] auth_bs 1373BDCA32DC1F4401B49D6FD986364DC5F9B8FFB84
+[17-11-2020 || 22:21:27.884] NEW byteAuthBSLen 42
+[17-11-2020 || 22:21:27.884] NEW auth_bs FF6706B63267E4639393343CA5CBC177A2DD745E26
+[17-11-2020 || 22:22:04.413] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 22:22:04.413] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 22:22:04.735] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 22:22:40.692] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 22:22:40.692] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 22:22:41.194] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 22:23:00.365] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 22:23:00.365] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 22:23:00.884] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 22:23:21.027] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 22:23:21.027] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 22:23:21.974] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 22:23:31.188] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 22:23:31.188] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 22:23:32.164] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 22:24:12.227] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 22:24:12.227] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 22:24:12.640] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 22:24:59.963] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 22:24:59.963] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 22:25:00.274] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 22:25:27.277] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 22:25:27.277] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 22:25:27.732] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 22:25:42.821] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 22:25:42.821] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 22:25:43.137] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 22:25:52.216] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 22:25:52.216] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 22:25:53.091] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 22:26:23.994] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 22:26:23.994] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 22:26:24.902] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 22:26:50.815] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 22:26:50.815] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 22:26:51.102] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 22:45:34.087] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 22:45:34.087] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 22:45:34.561] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 22:50:40.515] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 22:50:40.515] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 22:50:40.923] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 22:51:01.753] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 22:51:01.754] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 22:51:02.723] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 22:53:04.644] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 22:53:04.644] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 22:53:05.024] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 22:53:48.373] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 22:53:48.373] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 22:53:48.720] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 22:54:53.718] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 22:54:53.718] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 22:54:54.080] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 22:59:44.788] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 22:59:44.788] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 22:59:45.195] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 23:08:14.944] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 23:08:14.944] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 23:08:15.374] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 23:08:38.281] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 23:08:38.281] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 23:08:38.682] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 23:09:54.035] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 23:09:54.035] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 23:09:54.486] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 23:10:41.249] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 23:10:41.249] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 23:10:41.744] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 23:11:03.758] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 23:11:03.758] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 23:11:04.760] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 23:11:24.356] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 23:11:24.356] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 23:11:24.942] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 23:11:41.276] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 23:11:41.276] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 23:11:41.642] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 23:11:48.016] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 23:11:48.016] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 23:11:48.355] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 23:13:48.639] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 23:13:48.639] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 23:13:49.020] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 23:20:27.146] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 23:20:27.146] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 23:20:27.781] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 23:31:32.764] proxyIDirect3DDevice9::Reset()
+[17-11-2020 || 23:31:32.765] proxyID3DDevice9_UnInitOurShit
+[17-11-2020 || 23:31:33.219] proxyID3DDevice9_InitOurShit()
+[17-11-2020 || 23:31:38.755] Exited
+
+[18-11-2020 || 01:35:15.356] Initializing OverLight Mod build 4
+[18-11-2020 || 01:35:15.356] Compiled: Nov 17 2020 22:19:50 CL:1921
+[18-11-2020 || 01:35:15.356] OS: Windows Version 6.1538.9200
+[18-11-2020 || 01:35:15.356] D3D9UseVersion: 0
+[18-11-2020 || 01:35:15.356] DXVersion: 2304
+[18-11-2020 || 01:35:15.356] windowsVersion: 4
+[18-11-2020 || 01:35:15.356] CPU Supports MMX: 0
+[18-11-2020 || 01:35:15.356] CPU Supports 3DNow: 0
+[18-11-2020 || 01:35:15.356] CPU Supports SSE: 0
+[18-11-2020 || 01:35:15.356] CPU Supports SSE2: 0
+[18-11-2020 || 01:35:15.361] Unknown weapon 'Fist' in weapon_slot[0]
+[18-11-2020 || 01:35:15.364] Warning: setting 'weapon_slot[]' was not present in the mod_sa.ini file
+[18-11-2020 || 01:35:15.364] SA:MP 0.3.7 was detected. g_dwSAMP_Addr: 0x03DA0000
+[18-11-2020 || 01:35:17.828] proxyIDirect3DDevice9 constructor called. Original IDirect3DDevice9 interface address is 0x10373600
+[18-11-2020 || 01:35:18.158] proxyIDirect3DDevice9::Reset()
+[18-11-2020 || 01:35:18.226] proxyID3DDevice9_InitOurShit()
+[18-11-2020 || 01:35:27.927] byteAuthBSLen 43
+[18-11-2020 || 01:35:27.927] auth_bs 1373BDCA32DC1F4401B49D6FD986364DC5F9B8FFB84
+[18-11-2020 || 01:35:27.927] NEW byteAuthBSLen 43
+[18-11-2020 || 01:35:27.927] NEW auth_bs 14D93343CA5CBC177A2DD745F7F619E5661E5FD3F88
+[18-11-2020 || 01:35:53.577] Exited
+
