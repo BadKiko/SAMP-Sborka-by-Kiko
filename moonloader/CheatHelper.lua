@@ -22,10 +22,10 @@ update_status = false
 local script_vers = 1
 local script_vers_text = "1.00"
 
-local update_url = ""
+local update_url = "https://raw.githubusercontent.com/BadKiko/SAMP-Sborka-by-Kiko/main/moonloader/updateCheatHelp.ini"
 local update_path = getWorkingDirectory().."/updateCheatHelp.ini"
 
-local script_url = ""
+local script_url = "https://raw.githubusercontent.com/BadKiko/SAMP-Sborka-by-Kiko/main/moonloader/CheatHelper.lua"
 local script_path = thisScript().path
 
 
@@ -700,7 +700,7 @@ function imgui.OnDrawFrame()
 					imgui.TreePop()
 				end
 				imgui.Separator()
-				if (imgui.TreeNode(u8"20) RollCrasher - крашер, чтобы закрашить нужно телом двигать тачку.")) then
+				if (imgui.TreeNode(u8"21) RollCrasher - крашер, чтобы закрашить нужно телом двигать тачку.")) then
 					if rcds then
 						if imgui.Button(u8"¬ключить") then
 							rcds = false
@@ -716,7 +716,7 @@ function imgui.OnDrawFrame()
 					imgui.TreePop()
 				end
 				imgui.Separator()
-				if (imgui.TreeNode(u8"20) WheelDestroyer - взрывает покрышки тачек к ху€м, нужно выкинуть чувака из тс дл€ актив.")) then
+				if (imgui.TreeNode(u8"22) WheelDestroyer - взрывает покрышки тачек к ху€м, нужно выкинуть чувака из тс дл€ актив.")) then
 					if imgui.Button(u8"/wd [id авто]") then
 						sampSetChatInputText("/wd ")
 						sampSetChatInputEnabled(true)
@@ -739,7 +739,7 @@ function imgui.OnDrawFrame()
 					imgui.TreePop()
 				end
 				imgui.Separator()
-				if (imgui.TreeNode(u8"21) SDMG -  рутой дамагер, раскройте описание.")) then
+				if (imgui.TreeNode(u8"23) SDMG -  рутой дамагер, раскройте описание.")) then
 					if sdmg then
 						if imgui.Button(u8"¬ключить") then
 							sdmg = false
