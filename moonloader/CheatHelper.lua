@@ -6,7 +6,7 @@ local sampev = require("lib.samp.events")
 local imgui = require("imgui")
 local encoding = require("encoding")
 local sw, sh = getScreenResolution()
-local local  = require 'inicfg'
+local inicfg  = require 'inicfg'
 
 
 local dlstatus = require("moonloader").download_status
@@ -19,8 +19,8 @@ u8 = encoding.UTF8
 
 update_status = false
 
-local script_vers = 1
-local script_vers_text = "1.00"
+local script_vers = 3
+local script_vers_text = "1.02"
 
 local update_url = "https://raw.githubusercontent.com/BadKiko/SAMP-Sborka-by-Kiko/main/moonloader/updateCheatHelp.ini"
 local update_path = getWorkingDirectory().."/updateCheatHelp.ini"
@@ -79,9 +79,11 @@ function main()
 	downloadUrlToFile(update_url, update_path, function(id, status)
 		if status == dlstatus.STATUS_ENDDOWNLOADDATA then
 			updateIni = inicfg.load(nil,update_path)
-			if tonumber(updateIni.info.vers) > script_vers then
-				sendMessage("Dungeon Master нашел обновление! ќбновл€ем {464446}<CheatHelper>{850AB9} до версии:{464446} "..updateIni.info.vers_text)
+			if tonumber(updateIni.script_info.vers) > script_vers then
+				sendMessage("Dungeon Master нашел обновление! ќбновл€ем {464446}<CheatHelper>{850AB9} до версии:{464446} "..updateIni.script_info.vers_text)
 				update_status = true
+			else
+				sendMessage("Slave, ты красавец, у теб€ последн€€ верси€ {464446}<CheatHelper> - "..updateIni.script_info.vers_text.."!")
 			end
 			os.remove(update_path)
 		end
@@ -149,7 +151,7 @@ function imgui.OnDrawFrame()
 	--Main меню
 	if menu_window_state.v then
 		imgui.SetNextWindowPos(imgui.ImVec2((sw / 2) + 300, sh / 2), imgui.Cond.FirstUseEver, imgui.ImVec2(0.5, 0.5))
-		imgui.Begin("[CheatHelper] by Kiko", menu_window_state, imgui.WindowFlags.AlwaysAutoResize)
+		imgui.Begin("[CheatHelper] by Kiko | "..script_vers, menu_window_state, imgui.WindowFlags.AlwaysAutoResize)
 		apply_custom_style()
 		imgui.Text(u8'’ай сучара, вот все читики:')
 		imgui.Separator()
