@@ -1,55 +1,52 @@
-[00:49:09.206] Initializing OverLight Mod build 4
-[00:49:09.206] Compiled: Nov 22 2020 21:56:29 CL:1928
-[00:49:09.206] OS: Windows Version 6.1538.9200
-[00:49:09.206] D3D9UseVersion: 0
-[00:49:09.206] DXVersion: 2304
-[00:49:09.206] windowsVersion: 4
-[00:49:09.206] CPU Supports MMX: 0
-[00:49:09.206] CPU Supports 3DNow: 0
-[00:49:09.206] CPU Supports SSE: 0
-[00:49:09.206] CPU Supports SSE2: 0
-[00:49:09.210] Unknown weapon 'Fist' in weapon_slot[0]
-[00:49:09.212] Warning: setting 'weapon_slot[]' was not present in the mod_sa.ini file
-[00:49:09.212] SA:MP 0.3.7 was detected. g_dwSAMP_Addr: 0x03BA0000
-[00:49:11.767] proxyIDirect3DDevice9 constructor called. Original IDirect3DDevice9 interface address is 0x0F547340
-[00:49:14.395] proxyIDirect3DDevice9::Reset()
-[00:49:14.519] proxyID3DDevice9_InitOurShit()
-[00:49:17.120] proxyIDirect3DDevice9::Reset()
-[00:49:17.120] proxyID3DDevice9_UnInitOurShit
-[00:49:17.241] proxyID3DDevice9_InitOurShit()
-[00:49:21.899] byteAuthBSLen 42
-[00:49:21.899] auth_bs 10D668127775CC6BE8A97FD21463FC0855E292C580
-[00:49:21.899] NEW byteAuthBSLen 42
-[00:49:21.899] NEW auth_bs DC35CBC0B3F9903A597A6BC1D6F2E6FC5A70E42EF8
-[00:49:57.187] proxyIDirect3DDevice9::Reset()
-[00:49:57.187] proxyID3DDevice9_UnInitOurShit
-[00:49:57.713] proxyID3DDevice9_InitOurShit()
-[00:51:09.364] proxyIDirect3DDevice9::Reset()
-[00:51:09.364] proxyID3DDevice9_UnInitOurShit
-[00:51:10.291] proxyID3DDevice9_InitOurShit()
-[00:52:24.309] proxyIDirect3DDevice9::Reset()
-[00:52:24.309] proxyID3DDevice9_UnInitOurShit
-[00:52:24.809] proxyID3DDevice9_InitOurShit()
-[00:54:18.267] proxyIDirect3DDevice9::Reset()
-[00:54:18.267] proxyID3DDevice9_UnInitOurShit
-[00:54:18.776] proxyID3DDevice9_InitOurShit()
-[00:54:24.744] proxyIDirect3DDevice9::Reset()
-[00:54:24.745] proxyID3DDevice9_UnInitOurShit
-[00:54:25.210] proxyID3DDevice9_InitOurShit()
-[00:55:19.877] proxyIDirect3DDevice9::Reset()
-[00:55:19.877] proxyID3DDevice9_UnInitOurShit
-[00:55:20.384] proxyID3DDevice9_InitOurShit()
-[00:56:06.215] proxyIDirect3DDevice9::Reset()
-[00:56:06.215] proxyID3DDevice9_UnInitOurShit
-[00:56:06.682] proxyID3DDevice9_InitOurShit()
-[00:56:18.988] proxyIDirect3DDevice9::Reset()
-[00:56:18.988] proxyID3DDevice9_UnInitOurShit
-[00:56:19.568] proxyID3DDevice9_InitOurShit()
-[00:56:48.469] proxyIDirect3DDevice9::Reset()
-[00:56:48.469] proxyID3DDevice9_UnInitOurShit
-[00:56:49.098] proxyID3DDevice9_InitOurShit()
-[01:18:09.930] proxyIDirect3DDevice9::Reset()
-[01:18:09.930] proxyID3DDevice9_UnInitOurShit
-[01:18:10.611] proxyID3DDevice9_InitOurShit()
-[01:18:15.693] Exited
+[02:34:39.739] Initializing OverLight Mod build 4
+[02:34:39.739] Compiled: Nov 22 2020 21:56:29 CL:1928
+[02:34:39.739] OS: Windows Version 6.1538.9200
+[02:34:39.739] D3D9UseVersion: 0
+[02:34:39.739] DXVersion: 2304
+[02:34:39.739] windowsVersion: 4
+[02:34:39.739] CPU Supports MMX: 0
+[02:34:39.739] CPU Supports 3DNow: 0
+[02:34:39.739] CPU Supports SSE: 0
+[02:34:39.739] CPU Supports SSE2: 0
+[02:34:39.742] Unknown weapon 'Fist' in weapon_slot[0]
+[02:34:39.745] Warning: setting 'weapon_slot[]' was not present in the mod_sa.ini file
+[02:34:39.745] SA:MP 0.3.7 was detected. g_dwSAMP_Addr: 0x03DD0000
+[02:34:42.425] proxyIDirect3DDevice9 constructor called. Original IDirect3DDevice9 interface address is 0x0F9836C0
+[02:34:44.901] proxyIDirect3DDevice9::Reset()
+[02:34:45.077] proxyID3DDevice9_InitOurShit()
+[02:34:47.506] proxyIDirect3DDevice9::Reset()
+[02:34:47.506] proxyID3DDevice9_UnInitOurShit
+[02:34:47.640] proxyID3DDevice9_InitOurShit()
+[02:34:51.288] byteAuthBSLen 42
+[02:34:51.288] auth_bs 10D668127775CC6BE8A97FD21463FC0855E292C580
+[02:34:51.288] NEW byteAuthBSLen 42
+[02:34:51.288] NEW auth_bs CC14B78BAAA721B7C31ABB107D06098BDDFFBAACD0
+[02:35:51.590] proxyIDirect3DDevice9::Reset()
+[02:35:51.590] proxyID3DDevice9_UnInitOurShit
+[02:35:52.122] proxyID3DDevice9_InitOurShit()
+[02:37:33.073] proxyIDirect3DDevice9::Reset()
+[02:37:33.073] proxyID3DDevice9_UnInitOurShit
+[02:37:33.599] proxyID3DDevice9_InitOurShit()
+[02:38:33.225] proxyIDirect3DDevice9::Reset()
+[02:38:33.225] proxyID3DDevice9_UnInitOurShit
+[02:38:33.794] proxyID3DDevice9_InitOurShit()
+[02:38:47.858] proxyIDirect3DDevice9::Reset()
+[02:38:47.858] proxyID3DDevice9_UnInitOurShit
+[02:38:48.398] proxyID3DDevice9_InitOurShit()
+[02:39:13.951] proxyIDirect3DDevice9::Reset()
+[02:39:13.951] proxyID3DDevice9_UnInitOurShit
+[02:39:14.503] proxyID3DDevice9_InitOurShit()
+[02:39:58.236] proxyIDirect3DDevice9::Reset()
+[02:39:58.236] proxyID3DDevice9_UnInitOurShit
+[02:39:58.788] proxyID3DDevice9_InitOurShit()
+[02:43:53.555] proxyIDirect3DDevice9::Reset()
+[02:43:53.555] proxyID3DDevice9_UnInitOurShit
+[02:43:54.077] proxyID3DDevice9_InitOurShit()
+[02:44:15.067] proxyIDirect3DDevice9::Reset()
+[02:44:15.067] proxyID3DDevice9_UnInitOurShit
+[02:44:15.522] proxyID3DDevice9_InitOurShit()
+[02:47:12.392] proxyIDirect3DDevice9::Reset()
+[02:47:12.392] proxyID3DDevice9_UnInitOurShit
+[02:47:12.930] proxyID3DDevice9_InitOurShit()
+[02:47:24.019] Exited
 

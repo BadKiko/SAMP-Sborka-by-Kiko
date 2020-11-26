@@ -19,8 +19,8 @@ u8 = encoding.UTF8
 
 update_status = false
 
-local script_vers = 9
-local script_vers_text = "1.03.5"
+local script_vers = 10
+local script_vers_text = "1.03.6"
 
 local update_url = "https://raw.githubusercontent.com/BadKiko/SAMP-Sborka-by-Kiko/main/moonloader/updateCheatHelp.ini"
 local update_path = getWorkingDirectory().."/updateCheatHelp.ini"
@@ -401,7 +401,7 @@ function imgui.OnDrawFrame()
 					imgui.TreePop()
 				end
 				imgui.Separator()
-				if (imgui.TreeNode(u8"13) Knockdown - Оч веселая штука, забирает у игрока тачку и отправляет его в космос.")) then
+				if (imgui.TreeNode(u8"14) Knockdown - Оч веселая штука, забирает у игрока тачку и отправляет его в космос.")) then
 					if imgui.Button(u8"/knock [id тс] [id жертвы]") then
 						sampSetChatInputText("/knock ")
 						sampSetChatInputEnabled(true)
@@ -693,7 +693,7 @@ function imgui.OnDrawFrame()
 					imgui.TreePop()
 				end
 				imgui.Separator()
-				if (imgui.TreeNode(u8"20) Dammager - херовый даммагер, убивает людей.")) then
+				if (imgui.TreeNode(u8"20) Dammager - Херовый даммагер, убивает людей.")) then
 					if imgui.Button(u8"/admg [id жертвы]") then
 						sampSetChatInputText("/admg ")
 						sampSetChatInputEnabled(true)
@@ -702,7 +702,7 @@ function imgui.OnDrawFrame()
 					imgui.TreePop()
 				end
 				imgui.Separator()
-				if (imgui.TreeNode(u8"21) RollCrasher - крашер, чтобы закрашить нужно телом двигать тачку.")) then
+				if (imgui.TreeNode(u8"21) RollCrasher - Крашер, чтобы закрашить нужно телом двигать тачку.")) then
 					if rcds then
 						if imgui.Button(u8"Включить") then
 							rcds = false
@@ -718,7 +718,7 @@ function imgui.OnDrawFrame()
 					imgui.TreePop()
 				end
 				imgui.Separator()
-				if (imgui.TreeNode(u8"22) WheelDestroyer - взрывает покрышки тачек к хуям, нужно выкинуть чувака из тс для актив.")) then
+				if (imgui.TreeNode(u8"22) WheelDestroyer - Взрывает покрышки тачек к хуям, нужно выкинуть чувака из тс для актив.")) then
 					if imgui.Button(u8"/wd [id авто]") then
 						sampSetChatInputText("/wd ")
 						sampSetChatInputEnabled(true)
@@ -830,12 +830,12 @@ function imgui.OnDrawFrame()
 					end
 					imgui.Separator()
 					if imgui.Button(u8"Список комманд") then
-						sampProcessChatInput("/bcinfo")
+						sampProcessChatInput("/cinfo")
 					end
 					imgui.TreePop()
 				end
 				imgui.Separator()
-				if (imgui.TreeNode(u8"26) WattiWeaponCheat - выдает оружие но на несколько секунд при прицеливвании.")) then
+				if (imgui.TreeNode(u8"26) WattiWeaponCheat - Выдает оружие но на несколько секунд при прицеливвании.")) then
 					if imgui.Button(u8"Список комманд") then
 						sampProcessChatInput("/whelp")
 					end
@@ -849,6 +849,15 @@ function imgui.OnDrawFrame()
 
 				imgui.TreePop()
 			end
+			imgui.TreePop()
+		end
+		if imgui.TreeNode(u8"Другое") then
+			imgui.Text(u8'Если не открывается ссылка, то у вас стоит антистиллер скорее всего, он блочит открытие ссылок.')
+			imgui.Separator()
+			if imgui.Button(u8'Ссылка где можно скачать все читы') then
+				os.execute("start https://github.com/BadKiko/SAMP-Sborka-by-Kiko/releases")
+			end
+			imgui.Separator()
 			imgui.TreePop()
 		end
 		----------------------------------------------------
