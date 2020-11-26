@@ -19,8 +19,8 @@ u8 = encoding.UTF8
 
 update_status = false
 
-local script_vers = 4
-local script_vers_text = "1.03"
+local script_vers = 6
+local script_vers_text = "1.03.2"
 
 local update_url = "https://raw.githubusercontent.com/BadKiko/SAMP-Sborka-by-Kiko/main/moonloader/updateCheatHelp.ini"
 local update_path = getWorkingDirectory().."/updateCheatHelp.ini"
