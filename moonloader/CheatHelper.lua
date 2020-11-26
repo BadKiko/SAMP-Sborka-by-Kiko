@@ -19,8 +19,8 @@ u8 = encoding.UTF8
 
 update_status = false
 
-local script_vers = 7
-local script_vers_text = "1.03.3"
+local script_vers = 8
+local script_vers_text = "1.03.4"
 
 local update_url = "https://raw.githubusercontent.com/BadKiko/SAMP-Sborka-by-Kiko/main/moonloader/updateCheatHelp.ini"
 local update_path = getWorkingDirectory().."/updateCheatHelp.ini"
@@ -789,9 +789,59 @@ function imgui.OnDrawFrame()
 					imgui.Text(u8'/sdmg test - загрузить настройки "test" (после загрузки будут грузится по умолчанию)')
 					imgui.TreePop()
 				end
+				imgui.Separator()
+				if (imgui.TreeNode(u8"24) CarFuncsLUA_0.3.3 - Троллинг машинами.")) then
+					if imgui.Button(u8"Открыть меню") then
+						sampProcessChatInput("/cf.menu")
+					end
 
+					imgui.TreePop()
+				end
+				imgui.Separator()
+				if (imgui.TreeNode(u8"25) CarFuncsCLEO - Троллинг машинами.")) then
+					imgui.Text('/bc - Сбросить горящую машину на игрока, как SCar')
+					if imgui.Button(u8"/bc [id авто]") then
+						sampSetChatInputText("/bc ")
+						sampSetChatInputEnabled(true)
+					end
+					imgui.Separator()
+					imgui.Text('/bcc - Поджечь тачку')
+					if imgui.Button(u8"/bcc [id авто]") then
+						sampSetChatInputText("/bcc ")
+						sampSetChatInputEnabled(true)
+					end
+					imgui.Separator()
+					imgui.Text('/ctp - Украсть машину у челика или телепорт тачки к себе')
+					if imgui.Button(u8"/ctp [id авто]") then
+						sampSetChatInputText("/ctp  ")
+						sampSetChatInputEnabled(true)
+					end
+					imgui.Separator()
+					imgui.Text('/crp - Починить машину')
+					if imgui.Button(u8"/crp [id авто]") then
+						sampSetChatInputText("/crp  ")
+						sampSetChatInputEnabled(true)
+					end
+					imgui.Separator()
+					imgui.Text('/mrp  - Починить машину в которой вы сидите')
+					if imgui.Button(u8"/mrp  [id авто]") then
+						sampSetChatInputText("/mrp   ")
+						sampSetChatInputEnabled(true)
+					end
+					imgui.Separator()
+					if imgui.Button(u8"Список комманд") then
+						sampProcessChatInput("/bcinfo")
+					end
+					imgui.TreePop()
+				end
+				imgui.Separator()
+				if (imgui.TreeNode(u8"26) WattiWeaponCheat - выдает оружие но на несколько секунд при прицеливвании.")) then
+					if imgui.Button(u8"Список комманд") then
+						sampProcessChatInput("/whelp")
+					end
 
-
+					imgui.TreePop()
+				end
 
 
 
