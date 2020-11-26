@@ -1,0 +1,6 @@
+;ragdoll_weapon.dat
+;number of parts defection when killed by specific weapon
+;
+;id	num
+8	1	; KATANA
+9	2	; CHAINSAW

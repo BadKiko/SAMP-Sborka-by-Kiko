@@ -1,0 +1,149 @@
+// This file was decompiled using sascm.ini published by Seemann (http://sannybuilder.com/files/SASCM.rar) on 13.10.2007
+
+{$VERSION 3.1.0027}
+{$CLEO .CS}
+
+//-------------MAIN---------------
+0000: NOP 
+
+:NONAME_2
+wait 0 
+if 
+02D8:   actor $PLAYER_ACTOR current_weapon == 22 
+else_jump @NONAME_31 
+jump @NONAME_438 
+
+:NONAME_31
+if 
+02D8:   actor $PLAYER_ACTOR current_weapon == 23 
+else_jump @NONAME_56 
+jump @NONAME_438 
+
+:NONAME_56
+if 
+02D8:   actor $PLAYER_ACTOR current_weapon == 24 
+else_jump @NONAME_81 
+jump @NONAME_438 
+
+:NONAME_81
+if 
+02D8:   actor $PLAYER_ACTOR current_weapon == 25 
+else_jump @NONAME_106 
+jump @NONAME_438 
+
+:NONAME_106
+if 
+02D8:   actor $PLAYER_ACTOR current_weapon == 26 
+else_jump @NONAME_131 
+jump @NONAME_438 
+
+:NONAME_131
+if 
+02D8:   actor $PLAYER_ACTOR current_weapon == 27 
+else_jump @NONAME_156 
+jump @NONAME_438 
+
+:NONAME_156
+if 
+02D8:   actor $PLAYER_ACTOR current_weapon == 28 
+else_jump @NONAME_181 
+jump @NONAME_438 
+
+:NONAME_181
+if 
+02D8:   actor $PLAYER_ACTOR current_weapon == 29 
+else_jump @NONAME_206 
+jump @NONAME_438 
+
+:NONAME_206
+if 
+02D8:   actor $PLAYER_ACTOR current_weapon == 30 
+else_jump @NONAME_231 
+jump @NONAME_438 
+
+:NONAME_231
+if 
+02D8:   actor $PLAYER_ACTOR current_weapon == 31 
+else_jump @NONAME_256 
+jump @NONAME_438 
+
+:NONAME_256
+if 
+02D8:   actor $PLAYER_ACTOR current_weapon == 32 
+else_jump @NONAME_281 
+jump @NONAME_438 
+
+:NONAME_281
+if 
+02D8:   actor $PLAYER_ACTOR current_weapon == 33 
+else_jump @NONAME_306 
+jump @NONAME_438 
+
+:NONAME_306
+if 
+02D8:   actor $PLAYER_ACTOR current_weapon == 34 
+else_jump @NONAME_331 
+jump @NONAME_438 
+
+:NONAME_331
+if 
+02D8:   actor $PLAYER_ACTOR current_weapon == 35 
+else_jump @NONAME_356 
+jump @NONAME_438 
+
+:NONAME_356
+if 
+02D8:   actor $PLAYER_ACTOR current_weapon == 36 
+else_jump @NONAME_381 
+jump @NONAME_438 
+
+:NONAME_381
+if 
+02D8:   actor $PLAYER_ACTOR current_weapon == 37 
+else_jump @NONAME_406 
+jump @NONAME_438 
+
+:NONAME_406
+if 
+02D8:   actor $PLAYER_ACTOR current_weapon == 38 
+else_jump @NONAME_431 
+jump @NONAME_438 
+
+:NONAME_431
+jump @NONAME_2 
+
+:NONAME_438
+if 
+00E1:   player 0 pressed_key 6 
+else_jump @NONAME_2 
+015D: set_gamespeed 0.4 
+
+:NONAME_462
+00E1:   player 0 pressed_key 6 
+else_jump @NONAME_578 
+if and
+  32@ >= 70000 
+00E1:   player 0 pressed_key 14 
+else_jump @NONAME_567 
+32@ = 0 
+015D: set_gamespeed 0.4 
+
+:NONAME_516
+   not 32@ > 10000 
+else_jump @NONAME_567 
+if 
+80E1:   not player 0 pressed_key 6 
+else_jump @NONAME_556 
+32@ = 10000 
+
+:NONAME_556
+wait 0 
+jump @NONAME_516 
+
+:NONAME_567
+wait 0 
+jump @NONAME_462 
+
+:NONAME_578
+Player.SetDrunkVisuals($PLAYER_CHAR, 0)
+jump @NONAME_2 

@@ -1,0 +1,91 @@
+// This file was decompiled using SASCM.ini published by GTAG (http://gtag.gtagaming.com/opcode-database/) on 24.2.2014
+{$CLEO .cs}
+
+//-------------MAIN---------------
+0000: NOP 
+
+:NONAME_2
+0001: wait 100 
+00D6: if and
+00DF:   is_char_in_any_car $PLAYER_ACTOR 
+00E1:   is_button_pressed 0 button 17 
+004D: goto_if_false @NONAME_414 
+03C0: store_car_char_is_in_no_save $PLAYER_ACTOR store_to 1@ 
+096D: get_current_car_mod 1@ component 8 store_to 2@ 
+00D6: if and
+   not 2@ == 1009 
+   not 2@ == 1008 
+   not 2@ == 1010 
+004D: goto_if_false @NONAME_97 
+0001: wait 0 
+01C3: mark_car_as_no_longer_needed 1@ 
+0002: goto @NONAME_2 
+
+:NONAME_97
+0A97: get_car_pointer 1@ store_to 0@ 
+0A8E: 2@ = 0@ + 2212 
+0A8E: 3@ = 0@ + 1162 
+0A8D: read_memory 2@ size 4 vp 0 store_to 4@ 
+0A8D: read_memory 3@ size 1 vp 0 store_to 5@ 
+00D6: if 
+  5@ == 0 
+004D: goto_if_false @NONAME_186 
+   not 4@ == 1.0 
+004D: goto_if_false @NONAME_414 
+
+:NONAME_186
+0001: wait 100 
+
+:NONAME_190
+00E1:   is_button_pressed 0 button 17 
+004D: goto_if_false @NONAME_276 
+0001: wait 0 
+00D6: if 
+856E:   not does_vehicle_exist 1@ 
+004D: goto_if_false @NONAME_242 
+01C3: mark_car_as_no_longer_needed 1@ 
+0002: goto @NONAME_2 
+0002: goto @NONAME_269 
+
+:NONAME_242
+80DB:   not is_char_in_car $PLAYER_ACTOR car 1@ 
+004D: goto_if_false @NONAME_269 
+01C3: mark_car_as_no_longer_needed 1@ 
+0002: goto @NONAME_2 
+
+:NONAME_269
+0002: goto @NONAME_190 
+
+:NONAME_276
+0A8D: read_memory 3@ size 1 vp 0 store_to 5@ 
+5@ += 1 
+0A8C: write_memory 2@ size 4 val 1.0 vp 0 
+0A8C: write_memory 3@ size 1 val 5@ vp 0 
+
+:NONAME_321
+80E1:   not is_button_pressed 0 button 17 
+004D: goto_if_false @NONAME_407 
+0001: wait 0 
+00D6: if 
+856E:   not does_vehicle_exist 1@ 
+004D: goto_if_false @NONAME_373 
+01C3: mark_car_as_no_longer_needed 1@ 
+0002: goto @NONAME_2 
+0002: goto @NONAME_400 
+
+:NONAME_373
+80DB:   not is_char_in_car $PLAYER_ACTOR car 1@ 
+004D: goto_if_false @NONAME_400 
+01C3: mark_car_as_no_longer_needed 1@ 
+0002: goto @NONAME_2 
+
+:NONAME_400
+0002: goto @NONAME_321 
+
+:NONAME_407
+0002: goto @NONAME_186 
+
+:NONAME_414
+0002: goto @NONAME_2 
+hex
+ 4C 49 4E 4B 2F 32 30 31 32

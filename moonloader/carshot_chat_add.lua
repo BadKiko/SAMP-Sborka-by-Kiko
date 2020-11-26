@@ -18,15 +18,6 @@ function main()
 	sendMessage("Created {464446}by{850AB9} 00DD00 {464446}&{850AB9} NN-NoName")
 	sendMessage("Chat Add {464446}by{850AB9} Kiko")
 	sendMessage("{464446}јктиваци€ - {850AB9}/cs в машине")
-
-
-	while true do
-
-		wait(0)
-		sampRegisterChatCommand("hgfcfsd", function()
-		end)
-		--пр€чем показываем курсор
-	end
 end
 
 

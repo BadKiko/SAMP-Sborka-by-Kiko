@@ -1,0 +1,180 @@
+{$CLEO}
+0000:
+wait 250
+while true
+    wait 0    
+ 
+    if or
+    0117:   player $PLAYER_CHAR wasted
+    0741:   actor $PLAYER_ACTOR busted 
+    then
+      if
+      20@ <> 1
+      then
+    //05F7: 14@ = label @label offset 
+0A9F: 0@ = current_thread_pointer
+0A8E: 10@ = 0@ + 0x10
+0A8D: 10@ = read_memory 10@ size 4 virtual_protect 0
+0A8F: 14@ = 10@ - @label
+    0A96: 15@ = actor $PLAYER_ACTOR struct
+    15@ += 0x5A0
+
+
+        for 13@ = 1 to 13 step 1  
+        0A8D: 21@ = read_memory 15@ size 4 virtual_protect 1 //slot x
+        15@ += 0xC                               
+        0A8D: 1@ = read_memory 15@ size 4 virtual_protect 1 //ammo for that weapon
+        15@ += -0xC
+        0A8C: write_memory 14@ size 4 value 21@ virtual_protect 1  //write slot x
+        14@ += 4
+        0A8C: write_memory 14@ size 4 value 1@ virtual_protect 1  //write ammo
+        14@ += 4
+        15@ += 0x1C
+        end   
+    33@ = 0
+    048F: actor $PLAYER_ACTOR remove_weapons 
+    20@ = 1
+      end
+    end
+      
+
+    
+    
+    
+    if and
+    010A:   player $player_char money > 2000
+    20@ == 1
+    03EE:   player $player_char controllable
+    816B:  not fading
+    then
+0512: show_permanent_text_box 'VCSGNS'
+
+if
+00E1:   key_pressed 0 4
+then
+03E6: remove_text_box
+0A9F: 0@ = current_thread_pointer
+0A8E: 10@ = 0@ + 0x10
+0A8D: 10@ = read_memory 10@ size 4 virtual_protect 0
+0A8F: 14@ = 10@ - @label
+        for 12@ = 1 to 13 step 1
+        0A8D: 3@ = read_memory 14@ size 4 virtual_protect 1  // weapon id
+        14@ += 0x4
+        0A8D: 4@ = read_memory 14@ size 4 virtual_protect 1  //ammo
+        14@ += -0x4
+                  if
+                  3@ <> 0
+                  then
+                  0AA7: call_function 0x454AC0 num_params 1 pop 1 3@ 5@    //weapon id to model id
+                  0247: request_model 5@
+                  038B: load_requested_models
+                  01B2: give_player $PLAYER_ACTOR weapon 3@ ammo 4@ // Load the weapon model before using this
+                  0249: release_model 5@ 
+                  6@ = 1
+                  end
+        14@ += 0x8
+        end
+        if
+        6@ == 1
+        then
+        0109: player $player_char money += -2000
+        else
+        0512: show_permanent_text_box 'RE_WEPE'
+        end
+0A9F: 0@ = current_thread_pointer
+0A8E: 10@ = 0@ + 0x10
+0A8D: 10@ = read_memory 10@ size 4 virtual_protect 0
+0A8F: 14@ = 10@ - @label
+        for 22@ = 1 to 13 step 1
+        0A8C: write_memory 14@ size 4 value 0x00 virtual_protect 1
+        14@ += 4
+        end
+    6@ = 0 
+    20@ = 0
+    end 
+
+if and
+20@ == 1
+33@ > 15000
+then
+03E6: remove_text_box
+0A9F: 0@ = current_thread_pointer
+0A8E: 10@ = 0@ + 0x10
+0A8D: 10@ = read_memory 10@ size 4 virtual_protect 0
+0A8F: 14@ = 10@ - @label
+        for 22@ = 1 to 15 step 1
+        0A8C: write_memory 14@ size 4 value 0x00 virtual_protect 1
+        14@ += 4
+        end
+20@ = 0
+end
+  
+end 
+
+
+end
+
+
+
+
+:label
+hex
+00 00 00 00   //slot 
+00 00 00 00   //ammo for that weapon
+00 00 00 00
+00 00 00 00
+00 00 00 00
+00 00 00 00
+00 00 00 00
+00 00 00 00
+00 00 00 00
+00 00 00 00
+00 00 00 00
+00 00 00 00
+00 00 00 00
+00 00 00 00
+00 00 00 00
+00 00 00 00
+00 00 00 00
+00 00 00 00
+00 00 00 00
+00 00 00 00
+00 00 00 00
+00 00 00 00
+00 00 00 00
+00 00 00 00
+00 00 00 00
+00 00 00 00
+00 00 00 00
+00 00 00 00
+00 00 00 00
+00 00 00 00
+00 00 00 00
+00 00 00 00
+00 00 00 00
+00 00 00 00
+00 00 00 00
+00 00 00 00
+00 00 00 00
+00 00 00 00
+00 00 00 00
+00 00 00 00
+00 00 00 00
+00 00 00 00
+00 00 00 00
+00 00 00 00
+00 00 00 00
+00 00 00 00
+00 00 00 00
+00 00 00 00
+00 00 00 00
+00 00 00 00
+00 00 00 00
+00 00 00 00
+00 00 00 00
+00 00 00 00
+00 00 00 00
+00 00 00 00
+00 00 00 00
+00 00 00 00
+end

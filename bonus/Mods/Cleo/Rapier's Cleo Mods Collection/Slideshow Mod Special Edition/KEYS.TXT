@@ -1,0 +1,21 @@
+KEYS.TXT
+
+ƒ ƒ ƒ SLIDESHOW MOD SPECIAL EDITION by Rapier ƒ ƒ ƒ
+
+ACTIVATION CODE = Type SLIDE in your keyboard while the game is running.
+
+KEYS LIST (Keyboard keys)
+
+On foot:
+FORWARD/BACKWARD = Move cursor.
+SPRINT = Select the slide.
+ENTER/EXIT VEHICLE = Exit menu.
+
+In slideshow:
+"DOWN ARROW" = Previous slide.
+"UP ARROW" = Next slide.
+"LEFT ARROW" = Previous image.
+"RIGHT ARROW" = Next image.
+"A" = Auto scroll.
+"R" = Repeat.
+"E" = Exit.

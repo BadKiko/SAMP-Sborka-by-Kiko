@@ -1,0 +1,17 @@
+; TAXI MOD STRING FILE
+; This file contains all the texts used by mod. DO NOT MODIFY!
+
+TM_ERR1 You must set a destination first!
+TM_ERR2 Your destination is very distant!
+TM_ERR3 You must have a sub-machinegun to do a drive-by!
+TM_ERR4 You do not have enough money!
+TM_HLP1 Type ~h~TAXI~w~ in your keyboard to call/cancel the ~h~Taxi~w~.
+TM_HLP2 Press ~h~~k~~PED_ANSWER_PHONE~~w~ + ~h~~k~~VEHICLE_ENTER_EXIT~~w~ to enter in the ~h~Taxi~w~.
+TM_HLP3 You can stop the ~h~Taxi~w~ at any time pressing ~h~~k~~VEHICLE_HANDBRAKE~~w~. However, press ~h~~k~~VEHICLE_FIREWEAPON~~w~ to go in the maximum speed.
+TM_HLP4 You can control the ~h~Taxi~w~ speed pressing ~h~~k~~VEHICLE_ACCELERATE~~w~ or ~h~~k~~VEHICLE_BRAKE~~w~.
+TM_HLP5 You can do a ~h~drive-by~w~ pressing ~h~~k~~VEHICLE_FIREWEAPON_ALT~~w~.
+TM_INF1 You called the ~h~Taxi~w~, wait a moment...
+TM_INF2 You have cancelled the ~h~Taxi~w~!
+TM_INF3 This trip will cost ~g~$~1~~w~.
+TM_INF4 You come to your destination!
+TM_WELC Welcome to ~h~TAXI MOD~w~ by ~h~Rapier~w~.

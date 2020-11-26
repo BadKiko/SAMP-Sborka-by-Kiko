@@ -1,0 +1,11 @@
+HISTORY.TXT
+
+ƒ ƒ ƒ SLIDESHOW MOD SPECIAL EDITION by Rapier ƒ ƒ ƒ
+
+* Version "SE" - Now the mod works on both versions of GTASA, 1.0 (U.S.) and 1.01 (EURO).
+
+* Version 1.2 (Final release) - The mod works as a cheat, added an interactive menu to select the desired slide and bug fixes.
+
+* Version 1.1 - Changed the activation key, you can load multiple TXD files and minor changes.
+
+* Version 1.0 - First release.

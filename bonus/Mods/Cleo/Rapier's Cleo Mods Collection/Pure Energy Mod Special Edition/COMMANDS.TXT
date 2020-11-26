@@ -1,0 +1,19 @@
+COMMANDS.TXT
+
+ƒ ƒ ƒ PURE ENERGY MOD SPECIAL EDITION by Rapier ƒ ƒ ƒ
+
+ACTIVATION/DEACTIVATION CODE = Type ENERGY in your keyboard while the game is running.
+
+LIST OF SPECIAL POWERS TO CJ (Commands list)
+
+On Foot:
+ACTION + FIRE = Fireball.
+ACTION + TARGET/AIM WEAPON = Super Fireball.
+ACTION + CONVERSATION (YES) = Telecinese.
+ACTION + CONVERSATION (NO) = Energy Ball.
+ACTION + GROUP CONTROL (FORWARD) = Armaggedon (you can set a target in map).
+ACTION + GROUP CONTROL (BACKWARD) = Eruption.
+ACTION + NEXT WEAPON/TARGET = Triple Fireball.
+ACTION + PREVIOUS WEAPON/TARGET = Vulcan (hold down the button).
+
+Tip: Any doubt look in the settings keys in the game options menu.

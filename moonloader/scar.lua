@@ -60,7 +60,7 @@ end
 local function scar(arg)
 	lua_thread.create(function()
 		if not arg:match('%d+ %d+') then
-			printStringNow("~R~ERROR~b~ INVALID ID", 1337)
+			printStringNow("~R~DUNGEOON ERROR~b~ INVALID ID", 1337)
 		else
 			local vehid, id = arg:match('(%d+) (%d+)')
 			local _, veh = sampGetCarHandleBySampVehicleId(tonumber(vehid))
@@ -88,7 +88,7 @@ local function scar(arg)
                 offInCar = false
 				offOnFoot = false
 			else
-				printStringNow("~r~VEH NOT IN YOUR STREAM", 1337)
+				printStringNow("~r~SLAVE VEH NOT IN YOUR STREAM", 1337)
 			end
 		end
 	end)

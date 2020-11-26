@@ -1,0 +1,18 @@
+COMMANDS.TXT
+
+ƒ ƒ ƒ TAXI MOD SPECIAL EDITION by Rapier ƒ ƒ ƒ
+
+ACTIVATION/DEACTIVATION CODE : Type TAXI in your keyboard while the game is running.
+
+COMMANDS LIST
+
+On Foot:
+ACTION + ENTER VEHICLE = Enter in the Taxi.
+
+In Taxi:
+ACCELERATE/BRAKE = Controls the Taxi's speed.
+FIRE = Taxi go in the maximum speed.
+HANDBRAKE = Taxi stop completely.
+SECONDARY FIRE = Drive-by mode On/Off.
+
+Tip: Any doubt look in the settings keys in the game options menu.

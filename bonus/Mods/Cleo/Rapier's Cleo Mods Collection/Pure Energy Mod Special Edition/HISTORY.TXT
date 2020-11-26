@@ -1,0 +1,13 @@
+HISTORY.TXT
+
+ƒ ƒ ƒ PURE ENERGY MOD SPECIAL EDITION by Rapier ƒ ƒ ƒ
+
+* Version "SE" - Now the mod works on both versions of GTASA, 1.0 (U.S.) and 1.01 (EURO).
+
+* Version 1.3 (Final release) - Commands list menu added and minor changes.
+
+* Version 1.2 - The mod works as a cheat and minor changes.
+
+* Version 1.1 - Bug fixes.
+
+* Version 1.0 - First release.

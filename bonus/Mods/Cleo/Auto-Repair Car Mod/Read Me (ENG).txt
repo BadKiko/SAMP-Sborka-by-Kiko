@@ -1,0 +1,41 @@
+StepiK a.k.a Brian Richardson present:
+
+================================
+Auto Repairing Car
+================================
+06.08.2011.
+
+Author: StepiK (Brian Richardson).
+
+=====================================================================================
+This script for the site eksklyuzven LibertyCity.ru. If you wish to place
+script on your site, follow the license agreement.
+=====================================================================================
+
+                                ===Description===
+
+With this skipta, you will be able to fully restore your car and other transport or
+put it on the wheel when it rolls over. The script works in the SA: MP 0.3c.
+
+                                ===Management=== 
+
+Completely fix the car - a key R. Avtomobl put on wheels - press
+R as many times until the car will be on the wheel.
+
+                               ===Installation===
+
+Install file in your folder AutoRepairCar.cs CLEO.
+
+======================================================================================
+
+=== Contact: ===
+
+Author:
+
+stepmironuk@gmail.com
+
+Contact:
+
+Skype: stepikrus.
+
+ICQ: 408-255-040.

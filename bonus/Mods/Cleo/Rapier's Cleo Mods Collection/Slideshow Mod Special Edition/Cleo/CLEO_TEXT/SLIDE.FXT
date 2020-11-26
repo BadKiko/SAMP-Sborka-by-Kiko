@@ -1,0 +1,16 @@
+; SLIDESHOW MOD STRING FILE
+; This file contains all the texts used by mod. DO NOT MODIFY!
+
+SS_AOFF Auto ~r~OFF
+SS_AON Auto ~g~ON
+SS_HELP Type ~h~SLIDE~w~ in your keyboard to activate the ~h~Slideshow~w~.
+SS_INFO ~y~DOWN~w~/~y~UP ARROW~w~ to change the slide, ~y~LEFT~w~/~y~RIGHT ARROW~w~ to change the image, ~y~A~w~ to auto scroll, ~y~R~w~ to repeat or ~y~E~w~ to exit.
+SS_PIC Image ~y~~1~
+SS_PL01 Slideshow Mod
+SS_PL02 Available Slide Files
+SS_PL03 Press ~h~~k~~GO_FORWARD~~w~/~h~~k~~GO_BACK~~w~ to move, ~h~~k~~PED_SPRINT~~w~ to select or ~h~~k~~VEHICLE_ENTER_EXIT~~w~ to exit.
+SS_PL04 Slide ~1~
+SS_ROFF Repeat ~r~OFF
+SS_RON Repeat ~g~ON
+SS_SLDE Slide ~y~~1~
+SS_WELC Welcome to ~h~SLIDESHOW MOD~w~ by ~h~Rapier~w~.

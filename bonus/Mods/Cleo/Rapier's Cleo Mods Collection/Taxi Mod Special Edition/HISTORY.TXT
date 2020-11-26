@@ -1,0 +1,13 @@
+HISTORY.TXT
+
+ƒ ƒ ƒ TAXI MOD SPECIAL EDITION by Rapier ƒ ƒ ƒ
+
+* Version "SE" - Now the mod works on both versions of GTASA, 1.0 (U.S.) and 1.01 (EURO).
+
+* Version 2.4 (Final release) - Minor changes.
+
+* Version 2.3 - The mod works as a cheat and minor changes.
+
+* Version 2.2 - Minor changes and bug fixes.
+
+* Version 2.1 - First release by me.

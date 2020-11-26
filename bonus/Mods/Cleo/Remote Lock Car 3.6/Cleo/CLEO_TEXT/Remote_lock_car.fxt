@@ -1,0 +1,53 @@
+LOCKD Doors locked
+UNLOCKD Doors unlocked
+LOCKDL Doors of last car are locked now
+UNLOCDS Doors of last car are unlocked now
+NOSIGNL No signal
+ENGINON Engine is on
+ENGINOF Engine is off
+ENGINBC Bicycles have engines? :P
+ENGINMC Currently turning engine of motorcycles does not work yet
+LIGFAIL You must turn on engine before enabling lights.
+LIGHTON Lights enabled
+LIGHTOF Lights disabled
+CAMONCA Camera follows now your car.
+CAMREST Camera position restored.
+CAMPUTC You drove too far. Player restored to car.
+REMINIR INI configuration reloaded.
+REMDBIF ~r~Information:
+REMDBOU ~g~Remote lock car debug: ~s~Actor not driving and last car is undefined
+REMDBOC ~g~Remote lock car debug: ~s~Actor not driving and last car is defined
+REMDBIC ~g~Remote lock car debug: ~s~Actor driving and car is defined.
+REMDBTK ~g~Timer of key inactivity: ~r~~1~ ms
+
+REMDBVS ~r~Vehicle:
+REMDBVM ~g~ID: ~s~~1~
+REMDBVH ~g~Health: ~s~~1~
+
+REMDBOI ~r~Other informations:
+
+REMDBG1 ~g~gta_sa.exe version: ~s~GTA San Andreas v1.0 [US] HOODLUM No-CD Fixed EXE
+REMDBG2 ~g~gta_sa.exe version: ~s~GTA San Andreas v1.0 [EURO] No-CD Fixed EXE
+REMDBG3 ~g~gta_sa.exe version: ~s~GTA San Andreas v1.0 [EURO] Original
+REMDBG4 ~g~gta_sa.exe version: ~s~GTA: San Andreas v1.01 [EURO] No-CD/Fixed EXE
+
+REMDBDS ~g~Remote driving state:
+REMDBSA ~r~Normal mode, drive forward and turn left
+REMDBSB ~r~Normal mode, drive forward and turn right
+REMDBSC ~r~Normal mode, drive back and turn left
+REMDBSD ~r~Normal mode, drive back and turn right
+REMDBSE ~r~Normal mode, drive forward
+REMDBSF ~r~Normal mode, drive back
+REMDBSG ~r~Normal mode, turn left
+REMDBSH ~r~Normal mode, turn right
+REMDBSI ~r~Normal mode, no driving now
+
+REMDBSJ ~r~Camera on car mode, drive forward and turn left
+REMDBSK ~r~Camera on car mode, drive forward and turn right
+REMDBSL ~r~Camera on car mode, drive back and turn left
+REMDBSM ~r~Camera on car mode, drive back and turn right
+REMDBSN ~r~Camera on car mode, drive forward
+REMDBSO ~r~Camera on car mode, drive back
+REMDBSP ~r~Camera on car mode, turn left
+REMDBSQ ~r~Camera on car mode, turn right
+REMDBSR ~r~Camera on car mode, no driving now

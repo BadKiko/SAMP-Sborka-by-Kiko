@@ -1,0 +1,249 @@
+========================== Mod Loader 0.3.5 ==========================
+
+Game version: GTA SA 1.0 US
+Loading basic config file modloader/.data/config.ini
+
+Parsing command line
+Loaded fallback menu fxt
+
+Looking for plugins...
+Reading plugins.ini
+Loading plugin module "gta3\std.asi.dll"
+Plugin module "gta3\std.asi.dll" loaded as gta3.std.asi Nov 12 2016 18:52:33 by LINK/2012
+Starting up plugin "gta3.std.asi"
+CLEO library version 4031300 found at "CLEO.asi"
+Loading plugin module "gta3\std.bank.dll"
+Plugin module "gta3\std.bank.dll" loaded as gta3.std.bank Nov 12 2016 18:52:34 by LINK/2012
+Starting up plugin "gta3.std.bank"
+Loading plugin module "gta3\std.data.dll"
+Plugin module "gta3\std.data.dll" loaded as gta3.std.data Nov 12 2016 18:52:35 by LINK/2012
+Starting up plugin "gta3.std.data"
+Loading plugin module "gta3\std.fx.dll"
+Plugin module "gta3\std.fx.dll" loaded as gta3.std.fx Nov 12 2016 18:52:38 by LINK/2012
+Starting up plugin "gta3.std.fx"
+Loading plugin module "gta3\std.movies.dll"
+Plugin module "gta3\std.movies.dll" loaded as gta3.std.movies Nov 12 2016 18:52:50 by LINK/2012
+Starting up plugin "gta3.std.movies"
+Loading plugin module "gta3\std.scm.dll"
+Plugin module "gta3\std.scm.dll" loaded as gta3.std.scm Nov 12 2016 18:53:09 by LINK/2012
+Starting up plugin "gta3.std.scm"
+Loading plugin module "gta3\std.sprites.dll"
+Plugin module "gta3\std.sprites.dll" loaded as gta3.std.sprites Nov 12 2016 18:53:10 by LINK/2012
+Starting up plugin "gta3.std.sprites"
+Loading plugin module "gta3\std.stream.dll"
+Plugin module "gta3\std.stream.dll" loaded as gta3.std.stream Nov 12 2016 18:52:34 by LINK/2012
+Starting up plugin "gta3.std.stream"
+Loading plugin module "gta3\std.text.dll"
+Plugin module "gta3\std.text.dll" loaded as gta3.std.text Nov 12 2016 18:52:34 by LINK/2012
+Starting up plugin "gta3.std.text"
+Loading plugin module "gta3\std.tracks.dll"
+Plugin module "gta3\std.tracks.dll" loaded as gta3.std.tracks Nov 12 2016 18:52:33 by LINK/2012
+Starting up plugin "gta3.std.tracks"
+Reading profile named "Default" at "modloader.ini".
+Using profile named "Default".
+Using profile named "Default"
+
+
+Scanning mods at "modloader\"...
+Updating gta3.std.data state...
+Done updating gta3.std.data state.
+Starting up filesystem watcher...
+
+Mod Loader has started up!
+
+Opening file for streaming "MODELS\GTA3.IMG"
+Loading default font values "DATA\FONTS.DAT"
+Loading default vehicles handling "HANDLING.CFG"
+Loading default surface adhesion limits "data\surface.dat"
+Loading default surface infos "data\surfinfo.dat"
+Loading default surface audio infos "data\surfaud.dat"
+Loading default ped stats "DATA\PEDSTATS.DAT"
+Loading default decision maker "RANDOM.ped"
+Loading default decision maker "m_norm.ped"
+Loading default decision maker "m_plyr.ped"
+Loading default decision maker "RANDOM.grp"
+Loading default decision maker "MISSION.grp"
+Loading default decision maker "GangMbr.ped"
+Loading default decision maker "Cop.ped"
+Loading default decision maker "R_Norm.ped"
+Loading default decision maker "R_Tough.ped"
+Loading default decision maker "R_Weak.ped"
+Loading default decision maker "Fireman.ped"
+Loading default decision maker "m_empty.ped"
+Loading default decision maker "Indoors.ped"
+Loading default decision maker "RANDOM.grp"
+Loading default decision maker "RANDOM2.grp"
+Loading default time cycle properties "TIMECYC.DAT"
+Loading default population cycle properties "POPCYCLE.DAT"
+Loading default plants surface properties "PLANTS.DAT"
+Loading default anim association "DATA\ANIMGRP.DAT"
+Loading default stream config "stream.ini"
+Loading default fighting data "DATA\melee.dat"
+Preloading level file "DATA\DEFAULT.DAT"
+Loading default level file "DATA\DEFAULT.DAT"
+Preloading level file "DATA\GTA.DAT"
+Loading default level file "DATA\GTA.DAT"
+Loading preloaded level entries...
+Opening file for streaming "samp\custom.img"
+Opening file for streaming "samp\samp.img"
+Opening file for streaming "models\gta3.img"
+Opening file for streaming "models\gta_int.img"
+Opening file for streaming "samp\sampcol.img"
+Opening file for streaming "data\script\script.img"
+Opening file for streaming "models\cutscene.img"
+Loading default object types "data\default.ide"
+Loading default object types "data\vehicles.ide"
+Loading default object types "data\peds.ide"
+Loading default object types "data\maps\generic\vegepart.ide"
+Loading default object types "data\maps\generic\barriers.ide"
+Loading default object types "data\maps\generic\dynamic.ide"
+Loading default object types "data\maps\generic\dynamic2.ide"
+Loading default object types "data\maps\generic\multiobj.ide"
+Loading default object types "data\maps\generic\procobj.ide"
+Loading default object types "data\maps\la\lan.ide"
+Loading default object types "data\maps\la\lan2.ide"
+Loading default object types "data\maps\la\las.ide"
+Loading default object types "data\maps\la\las2.ide"
+Loading default object types "data\maps\la\lae.ide"
+Loading default object types "data\maps\la\lae2.ide"
+Loading default object types "data\maps\la\law2.ide"
+Loading default object types "data\maps\la\law.ide"
+Loading default object types "data\maps\la\lawn.ide"
+Loading default object types "data\maps\la\lahills.ide"
+Loading default object types "data\maps\la\laxref.ide"
+Loading default object types "data\maps\sf\sfn.ide"
+Loading default object types "data\maps\sf\sfs.ide"
+Loading default object types "data\maps\sf\sfse.ide"
+Loading default object types "data\maps\sf\sfe.ide"
+Loading default object types "data\maps\sf\sfw.ide"
+Loading default object types "data\maps\sf\sfxref.ide"
+Loading default object types "data\maps\vegas\vegasn.ide"
+Loading default object types "data\maps\vegas\vegass.ide"
+Loading default object types "data\maps\vegas\vegase.ide"
+Loading default object types "data\maps\vegas\vegasw.ide"
+Loading default object types "data\maps\vegas\vegaxref.ide"
+Loading default object types "data\maps\country\countryn.ide"
+Loading default object types "data\maps\country\countn2.ide"
+Loading default object types "data\maps\country\countrys.ide"
+Loading default object types "data\maps\country\countrye.ide"
+Loading default object types "data\maps\country\countryw.ide"
+Loading default object types "data\maps\country\counxref.ide"
+Loading default object types "data\maps\interior\int_la.ide"
+Loading default object types "data\maps\interior\int_sf.ide"
+Loading default object types "data\maps\interior\int_veg.ide"
+Loading default object types "data\maps\interior\int_cont.ide"
+Loading default object types "data\maps\leveldes\levelmap.ide"
+Loading default object types "data\maps\leveldes\levelxre.ide"
+Loading default object types "data\maps\interior\gen_int1.ide"
+Loading default object types "data\maps\interior\gen_int2.ide"
+Loading default object types "data\maps\interior\gen_intb.ide"
+Loading default object types "data\maps\interior\gen_int3.ide"
+Loading default object types "data\maps\interior\gen_int4.ide"
+Loading default object types "data\maps\interior\gen_int5.ide"
+Loading default object types "data\maps\interior\savehous.ide"
+Loading default object types "data\maps\interior\stadint.ide"
+Loading default object types "data\maps\leveldes\seabed.ide"
+Loading default object types "data\maps\interior\props.ide"
+Loading default object types "data\maps\interior\props2.ide"
+Loading default object types "data\maps\interior\propext.ide"
+Loading default object types "data\maps\veh_mods\veh_mods.ide"
+Loading default object types "data\txdcut.ide"
+Loading default object types "samp\samp.ide"
+Loading default object types "samp\custom.ide"
+Loading default object data "DATA\OBJECT.DAT"
+Loading default vehicle colours "DATA\CARCOLS.DAT"
+Loading default vehicle upgrades "DATA\CARMODS.DAT"
+Initializing the streaming...
+Loading abstract cd directory...
+Abstract cd directory has been loaded.
+Loading default scene "data\map.zon"
+Loading default scene "data\info.zon"
+Loading default scene "data\maps\la\lan.ipl"
+Loading default scene "data\maps\la\lan2.ipl"
+Loading default scene "data\maps\la\las.ipl"
+Loading default scene "data\maps\la\las2.ipl"
+Loading default scene "data\maps\la\lae.ipl"
+Loading default scene "data\maps\la\lae2.ipl"
+Loading default scene "data\maps\la\law.ipl"
+Loading default scene "data\maps\la\lawn.ipl"
+Loading default scene "data\maps\la\law2.ipl"
+Loading default scene "data\maps\la\lahills.ipl"
+Loading default scene "data\maps\sf\sfn.ipl"
+Loading default scene "data\maps\sf\sfs.ipl"
+Loading default scene "data\maps\sf\sfse.ipl"
+Loading default scene "data\maps\sf\sfe.ipl"
+Loading default scene "data\maps\sf\sfw.ipl"
+Loading default scene "data\maps\vegas\vegasn.ipl"
+Loading default scene "data\maps\vegas\vegass.ipl"
+Loading default scene "data\maps\vegas\vegase.ipl"
+Loading default scene "data\maps\vegas\vegasw.ipl"
+Loading default scene "data\maps\country\countryn.ipl"
+Loading default scene "data\maps\country\countn2.ipl"
+Loading default scene "data\maps\country\countrys.ipl"
+Loading default scene "data\maps\country\countrye.ipl"
+Loading default scene "data\maps\country\countryw.ipl"
+Loading default scene "data\maps\interior\int_la.ipl"
+Loading default scene "data\maps\interior\int_sf.ipl"
+Loading default scene "data\maps\interior\int_veg.ipl"
+Loading default scene "data\maps\interior\int_cont.ipl"
+Loading default scene "data\maps\interior\gen_int1.ipl"
+Loading default scene "data\maps\interior\gen_int2.ipl"
+Loading default scene "data\maps\interior\gen_intb.ipl"
+Loading default scene "data\maps\interior\gen_int3.ipl"
+Loading default scene "data\maps\interior\gen_int4.ipl"
+Loading default scene "data\maps\interior\gen_int5.ipl"
+Loading default scene "data\maps\interior\stadint.ipl"
+Loading default scene "data\maps\interior\savehous.ipl"
+Loading default scene "data\maps\leveldes\levelmap.ipl"
+Loading default scene "data\maps\leveldes\seabed.ipl"
+Loading default scene "data\maps\paths.ipl"
+Loading default scene "data\maps\paths2.ipl"
+Loading default scene "data\maps\paths3.ipl"
+Loading default scene "data\maps\paths4.ipl"
+Loading default scene "data\maps\paths5.ipl"
+Loading default scene "data\maps\cull.ipl"
+Loading default scene "data\maps\tunnels.ipl"
+Loading default scene "data\maps\occlusf.ipl"
+Loading default scene "data\maps\occluveg.ipl"
+Loading default scene "data\maps\occlula.ipl"
+Loading default scene "data\maps\occluint.ipl"
+Loading default scene "data\maps\audiozon.ipl"
+Loading default scene "samp\samp.ipl"
+Loading default train track "data\paths\tracks.dat"
+Loading default train track "data\paths\tracks3.dat"
+Loading default train track "data\paths\tracks2.dat"
+Loading default train track "data\paths\tracks4.dat"
+Opening file for streaming "MODELS\PLAYER.IMG"
+Loading default clothes rules "DATA\CLOTHES.DAT"
+Loading default water level "DATA\water.dat"
+Loading default ped relationship data "DATA\PED.DAT"
+Loading default weapon data "DATA\WEAPON.DAT"
+Loading default ped groups "PEDGRP.DAT"
+Loading default car groups "CARGRP.DAT"
+Starting injected cleo script search 1B3745C0 for version '0'...
+Finishing injected cleo script search 1B3745C0...
+Starting injected cleo script search 1B3745A0 for version '4'...
+Finishing injected cleo script search 1B3745A0...
+Starting injected cleo script search 1B3745C0 for version '3'...
+Finishing injected cleo script search 1B3745C0...
+Loading default action reaction stats "DATA\AR_STATS.DAT"
+Loading default stat update conditions "DATA\STATDISP.DAT"
+Loading default shopping data "data\shopping.dat"
+Removing imported model file at index 0
+Loading default furniture data "data\furnitur.dat"
+Loading default procedural objects "data\procobj.dat"
+Removing imported model file at index 20000
+Removing imported model file at index 20001
+Removing imported model file at index 20002
+Removing imported model file at index 20003
+Removing imported model file at index 20000
+Removing imported model file at index 20001
+Removing imported model file at index 384
+Removing imported model file at index 385
+Removing imported model file at index 385
+Removing imported model file at index 386
+Removing imported model file at index 386
+Removing imported model file at index 387
+Removing imported model file at index 387
+Removing imported model file at index 388
+Removing imported model file at index 388

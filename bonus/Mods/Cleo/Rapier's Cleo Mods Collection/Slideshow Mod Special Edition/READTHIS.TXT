@@ -1,0 +1,38 @@
+READTHIS.TXT
+
+ƒ ƒ ƒ SLIDESHOW MOD SPECIAL EDITION by Rapier ƒ ƒ ƒ
+
+You can have multiple slide files, but limited to 10 images. You can navigate between slides without having to close them, with this method you should have 100 images in total. Open "KEYS.TXT" to see the keys list.
+
+EDITING/CREATING SLIDE.TXD FILE.
+To create images in TXD format you need the TXD WORKSHOP program. To download the TXD WORKSHOP go to page http://www.gtatools.com/filedb/action.php?action=file&id=16. Rules to be followed for the image creation:
+* The file name can not be altered, must be SLIDE_<SLOT>.TXD, e.g. SLIDE_0.TXD, SLIDE_1.TXD until SLIDE_9.TXD.
+* The internal images names will have to be sequential in this format SS_PIC<X> where X is the image number, e.g. SS_PIC1, SS_PIC2 until SS_PIC10.
+* The image size must be 512x512 pixels.
+
+It is not necessary to fill all the image slots, for example, if you want insert only 5 images, you can, but you must fill the remaining slots with the file NO_IMAGE.BMP that is in the installation folder. By creating a new SLIDE file also create a README file to provide the following information:
+* TITLE
+* DESCRIPTION
+* AUTOR
+* DATE
+* RATING
+* TOTAL IMAGES (without blank images)
+* WEBSITE (optional)
+* E-MAIL (optional)
+* NOTE(S) (if need)
+
+Tip: any doubt open the file SLIDE_0.TXD included with the mod.
+
+TXD Workshop is Copyright 2003-2008 by Delfi - Jernej L.
+
+ADD-ONS.
+You can download some slides here: http://www.gtagarage.com/mods/show.php?id=4346.
+
+WARNING!
+To run this mod correctly, you must have installed the CLEO Library + GXT Hook plugin. To download the latest version of CLEO Library or GXT Hook plugin go to page http://cleo.sannybuilder.com/.
+
+CLEO, CLEO Library and GXT Hook are Copyright © 2005-2008 by Seemann.
+
+Doubts, critics or suggestions visit: http://www.gtaforums.com/index.php?showtopic=366138 or talk directly with the author: andbressan@bol.com.br
+
+Sorry any English error. :)

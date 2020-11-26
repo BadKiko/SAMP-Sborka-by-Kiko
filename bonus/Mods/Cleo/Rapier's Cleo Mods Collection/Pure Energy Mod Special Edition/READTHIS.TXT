@@ -1,0 +1,14 @@
+READTHIS.TXT
+
+ƒ ƒ ƒ PURE ENERGY MOD SPECIAL EDITION by Rapier ƒ ƒ ƒ
+
+PEM is a reference to PMM 2 and brings eight special powers to be used in different situations. When you start the game, you will have no powers yet, however, to use the powers you must activate it. When active, you'll see smoke on the CJ's head. Open "COMMANDS.TXT" to see the commands list.
+
+WARNING!
+To run this mod correctly, you must have installed the CLEO Library + GXT Hook plugin. To download the latest version of CLEO Library or GXT Hook plugin go to page http://cleo.sannybuilder.com/.
+
+CLEO, CLEO Library and GXT Hook are Copyright © 2005-2008 by Seemann.
+
+Doubts, critics or suggestions visit: http://www.gtaforums.com/index.php?showtopic=360440 or talk directly with the author: andbressan@bol.com.br
+
+Sorry any English error. :)

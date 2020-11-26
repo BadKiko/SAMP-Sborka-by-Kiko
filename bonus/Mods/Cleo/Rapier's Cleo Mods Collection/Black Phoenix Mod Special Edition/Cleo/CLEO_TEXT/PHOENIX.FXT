@@ -1,0 +1,29 @@
+; BLACK PHOENIX MOD STRING FILE
+; This file contains all the texts used by mod. DO NOT MODIFY!
+
+BP_ERRO ~r~ATTENTION! ONE OR MORE FILES WEREN'T FOUND AND THE MOD CAN'T BE EXECUTED!~w~ Try uninstalling and reinstalling again.
+BP_HLP1 Type ~h~PHOENIX~w~ in your keyboard to spawn the ~h~Black Phoenix~w~.
+BP_HLP2 Press ~h~F7~w~ to display the key list menu.
+BP_HLP3 Press ~h~NUMPAD 1~w~ to call the ~h~Black Phoenix~w~.
+BP_HLP4 Press ~h~NUMPAD 0~w~ to detonate the ~h~bomb~w~.
+BP_INF1 The ~h~bomb~w~ is armed.
+BP_INF2 Doors ~h~locked~w~.
+BP_INF3 Doors ~h~unlocked~w~.
+BP_INF4 You called the ~h~Black Phoenix~w~, wait a moment...
+BP_PL01 Black Phoenix Mod
+BP_PL02 Key List (In Car)
+BP_PL03 Key List (On Foot)
+BP_PL04 Press ~h~~k~~VEHICLE_ENTER_EXIT~~w~ to exit.
+BP_PL05 NUMPAD 0 Active the internal bomb
+BP_PL06 NUMPAD 1 Lock/unlock the doors
+BP_PL07 NUMPAD 2 Active the nitrous
+BP_PL08 NUMPAD 3 Machinegun
+BP_PL09 NUMPAD 4 Flamethrower
+BP_PL10 NUMPAD 5 Napalm
+BP_PL11 NUMPAD 6 Rocket
+BP_PL12 NUMPAD 7 Missile
+BP_PL13 NUMPAD 8 Landmine
+BP_PL14 NUMPAD 9 SPECIAL WEAPON
+BP_PL15 NUMPAD 0 Detonate the internal bomb (if active)
+BP_PL16 NUMPAD 1 Call the Black Phoenix back to you
+BP_WELC Welcome to ~h~BLACK PHOENIX MOD~w~ by ~h~Rapier~w~.

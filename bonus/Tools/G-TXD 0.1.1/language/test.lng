@@ -1,0 +1,11 @@
+menuName=Test Language
+icon=english.png
+
+// FIRST LINE MUST BE THE MENU TITLE FOR THIS LANGUAGE FILE
+// SECOND LINE MUST BE ICON FILE (INSIDE THE ICONS FOLDER)
+
+author=REspawn
+website=www.turnipfan.com
+e-mail=dave.respawn@gmail.com
+version=0.1
+released=01/11/2006

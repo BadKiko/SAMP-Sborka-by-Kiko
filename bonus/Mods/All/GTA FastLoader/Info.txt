@@ -1,0 +1,12 @@
+This plugin allows to start the game without entering the main menu.
+You must have the savegame in first slot(GTAVCsf1.b/GTA3sf1.b/GTASAsf1.b).
+If you want access main menu, just start the game and hold the "shift" key.
+
+Installation:
+Copy *_FastLoader.asi in GTA root directory.
+Supported exe:
+*gta3.exe 1.0
+*gta3.exe 1.1
+*gta_vc.exe 1.0
+*gta_vc.exe 1.1
+*gta_sa.exe 1.0us + Ryosuke's fastloader [http://hotmist.ddo.jp/plugin/fastloader/index.html].

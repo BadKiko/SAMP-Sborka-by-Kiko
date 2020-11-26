@@ -1,0 +1,4 @@
+I take no credit for the speed.cs file I only modded the Speedo to have lights and cracked glass
+Install speed.cs to root folder/CLEO
+Install speed.txd to root folder/models/txd
+Cleo 3 must be installed for this to work

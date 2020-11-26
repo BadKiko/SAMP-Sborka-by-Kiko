@@ -45,19 +45,19 @@ function main()
 	imgui.Process = true
 	imgui.Process =  menu_window_state.v
 
-
+	sampRegisterChatCommand("rcm", function()
+		menu_window_state.v = not menu_window_state.v
+		imgui.Process =  menu_window_state.v
+	end)
+	sampRegisterChatCommand("rc", function()
+		BeginRainbow()
+		setDialoge = true
+		sampSendChat("/clist "..nowclist)
+	end)
 	while true do
 
 		wait(0)
-		sampRegisterChatCommand("rcm", function()
-			menu_window_state.v = not menu_window_state.v
-			imgui.Process =  menu_window_state.v
-		end)
-		sampRegisterChatCommand("rc", function()
-			BeginRainbow()
-			setDialoge = true
-			sampSendChat("/clist "..nowclist)
-		end)
+
 		--пр€чем показываем курсор
 		if menu_window_state.v == false then
 			imgui.ShowCursor = false

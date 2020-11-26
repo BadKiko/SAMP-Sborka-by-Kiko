@@ -1,0 +1,16 @@
+READTHIS.TXT
+
+ƒ ƒ ƒ TAXI MOD SPECIAL EDITION by Rapier ƒ ƒ ƒ
+
+THE ORIGINAL AUTHOR OF THIS MOD IS james227uk, AND I'M USING UNDER LICENSE.
+
+This mod is wonderful! You can call a Taxi and it will take you where you want. First you should call the Taxi by cellphone, then wait that it will come to you, open the map and check where you want to go (destination), enter in the Taxi and good trip! When you're inside the Taxi, you can control your speed and do a Drive-by! You can call the Taxi at any time, even during a mission. You can cancel the Taxi. The Taxi's driver will check if you have enough money to take you to your destination, otherwise, it will be stopped. The amount of money charged, will depend on the distance to be travelled. Open "COMMANDS.TXT" to see the commands list. SPECIAL THANKS TO james227uk!
+
+WARNING!
+To run this mod correctly, you must have installed the CLEO Library + GXT Hook plugin. To download the latest version of CLEO Library or GXT Hook plugin go to page http://cleo.sannybuilder.com/.
+
+CLEO, CLEO Library and GXT Hook are Copyright © 2005-2008 by Seemann.
+
+Doubts, critics or suggestions visit: http://www.gtaforums.com/index.php?showtopic=351683 or talk directly with the author: andbressan@bol.com.br
+
+Sorry any English error. :)

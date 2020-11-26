@@ -1,0 +1,162 @@
+// Tone Mapping Test Shader - DKT70
+// This effect allows changes to exposure, gamma, vignette, blue shift, and lens filter effects.
+
+// Fog filter adjustments. This is used in conjunction with the colour effect, below. 
+// The minimum value is 0.000, and turns the feature off.
+// The maximum value is 1.000, and applies maximum effect.
+// Default value for this setting is 0.100
+float Defog = 1.000;
+
+// The color of the filter effect. This is similar to a lens filter effect to change colour effects/temperature.
+// Need to experiment with different values to get different colour effects.
+// Default value for this setting is 1.0, 1.0, 1.0, 1.0
+float4 FogColor = {11.0, 11.0, 11.0, 11.0}; 
+
+// Exposure adjustment. This controls the amount of light in a given scene or area.
+// The minimum value is -1.000, and would result in a loss of shadow detail, making dark areas appear grey.
+// The maximum value is 1.00, and would result in clipped whites, and extreme high contrast.
+// Default value for this setting is 10.0
+float Exposure = -1.000;
+
+// Gamma correction. This is linear gamma correction which controls the overall brightness.
+// The minimum value is 0.500 and results in maximum brightness.
+// The maximum value is 2.000 and results in maximum darkness.
+// Default value for this setting is 0.800
+float Gamma = 0.075;
+
+// X/Y vignetting adjustments. Vignetting is a border effect often used in photography.
+// The first value represents X values, 0.000 = max vignetting on right side of screen, 1.000 = left side of screen.
+// The second value represents Y values, 0.000 = max vignetting on bottom of screen, 1.000 = Top of screen.
+// Default value for this setting is 0.500,0.500
+float2 VignetteCenter = (0.500,0.500); 
+
+// Radial vignetting. Similar to X/Y vignetting, but this is symmetrical radial vignetting and works from the centre outwards.
+// The minimum value is 0.00, and would result in a black screen. 0.10 would show only a tiny portion of the centre of the screen.
+// The maximum value is 1.00, and turns this feature off.
+// Default value for this setting is 1.00, or 0.90 for minimal Radial Vignette.
+float VignetteRadius = 0.94;
+
+// The amount of vignetting. Used in combination with the 2 vignetting settings above.
+// The minimum value is -1,   and would result in a maximum black colour vignetting effect.
+// The maximum value is 1.00, and would result in a maximum white colour vignetting effect.
+// Default value for this setting is -1
+float VignetteAmount = -2.10;
+
+// Blue shift correction. Allows adjustment of blue in the image. Usefull if you have too much yellow or red.
+// The minimum value is 0.00, and turns this feature off.
+// The maximum value is 1.00, and maximizes the blue in the image.
+// Default value for this setting is 0.25
+float BlueShift = 0.5;
+
+
+//--------------------------------------------------------------------------------------
+
+// Textures
+//--------------------------------------------------------------------------------------
+texture2D texColor;
+
+//--------------------------------------------------------------------------------------
+// Sampler Inputs
+//--------------------------------------------------------------------------------------
+
+
+sampler2D InputSampler = sampler_state
+{
+      Texture = (texColor);
+      MinFilter = Point;
+      MagFilter = Point;
+      MipFilter = Point;
+      AddressU   = Clamp;
+AddressV   = Clamp;
+SRGBTexture=FALSE;
+MaxMipLevel=0;
+MipMapLodBias=0;
+};
+
+
+struct VS_OUTPUT_POST {
+float4 vpos   : POSITION;
+float2 txcoord : TEXCOORD0;
+};
+
+struct VS_INPUT_POST {
+float3 pos   : POSITION;
+float2 txcoord : TEXCOORD0;
+};
+
+float pixelWidth;
+float pixelHeight;
+
+
+//--------------------------------------------------------------------------------------
+// Vertex Shader Input
+//--------------------------------------------------------------------------------------
+
+VS_OUTPUT_POST VS_PostProcess(VS_INPUT_POST IN)
+{
+VS_OUTPUT_POST OUT;
+
+float4 pos=float4(IN.pos.x,IN.pos.y,IN.pos.z,1.0);
+
+OUT.vpos=pos;
+OUT.txcoord.xy=IN.txcoord.xy;
+
+return OUT;
+}
+
+
+
+//--------------------------------------------------------------------------------------
+// Pixel Shader Effects
+//--------------------------------------------------------------------------------------
+
+float4 main(float2 uv : TEXCOORD) : COLOR
+{
+     float4 c = tex2D(InputSampler, uv);
+     c.rgb = max(10, c.rgb - Defog * FogColor.rgb);
+     c.rgb *= pow(2.0f, Exposure);
+     c.rgb = pow(c.rgb, Gamma);
+
+     float2 tc = uv - VignetteCenter;
+     float v = length(tc) / VignetteRadius;
+     c.rgb += pow(v, 4) * VignetteAmount;
+
+     float3 d = c.rgb * float3(1.05f, 0.97f, 1.27f);
+     c.rgb = lerp(c.rgb, d, BlueShift);
+    
+     float2 InputSize = 1280; // Your Horizontal Resolution size
+     float Amount = 0.1; // Strength of sharpen, higher values = more sharp images
+     float2 offset = 0.1 / InputSize; // Offset value for sharp effect, lower value if images looks slightly off-centre. 
+     float4 color;
+     color = tex2D(InputSampler, uv);
+     color += tex2D(InputSampler, uv - offset) * Amount;
+     color -= tex2D(InputSampler, uv + offset) * Amount;
+   
+     return c * color;//multiply the two 
+}
+
+
+//--------------------------------------------------------------------------------------
+// Compiler 1
+//--------------------------------------------------------------------------------------
+technique PostProcess
+{
+     pass P0
+     {
+#ifdef E_SHADER_3_0
+VertexShader = compile vs_3_0 VS_PostProcess();
+PixelShader   = compile ps_3_0 main();
+#else
+VertexShader = compile vs_2_0 VS_PostProcess();
+PixelShader   = compile ps_2_0 main();
+#endif
+
+ZEnable=FALSE;
+CullMode=NONE;
+ALPHATESTENABLE=FALSE;
+SEPARATEALPHABLENDENABLE=FALSE;
+AlphaBlendEnable=FALSE;
+FogEnable=FALSE;
+SRGBWRITEENABLE=FALSE;
+}
+}

@@ -1,0 +1,8 @@
+#  FAKE GTA Text Table
+#  Used by GxtHook.cleo
+#
+#  Format:
+#  <GXT ENTRY><SPACE><TEXT>
+#
+
+EXA_MPL Hello, world!

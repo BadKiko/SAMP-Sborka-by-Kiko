@@ -28,8 +28,8 @@ function main()
 
 	wait(55)
 	sendMessage("{850AB9}Модифицировано{464446} by {850AB9}Kiko")
-	sendMessage("[{464446} LSHIFT + Z {850AB9}] - Активация модификации.")
-	sendMessage("[{464446} LSHIFT + X {850AB9}] - Сменить тип телепорта.")
+	sendMessage("[{464446} LCTRL + Z {850AB9}] - Активация модификации.")
+	sendMessage("[{464446} LCTRL + X {850AB9}] - Сменить тип телепорта.")
 
 
 	while true do
@@ -52,7 +52,7 @@ function main()
 		end
 
 
-		if isKeyJustPressed(90) and isKeyJustPressed(16) then
+		if isKeyJustPressed(90) and isKeyJustPressed(17)then
 			--получение игроков
 			sampAddChatMessage(" ")
 			sampAddChatMessage("{850AB9}Выберите игрока {464446}(CTRL +0 для отмены)    ")
@@ -65,7 +65,7 @@ function main()
 		end
 
 
-		if isKeyJustPressed(88) and isKeyJustPressed(16) then --shift + Z
+		if isKeyJustPressed(88) and isKeyJustPressed(17) then --shift + Z
 			tpMethod = not tpMethod
 
 			if tpMethod then

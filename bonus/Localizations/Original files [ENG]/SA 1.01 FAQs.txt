@@ -1,0 +1,120 @@
+
+     ----------------------------------
+     - GRAND THEFT AUTO: San Andreas  -
+     -        PC version 1.01         -
+     -         Further FAQs           -
+     -       5th August 2005          -
+     ----------------------------------
+
+
+ FROM README
+-------------
+
+
+Q: Why does the "Heat Haze" effect look weird on my ATI graphics card?
+A: The Heat Haze effect has been noticed to be corrupt when using ATI 4.x series drivers - this seems cured on 5.x series ATI drivers.
+
+Q: Why does running GRAND THEFT AUTO: San Andreas on my laptop not offer me widescreen screen modes, when the screen on my laptop is a widescreen display?
+A: Some laptop widescreen displays are not a standard aspect ratio. GRAND THEFT AUTO: San Andreas only supports 4:3 and 16:9 aspect ratios, and those closely related to them. You may also find some resolutions are not offered as usable at all by GRAND THEFT AUTO : San Andreas because they deviate too much from 4:3 or 16:9 aspect ratios.
+
+Q: Why do the buildings in the world take time to catch up with me when I drive in a fast vehicle in a built up area?
+A: Most likely you have disabled the Frame Limiter, or your Hard Drive is not supplying world data at a fast enough rate. Re-enabling the Frame Limiter will help this.
+
+Q: Why am I having difficulty setting up 2 control pads at the same time?
+A: GRAND THEFT AUTO: San Andreas can only support one external device.
+
+Q: I cannot complete donuts in the first "Driving School" test.
+A: The key setup you are using may not allow the reporting of the 3 necessary keys at the same time, you may have to re-define keys to allow this to be detected correctly.
+
+Q: Why do I get missing and flashing textures in 16 bit graphics modes?
+A: GRAND THEFT AUTO: San Andreas was developed specifically for 32 bit screen modes. Although playing in 16 bit modes are supported, this will result in a much poorer experience and the game may not play as intended.
+
+Q: Why do I only hear advertisements when listening to the User Track Player?
+A: Check that any shortcuts in the "My Documents\GTA San Andreas User Files\User Tracks" are valid and that they have been scanned using the Scan User Tracks function in the User Track Options menu submenu of the Audio Setup menu. If trying to playback MP3, M4A or WMA tracks you may need to install Windows Media Player, QuickTime or a third party codec pack.
+
+Q: Why does GRAND THEFT AUTO: San Andreas take a long time to start up if I have lots of music files or shortcuts in my User Tracks folder?
+A: This occurs when Automatic Media Scan is set to ON in the User Track Options. Turning off the Automatic Media Scan will make loading faster and, in sequential mode, will stop the User Track Player from returning to the first track after the game loads.
+
+Q: Why does GRAND THEFT AUTO: San Andreas always start on the same track when in sequential mode?
+A: This occurs when Automatic Media Scan is set to ON in the User Track Options menu. Turning off the Automatic Media Scan will stop the User Track Player from returning to the first track after the game loads.
+
+Q: I don't have a soundcard in my PC (or I don't have the drivers for my soundcard installed) - Can I run GRAND THEFT AUTO: San Andreas on my PC?
+A: GRAND THEFT AUTO: San Andreas requires a soundcard to be present, and will refuse to run without one.
+
+Q: Should I install the Radio Stations to Hard Drive whilst installing GRAND THEFT AUTO: San Andreas?
+A: Most computers will benefit from playing the Radio Stations from Hard Drive. Exceptions to this would be computers with poor Hard Drive performance - these will benefit from playing the Radio Stations from DVD.
+
+Q: When I installed GRAND THEFT AUTO: San Andreas I selected the full install option to play the Radio Stations from my Hard Drive. Do I still need the GRAND THEFT AUTO: San Andreas DVD in my DVD-ROM drive to play?
+A: Yes. You must have the GRAND THEFT AUTO: San Andreas DVD in your DVD-ROM drive at all times.
+
+Q: I don't want to upgrade my finely honed DirectX 8.1 system to DirectX 9; can I still play GRAND THEFT AUTO: San Andreas without DirectX 9?
+A: GRAND THEFT AUTO: San Andreas must have DirectX9 installed.
+
+
+ NEW
+-----
+
+
+Q: Do GeForce 4MX cards run GRAND THEFT AUTO: San Andreas?
+A: Though they are technically poorer than the minimum spec quoted for the game (GeForce 3), the game does run with these, though they are very slow and as a result not recommended.
+
+Q: The minimum graphic card spec is quoted as a 64 meg GeForce 3 or better. Does this mean my 32 meg video card won't work?
+A: We don't specifically lock out cards that have less memory than 64 megabytes BUT they are not recommended as they are only able to run in the 640*480 resolution and will be un-acceptably slow.
+
+Q: When I attempt to launch GRAND THEFT AUTO: San Andreas my computer reboots?
+A: Disabling the AUTO REBOOT option from System Properties > Advanced > Startup and Recovery will allow the generated Windows blue screen error to be viewed. Mostly these blue screens will probably show hardware problems or driver problems.
+A: Try lowering the Sound Acceleration setting from Full to Standard.
+
+Q: Can I use HDTV modes?
+A: With patch 1.01 we have added support for the following HDTV modes :- 720p + 1080i. Please note this support depends upon setting these modes correctly via your video drivers AND the selected display correctly supporting these modes.
+
+Q: Will overclocking my graphics card make a difference to GRAND THEFT AUTO: San Andreas?
+A: GRAND THEFT AUTO: San Andreas can and does stress different parts of a GPU to "normal" PC games. We have noticed machines which will overheat while running GRAND THEFT AUTO: San Andreas that do not overheat with other games. As a consequence we do not recommend overclocking with this title. Often results of overheating in GRAND THEFT AUTO: San Andreas can be seen as 3d models having spikes caused by vertices becoming corrupted, reboots and VPU recovery errors on ATI video cards.
+
+Q: My Nforce motherboard based computer (with a Realtek based on-board sound chip) keeps re-booting and / or crashing with a blue screen?
+A: We have had reports of old Nvidia drivers doing this. Try updating the Nvidia sound drivers, or changing to Realtek authored drivers to cure this problem.
+
+Q: GRAND THEFT AUTO: San Andreas does not start when I launch it, it just returns to the desktop?
+A: You may have a corrupt settings file. Try deleting you GTA_SA.SET file.
+A: You need to have administrative priviliges to run GRAND THEFT AUTO: San Andreas.
+A: If you are using WindowBlinds, you will need to add a manual exclusion for GRAND THEFT AUTO: San Andreas so WindowBlinds applies no skinning.
+A: It may be that your DVD-ROM device requires a firmware update. Check if the manufacturers have updated the firmware and if so is it documented to cure security incompatabilities.
+A: Your DVD-ROM could be incompatible with the security system we use. Browse to the directory that you installed GRAND THEFT AUTO: San Andreas into, and right click on the gta-sa.exe file and select ANALYSIS. This will create a file in the root of drive C: Send this analysis file to us ONLY if requested.
+A: You could be running a virtual-drive type program. Please close any software such as this before launching GRAND THEFT AUTO: San Andreas
+A: You may have Sonic DLA or Windows XP's inbuilt CD writing enabled. Try disabling these and re-launching GRAND THEFT AUTO: San Andreas.
+
+Q: I have a joypad connected, however I don't see any joypad buttons listed when I go into the Controller setup screens?
+A: The first time you go to the controller setup screen, if you do not have a joypad connected, then the game sets itself up to not use a joypad. If you subsequently go back to these screens with a joypad connected you should reset the controls to default and you will find the default joypad controls have been applied.
+
+Q: When I start GRAND THEFT AUTO: San Andreas there is a black screen with some music playing behind it before I get to the intro scene with CJ in the Airport?
+A: These are the Rockstar logo movies and the game intro movie playing back with no video being output. We have found that this is a symptom of using older Nvidia video drivers - we observed this with 67.02, and found it cured when we upgraded to 71.89.
+
+Q: Roads in the mid distance have a very noticeable black shadowed look that clears up as I get closer.
+A: Try making sure you are not forcing Bi-Linear or Tri-Linear filtering to ON in your video drivers. Set MipMapping in GRAND THEFT AUTO: San Andreas Display Options to OFF. Use Anistropic Filtering for the best look in game (you will need to force this ON in your video drivers control panel). Increasing the screen resolution will also push this distance further out.
+
+Q: When I Install GRAND THEFT AUTO: San Andreas I get the message "The file C:\Program Files\Rockstar Games\GTA San Andreas\audio\SFX\SPC_GA doesn’t match the file in the setup’s .cab file" ?
+A: Could be a faulty DVD disk. Try installing on a different DVD-ROM or different computer to confirm this. If you cannot install on other computers or devices then try returning the disk.
+A: Could be a faulty DVD-ROM drive. Try installing on a different DVD-ROM or different computer to confirm this.
+A: Could be lack of free space to unpack the sound effect file on drive C:
+A: Could be lack of swap space to unpack the sound effect file.
+A: Try copying the entire DVD contents to a hard drive and try installation from there.
+A: Could be faulty RAM.
+A: (Advanced) This file is the largest file distributed with GRAND THEFT AUTO: San Andreas, being just over 1 gigabyte in size. Problems with this file could be indicative of a lack of free space to unpack the file or faulty memory or a badly setup swap file (try setting the size of your swap file to 2 * current ram size) or combinations of all three.
+
+Q: I use UltraMon?
+A: Make sure you update to version 2.6.
+
+Q: Logitech Setpoint gives a buffer over-run error when I push the middle mouse (wheel) button?
+A: Update to latest available version (version 2.40) and make sure you have game detection set to on, otherwise some buttons will not function as expected.
+
+Q: I cannot aim using the right mouse button and / or when I get in the car and drive the camera constantly rotates around the car?
+A: Make sure that you do not have another analogue device attached which also provides mouse emulation. Examples of this would be analogue joysticks, remote controls etc.
+
+Q: I start the game in the highest resolution that the game offers to me. When I get into game I find some of the screen is not drawn, and the part that is drawn suffers from heavy ghosting / double images?
+A: This will be the game using a scrollable resolution. When you set your desktop to this same resolution you will find that pushing your mouse pointer to the edges of the screen will cause it to scroll to allow you to see the full extent of the desktop. You will find that by installing the correct monitor INF file that you can properly enable supported resolutions for your graphics card.
+
+Q: On the mission Fender Ketchup, the game will not progress past the opening cutscene where the garage door opens and shuts too quickly. I have the frame limiter switched off on my <really fast> PC?.
+A: If you find a cutscene not progressing like this, enabling the frame limiter will allow the timing in the cutscene to work correctly and allow you to progress past this point.
+
+Q: I input some cheats to GRAND THEFT AUTO: San Andreas and then saved over the top of the one save file I have been using. Now when I load up this save it crashes instantly and / or acts weird.
+A: Saving while cheats are enabled is not supported. Do not save after inputing cheats to the game. 

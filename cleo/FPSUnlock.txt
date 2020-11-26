@@ -1,0 +1,15 @@
+{$CLEO .cs}
+0662: printstring "FPS UNLOCK 0.3.7 BY EXPORT" 
+0AA2: 3@ = load_library "SAMP.DLL" 
+
+:FPSUnlock
+wait 0
+if not 3@ == 0 
+else_jump @EndThread
+3@ += 0x9D9D0 
+0A8C: write_memory 3@ size 4 value 0x5051FF15 virtual_protect 1 
+0A8C: write_memory 0xBAB318 size 1 value 0 virtual_protect 1
+0A8C: write_memory 0x53E94C size 1 value 0 virtual_protect 1
+
+:EndThread
+0A93: end_custom_thread

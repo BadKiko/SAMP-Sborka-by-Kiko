@@ -1,0 +1,77 @@
+float3 fColor0 : register(c0);
+float3 fColor1 : register(c1);
+float fChroma : register(c2);
+float3 fGamma : register(c3);
+float3 fMulti : register(c4);
+float3 fShift : register(c5);
+float3 fBloom : register(c6);
+float2 fBlur : register(c7);
+static const float3 fLuminance = {0.298912, 0.586611, 0.114478};
+sampler sRT : register(s0);
+
+float4 Color(float2 tex : TEXCOORD0) : COLOR0
+{
+	float3 result;
+result = tex2D(sRT, tex).rgb;
+	result = tex2D(sRT, tex).rgb * (1.0 + fColor0 + fColor1);
+	result = (result - dot(result, fLuminance)) * fChroma + dot(result, fLuminance);
+	result = (pow(result, fGamma) - 0.5) * fMulti + 0.5 + fShift;
+	return float4(result, 1.0);
+}
+
+float4 Press(float2 tex : TEXCOORD0) : COLOR0
+{
+	float3 result = {0.0, 0.0, 0.0};
+/*	result += tex2D(sRT, tex + float2(-1.5, -1.5) * fBlur).rgb;
+	result += tex2D(sRT, tex + float2(-0.5, -1.5) * fBlur).rgb;
+	result += tex2D(sRT, tex + float2( 0.5, -1.5) * fBlur).rgb;
+	result += tex2D(sRT, tex + float2( 1.5, -1.5) * fBlur).rgb;
+	result += tex2D(sRT, tex + float2(-1.5, -0.5) * fBlur).rgb;
+	result += tex2D(sRT, tex + float2(-0.5, -0.5) * fBlur).rgb;
+	result += tex2D(sRT, tex + float2( 0.5, -0.5) * fBlur).rgb;
+	result += tex2D(sRT, tex + float2( 1.5, -0.5) * fBlur).rgb;
+	result += tex2D(sRT, tex + float2(-1.5,  0.5) * fBlur).rgb;
+	result += tex2D(sRT, tex + float2(-0.5,  0.5) * fBlur).rgb;
+	result += tex2D(sRT, tex + float2( 0.5,  0.5) * fBlur).rgb;
+	result += tex2D(sRT, tex + float2( 1.5,  0.5) * fBlur).rgb;
+	result += tex2D(sRT, tex + float2(-1.5,  1.5) * fBlur).rgb;
+	result += tex2D(sRT, tex + float2(-0.5,  1.5) * fBlur).rgb;
+	result += tex2D(sRT, tex + float2( 0.5,  1.5) * fBlur).rgb;
+	result += tex2D(sRT, tex + float2( 1.5,  1.5) * fBlur).rgb;*/
+	result = max(max(max(max(tex2D(sRT, tex + float2(-1.5, -1.5) * fBlur).rgb, tex2D(sRT, tex + float2(-0.5, -1.5) * fBlur).rgb),
+		max(tex2D(sRT, tex + float2( 0.5, -1.5) * fBlur).rgb, tex2D(sRT, tex + float2( 1.5, -1.5) * fBlur).rgb)),
+		max(max(tex2D(sRT, tex + float2(-1.5, -0.5) * fBlur).rgb, tex2D(sRT, tex + float2(-0.5, -0.5) * fBlur).rgb),
+		max(tex2D(sRT, tex + float2( 0.5, -0.5) * fBlur).rgb, tex2D(sRT, tex + float2( 1.5, -0.5) * fBlur).rgb))),
+		max(max(max(tex2D(sRT, tex + float2(-1.5,  0.5) * fBlur).rgb, tex2D(sRT, tex + float2(-0.5,  0.5) * fBlur).rgb),
+		max(tex2D(sRT, tex + float2( 0.5,  0.5) * fBlur).rgb, tex2D(sRT, tex + float2( 1.5,  0.5) * fBlur).rgb)),
+		max(max(tex2D(sRT, tex + float2(-1.5,  1.5) * fBlur).rgb, tex2D(sRT, tex + float2(-0.5,  1.5) * fBlur).rgb),
+		max(tex2D(sRT, tex + float2( 0.5,  1.5) * fBlur).rgb, tex2D(sRT, tex + float2( 1.5,  1.5) * fBlur).rgb))));
+	result = result * (1.0 + fColor0 + fColor1);
+	result = (result - dot(result, fLuminance)) * fChroma + dot(result, fLuminance);
+	result = (pow(result, fGamma) - 0.5) * fMulti + 0.5 + fShift;
+	result = (result - dot(result, fLuminance)) * fBloom.y + dot(result, fLuminance);
+	result = max(result + fBloom.x, float3(0.0, 0.0, 0.0));
+	return float4(result, 1.0);
+}
+
+float4 Bloom(float2 tex : TEXCOORD0) : COLOR0
+{
+	float3 result = {0.0, 0.0, 0.0};
+	result += tex2D(sRT, tex + float2(-20.0, -20.0) * fBlur).rgb * 0.01222;
+	result += tex2D(sRT, tex + float2(-16.0, -16.0) * fBlur).rgb * 0.02783;
+	result += tex2D(sRT, tex + float2(-12.0, -12.0) * fBlur).rgb * 0.06559;
+	result += tex2D(sRT, tex + float2( -8.0,  -8.0) * fBlur).rgb * 0.12098;
+	result += tex2D(sRT, tex + float2( -4.0,  -4.0) * fBlur).rgb * 0.17467;
+	result += tex2D(sRT, tex + float2(  0.0,   0.0) * fBlur).rgb * 0.19741;
+	result += tex2D(sRT, tex + float2(  4.0,   4.0) * fBlur).rgb * 0.17467;
+	result += tex2D(sRT, tex + float2(  8.0,   8.0) * fBlur).rgb * 0.12098;
+	result += tex2D(sRT, tex + float2( 12.0,  12.0) * fBlur).rgb * 0.06559;
+	result += tex2D(sRT, tex + float2( 16.0,  16.0) * fBlur).rgb * 0.02783;
+	result += tex2D(sRT, tex + float2( 20.0,  20.0) * fBlur).rgb * 0.01222;
+	return float4(result * fBloom.z, 1.0);
+}
+
+float4 Blend(float2 tex : TEXCOORD0) : COLOR0
+{
+	return float4(tex2D(sRT, tex).rgb, 1.0);
+}

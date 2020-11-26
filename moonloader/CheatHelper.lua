@@ -7,8 +7,28 @@ local imgui = require("imgui")
 local encoding = require("encoding")
 local sw, sh = getScreenResolution()
 
+
+local dlstatus = require("moonloader").download_status
+
 encoding.default = "CP1251"
 u8 = encoding.UTF8
+
+
+
+
+update_status = false
+
+local script_vers = 1
+local script_vers_text = "1.00"
+
+local update_url = ""
+local update_path = getWorkingDirectory().."updateCheatHelp.ini"
+
+local script_url = ""
+local update_path = thisScript().path
+
+
+
 
 local menu_window_state = imgui.ImBool(false) --статус main окна
 
@@ -50,20 +70,33 @@ function main()
 
 	imgui.Process = true
 	imgui.Process =  menu_window_state.v
+	
 
+
+	--UPDATE
+
+	downloadUrlToFile('ссылка', 'путь к сохранению файла', function(id, status, p1, p2)
+	end) end
+
+
+
+	sampRegisterChatCommand("chelp", function()
+		menu_window_state.v = not menu_window_state.v
+		imgui.Process =  menu_window_state.v
+	end)
 
 	while true do
-
 		wait(0)
-		sampRegisterChatCommand("chelp", function()
-			menu_window_state.v = not menu_window_state.v
-			imgui.Process =  menu_window_state.v
-		end)
 		--прячем показываем курсор
 		if menu_window_state.v == false then
 			imgui.ShowCursor = false
 		else
 			imgui.ShowCursor = true
+		end
+		
+		if(isKeyJustPressed(72) and isKeyJustPressed(18)) then
+			menu_window_state.v = not menu_window_state.v
+			imgui.Process =  menu_window_state.v
 		end
 	end
 end
@@ -72,14 +105,32 @@ local rcactivated = true -- Активирован ли рэинклист
 local arvanka = true
 local pomoyka = true
 local air = true
+local egun = true
+local invis = true
+local jopotrah = true
+local entercrasher = true
+local stopcars = true
+local butilka = true
+local carshooter = true
+local ecar = true
+local ecaron = true
+local cra = false
+local rvx = true
+local bpfly = true
+local rcds = true
+local wd = true
+local sdmg = true
 
 --Рисуем меню
 function imgui.OnDrawFrame()
 	--Main меню
 	if menu_window_state.v then
-		imgui.SetNextWindowPos(imgui.ImVec2((sw / 2), sh / 2), imgui.Cond.FirstUseEver, imgui.ImVec2(0.5, 0.5))
+		imgui.SetNextWindowPos(imgui.ImVec2((sw / 2) + 300, sh / 2), imgui.Cond.FirstUseEver, imgui.ImVec2(0.5, 0.5))
 		imgui.Begin("[CheatHelper] by Kiko", menu_window_state, imgui.WindowFlags.AlwaysAutoResize)
 		apply_custom_style()
+		imgui.Text(u8'Хай сучара, вот все читики:')
+		imgui.Separator()
+
 		if (imgui.TreeNode(u8"Все читы")) then
 			imgui.Separator()
 
@@ -91,6 +142,7 @@ function imgui.OnDrawFrame()
 					if imgui.Button(u8"Настройки") then
 						sampProcessChatInput("/rcm")
 					end
+					imgui.Separator()
 					if rcactivated then
 						if imgui.Button(u8"Активировать") then
 							rcactivated = false
@@ -104,15 +156,42 @@ function imgui.OnDrawFrame()
 					end
 					imgui.TreePop()
 				end
-
-				----------------------------------------------------
-				----------------------------------------------------    VCRASH BY MRCREEPTON MODIFY BY KIKO
 				imgui.Separator()
 				if (imgui.TreeNode(u8"2) VCrashModify - модификация крашера [vcrash.lua by MrCreepTon].")) then
-					imgui.Text(u8"      [ SHIFT + Z ] - Выбор цели для краша.")
-					imgui.Text(u8"      [ SHIFT + X ] - Сменить способ обновления зоны стрима.")
+					imgui.Text(u8"      [ LCTRL + Z ] - Выбор цели для краша.")
+					imgui.Text(u8"      [ LCTRL + X ] - Сменить способ обновления зоны стрима.")
 					imgui.TreePop()
 				end
+				imgui.Separator()
+				if (imgui.TreeNode(u8"3) AntiSpamForMaksQSpammer - Анти спаммер от ботов пидора MaksQ.")) then
+					if imgui.Button(u8"Открыть меню") then
+						sampProcessChatInput("/antispam")
+					end
+					imgui.TreePop()
+				end
+
+				imgui.Separator()
+				if (imgui.TreeNode(u8"4) SpamMer - Попытка сделать спаммер, тпшится в игрока и дохуя раз показывает пасспорт.")) then
+					if imgui.Button(u8"/spammer [id]") then
+						sampSetChatInputText("/spammer ")
+						sampSetChatInputEnabled(true)
+					end
+					imgui.TreePop()
+				end
+				imgui.Separator()
+				if (imgui.TreeNode(u8"5) StopPer - Вы должны быть в ЗЗ, работает только если игроку высвечивается диалог в ЗЗ, стопит всех кто в стриме.")) then
+						if imgui.Button(u8"Начать веселье") then
+							sampProcessChatInput("/st")
+						end
+					
+					imgui.Separator()
+
+					if imgui.Button(u8"Настройки") then
+						sampProcessChatInput("/smn")
+					end
+					imgui.TreePop()
+				end
+
 				imgui.TreePop()
 
 			end
@@ -152,8 +231,161 @@ function imgui.OnDrawFrame()
 					imgui.TreePop()
 				end
 
-				imgui.TreePop()
+				imgui.Separator()
+				if (imgui.TreeNode(u8"3) EGun - выдача оружия, на некоторых серверах работает.")) then
+					if egun then
+						if imgui.Button(u8"Активировать") then
+							egun = false
+							sampProcessChatInput("/egun")
+						end
+					else
+						if imgui.Button(u8"Отключить") then
+							egun = true
+							sampProcessChatInput("/egun")
+						end
+					end
+					imgui.TreePop()
+				end
 
+				imgui.Separator()
+				if (imgui.TreeNode(u8"4) ByPasser OLD - заход на сервер без авторизации (СТАРЫЙ).")) then
+					if imgui.Button(u8"Активировать") then
+						sampProcessChatInput("/bp")
+					end
+
+					if imgui.Button(u8"Второй способ обхода") then
+						sampProcessChatInput("/bp2")
+					end
+					imgui.TreePop()
+				end
+
+				imgui.Separator()
+				if (imgui.TreeNode(u8"5) ByPasser NEW - заход на сервер без авторизации (НОВЫЙ).")) then
+					imgui.Text(u8'Активация как чит-код - BP')
+
+					if imgui.Button(u8"- Локальная смена ника. (/lname)") then
+						sampSetChatInputText("/lname ")
+						sampSetChatInputEnabled(true)
+					end
+					imgui.TreePop()
+				end
+
+				imgui.Separator()
+				if (imgui.TreeNode(u8"6) Syncer - Работа с НОПами.")) then
+					if imgui.Button(u8"Открыть меню") then
+						sampProcessChatInput("/syncer")
+					end
+					imgui.TreePop()
+				end
+
+				imgui.Separator()
+				if (imgui.TreeNode(u8"7) Invisible - Утаскивает вас под землю, у кого есть ВХ, тот вас спалит!")) then
+					if invis then
+						if imgui.Button(u8"Активировать") then
+							invis = false
+							sampProcessChatInput("/invis")
+						end
+					else
+						if imgui.Button(u8"Отключить") then
+							invis = true
+							sampProcessChatInput("/invis")
+						end
+					end
+					imgui.Separator()
+					if imgui.Button(u8"Настройки") then
+						sampProcessChatInput("/invismenu")
+					end
+					imgui.TreePop()
+				end
+
+				imgui.Separator()
+				if (imgui.TreeNode(u8"8) JopoTrah - рванит жопы, использовать с пассажира.")) then
+					if jopotrah then
+						if imgui.Button(u8"Отключить") then
+							jopotrah = false
+							sampProcessChatInput("/jt")
+						end
+					else
+						if imgui.Button(u8"Активировать") then
+							jopotrah = true
+							sampProcessChatInput("/jt")
+						end
+					end
+					imgui.TreePop()
+				end
+
+				imgui.Separator()
+				if (imgui.TreeNode(u8"9) SPoka - слаппер.")) then
+					if imgui.Button(u8"/spoka [id жертвы]") then
+						sampSetChatInputText("/spoka ")
+						sampSetChatInputEnabled(true)
+					end
+
+					imgui.Separator()
+					if imgui.Button(u8"Настройки") then
+						sampProcessChatInput("/spoka.menu")
+					end
+					imgui.TreePop()
+				end
+				imgui.Separator()
+				if (imgui.TreeNode(u8"10) Butilka - она самая бутылОчка, крашит игрока когда тот пытается войти в т/с.")) then
+					if butilka then
+						if imgui.Button(u8"Включить") then
+							butilka = false
+							sampProcessChatInput("/butilka")
+						end
+					else
+						if imgui.Button(u8"Выключить") then
+							butilka = true
+							sampProcessChatInput("/butilka")
+						end
+					end
+
+					imgui.Separator()
+					if imgui.Button(u8"Настройки") then
+						sampProcessChatInput("/butilka.menu")
+					end
+					imgui.TreePop()
+				end
+				imgui.Separator()
+				if (imgui.TreeNode(u8"11) UndergroundDeath - утаскивает чувака под землю, кикер, использование с машины.")) then
+					if imgui.Button(u8"/ud [id жертвы]") then
+						sampSetChatInputText("/ud ")
+						sampSetChatInputEnabled(true)
+					end
+					imgui.TreePop()
+				end
+				imgui.Separator()
+				if (imgui.TreeNode(u8"12) ASTeleportCheckpoint - Телепорт, чтобы сработал вам нужно быть в каком-нибудь интерьере и выйти из него через пикап!.")) then
+					if imgui.Button(u8"Телепорт на метку") then
+						sampProcessChatInput("/astpch")
+					end
+					if imgui.Button(u8"Телепорт на серверную метку") then
+						sampProcessChatInput("/astpnch")
+					end
+					imgui.TreePop()
+				end
+				imgui.Separator()
+				if (imgui.TreeNode(u8"13) ASTeleport - Тупа телепорт, нужно либо сидеть в тачке, либо чтобы куда вы тп была машина.")) then
+					if imgui.Button(u8"Телепорт на метку") then
+						sampProcessChatInput("/astp")
+					end
+					if imgui.Button(u8"Телепорт на серверную метку") then
+						sampProcessChatInput("/astpn")
+					end
+					imgui.TreePop()
+				end
+				imgui.Separator()
+				if (imgui.TreeNode(u8"13) Knockdown - Оч веселая штука, забирает у игрока тачку и отправляет его в космос.")) then
+					if imgui.Button(u8"/knock [id тс] [id жертвы]") then
+						sampSetChatInputText("/knock ")
+						sampSetChatInputEnabled(true)
+					end
+					imgui.TreePop()
+				end
+
+
+				imgui.TreePop()
 			end
 
 			imgui.Separator()
@@ -188,7 +420,7 @@ function imgui.OnDrawFrame()
 					imgui.Text(u8"Использование: Подойти к любому т/с и просто начать бежать в это т/с")
 
 					if pomoyka then
-						if imgui.Button(u8"Активировать") then
+						if imgui.Button(u8"Включить") then
 							pomoyka = false
 							sampProcessChatInput("/pomoyka")
 						end
@@ -234,7 +466,7 @@ function imgui.OnDrawFrame()
 				end
 
 				imgui.Separator()
-				if (imgui.TreeNode(u8"5) Cordmaster ITP - Кордмастер by damag.")) then
+				if (imgui.TreeNode(u8"6) Cordmaster ITP - Кордмастер by damag.")) then
 					if imgui.Button(u8"/itp") then
 						sampProcessChatInput("/itp")
 					end
@@ -242,14 +474,307 @@ function imgui.OnDrawFrame()
 					imgui.TreePop()
 				end
 
+				imgui.Separator()
+				if (imgui.TreeNode(u8"7) Slapper [Чпокалка RAGE] - Херачит чувака вверх а потом разбивает к хуям об землю, улучшенный Гагарин.")) then
+					if imgui.Button(u8"/slp [id]") then
+						sampSetChatInputText("/slp ")
+						sampSetChatInputEnabled(true)
+					end
+					imgui.Separator()
+					if imgui.Button(u8"Настройки") then
+						sampProcessChatInput("/slp.menu")
+					end
+
+					imgui.TreePop()
+				end
+
+
+				imgui.Separator()
+				if (imgui.TreeNode(u8"8) FPS UP - Убирает нахер не нужные объекты, повышая фепесы.")) then
+					if imgui.Button(u8"Открыть меню") then
+						sampProcessChatInput("/ufps")
+					end
+
+					imgui.TreePop()
+				end
+
+				imgui.Separator()
+				if (imgui.TreeNode(u8"9) InCarTP - Телепорт в машине.")) then
+					if imgui.Button(u8"Телепорт на метку") then
+						sampProcessChatInput("/itp")
+					end
+					imgui.Separator()
+					if imgui.Button(u8"Телепорт на чекпоинт") then
+						sampProcessChatInput("/itpc")
+					end
+					imgui.TreePop()
+				end
+				imgui.Separator()
+				if (imgui.TreeNode(u8"10) UltraFUCK - Универсальный чит.")) then
+					if imgui.Button(u8"Открыть божественный портал") then
+						sampProcessChatInput("/ff")
+					end
+					imgui.TreePop()
+				end
+				imgui.Separator()
+				if (imgui.TreeNode(u8"11) Megaladon мультичит - Чит для машин.")) then
+					if imgui.Button(u8"Открыть меню") then
+						sampProcessChatInput("/ca")
+					end
+					imgui.TreePop()
+				end
+				imgui.Separator()
+				if (imgui.TreeNode(u8"12) EnterCrasher - То же самое что и бутылка от MrCreepTon.")) then
+					if entercrasher then
+						if imgui.Button(u8"Включить") then
+							entercrasher = false
+							sampProcessChatInput("/ecrash")
+						end
+					else
+						if imgui.Button(u8"Отключить") then
+							entercrasher = true
+							sampProcessChatInput("/ecrash")
+						end
+					end
+
+					imgui.TreePop()
+				end
+				imgui.Separator()
+				if (imgui.TreeNode(u8"13) StopCars - Остановка всех машин в стриме, отлично работает с EnterCrasher.")) then
+					if stopcars then
+						if imgui.Button(u8"Включить") then
+							stopcars = false
+							sampProcessChatInput("/stopcars")
+						end
+					else
+						if imgui.Button(u8"Отключить") then
+							stopcars = true
+							sampProcessChatInput("/stopcars")
+						end
+					end
+					imgui.TreePop()
+				end
+				imgui.Separator()
+				if (imgui.TreeNode(u8"14) SCar - Типо Gacar, но кидает ток 1 машину, менее палится античитом.")) then
+					if imgui.Button(u8"/scar [id тачки] [id жертвы]") then
+						sampSetChatInputText("/scar ")
+						sampSetChatInputEnabled(true)
+					end
+
+					imgui.TreePop()
+				end
+
+				imgui.Separator()
+				if (imgui.TreeNode(u8"15) CarShooter - Как жопторах, только с места водителя.")) then
+					if carshooter then
+						if imgui.Button(u8"Включить") then
+							carshooter = false
+							sampProcessChatInput("/cs")
+						end
+					else
+						if imgui.Button(u8"Отключить") then
+							carshooter = true
+							sampProcessChatInput("/cs")
+						end
+					end
+
+					imgui.TreePop()
+				end
+				imgui.Separator()
+				if (imgui.TreeNode(u8"16) EnterCarDRP - Сесть в люое авто, только для рванок, т.к, вы оч палитесь!.")) then
+					if ecar then
+						if imgui.Button(u8"Включить bypass") then
+							ecar = false
+							sampProcessChatInput("/ecar")
+						end
+					else
+						if imgui.Button(u8"Отключить bypass") then
+							ecar = true
+							sampProcessChatInput("/ecar")
+						end
+					end
+
+					imgui.Separator()
+
+					if ecaron then
+						if imgui.Button(u8"Включить езду на авто") then
+							ecaron = false
+							sampProcessChatInput("/ecaron")
+						end
+					else
+						if imgui.Button(u8"Отключить езду на авто") then
+							ecaron = true
+							sampProcessChatInput("/ecaron")
+						end
+					end
+					imgui.TreePop()
+				end
+				imgui.Separator()
+				if (imgui.TreeNode(u8"17) KickASS - Типа мощная рванка, а так то же самое что и Underground Death.")) then
+					if imgui.Button(u8"/cra [id челика]") then
+						sampSetChatInputText("/cra ")
+						cra = true
+						sampSetChatInputEnabled(true)
+					end
+					imgui.Separator()
+					if imgui.Button(u8"Рванить всех в зоне стрима") then
+						cra = true
+						sampProcessChatInput("/cra all")
+					end
+
+					if cra then
+						imgui.Separator()
+						if imgui.Button(u8"Отключить") then
+							cra = false
+							sampProcessChatInput("/crs")
+						end
+					end
+					imgui.Separator()
+					if rvx then
+						if imgui.Button(u8"!Включить более мощную рванку!") then
+							rvx = false
+							sampProcessChatInput("/rvx")
+						end
+					else
+						if imgui.Button(u8"!Выключить более мощную рванку!") then
+							rvx = true
+							sampProcessChatInput("/rvx")
+						end
+					end
+					imgui.TreePop()
+				end
+				imgui.Separator()
+				if (imgui.TreeNode(u8"18) FlyBypass - Разрешает использовать флай на некоторых серверах.")) then
+					if bpfly then
+						if imgui.Button(u8"Включить") then
+							bpfly = false
+							sampProcessChatInput("/bpfly")
+						end
+					else
+						if imgui.Button(u8"Отключить") then
+							bpfly = true
+							sampProcessChatInput("/bpfly")
+						end
+					end
+
+					imgui.TreePop()
+				end
+				imgui.Separator()
+				if (imgui.TreeNode(u8"19) SkinC - Выбор скина локально!")) then
+					if imgui.Button(u8"Открыть меню") then
+						sampProcessChatInput("/skinc")
+					end
+
+					imgui.TreePop()
+				end
+				imgui.Separator()
+				if (imgui.TreeNode(u8"20) Dammager - херовый даммагер, убивает людей.")) then
+					if imgui.Button(u8"/admg [id жертвы]") then
+						sampSetChatInputText("/admg ")
+						sampSetChatInputEnabled(true)
+					end
+
+					imgui.TreePop()
+				end
+				imgui.Separator()
+				if (imgui.TreeNode(u8"20) RollCrasher - крашер, чтобы закрашить нужно телом двигать тачку.")) then
+					if rcds then
+						if imgui.Button(u8"Включить") then
+							rcds = false
+							sampProcessChatInput("/rcds")
+						end
+					else
+						if imgui.Button(u8"Отключить") then
+							rcds = true
+							sampProcessChatInput("/rcds")
+						end
+					end
+
+					imgui.TreePop()
+				end
+				imgui.Separator()
+				if (imgui.TreeNode(u8"20) WheelDestroyer - взрывает покрышки тачек к хуям, нужно выкинуть чувака из тс для актив.")) then
+					if imgui.Button(u8"/wd [id авто]") then
+						sampSetChatInputText("/wd ")
+						sampSetChatInputEnabled(true)
+					end
+
+					imgui.Separator()
+					imgui.Text(u8'Включить на все тачки в которые вы садитесь')
+					if wd then
+						if imgui.Button(u8"Включить") then
+							wd = false
+							sampProcessChatInput("/wda")
+						end
+					else
+						if imgui.Button(u8"Отключить") then
+							wd = true
+							sampProcessChatInput("/wda")
+						end
+					end
+
+					imgui.TreePop()
+				end
+				imgui.Separator()
+				if (imgui.TreeNode(u8"21) SDMG - Крутой дамагер, раскройте описание.")) then
+					if sdmg then
+						if imgui.Button(u8"Включить") then
+							sdmg = false
+							sampProcessChatInput("/sdmg")
+						end
+					else
+						if imgui.Button(u8"Отключить") then
+							sdmg = true
+							sampProcessChatInput("/sdmg")
+						end
+					end
+					imgui.Separator()
+					imgui.Text(u8'Дамажить с кулака, нужно быть близко к игроку, чтобы дамажить зажмите R')
+					if imgui.Button(u8"/sdmg_kid [id]") then
+						sampSetChatInputText("/sdmg_kid ")
+						sampSetChatInputEnabled(true)
+					end
+					imgui.Separator()
+					imgui.Text(u8'Вы можете настраивать прибавляя перфикс в конце _***')
+					if imgui.Button(u8"/sdmg_") then
+						sampSetChatInputText("/sdmg_")
+						sampSetChatInputEnabled(true)
+					end
+					imgui.Text(u8'/sdmg_mode 0-3 - режим дамага')
+					imgui.Text(u8'/sdmg_frac - выбор фракции вместо frac вводить например aztec,vagos,rifa,ballas,grove (всех дамажить - all)')
+					imgui.Text(u8'/sdmg_time - установить задержку между выстрелами')
+					imgui.Text(u8'/sdmg_gun - выбрать ган для дамага')
+					imgui.Text(u8'/sdmg_radius - установить радиус дамага')
+					imgui.Text(u8'/sdmg_miss - включение/выключение промаха')
+					imgui.Text(u8'/sdmg_smiss - установить через какой патрон делать промах')
+					imgui.Text(u8'/sdmg_antiwrn - антиварнинг на прострел стен')
+					imgui.Text(u8'/sdmg_bl [id] - добавить в блек лист (сперва будет дамажить блеклист, а после перейдет на фракцию)')
+					imgui.Text(u8'/sdmg_dbl - убрать из блек листа')
+					imgui.Text(u8'/sdmg_ig id - добавить в игнор лист (не будет дамажить игроков которые в игнор листе)')
+					imgui.Text(u8'/sdmg_dig - убрать с игнор листа')
+					imgui.Text(u8'/sdmg_nokill - включить но килл')
+					imgui.Text(u8'/sdmg_snokill - хп для но килла')
+					imgui.Text(u8'/sdmg_antifrac - дамажить всех кроме выбраной фракции')
+					imgui.Text(u8'/sdmg_dmg - дмг по id игрока')
+					imgui.Text(u8'/sdmg_none - сбросить фракцию на none')
+					imgui.Text(u8'/sdmg_kid [id] - дамаг кулаком по иду')
+					imgui.Text(u8'/sdmg_kt - дамаг кулаком при прицеливание по игроку')
+					imgui.Text(u8'/sdmg_pos - сменить позицию менюшки (нажать лкм для сохранение позиции)')
+					imgui.Text(u8'/sdmg_save - сохранить текущие настройки (пример /sdmg_save test)')
+					imgui.Text(u8'/sdmg test - загрузить настройки "test" (после загрузки будут грузится по умолчанию)')
+					imgui.TreePop()
+				end
+
+
+
+
+
+
 
 
 				imgui.TreePop()
-
 			end
-
 			imgui.TreePop()
-
 		end
 		----------------------------------------------------
 		imgui.End()

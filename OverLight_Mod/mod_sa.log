@@ -1,47 +1,25 @@
-[16:53:52.138] Initializing OverLight Mod build 4
-[16:53:52.139] Compiled: Nov 18 2020 02:36:57 CL:1921
-[16:53:52.139] OS: Windows Version 6.1538.9200
-[16:53:52.139] D3D9UseVersion: 0
-[16:53:52.139] DXVersion: 2304
-[16:53:52.139] windowsVersion: 4
-[16:53:52.139] CPU Supports MMX: 0
-[16:53:52.139] CPU Supports 3DNow: 0
-[16:53:52.139] CPU Supports SSE: 0
-[16:53:52.139] CPU Supports SSE2: 0
-[16:53:52.142] Unknown weapon 'Fist' in weapon_slot[0]
-[16:53:52.143] Warning: setting 'weapon_slot[]' was not present in the mod_sa.ini file
-[16:53:52.143] SA:MP 0.3.7 was detected. g_dwSAMP_Addr: 0x03C60000
-[16:53:54.512] proxyIDirect3DDevice9 constructor called. Original IDirect3DDevice9 interface address is 0x0FD54880
-[16:53:54.845] proxyIDirect3DDevice9::Reset()
-[16:53:54.890] proxyID3DDevice9_InitOurShit()
-[16:54:04.593] byteAuthBSLen 43
-[16:54:04.593] auth_bs 1373BDCA32DC1F4401B49D6FD986364DC5F9B8FFB84
-[16:54:04.593] NEW byteAuthBSLen 43
-[16:54:04.593] NEW auth_bs 14D3CA5CBC177A2DD745F7F619E5661E5FD40BE46EA
-[16:54:53.920] proxyIDirect3DDevice9::Reset()
-[16:54:53.921] proxyID3DDevice9_UnInitOurShit
-[16:54:54.443] proxyID3DDevice9_InitOurShit()
-[16:57:50.032] proxyIDirect3DDevice9::Reset()
-[16:57:50.032] proxyID3DDevice9_UnInitOurShit
-[16:57:50.340] proxyID3DDevice9_InitOurShit()
-[16:58:22.673] proxyIDirect3DDevice9::Reset()
-[16:58:22.673] proxyID3DDevice9_UnInitOurShit
-[16:58:23.067] proxyID3DDevice9_InitOurShit()
-[16:58:46.150] proxyIDirect3DDevice9::Reset()
-[16:58:46.150] proxyID3DDevice9_UnInitOurShit
-[16:58:46.429] proxyID3DDevice9_InitOurShit()
-[16:59:12.051] proxyIDirect3DDevice9::Reset()
-[16:59:12.051] proxyID3DDevice9_UnInitOurShit
-[16:59:12.967] proxyID3DDevice9_InitOurShit()
-[17:07:49.715]  ---------------------------------------------------------------------
-[17:07:49.715]  OverLight Mod build 4 has crashed.
-[17:07:49.715]  Base address: 0x10230000, SA:MP base address: 0x03C60000
-[17:07:49.715]  Exception at address: 0x1029E376, Last function processed: it_wasnt_us()
-[17:07:49.715] Bot Thread: 
-[17:07:49.715]  Cause: EXCEPTION_ACCESS_VIOLATION
-[17:07:49.715]  Attempted to read from: 0x0000000c
-[17:07:49.715]  EAX: 0x00000002 || ESI: 0x00000000
-[17:07:49.715]  EBX: 0x00000000 || EDI: 0x0003c1ec
-[17:07:49.715]  ECX: 0x00005000 || EBP: 0x208fff70
-[17:07:49.715]  EDX: 0x00000000 || ESP: 0x208ffc4c
-[17:07:49.715]  ---------------------------------------------------------------------
+[23:35:07.218] Initializing OverLight Mod build 4
+[23:35:07.218] Compiled: Nov 22 2020 21:56:29 CL:1928
+[23:35:07.218] OS: Windows Version 6.1538.9200
+[23:35:07.218] D3D9UseVersion: 0
+[23:35:07.218] DXVersion: 2304
+[23:35:07.218] windowsVersion: 4
+[23:35:07.218] CPU Supports MMX: 0
+[23:35:07.218] CPU Supports 3DNow: 0
+[23:35:07.218] CPU Supports SSE: 0
+[23:35:07.218] CPU Supports SSE2: 0
+[23:35:07.220] Unknown weapon 'Fist' in weapon_slot[0]
+[23:35:07.222] Warning: setting 'weapon_slot[]' was not present in the mod_sa.ini file
+[23:35:07.222] SA:MP 0.3.7 was detected. g_dwSAMP_Addr: 0x03AB0000
+[23:35:09.695] proxyIDirect3DDevice9 constructor called. Original IDirect3DDevice9 interface address is 0x05FDA700
+[23:35:11.625] proxyIDirect3DDevice9::Reset()
+[23:35:11.727] proxyID3DDevice9_InitOurShit()
+[23:35:13.922] proxyIDirect3DDevice9::Reset()
+[23:35:13.922] proxyID3DDevice9_UnInitOurShit
+[23:35:14.030] proxyID3DDevice9_InitOurShit()
+[23:35:17.576] byteAuthBSLen 42
+[23:35:17.576] auth_bs 10D668127775CC6BE8A97FD21463FC0855E292C580
+[23:35:17.576] NEW byteAuthBSLen 42
+[23:35:17.576] NEW auth_bs E016F9BCC714B78BAAA721B7C31ABB107D06098AFE
+[00:02:44.514] Exited
+

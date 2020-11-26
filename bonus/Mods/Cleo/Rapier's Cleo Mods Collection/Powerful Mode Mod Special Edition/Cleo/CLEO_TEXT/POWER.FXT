@@ -1,0 +1,24 @@
+; POWERFUL MODE MOD STRING FILE
+; This file contains all the texts used by mod. DO NOT MODIFY!
+
+PMM_ERR ~r~ATTENTION! ONE OR MORE FILES WEREN'T FOUND AND THE MOD CAN'T BE EXECUTED!~w~ Try uninstalling and reinstalling again.
+PMM_HP1 Type ~h~POWER~w~ in your keyboard to activate/deactivate the ~h~Powerful Mode~w~.
+PMM_HP2 Press ~h~F8~w~ to display the commands list menu.
+PMM_P01 Powerful Mode Mod
+PMM_P02 Commands List (On Foot)
+PMM_P03 Press ~h~~k~~VEHICLE_ENTER_EXIT~~w~ to exit.
+PMM_P04 ~k~~PED_ANSWER_PHONE~ + ~k~~CONVERSATION_YES~ Health Recover
+PMM_P05 ~k~~PED_ANSWER_PHONE~ + ~k~~CONVERSATION_NO~ Armour Recover
+PMM_P06 ~k~~PED_ANSWER_PHONE~ + ~k~~PED_FIREWEAPON~ Power Move
+PMM_P07 ~k~~PED_ANSWER_PHONE~ + ~k~~PED_LOCK_TARGET~ Change Fight Style
+PMM_P08 ~k~~PED_ANSWER_PHONE~ + ~k~~PED_CYCLE_WEAPON_RIGHT~ Fireball
+PMM_P09 ~k~~PED_ANSWER_PHONE~ + ~k~~PED_CYCLE_WEAPON_LEFT~ Super Fireball
+PMM_P10 ~k~~PED_ANSWER_PHONE~ + ~k~~GROUP_CONTROL_FWD~ Geiser
+PMM_P11 ~k~~PED_ANSWER_PHONE~ + ~k~~GROUP_CONTROL_BWD~ Fury
+PMM_P12 ~k~~PED_ANSWER_PHONE~ + ~k~~PED_JUMPING~ Napalm
+PMM_P13 ~k~~PED_ANSWER_PHONE~ + ~k~~VEHICLE_ENTER_EXIT~ Spawn
+PMM_P14 ~k~~PED_ANSWER_PHONE~ + ~k~~PED_SPRINT~ Telecinese
+PMM_P15 ~k~~PED_ANSWER_PHONE~ + ~k~~PED_DUCK~ Fire Mine
+PMM_P16 ~k~~PED_ANSWER_PHONE~ + ~k~~PED_LOOKBEHIND~ Teleport (set a target in map)
+PMM_P17 ~k~~PED_ANSWER_PHONE~ + ~k~~VEHICLE_LOOKLEFT~/~k~~VEHICLE_LOOKRIGHT~ Clear Wanted Level
+PMM_WLC Welcome to ~h~POWERFUL MODE MOD SPECIAL EDITION~w~ by ~h~Rapier~w~.

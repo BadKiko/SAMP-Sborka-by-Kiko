@@ -1,0 +1,34 @@
+0.1.2
+	- IDE Harvest auto detects the IDE file type
+	- Fixed the add files dialog so it can show just txd files
+
+0.1.1
+	- Added the adding scan
+	- G-IMG keeps the window position and size from last time
+	- Extra drag and drop support for opening and adding
+	- Some GUI / language fixes
+	- IDE Harvest has a whole pile of stuff to help with large scale projects
+	- IDE Validation
+
+0.1
+	- Added ability to flag files and perform actions only on flaged files (handy when previewing txd files)
+	- Added texture harvest tool for flagged files and selected texture files
+	- added context menus to search results
+	- added ide harvest tool
+	- Report saving
+	- Application instance detection (only one instance of app allowed to run at any time)
+	- Include offset in archive display
+	- Turn offset on / off  in listing (takes effect next time you open an archive)
+	- Include listing sorting based on selected coloum	
+	- Some language mistakes
+	- Checks if archive is read only at startup
+	- Ability to turn off readonly to an open archive
+	- Controls resize issue fixed
+	- Fixed the way some functions caused the entire archive listing to be refreshed
+	- Added drag and drop (windows explorer style) for adding and extracting files
+	- Added pure extract for txd and dff files (strips off the img file padding)
+	- Unicode support for language files
+
+
+0.0
+	- First public release

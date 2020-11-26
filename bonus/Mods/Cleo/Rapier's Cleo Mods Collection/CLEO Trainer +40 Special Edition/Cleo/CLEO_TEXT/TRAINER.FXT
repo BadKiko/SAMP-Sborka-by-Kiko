@@ -1,0 +1,128 @@
+; CLEO TRAINER STRING FILE
+; This file contains all the texts used by mod. DO NOT MODIFY!
+
+CT_01 Health recover
+CT_02 Armor recover
+CT_03A Infinite run ~g~On
+CT_03B Infinite run ~r~Off
+CT_04A Water proof ~g~On
+CT_04B Water proof ~r~Off
+CT_05A Everything proof ~g~On
+CT_05B Everything proof ~r~Off
+CT_06A Ignored by everyone ~g~On
+CT_06B Ignored by everyone ~r~Off
+CT_07 Leave me alone!
+CT_08 Come on!
+CT_09 I don't need money!
+CT_10 Give me money!
+CT_11 Infinite ammo
+CT_12 Jetpack
+CT_13A Night vision ~g~On
+CT_13B Night vision ~r~Off
+CT_14A Thermal vision ~g~On
+CT_14B Thermal vision ~r~Off
+CT_15A Slow motion ~g~On
+CT_15B Slow motion ~r~Off
+CT_16A Fast motion ~g~On
+CT_16B Fast motion ~r~Off
+CT_17 Player model change
+CT_18A Keep stuff if wasted/busted ~g~On
+CT_18B Keep stuff if wasted/busted ~r~Off
+CT_19A Widescreen ~g~On
+CT_19B Widescreen ~r~Off
+CT_20 Screenshot taken
+CT_21A Burglary houses accessible ~g~On
+CT_21B Burglary houses accessible ~r~Off
+CT_22A First person view ~g~On
+CT_22B First person view ~r~Off
+CT_23A Free respray ~g~On
+CT_23B Free respray ~r~Off
+CT_24A Pedestrians ~g~On
+CT_24B Pedestrians ~r~Off
+CT_25A Traffic ~g~On
+CT_25B Traffic ~r~Off
+CT_26A Aircraft traffic ~g~On
+CT_26B Aircraft traffic ~r~Off
+CT_27A Helicopters traffic ~g~On
+CT_27B Helicopters traffic ~r~Off
+CT_28A Emergency traffic ~g~On
+CT_28B Emergency traffic ~r~Off
+CT_29A Police traffic ~g~On
+CT_29B Police traffic ~r~Off
+CT_30A Sensitivity to crime ~g~On
+CT_30B Sensitivity to crime ~r~Off
+CT_31A Taxi nitros ~g~On
+CT_31B Taxi nitros ~r~Off
+CT_32A Prostitutes pay you ~g~On
+CT_32B Prostitutes pay you ~r~Off
+CT_33A Riot ~g~On
+CT_33B Riot ~r~Off
+CT_34 Repair vehicle
+CT_35A Doors ~g~unlocked~w~
+CT_35B Doors ~r~locked~w~
+CT_36A Tires vulnerable ~g~On
+CT_36B Tires vulnerable ~r~Off
+CT_37A Apply damage rules ~g~On
+CT_37B Apply damage rules ~r~Off
+CT_38A Very heavy ~g~On
+CT_38B Very heavy ~r~Off
+CT_39 Vehicle color change
+CT_40 Add single nitro
+CT_INF1 Type ~h~TRAINER~w~ in your keyboard to activate/deactivate the ~h~CLEO Trainer~w~.
+CT_INF2 Press ~h~F5~w~ to display the key list menu. Press ~h~1~w~ or ~h~2~w~ or ~h~3~w~ or ~h~4~w~ + ~h~S~w~ to display the cheat status.
+CT_OFF TRAINER ~r~OFF
+CT_ON TRAINER ~g~ON
+CT_PL01 CLEO Trainer
+; CT_PL02 
+; CT_PL03 
+CT_PL04 Press ~h~~k~~VEHICLE_ENTER_EXIT~~w~ to exit.
+CT_PL05 N/A
+CT_PL06 1 + NUMPAD 0                 Health recover
+CT_PL07 1 + NUMPAD 1                  Armor recover
+CT_PL08 1 + NUMPAD 2     Toggle infinite run On/Off
+CT_PL09 1 + NUMPAD 3      Toggle water proof On/Off
+CT_PL10 1 + NUMPAD 4 Toggle everything proof On/Off
+CT_PL11 1 + NUMPAD 5 Toggle ignored by ev... On/Off
+CT_PL12 1 + NUMPAD 6     Decrease your wanted level
+CT_PL13 1 + NUMPAD 7     Increase your wanted level
+CT_PL14 1 + NUMPAD 8                 You lose money
+CT_PL15 1 + NUMPAD 9                 You earn money
+CT_PL16 2 + NUMPAD 0           Toggle infinite ammo
+CT_PL17 2 + NUMPAD 1                 Toggle jetpack
+CT_PL18 2 + NUMPAD 2     Toggle night vision On/Off
+CT_PL19 2 + NUMPAD 3   Toggle thermal vision On/Off
+CT_PL20 2 + NUMPAD 4      Toggle slow motion On/Off
+CT_PL21 2 + NUMPAD 5      Toggle fast motion On/Off
+CT_PL22 2 + NUMPAD 6        Change the player model
+CT_PL23 2 + NUMPAD 7 Toggle keep stuff if... On/Off
+CT_PL24 2 + NUMPAD 8       Toggle widescreen On/Off
+CT_PL25 2 + NUMPAD 9              Take a screenshot
+CT_PL26 3 + NUMPAD 0 Toggle burglary hous... On/Off
+CT_PL27 3 + NUMPAD 1 Toggle first person ... On/Off
+CT_PL28 3 + NUMPAD 2     Toggle free respray On/Off
+CT_PL29 3 + NUMPAD 3      Toggle pedestrians On/Off
+CT_PL30 3 + NUMPAD 4          Toggle traffic On/Off
+CT_PL31 3 + NUMPAD 5 Toggle aircraft traffic On/Off
+CT_PL32 3 + NUMPAD 6 Toggle helicopters t... On/Off
+CT_PL33 3 + NUMPAD 7 Toggle emergency tra... On/Off
+CT_PL34 3 + NUMPAD 8   Toggle police traffic On/Off
+CT_PL35 3 + NUMPAD 9 Toggle sensitivity t... On/Off
+CT_PL36 4 + NUMPAD 0      Toggle taxi nitros On/Off
+CT_PL37 4 + NUMPAD 1 Toggle prostitutes p... On/Off
+CT_PL38 4 + NUMPAD 2             Toggle riot On/Off
+CT_PL39 4 + NUMPAD 3                 Repair vehicle
+CT_PL40 4 + NUMPAD 4 Lock/unlock the vehicle's d...
+CT_PL41 4 + NUMPAD 5 Toggle tires vulnerable On/Off
+CT_PL42 4 + NUMPAD 6 Toggle damage rules ... On/Off
+CT_PL43 4 + NUMPAD 7 Toggle vehicle very ... On/Off
+CT_PL44 4 + NUMPAD 8    Changes the vehicle's color
+CT_PL45 4 + NUMPAD 9 Gives to your vehicle one n...
+CT_PL_A Cheats Set 1 Status
+CT_PL_B Cheats Set 2 Status
+CT_PL_C Cheats Set 3 Status
+CT_PL_D Cheats Set 4 Status
+CT_PL_E Key List 1
+CT_PL_F Key List 2
+CT_PL_G Key List 3
+CT_PL_H Key List 4
+CT_WELC Welcome to ~h~CLEO TRAINER +40~w~ by ~h~Rapier~w~.

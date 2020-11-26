@@ -1,41 +1,74 @@
-18/11/2020 16:53:50.939 Log started.
-18/11/2020 16:53:50.939 Unprotecting memory region '.text': 0x00001000 (size: 0x00456000)
-18/11/2020 16:53:50.939 Unprotecting memory region '.rdata': 0x00458000 (size: 0x0004C000)
-18/11/2020 16:53:50.939 Unprotecting memory region '.text': 0x008B1000 (size: 0x0064A000)
-18/11/2020 16:53:50.940 Unloading plugins...
-18/11/2020 16:53:50.940 Started on game of version: SA 1.0 us
-18/11/2020 16:53:50.940 Injecting MenuStatusNotifier...
-18/11/2020 16:53:50.940 Replacing call: 0x0057B9FD
-18/11/2020 16:53:50.940 Injecting DmaFix...
-18/11/2020 16:53:50.940 Replacing call: 0x0053E981
-18/11/2020 16:53:50.940 Injecting TextManager...
-18/11/2020 16:53:50.940 Injecting function at: 0x006A0050
-18/11/2020 16:53:50.940 Injecting SoundSystem...
-18/11/2020 16:53:50.940 Replacing call: 0x007487A8
-18/11/2020 16:53:50.940 Injecting CustomOpcodeSystem...
-18/11/2020 16:53:50.940 Injecting ScriptEngine...
-18/11/2020 16:53:50.941 Replacing call: 0x0046A21B
-18/11/2020 16:53:50.941 Replacing call: 0x0058D552
-18/11/2020 16:53:50.941 Replacing call: 0x0058FCE4
-18/11/2020 16:53:50.941 Replacing call: 0x0053BDD7
-18/11/2020 16:53:50.941 Replacing call: 0x005BA340
-18/11/2020 16:53:50.941 Replacing call: 0x005D4FD7
-18/11/2020 16:53:50.941 Replacing call: 0x005D18F0
-18/11/2020 16:53:50.941 Replacing call: 0x005D14D5
-18/11/2020 16:53:50.941 Injecting function at: 0x004667DB
-18/11/2020 16:53:51.869 Creating main window...
-18/11/2020 16:53:51.887 Found sound device 0: No sound
-18/11/2020 16:53:51.887 Found sound device 1 (default): Динамики (Steam Streaming Speakers)
-18/11/2020 16:53:51.887 Found sound device 2: Динамики (Steam Streaming Microphone)
-18/11/2020 16:53:51.887 Found sound device 3: Динамики (Realtek(R) Audio)
-18/11/2020 16:53:51.887 Found sound device 4: PHL 243V7 (NVIDIA High Definition Audio)
-18/11/2020 16:53:51.887 Found sound device 5: Realtek Digital Output (Realtek(R) Audio)
-18/11/2020 16:53:51.887 Found sound device 6: Line 1 (Virtual Audio Cable)
-18/11/2020 16:53:51.887 On system found 7 devices, 7 enabled devices, assuming device to use: 1 (Динамики (Steam Streaming Speakers))
-18/11/2020 16:53:51.958 SoundSystem initialized
-18/11/2020 16:53:51.961 Floating-point audio supported!
-18/11/2020 16:53:51.963 Audio hardware acceleration disabled (no EAX)
-18/11/2020 16:54:01.855 Scripts exclusively initialized
-18/11/2020 16:54:01.859 Deleting dynamic fxts...
-18/11/2020 16:54:01.859 Cleaning up script data... 0 files, 0 libs, 0 file scans, 0 allocations...
-18/11/2020 16:54:01.860 Searching for cleo scripts
+26/11/2020 23:35:06.378 Log started.
+26/11/2020 23:35:06.378 Unprotecting memory region '.text': 0x00001000 (size: 0x00456000)
+26/11/2020 23:35:06.378 Unprotecting memory region '.rdata': 0x00458000 (size: 0x0004C000)
+26/11/2020 23:35:06.378 Unprotecting memory region '.text': 0x008B1000 (size: 0x0064A000)
+26/11/2020 23:35:06.379 Parsing FXT file dadude.fxt
+26/11/2020 23:35:06.379 Added FXT[PARK_A1]
+26/11/2020 23:35:06.379 Added FXT[PARK_A2]
+26/11/2020 23:35:06.379 Added FXT[PARK_A3]
+26/11/2020 23:35:06.379 Added FXT[CARPET]
+26/11/2020 23:35:06.379 Added FXT[RE_END1]
+26/11/2020 23:35:06.379 Added FXT[RE_END2]
+26/11/2020 23:35:06.379 Added FXT[RE_END3]
+26/11/2020 23:35:06.379 Added FXT[T_FEN]
+26/11/2020 23:35:06.379 Added FXT[ZAD_A1]
+26/11/2020 23:35:06.380 Added FXT[ZAD_A2]
+26/11/2020 23:35:06.380 Unloading plugins...
+26/11/2020 23:35:06.380 Loading plugin cleo/FileSystemOperations.cleo
+26/11/2020 23:35:06.380 Loading plugin cleo/IniFiles.cleo
+26/11/2020 23:35:06.380 Loading plugin cleo/IntOperations.cleo
+26/11/2020 23:35:06.381 Started on game of version: SA 1.0 us
+26/11/2020 23:35:06.381 Injecting MenuStatusNotifier...
+26/11/2020 23:35:06.381 Replacing call: 0x0057B9FD
+26/11/2020 23:35:06.381 Injecting DmaFix...
+26/11/2020 23:35:06.381 Replacing call: 0x0053E981
+26/11/2020 23:35:06.381 Injecting TextManager...
+26/11/2020 23:35:06.381 Injecting function at: 0x006A0050
+26/11/2020 23:35:06.381 Injecting SoundSystem...
+26/11/2020 23:35:06.381 Replacing call: 0x007487A8
+26/11/2020 23:35:06.381 Injecting CustomOpcodeSystem...
+26/11/2020 23:35:06.381 Injecting ScriptEngine...
+26/11/2020 23:35:06.381 Replacing call: 0x0046A21B
+26/11/2020 23:35:06.381 Replacing call: 0x0058D552
+26/11/2020 23:35:06.381 Replacing call: 0x0058FCE4
+26/11/2020 23:35:06.382 Replacing call: 0x0053BDD7
+26/11/2020 23:35:06.382 Replacing call: 0x005BA340
+26/11/2020 23:35:06.382 Replacing call: 0x005D4FD7
+26/11/2020 23:35:06.382 Replacing call: 0x005D18F0
+26/11/2020 23:35:06.382 Replacing call: 0x005D14D5
+26/11/2020 23:35:06.382 Injecting function at: 0x004667DB
+26/11/2020 23:35:06.962 Creating main window...
+26/11/2020 23:35:07.018 Found sound device 0: No sound
+26/11/2020 23:35:07.018 Found sound device 1: PHL 243V7 (NVIDIA High Definition Audio)
+26/11/2020 23:35:07.018 Found sound device 2 (default): Realtek Digital Output (Realtek(R) Audio)
+26/11/2020 23:35:07.018 On system found 3 devices, 3 enabled devices, assuming device to use: 2 (Realtek Digital Output (Realtek(R) Audio))
+26/11/2020 23:35:07.040 SoundSystem initialized
+26/11/2020 23:35:07.040 Floating-point audio supported!
+26/11/2020 23:35:07.040 Audio hardware acceleration disabled (no EAX)
+26/11/2020 23:35:13.832 Scripts exclusively initialized
+26/11/2020 23:35:13.836 Deleting dynamic fxts...
+26/11/2020 23:35:13.836 Cleaning up script data... 0 files, 0 libs, 0 file scans, 0 allocations...
+26/11/2020 23:35:13.836 Searching for cleo scripts
+26/11/2020 23:35:13.836 Loading custom script Backfire - ALS (Junior_Djjr).cs...
+26/11/2020 23:35:13.837 Registering custom script named Backfir
+26/11/2020 23:35:13.837 Loading custom script FixDIST by SR_team.cs...
+26/11/2020 23:35:13.837 Registering custom script named FixDIST
+26/11/2020 23:35:13.837 Loading custom script fogdist.cs...
+26/11/2020 23:35:13.837 Registering custom script named fogdist
+26/11/2020 23:35:13.837 Loading custom script FPSUnlock.cs...
+26/11/2020 23:35:13.838 Registering custom script named FPSUnlo
+26/11/2020 23:35:13.838 Loading custom script memory2048.cs...
+26/11/2020 23:35:13.838 Registering custom script named memory2
+26/11/2020 23:35:13.838 Loading custom script night.cs...
+26/11/2020 23:35:13.838 Registering custom script named night.c
+26/11/2020 23:35:13.838 Loading custom script NitroControl.cs...
+26/11/2020 23:35:13.838 Registering custom script named NitroCo
+26/11/2020 23:35:13.838 Loading custom script No_more_haze.cs...
+26/11/2020 23:35:13.838 Registering custom script named No_more
+26/11/2020 23:35:13.838 Loading custom script skin_c.cs...
+26/11/2020 23:35:13.839 Registering custom script named skin_c.
+26/11/2020 23:35:13.847 Unregistering custom script named No_more
+26/11/2020 23:35:13.847 Unregistering custom script named memory2
+26/11/2020 23:35:13.848 Loading 3d-audiostream cleo\backfire.mp3 failed. Error code: 20
+26/11/2020 23:35:13.919 Unregistering custom script named FPSUnlo
+26/11/2020 23:35:15.888 Unregistering custom script named FixDIST

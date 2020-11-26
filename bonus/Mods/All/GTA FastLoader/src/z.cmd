@@ -1,0 +1,1 @@
+rename VCfastloader.dll VCfastloader.asi

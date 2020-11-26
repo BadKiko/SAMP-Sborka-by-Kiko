@@ -1,4 +1,4 @@
-Silent's ASI Loader 1.2
+Silent's ASI Loader 1.3
 
 
 DESCRIPTION
@@ -8,7 +8,7 @@ DESCRIPTION
 
 	*	Increased compatibility - all current loaders share a flaw, which sometimes results in a plugin loading failure. This loader uses a brand new
 		loading method developed by NTAuthority, which makes it work all the time.
-	*	Compatible with 3.0 (Steam) game.
+	*	Compatible with 3.0 (old Steam) and new Steam Executables.
 	*	Loads files located in the game root directory and 'scripts' folder (although not all the plugins are guaranteed to work properly when located
 		in the latter!).
 	*	Has an INI file in which you can toggle on/off plugins loading.
@@ -46,6 +46,12 @@ CREDITS & LICENSE
 	As the following tool is open source (source is NOT included in this package), it's under the Silent's License.
 	It means that the source code is for learning purposes, as all source code is. You may only use it for your own projects
 	but NOT to recreate or build on the original work.
+
+
+CONTACT
+
+	zdanio95@gmail.com - e-mail
+	zdanio95 - Skype
 
 Follow my Twitter account to be up to all my mods updates!
 http://twitter.com/__silent_

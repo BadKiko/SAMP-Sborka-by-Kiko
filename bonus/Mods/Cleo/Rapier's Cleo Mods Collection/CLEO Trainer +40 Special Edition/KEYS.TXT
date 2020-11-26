@@ -1,0 +1,59 @@
+KEYS.TXT
+
+ƒ ƒ ƒ CLEO TRAINER +40 SPECIAL EDITION by Rapier ƒ ƒ ƒ
+
+ACTIVATION/DEACTIVATION CODE : Type TRAINER in your keyboard while the game is running.
+
+KEYS LIST (Keyboard keys)
+
+"F5" = Key list menu.
+
+"1" + "NUMPAD 1" = Health recover.
+"1" + "NUMPAD 2" = Armor recover.
+"1" + "NUMPAD 3" = Toggle infinite run On/Off.
+"1" + "NUMPAD 4" = Toggle water proof On/Off.
+"1" + "NUMPAD 5" = Toggle everything proof On/Off.
+"1" + "NUMPAD 6" = Toggle ignored by everyone On/Off.
+"1" + "NUMPAD 7" = Decrease your wanted level.
+"1" + "NUMPAD 8" = Increase your wanted level.
+"1" + "NUMPAD 9" = You lose money.
+"1" + "NUMPAD 0" = You earn money.
+"1" + "S" = Cheat set status.
+
+"2" + "NUMPAD 1" = Toggle infinite ammo.
+"2" + "NUMPAD 2" = Toggle jetpack.
+"2" + "NUMPAD 3" = Toggle night vision On/Off.
+"2" + "NUMPAD 4" = Toggle thermal vision On/Off.
+"2" + "NUMPAD 5" = Toggle slow motion On/Off.
+"2" + "NUMPAD 6" = Toggle fast motion On/Off.
+"2" + "NUMPAD 7" = Change the player model.
+"2" + "NUMPAD 8" = Toggle keep stuff if wasted/busted On/Off.
+"2" + "NUMPAD 9" = Toggle widescreen On/Off.
+"2" + "NUMPAD 0" = Take a screenshot.
+"2" + "S" = Cheat set status.
+
+"3" + "NUMPAD 1" = Toggle burglary houses accessible On/Off.
+"3" + "NUMPAD 2" = Toggle first person view On/Off.
+"3" + "NUMPAD 3" = Toggle free respray On/Off.
+"3" + "NUMPAD 4" = Toggle pedestrians On/Off.
+"3" + "NUMPAD 5" = Toggle traffic On/Off.
+"3" + "NUMPAD 6" = Toggle aircraft traffic On/Off.
+"3" + "NUMPAD 7" = Toggle helicopters traffic On/Off.
+"3" + "NUMPAD 8" = Toggle emergency traffic On/Off.
+"3" + "NUMPAD 9" = Toggle police traffic On/Off.
+"3" + "NUMPAD 0" = Toggle sensitivity to crime On/Off.
+"3" + "S" = Cheat set status.
+
+"4" + "NUMPAD 1" = Toggle taxi nitros On/Off.
+"4" + "NUMPAD 2" = Toggle prostitutes pay you On/Off.
+"4" + "NUMPAD 3" = Toggle riot On/Off.
+"4" + "NUMPAD 4" = Repair vehicle.
+"4" + "NUMPAD 5" = Lock/unlock the vehicle's doors.
+"4" + "NUMPAD 6" = Toggle tires vulnerable On/Off.
+"4" + "NUMPAD 7" = Toggle damage rules for vehicles On/Off.
+"4" + "NUMPAD 8" = Toggle vehicle very heavy On/Off.
+"4" + "NUMPAD 9" = Changes the vehicle's color.
+"4" + "NUMPAD 0" = Gives to your vehicle one nitrous shot.
+"4" + "S" = Cheat set status.
+
+ENTER VEHICLE = Menu exit.

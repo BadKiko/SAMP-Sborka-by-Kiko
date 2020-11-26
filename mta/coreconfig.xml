@@ -1,0 +1,279 @@
+<mainconfig>
+    <settings>
+        <nick>By_KloneB@DGuY</nick>
+        <host>94.23.38.142</host>
+        <port>22003</port>
+        <password></password>
+        <qc_host>127.0.0.1</qc_host>
+        <qc_port>22003</qc_port>
+        <qc_password></qc_password>
+        <debugfile></debugfile>
+        <console_pos>209 175</console_pos>
+        <console_size>382 250</console_size>
+        <serverbrowser_size>720 495</serverbrowser_size>
+        <fps_limit>100</fps_limit>
+        <chat_font>0</chat_font>
+        <chat_lines>7</chat_lines>
+        <chat_color>0 0 0 100</chat_color>
+        <chat_text_color>255 255 255 197</chat_text_color>
+        <chat_input_color>0 0 0 110</chat_input_color>
+        <chat_input_prefix_color>172 213 254 255</chat_input_prefix_color>
+        <chat_input_text_color>172 213 254 255</chat_input_text_color>
+        <chat_scale>1 1</chat_scale>
+        <chat_width>1.000000</chat_width>
+        <chat_css_style_text>0</chat_css_style_text>
+        <chat_css_style_background>0</chat_css_style_background>
+        <chat_line_life>12000</chat_line_life>
+        <chat_line_fade_out>3000</chat_line_fade_out>
+        <chat_use_cegui>0</chat_use_cegui>
+        <text_scale>1.000000</text_scale>
+        <invert_mouse>0</invert_mouse>
+        <fly_with_mouse>0</fly_with_mouse>
+        <steer_with_mouse>0</steer_with_mouse>
+        <classic_controls>0</classic_controls>
+        <mtavolume>1.000000</mtavolume>
+        <voicevolume>1.000000</voicevolume>
+        <async_loading>1</async_loading>
+        <mapalpha>155</mapalpha>
+        <browser_speed>2</browser_speed>
+        <single_download>0</single_download>
+        <code_path>0</code_path>
+        <update_build_type>0</update_build_type>
+        <volumetric_shadows>0</volumetric_shadows>
+        <aspect_ratio>0</aspect_ratio>
+        <anisotropic>0</anisotropic>
+        <grass>1</grass>
+        <network_encryption>1</network_encryption>
+        <fast_clothes_loading>1</fast_clothes_loading>
+        <allow_screen_upload>1</allow_screen_upload>
+        <max_clientscript_log_kb>5000</max_clientscript_log_kb>
+        <display_windowed>1</display_windowed>
+        <multimon_fullscreen_minimize>0</multimon_fullscreen_minimize>
+        <screenshot_path>C:\Games\GTA - San Andreas\screenshots</screenshot_path>
+        <current_skin>Lighter black</current_skin>
+        <fixup_flags>-cb-ma</fixup_flags>
+        <community_username></community_username>
+        <community_password></community_password>
+        <save_server_passwords>1</save_server_passwords>
+        <auto_refresh_browser>1</auto_refresh_browser>
+        <streaming_memory>256</streaming_memory>
+        <reportsettings>filter2@+all,-{1000~2007},-2050,-2051,-{3120},-{3211},-{4002},-5132,-5133,-5809,-7011,-7106,-7801,-7043,-7050,-7051,-7420,-7601,-{7842~7845},-7940;max@4001;min@11</reportsettings>
+        <force_browse_other_versions></force_browse_other_versions>
+    </settings>
+    <binds>
+        <bind key="mouse1" control="fire"></bind>
+        <bind key="e" control="next_weapon"></bind>
+        <bind key="num_enter" control="next_weapon"></bind>
+        <bind key="mouse_wheel_up" control="next_weapon"></bind>
+        <bind key="q" control="previous_weapon"></bind>
+        <bind key="num_dec" control="previous_weapon"></bind>
+        <bind key="mouse_wheel_down" control="previous_weapon"></bind>
+        <bind key="arrow_u" control="forwards"></bind>
+        <bind key="w" control="forwards"></bind>
+        <bind key="arrow_d" control="backwards"></bind>
+        <bind key="s" control="backwards"></bind>
+        <bind key="arrow_l" control="left"></bind>
+        <bind key="a" control="left"></bind>
+        <bind key="arrow_r" control="right"></bind>
+        <bind key="d" control="right"></bind>
+        <bind key="pgup" control="zoom_in"></bind>
+        <bind key="x" control="zoom_in"></bind>
+        <bind key="mouse_wheel_up" control="zoom_in"></bind>
+        <bind key="pgdn" control="zoom_out"></bind>
+        <bind key="z" control="zoom_out"></bind>
+        <bind key="mouse_wheel_down" control="zoom_out"></bind>
+        <bind key="enter" control="enter_exit"></bind>
+        <bind key="f" control="enter_exit"></bind>
+        <bind key="v" control="change_camera"></bind>
+        <bind key="home" control="change_camera"></bind>
+        <bind key="space" control="jump"></bind>
+        <bind key="lshift" control="sprint"></bind>
+        <bind key="mouse3" control="look_behind"></bind>
+        <bind key="lctrl" control="crouch"></bind>
+        <bind key="tab" control="action"></bind>
+        <bind key="lalt" control="walk"></bind>
+        <bind key="rctrl" control="vehicle_fire"></bind>
+        <bind key="lalt" control="vehicle_fire"></bind>
+        <bind key="mouse1" control="vehicle_fire"></bind>
+        <bind key="lctrl" control="vehicle_secondary_fire"></bind>
+        <bind key="num_0" control="vehicle_secondary_fire"></bind>
+        <bind key="a" control="vehicle_left"></bind>
+        <bind key="arrow_l" control="vehicle_left"></bind>
+        <bind key="d" control="vehicle_right"></bind>
+        <bind key="arrow_r" control="vehicle_right"></bind>
+        <bind key="arrow_u" control="steer_forward"></bind>
+        <bind key="arrow_d" control="steer_back"></bind>
+        <bind key="w" control="accelerate"></bind>
+        <bind key="s" control="brake_reverse"></bind>
+        <bind key="insert" control="radio_next"></bind>
+        <bind key="4" control="radio_next"></bind>
+        <bind key="mouse_wheel_up" control="radio_next"></bind>
+        <bind key="delete" control="radio_previous"></bind>
+        <bind key="r" control="radio_previous"></bind>
+        <bind key="mouse_wheel_down" control="radio_previous"></bind>
+        <bind key="F5" control="radio_user_track_skip"></bind>
+        <bind key="lshift" control="horn"></bind>
+        <bind key="h" control="horn"></bind>
+        <bind key="2" control="sub_mission"></bind>
+        <bind key="num_add" control="sub_mission"></bind>
+        <bind key="space" control="handbrake"></bind>
+        <bind key="rctrl" control="handbrake"></bind>
+        <bind key="q" control="vehicle_look_left"></bind>
+        <bind key="e" control="vehicle_look_right"></bind>
+        <bind key="mouse3" control="vehicle_look_behind"></bind>
+        <bind key="mouse2" control="vehicle_mouse_look"></bind>
+        <bind key="num_4" control="special_control_left"></bind>
+        <bind key="num_6" control="special_control_right"></bind>
+        <bind key="num_2" control="special_control_down"></bind>
+        <bind key="end" control="special_control_down"></bind>
+        <bind key="num_8" control="special_control_up"></bind>
+        <bind key="delete" control="special_control_up"></bind>
+        <bind key="delete" control="aim_weapon"></bind>
+        <bind key="capslock" control="aim_weapon"></bind>
+        <bind key="mouse2" control="aim_weapon"></bind>
+        <bind key="y" control="conversation_yes"></bind>
+        <bind key="n" control="conversation_no"></bind>
+        <bind key="g" control="group_control_forwards"></bind>
+        <bind key="h" control="group_control_back"></bind>
+        <bind key="g" state="down" command="enter_passenger" arguments=""></bind>
+        <bind key="F12" state="down" command="screenshot" arguments=""></bind>
+        <bind key="t" state="down" command="chatbox" arguments="chatboxsay"></bind>
+        <bind key="y" state="down" command="chatbox" arguments="teamsay 255 0 0"></bind>
+        <bind key="F11" state="down" command="radar" arguments="-1"></bind>
+        <bind key="num_add" state="down" command="radar_zoom_in" arguments=""></bind>
+        <bind key="num_sub" state="down" command="radar_zoom_out" arguments=""></bind>
+        <bind key="num_8" state="down" command="radar_move_north" arguments=""></bind>
+        <bind key="num_2" state="down" command="radar_move_south" arguments=""></bind>
+        <bind key="num_6" state="down" command="radar_move_east" arguments=""></bind>
+        <bind key="num_4" state="down" command="radar_move_west" arguments=""></bind>
+        <bind key="num_0" state="down" command="radar_attach" arguments=""></bind>
+        <bind key="num_div" state="down" command="radar_opacity_down" arguments=""></bind>
+        <bind key="num_mul" state="down" command="radar_opacity_up" arguments=""></bind>
+        <bind key="num_1" state="down" command="radar_help" arguments=""></bind>
+        <bind key="z" state="down" command="voiceptt" arguments="1"></bind>
+        <bind key="z" state="up" command="voiceptt" arguments="0"></bind>
+        <bind key="pgup" state="down" command="chatscrollup" arguments="1"></bind>
+        <bind key="pgup" state="up" command="chatscrollup" arguments="0"></bind>
+        <bind key="pgdn" state="down" command="chatscrolldown" arguments="-1"></bind>
+        <bind key="pgdn" state="up" command="chatscrolldown" arguments="0"></bind>
+        <bind key="pgup" state="down" command="debugscrollup" arguments="1"></bind>
+        <bind key="pgup" state="up" command="debugscrollup" arguments="0"></bind>
+        <bind key="pgdn" state="down" command="debugscrolldown" arguments="-1"></bind>
+        <bind key="pgdn" state="up" command="debugscrolldown" arguments="0"></bind>
+        <bind key="rshift" control="sprint"></bind>
+        <bind key="num_3" control="steer_forward"></bind>
+        <bind key="num_dec" control="steer_back"></bind>
+    </binds>
+    <updater>
+        <var>
+            <version_lastchecktime>2012-09-05 10:13:34</version_lastchecktime>
+            <master_lastchecktime>2012-09-05 10:13:34</master_lastchecktime>
+            <master_highestnotifyrevision></master_highestnotifyrevision>
+            <news_lastchecktime>2012-09-05 10:13:37</news_lastchecktime>
+            <news_lastnewsdate>2012-09-02</news_lastnewsdate>
+            <crashdump_historylist></crashdump_historylist>
+        </var>
+        <mastercache>
+            <master>
+                <revision>2012-05-09</revision>
+                <serverlist>
+                    <server>http://updatesa.mtasa.com/sa/master/?v=%VERSION%&amp;id=%ID%</server>
+                    <server>http://updatesa.multitheftauto.com/sa/master/?v=%VERSION%&amp;id=%ID%</server>
+                </serverlist>
+                <interval>12h</interval>
+            </master>
+            <version>
+                <serverlist>
+                    <server priority="3">http://updatesa.mtasa.com/sa/version/?v=%VERSION%&amp;id=%ID%&amp;ty=%TYPE%&amp;da=%DATA%&amp;be=%BETA%&amp;re=%REFER%</server>
+                    <server priority="4">http://updatesa.multitheftauto.com/sa/version/?v=%VERSION%&amp;id=%ID%&amp;ty=%TYPE%&amp;da=%DATA%&amp;be=%BETA%&amp;re=%REFER%</server>
+                </serverlist>
+                <interval>12h</interval>
+            </version>
+            <report>
+                <serverlist>
+                    <server>http://updatesa.mtasa.com/sa/report/?v=%VERSION%&amp;id=%ID%</server>
+                    <server>http://updatesa.multitheftauto.com/sa/report/?v=%VERSION%&amp;id=%ID%</server>
+                </serverlist>
+                <interval>12h</interval>
+                <filter2>+all,-{1000~2007},-2050,-2051,-{3120},-{3211},-{4002},-5132,-5133,-5809,-7011,-7106,-7801,-7043,-7050,-7051,-7420,-7601,-{7842~7845},-7940</filter2>
+                <minsize>11</minsize>
+                <maxsize>4001</maxsize>
+            </report>
+            <crashdump>
+                <serverlist>
+                    <server priority="3">http://updatesa.mtasa.com/sa/crashdump/?v=%VERSION%&amp;id=%ID%&amp;file=%FILE%</server>
+                    <server priority="4">http://updatesa.multitheftauto.com/sa/crashdump/?v=%VERSION%&amp;id=%ID%&amp;file=%FILE%</server>
+                </serverlist>
+                <duplicates>0</duplicates>
+                <maxhistorylength>100</maxhistorylength>
+            </crashdump>
+            <gtadatafiles>
+                <serverlist>
+                    <server priority="3">http://updatesa.mtasa.com/sa/gtadatafiles/?v=%VERSION%&amp;id=%ID%</server>
+                    <server priority="4">http://updatesa.multitheftauto.com/sa/gtadatafiles/?v=%VERSION%&amp;id=%ID%</server>
+                </serverlist>
+            </gtadatafiles>
+            <gtadatafiles2>
+                <serverlist>
+                    <server priority="3">http://updatesa.mtasa.com/sa/gtadatafiles2/?v=%VERSION%&amp;id=%ID%</server>
+                </serverlist>
+            </gtadatafiles2>
+            <trouble>
+                <serverlist>
+                    <server>http://updatesa.multitheftauto.com/sa/trouble/?v=%VERSION%&amp;id=%ID%&amp;tr=%TROUBLE%</server>
+                </serverlist>
+            </trouble>
+            <ase>
+                <serverlist>
+                    <server priority="3">http://master.multitheftauto.com/ase/mta/?v=%VERSION%&amp;id=%ID%</server>
+                    <server priority="3">http://178.21.18.248/ase2.dat</server>
+                    <server priority="4">http://1mgg.com/affil/mta</server>
+                </serverlist>
+            </ase>
+            <sidegrade>
+                <serverlist>
+                    <server priority="3">http://updatesa.mtasa.com/sa/sidegrade/?v=%VERSION%&amp;id=%ID%&amp;be=%BETA%&amp;re=%REFER%&amp;wv=%WANTVER%</server>
+                    <server priority="4">http://updatesa.multitheftauto.com/sa/sidegrade/?v=%VERSION%&amp;id=%ID%&amp;be=%BETA%&amp;re=%REFER%&amp;wv=%WANTVER%</server>
+                </serverlist>
+                <nobrowselist>
+                    <nobrowse version="1.0">1.1n;1.1N;1.2n;1.2sx;1.3n;1.3v;</nobrowse>
+                    <nobrowse version="1.1">1.1n;1.1N;1.2n;1.2sx;1.3n;1.3v;</nobrowse>
+                </nobrowselist>
+                <onlybrowselist>
+                    <onlybrowse version="1.1">1.3;1.2;1.1;1.0</onlybrowse>
+                    <onlybrowse version="1.2">1.3;1.2;1.1;1.0</onlybrowse>
+                    <onlybrowse version="1.3">1.3;1.2;1.1;1.0</onlybrowse>
+                </onlybrowselist>
+            </sidegrade>
+            <news>
+                <serverlist>
+                    <server priority="3">http://updatesa.multitheftauto.com/sa/news/?v=%VERSION%&amp;id=%ID%&amp;be=%BETA%&amp;ln=%LASTNEWS%</server>
+                    <server priority="4">http://updatesa.mtasa.com/sa/news/?v=%VERSION%&amp;id=%ID%&amp;be=%BETA%&amp;ln=%LASTNEWS%</server>
+                </serverlist>
+                <interval>12h</interval>
+                <oldestpost>2010-11-02</oldestpost>
+                <maxhistorylength>3</maxhistorylength>
+            </news>
+            <misc>
+                <debug>
+                    <filter2>-all,+{500~2000}</filter2>
+                </debug>
+            </misc>
+        </mastercache>
+    </updater>
+    <serverbrowser_options>
+        <list id="0" include_empty="1" include_full="1" include_locked="1"></list>
+        <list id="1" include_empty="1" include_full="1" include_locked="1"></list>
+        <list id="2" include_empty="1" include_full="1" include_locked="1" include_offline="1" active="1"></list>
+        <list id="3" include_empty="1" include_full="1" include_locked="1" include_offline="1"></list>
+    </serverbrowser_options>
+    <server_passwords></server_passwords>
+    <recently_played_servers>
+        <recently_played_server host="94.23.38.142" port="22003"></recently_played_server>
+        <recently_played_server host="176.32.39.93" port="22003"></recently_played_server>
+        <recently_played_server host="94.23.251.227" port="22017"></recently_played_server>
+    </recently_played_servers>
+    <connect_history>
+        <connected_server host="127.0.0.1" port="22003"></connected_server>
+    </connect_history>
+</mainconfig>

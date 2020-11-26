@@ -1,0 +1,72 @@
+
+     ----------------------------------
+     - GRAND THEFT AUTO: San Andreas  -
+     -        PC version 1.01         -
+     -         Patch Changes          -
+     -       5th August 2005          -
+     ----------------------------------
+
+
+- Previous save games carry over with no issues.
+
+
+               ***********
+               * CAUTION *
+               ***********
+
+************************************************
+*        Settings files have changed           *
+*                                              *
+*        On first run of version 1.01          *
+*   your settings will be reset to default!    *
+************************************************
+
+
+ INSTALLATION
+--------------
+
+- Launch the updater EXE file.
+
+- Confirm that you are using the correct updater for the specific version of GRAND THEFT AUTO: San Andreas you are using.
+
+- Use the file requester to locate the directory where you installed GRAND THEFT AUTO: San Andreas (the directory which contains the gta_sa.exe file).
+
+- If the updater recognises the gta_sa.exe file as the correct version, it will begin the update process.
+
+- To confirm that you are using the updated version, we display the version number 1.01 on the main menu page.
+
+
+ ADDITIONS
+-----------
+
+- Added support for 720p and 1080i HDTV resolutions (may also do 1080p, not sure).
+
+- Version Number displayed on game title screen.
+
+
+ BUGS FIXED
+------------
+
+- Issue fixed on machines where the OS has been updated (one OS installed over top of another) and has 2 registry keys that point to the users "My Documents" folder (we incorrectly used to assume the Win2000 folder, now correctly uses the last installed OS folder) - users know this as "user account period bug".
+
+- Crash when entering advanced display options with only 32 meg of video ram (32 meg of video ram is not supported and will only allow use of 640*480 in 16 and 32 bit. At this resolution it is likely you will see the "Black Roads" LOD problem). We do NOT however disallow machines with 32 meg of video ram from running GRAND THEFT AUTO: San Andreas.
+
+- Crash when entering advanced display options on a dual monitor machine after :- starting game on primary monitor in maximum resolution, exiting, starting again in maximum resolution on secondary monitor. Secondary monitor maximum resolution had to be greater than maximum resolution of primary monitor.
+
+- Destroyed cars now are correct colour.
+
+- Dirty cars now able to get clean.
+
+- Numpad 5 key is now mappable when re-defining controls.
+
+- Issue on all machines where certain collisions caused parts of the audio system to crash (sound effects, cutscene audio - only radio keeps going) - users know this as "Rain / Thunderstorm bug".
+
+- Improvements to DVD streaming.
+
+- Audio problems in interior / exterior transitions and getting in / out of cars fixed.
+
+- Some fixes to ensure reverb is not present at certain save points.
+
+- Improvements to dance game timings.
+
+- Crash occuring when using "user radio files" while the frame limiter is disabled.

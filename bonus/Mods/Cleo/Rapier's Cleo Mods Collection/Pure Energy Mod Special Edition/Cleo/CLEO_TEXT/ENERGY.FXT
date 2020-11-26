@@ -1,0 +1,18 @@
+; PURE ENERGY MOD STRING FILE
+; This file contains all the texts used by mod. DO NOT MODIFY!
+
+PE_ERRO ~r~ATTENTION! ONE OR MORE FILES WEREN'T FOUND AND THE MOD CAN'T BE EXECUTED!~w~ Try uninstalling and reinstalling again.
+PE_HLP1 Type ~h~ENERGY~w~ in your keyboard to activate/deactivate the ~h~Pure Energy~w~.
+PE_HLP2 Press ~h~F6~w~ to display the commands list menu.
+PE_PL01 Pure Energy Mod
+PE_PL02 Commands List (On Foot)
+PE_PL03 Press ~h~~k~~VEHICLE_ENTER_EXIT~~w~ to exit.
+PE_PL04 ~k~~PED_ANSWER_PHONE~ + ~k~~PED_FIREWEAPON~ Fireball
+PE_PL05 ~k~~PED_ANSWER_PHONE~ + ~k~~PED_LOCK_TARGET~ Super Fireball
+PE_PL06 ~k~~PED_ANSWER_PHONE~ + ~k~~CONVERSATION_YES~ Telecinese
+PE_PL07 ~k~~PED_ANSWER_PHONE~ + ~k~~CONVERSATION_NO~ Energy Ball
+PE_PL08 ~k~~PED_ANSWER_PHONE~ + ~k~~GROUP_CONTROL_FWD~ Armaggedon (you can set a target in map)
+PE_PL09 ~k~~PED_ANSWER_PHONE~ + ~k~~GROUP_CONTROL_BWD~ Eruption
+PE_PL10 ~k~~PED_ANSWER_PHONE~ + ~k~~PED_CYCLE_WEAPON_RIGHT~ Triple Fireball
+PE_PL11 ~k~~PED_ANSWER_PHONE~ + ~k~~PED_CYCLE_WEAPON_LEFT~ Vulcan (hold down the button)
+PE_WELC Welcome to ~h~PURE ENERGY MOD~w~ by ~h~Rapier~w~.

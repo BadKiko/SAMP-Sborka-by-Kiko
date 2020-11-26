@@ -1,0 +1,11 @@
+HISTORY.TXT
+
+ƒ ƒ ƒ CLEO TRAINER +40 SPECIAL EDITION by Rapier ƒ ƒ ƒ
+
+* Version "SE" - Now the mod works on both versions of GTASA, 1.0 (U.S.) and 1.01 (EURO).
+
+* Version 2.0 (Final release) - Activation/deactivation typed by keyboard, 30 new features added, key list menu added and cheat status menu added.
+
+* Version 1.1 - Minor changes.
+
+* Version 1.0 - First release.

@@ -1,0 +1,10 @@
+PARK_A1 Cars Are PArking ~g~ON
+PARK_A2 Cars Stop Parking ~r~OFF
+PARK_A3 Cars are parked ~r~Waiting again.
+CARPET ~y~Here comes Sindbad.
+RE_END1 ~g~Car is repaired.
+RE_END2 ~r~No damage,~g~But also repaired.
+RE_END3 Du hast nicht genug Geld du brauchst 650$.
+T_FEN ~b~Lets Tune this Vehicle
+ZAD_A1 Auto-Driver ~g~ON
+ZAD_A2 Auto-Driver ~r~OFF

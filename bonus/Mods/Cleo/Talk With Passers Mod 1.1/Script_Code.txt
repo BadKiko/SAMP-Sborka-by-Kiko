@@ -1,0 +1,110 @@
+// This file was decompiled using sascm.ini published by Seemann (http://sannybuilder.com/files/SASCM.rar) on 13.10.2007
+
+{$VERSION 3.1.0027}
+{$CLEO .cs}
+
+//-------------MAIN---------------
+03A4: name_thread "CHAT" 
+0662: NOP "TALK WITH PASSERS V1.1 CLEO SCRIPT MADE BY MCSIM2401" 
+0662: NOP "TO USE THIS SCRIPT AT OTHER MODS, PLEASE, ASK AUTHOR FOR PERMISSION." 
+0662: NOP "×ÒÎÁÛ ÈÑÏÎËÜÇÎÂÀÒÜ ÝÒÎÒ ÑÊÐÈÏÒ Â ÑÂÎ¨Ì ÌÎÄÅ, ÏÎÆÀËÓÉÑÒÀ, ÑÏÐÎÑÈÒÅ Ó ÀÂÒÎÐÀ ÐÀÇÐÅØÅÍÈÅ." 
+
+:CHAT_226
+0001: wait 1000 ms 
+00D6: if and
+0004: $ONMISSION = 0 
+056D:   actor $PLAYER_ACTOR defined 
+0AB0:   key_pressed 9 
+0AB0:   key_pressed 84 
+80DF:   not actor $PLAYER_ACTOR driving 
+810F:   not player $PLAYER_CHAR wanted_level > 0 
+004D: jump_if_false @CHAT_226 
+0AB5: store_actor $PLAYER_ACTOR closest_vehicle_to $NEAREST_VEHICLE closest_ped_to $NEAREST_PED 
+0002: jump @CHAT_292 
+
+:CHAT_292
+0001: wait 0 ms 
+00D6: if and
+056D:   actor $NEAREST_PED defined 
+80DF:   not actor $NEAREST_PED driving 
+004D: jump_if_false @CHAT_226 
+0677: AS_actor $NEAREST_PED chat_with_actor $PLAYER_ACTOR lead_speaker_flag 1 unknown_flag 1 
+0677: AS_actor $PLAYER_ACTOR chat_with_actor $NEAREST_PED lead_speaker_flag 0 unknown_flag 1 
+0002: jump @CHAT_348 
+
+:CHAT_348
+0001: wait 1000 ms 
+00D6: if 
+00F3:   actor $PLAYER_ACTOR near_actor $NEAREST_PED radius 3.0 3.0 0 on_foot 
+004D: jump_if_false @CHAT_226 
+0209: $PED_HI = random_int_in_ranges 165 166 
+05C1: AS_actor $NEAREST_PED speak_from_audio_table $PED_HI 
+0002: jump @CHAT_410 
+
+:CHAT_410
+0001: wait 0 ms 
+00D6: if 
+00F3:   actor $PLAYER_ACTOR near_actor $NEAREST_PED radius 3.0 3.0 0 on_foot 
+004D: jump_if_false @CHAT_226 
+0001: wait 5000 ms 
+05C1: AS_actor $PLAYER_ACTOR speak_from_audio_table 109 
+0002: jump @CHAT_464 
+
+:CHAT_464
+0001: wait 0 ms 
+00D6: if 
+00F3:   actor $PLAYER_ACTOR near_actor $NEAREST_PED radius 3.0 3.0 0 on_foot 
+004D: jump_if_false @CHAT_226 
+0001: wait 5000 ms 
+0209: $PED_D1 = random_int_in_ranges 169 170 
+05C1: AS_actor $NEAREST_PED speak_from_audio_table $PED_D1 
+0002: jump @CHAT_530 
+
+:CHAT_530
+0001: wait 0 ms 
+00D6: if 
+00F3:   actor $PLAYER_ACTOR near_actor $NEAREST_PED radius 3.0 3.0 0 on_foot 
+004D: jump_if_false @CHAT_226 
+0001: wait 5000 ms 
+0209: $CJ_D1 = random_int_in_ranges 193 194 
+05C1: AS_actor $PLAYER_ACTOR speak_from_audio_table $CJ_D1 
+0002: jump @CHAT_596 
+
+:CHAT_596
+0001: wait 0 ms 
+00D6: if 
+00F3:   actor $PLAYER_ACTOR near_actor $NEAREST_PED radius 3.0 3.0 0 on_foot 
+004D: jump_if_false @CHAT_226 
+0001: wait 5000 ms 
+0209: $PED_D2 = random_int_in_ranges 170 171 
+05C1: AS_actor $NEAREST_PED speak_from_audio_table $PED_D2 
+0002: jump @CHAT_662 
+
+:CHAT_662
+0001: wait 0 ms 
+00D6: if 
+00F3:   actor $PLAYER_ACTOR near_actor $NEAREST_PED radius 3.0 3.0 0 on_foot 
+004D: jump_if_false @CHAT_226 
+0001: wait 5000 ms 
+05C1: AS_actor $PLAYER_ACTOR speak_from_audio_table 242 
+0002: jump @CHAT_717 
+
+:CHAT_717
+0001: wait 0 ms 
+00D6: if 
+00F3:   actor $PLAYER_ACTOR near_actor $NEAREST_PED radius 3.0 3.0 0 on_foot 
+004D: jump_if_false @CHAT_226 
+0001: wait 5000 ms 
+0209: $PED_BY = random_int_in_ranges 167 168 
+05C1: AS_actor $NEAREST_PED speak_from_audio_table $PED_BY 
+0002: jump @CHAT_783 
+
+:CHAT_783
+0001: wait 0 ms 
+00D6: if 
+00F3:   actor $PLAYER_ACTOR near_actor $NEAREST_PED radius 3.0 3.0 0 on_foot 
+004D: jump_if_false @CHAT_226 
+0001: wait 5000 ms 
+05C1: AS_actor $PLAYER_ACTOR speak_from_audio_table 243 
+0624: add 50.0 to_float_stat 25 
+0002: jump @CHAT_226 

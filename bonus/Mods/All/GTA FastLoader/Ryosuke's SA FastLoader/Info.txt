@@ -1,0 +1,2 @@
+Skip ads, opening videos, title screen, main
+menu and loading screen and show Load Game menu.

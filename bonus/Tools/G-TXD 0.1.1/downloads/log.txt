@@ -1,0 +1,8 @@
+//download log
+//created 31st Oct 2006 : 20:57
+//REspawn
+
+//everytime you check for an update or download one it is recorded into this file
+
+//log start
+

@@ -1,0 +1,33 @@
+COMMANDS.TXT
+
+ƒ ƒ ƒ POWERFUL MODE MOD SPECIAL EDITION by Rapier ƒ ƒ ƒ
+
+ACTIVATION/DEACTIVATION CODE = Type POWER in your keyboard while the game is running.
+
+LIST OF SPECIAL POWERS TO CJ (Commands list)
+
+On Foot:
+ACTION + CONVERSATION (YES) = Health Recover.
+ACTION + CONVERSATION (NO) = Armour Recover.
+ACTION + FIRE = Power Move.
+ACTION + AIM WEAPON = Change Fight Style.
+ACTION + NEXT WEAPON = Fireball.
+ACTION + PREVIOUS WEAPON = Super Fireball.
+ACTION + GROUP CONTROL (FORWARD) = Geiser.
+ACTION + GROUP CONTROL (BACKWARD) = Fury.
+ACTION + JUMP = Napalm.
+ACTION + ENTER/EXIT VEHICLE = Spawn(¹).
+ACTION + SPRINT = Telecinese.
+ACTION + CROUCH = Fire Mine.
+ACTION + LOOK BEHIND = Teleport (set a target in map).
+ACTION + SPECIAL CONTROL LEFT/RIGHT = Clear Wanted Level.
+
+In Air:
+To fly, first jump, and after, press the JUMP key again.
+JUMP = Speed up.
+CROUCH = Speed down.
+ENTER/EXIT VEHICLE = Stop flying.
+
+Tip: Any doubt look in the settings keys in the game options menu.
+
+(¹): In some cases, this special power can cause crashes. Be careful!

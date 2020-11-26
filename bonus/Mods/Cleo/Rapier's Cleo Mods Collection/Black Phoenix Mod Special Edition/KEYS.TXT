@@ -1,0 +1,23 @@
+KEYS.TXT
+
+ƒ ƒ ƒ BLACK PHOENIX MOD SPECIAL EDITION by Rapier ƒ ƒ ƒ
+
+ACTIVATION CODE = Type PHOENIX in your keyboard while the game is running.
+
+KEYS LIST (Keyboard keys). ATTENTION! NUM LOCK MUST BE ON!
+
+In car:
+"NUMPAD 0" = Active the internal bomb.
+"NUMPAD 1" = Lock/unlock the doors.
+"NUMPAD 2" = Active the nitrous.
+"NUMPAD 3" = Machinegun.
+"NUMPAD 4" = Flamethrower.
+"NUMPAD 5" = Napalm.
+"NUMPAD 6" = Rocket.
+"NUMPAD 7" = Missile.
+"NUMPAD 8" = Landmine.
+"NUMPAD 9" = SPECIAL WEAPON.
+
+On foot:
+"NUMPAD 0" = Detonate the internal bomb (if active).
+"NUMPAD 1" = Call the Black Phoenix back to you. Very useful!

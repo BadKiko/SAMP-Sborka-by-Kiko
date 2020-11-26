@@ -1,0 +1,10 @@
+//GXT
+
+AUTO Auto-pilot ~g~ACTIVATED
+AUTO2 Auto-pilot ~r~DEACTIVATED
+AUTO3 New route
+AUTOF Final route
+AUTT [F10] Turn off auto-pilot
+AUTT2 [N] Go to the new destination
+
+// END GXT

@@ -1,0 +1,25 @@
+This file contains information about changes in every version of Player Switching mod.
+
+========================================================================================================
+
+VERSION 1.1
+
+Changes:
+- Now if you switching control from CJ to some other pedestrian, CJ will be stay static, but you can recruit him.
+- Now you are not able to switch contol into dead CJ/Ped (If Bot-CJ dead then switched ped become as main player)
+
+Fixes:
+- Rewritten basic switch control code. Now mission will not be failed if switch control from player to some important character. (NOTE: Main mission objectives will not be changed if you switching characters!)
+- Fixed gamecrash when switching control that may be appeared from some players (Fixed dumb mistake: $PLAYER_STORED_MONEY = $PLAYER_CHAR)
+- Code of basic script cleared from excess and failed attempts of other synchronizations
+
+Removes:
+- Removed black useless marker from CJ
+
+--------------------------------------------------------------------------------------------------------
+
+VERSION 1.0 BETA:
+- First release
+
+New content:
+- Added weapon & ammo synchronization
