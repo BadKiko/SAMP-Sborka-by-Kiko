@@ -19,8 +19,8 @@ u8 = encoding.UTF8
 
 update_status = false
 
-local script_vers = 3
-local script_vers_text = "1.02"
+local script_vers = 4
+local script_vers_text = "1.03"
 
 local update_url = "https://raw.githubusercontent.com/BadKiko/SAMP-Sborka-by-Kiko/main/moonloader/updateCheatHelp.ini"
 local update_path = getWorkingDirectory().."/updateCheatHelp.ini"
@@ -151,7 +151,7 @@ function imgui.OnDrawFrame()
 	--Main меню
 	if menu_window_state.v then
 		imgui.SetNextWindowPos(imgui.ImVec2((sw / 2) + 300, sh / 2), imgui.Cond.FirstUseEver, imgui.ImVec2(0.5, 0.5))
-		imgui.Begin("[CheatHelper] by Kiko | "..script_vers, menu_window_state, imgui.WindowFlags.AlwaysAutoResize)
+		imgui.Begin("[CheatHelper] by Kiko | "..script_vers_text, menu_window_state, imgui.WindowFlags.AlwaysAutoResize)
 		apply_custom_style()
 		imgui.Text(u8'Хай сучара, вот все читики:')
 		imgui.Separator()
