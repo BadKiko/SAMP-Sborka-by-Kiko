@@ -6,6 +6,7 @@ local sampev = require("lib.samp.events")
 local imgui = require("imgui")
 local encoding = require("encoding")
 local sw, sh = getScreenResolution()
+local local  = require 'inicfg'
 
 
 local dlstatus = require("moonloader").download_status
@@ -22,10 +23,10 @@ local script_vers = 1
 local script_vers_text = "1.00"
 
 local update_url = ""
-local update_path = getWorkingDirectory().."updateCheatHelp.ini"
+local update_path = getWorkingDirectory().."/updateCheatHelp.ini"
 
 local script_url = ""
-local update_path = thisScript().path
+local script_path = thisScript().path
 
 
 
@@ -75,8 +76,16 @@ function main()
 
 	--UPDATE
 
-	downloadUrlToFile('ссылка', 'путь к сохранению файла', function(id, status, p1, p2)
-	end) end
+	downloadUrlToFile(update_url, update_path, function(id, status)
+		if status == dlstatus.STATUS_ENDDOWNLOADDATA then
+			updateIni = inicfg.load(nil,update_path)
+			if tonumber(updateIni.info.vers) > script_vers then
+				sendMessage("Dungeon Master нашел обновление! Обновляем {464446}<CheatHelper>{850AB9} до версии:{464446} "..updateIni.info.vers_text)
+				update_status = true
+			end
+			os.remove(update_path)
+		end
+	end)
 
 
 
@@ -98,6 +107,20 @@ function main()
 			menu_window_state.v = not menu_window_state.v
 			imgui.Process =  menu_window_state.v
 		end
+
+
+		--Update
+
+		if update_status then
+			downloadUrlToFile(script_url, script_path, function(id, status)
+				if status == dlstatus.STATUS_ENDDOWNLOADDATA then
+					sendMessage("Dungeon Master успешно обновил {464446}<CheatHelper>!")
+					thisScript():reload()
+				end
+			end)
+			break
+		end
+
 	end
 end
 
