@@ -1,5 +1,5 @@
-[02:34:38.794047] (system)	Session started.
-[02:34:38.795047] (debug)	Module handle: 55D80000
+[16:18:27.553897] (system)	Session started.
+[16:18:27.554898] (debug)	Module handle: 58620000
 
 MoonLoader v.026.5-beta loaded.
 Developers: FYP, hnnssy, EvgeN 1137
@@ -7,247 +7,230 @@ Developers: FYP, hnnssy, EvgeN 1137
 Copyright (c) 2016, BlastHack Team
 http://blast.hk/moonloader/
 
-[02:34:38.795047] (info)	Working directory: Y:\Games\SAMP-Sborka-By-Kiko\moonloader
-[02:34:38.795047] (debug)	FP Control: 0009001F
-[02:34:38.795047] (debug)	Game: GTA SA 1.0.0.0 US
-[02:34:38.795047] (system)	Installing pre-game hooks...
-[02:34:38.798047] (system)	Hooks installed.
-[02:34:44.052435] (debug)	Initializing opcode handler table
-[02:34:44.052435] (debug)	package.path = Y:\Games\SAMP-Sborka-By-Kiko\moonloader\lib\?.lua;Y:\Games\SAMP-Sborka-By-Kiko\moonloader\lib\?\init.lua;Y:\Games\SAMP-Sborka-By-Kiko\moonloader\?.lua;Y:\Games\SAMP-Sborka-By-Kiko\moonloader\?\init.lua;.\?.lua;Y:\Games\SAMP-Sborka-By-Kiko\moonloader\lib\?.luac;Y:\Games\SAMP-Sborka-By-Kiko\moonloader\lib\?\init.luac;Y:\Games\SAMP-Sborka-By-Kiko\moonloader\?.luac;Y:\Games\SAMP-Sborka-By-Kiko\moonloader\?\init.luac;.\?.luac
-[02:34:44.052435] (debug)	package.cpath = Y:\Games\SAMP-Sborka-By-Kiko\moonloader\lib\?.dll;
-[02:34:44.068437] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\AntiRvanka.lua'...
-[02:34:44.068437] (debug)	New script: 0F949F34
-[02:34:44.075438] (system)	AntiRvanka.lua: Loaded successfully.
-[02:34:44.075438] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\AntiSpammerForMaksQSpammer.lua'...
-[02:34:44.075438] (debug)	New script: 0F949A9C
-[02:34:44.090438] (system)	AntiSpamForMaksQSpam: Loaded successfully.
-[02:34:44.090438] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\arz_carslap.luac'...
-[02:34:44.090438] (debug)	New script: 0F94A244
-[02:34:44.095442] (system)	arz_carslap.luac: Loaded successfully.
-[02:34:44.095442] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\AutoReboot.lua'...
-[02:34:44.095442] (debug)	New script: 0F94A3CC
-[02:34:44.096439] (system)	ML-AutoReboot: Loaded successfully.
-[02:34:44.096439] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\BPS_FLY.lua'...
-[02:34:44.096439] (debug)	New script: 0F94AB74
-[02:34:44.102440] (system)	BPS_FLY.lua: Loaded successfully.
-[02:34:44.102440] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\ButilkaCrasher.lua'...
-[02:34:44.102440] (debug)	New script: 0F94A554
-[02:34:44.137442] (system)	ButilkaCrasher.lua: Loaded successfully.
-[02:34:44.137442] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\bypass.lua'...
-[02:34:44.137442] (debug)	New script: 0F94A9EC
-[02:34:44.141441] (system)	bypass.lua: Loaded successfully.
-[02:34:44.141441] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\bypasser.lua'...
-[02:34:44.141441] (debug)	New script: 134BAA84
-[02:34:44.153443] (system)	bypasser.lua: Loaded successfully.
-[02:34:44.153443] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\carfuncs0_3_3.luac'...
-[02:34:44.153443] (debug)	New script: 134BBFF4
-[02:34:44.171444] (system)	carfuncs0_3_3.luac: Loaded successfully.
-[02:34:44.171444] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\carshot.lua'...
-[02:34:44.171444] (debug)	New script: 134BBE6C
-[02:34:44.180445] (system)	carshot.lua: Loaded successfully.
-[02:34:44.180445] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\carshot_chat_add.lua'...
-[02:34:44.180445] (debug)	New script: 134BB3B4
-[02:34:44.197447] (system)	CSChatAdd: Loaded successfully.
-[02:34:44.197447] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\CheatHelper.lua'...
-[02:34:44.197447] (debug)	New script: 134BAC0C
-[02:34:44.214449] (system)	CheatHelper: Loaded successfully.
-[02:34:44.216448] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\check-moonloader-updates.lua'...
-[02:34:44.216448] (debug)	New script: 134BB53C
-[02:34:44.219450] (system)	Check MoonLoader Updates: Loaded successfully.
-[02:34:44.219450] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\CreepTonInvis.luac'...
-[02:34:44.220450] (debug)	New script: 134BAD94
-[02:34:44.260456] (system)	CreepTonInvis.luac: Loaded successfully.
-[02:34:44.260456] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\dammagerBydamag.lua'...
-[02:34:44.260456] (debug)	New script: 134BC48C
-[02:34:44.262452] (system)	dammagerBydamag.lua: Loaded successfully.
-[02:34:44.262452] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\egun.luac'...
-[02:34:44.262452] (debug)	New script: 134BB9D4
-[02:34:44.285453] (system)	egun.luac: Loaded successfully.
-[02:34:44.285453] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\EnterCar.lua'...
-[02:34:44.285453] (debug)	New script: 134BC304
-[02:34:44.294453] (system)	EnterCar.lua: Loaded successfully.
-[02:34:44.294453] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\EnterCrasher (bypass).lua'...
-[02:34:44.294453] (debug)	New script: 134BBB5C
-[02:34:44.314454] (system)	EnterCrasher (bypass): Loaded successfully.
-[02:34:44.314454] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\F-CAR.lua'...
-[02:34:44.314454] (debug)	New script: 134BC614
-[02:34:44.330461] (system)	F-CAR.lua: Loaded successfully.
-[02:34:44.330461] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\fly.luac'...
-[02:34:44.330461] (debug)	New script: 134BA8FC
-[02:34:44.337458] (system)	fly.luac: Loaded successfully.
-[02:34:44.338458] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\FPS_UP_UPDATE.lua'...
-[02:34:44.338458] (debug)	New script: 133C0934
-[02:34:44.341458] (system)	FPS_UP_UPDATE.lua: Loaded successfully.
-[02:34:44.341458] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\gagarin.lua'...
-[02:34:44.341458] (debug)	New script: 133BF6D4
-[02:34:44.354458] (system)	gagarin.lua: Loaded successfully.
-[02:34:44.354458] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\GORYASHIYCAR.luac'...
-[02:34:44.354458] (debug)	New script: 133BF85C
-[02:34:44.374460] (system)	GORYASHIYCAR.luac: Loaded successfully.
-[02:34:44.374460] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\INVI.lua'...
-[02:34:44.374460] (debug)	New script: 133C018C
-[02:34:44.381460] (system)	INVI.lua: Loaded successfully.
-[02:34:44.382461] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\kickASS.lua'...
-[02:34:44.382461] (debug)	New script: 133BEC1C
-[02:34:44.387459] (system)	kickASS v2.1: Loaded successfully.
-[02:34:44.387459] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\knockdown.lua'...
-[02:34:44.387459] (debug)	New script: 133BF54C
-[02:34:44.395459] (system)	knockdown.lua: Loaded successfully.
-[02:34:44.395459] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\Multi_AyE_Cheats_by ]GsH[MeG@LaDo[N].luac'...
-[02:34:44.395459] (debug)	New script: 133BEDA4
-[02:34:44.410462] (system)	Multi Cheats by ]GsH[MeG@LaDo[N]: Loaded successfully.
-[02:34:44.410462] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\POMOYKA MODE.lua'...
-[02:34:44.410462] (debug)	New script: 133BFB6C
-[02:34:44.417463] (system)	POMOYKAMod: Loaded successfully.
-[02:34:44.417463] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\RainbowClist.lua'...
-[02:34:44.417463] (debug)	New script: 133BFCF4
-[02:34:44.428463] (system)	RainbowClist: Loaded successfully.
-[02:34:44.429463] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\reload_all.lua'...
-[02:34:44.429463] (debug)	New script: 133BEF2C
-[02:34:44.430463] (system)	ML-ReloadAll: Loaded successfully.
-[02:34:44.430463] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\scar.lua'...
-[02:34:44.430463] (debug)	New script: 133BF0B4
-[02:34:44.439464] (system)	scar.lua: Loaded successfully.
-[02:34:44.439464] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\SF Integration.lua'...
-[02:34:44.439464] (debug)	New script: 133C0314
-[02:34:44.443465] (system)	SF Integration: Loaded successfully.
-[02:34:44.443465] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\skinc.lua'...
-[02:34:44.443465] (debug)	New script: 133BF3C4
-[02:34:44.458465] (system)	skinc: Loaded successfully.
-[02:34:44.458465] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\SlapperBYs3nder.luac'...
-[02:34:44.458465] (debug)	New script: 133C049C
-[02:34:44.471472] (system)	SlapperBYs3nder.luac: Loaded successfully.
-[02:34:44.471472] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\spammer.lua'...
-[02:34:44.471472] (debug)	New script: 133BFE7C
-[02:34:44.472467] (system)	Spammer: Loaded successfully.
-[02:34:44.472467] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\spoka0_3.luac'...
-[02:34:44.472467] (debug)	New script: 133BF23C
-[02:34:44.484467] (system)	spoka0_3.luac: Loaded successfully.
-[02:34:44.485468] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\stopcars.lua'...
-[02:34:44.485468] (debug)	New script: 133BF9E4
-[02:34:44.486467] (system)	stopcars.lua: Loaded successfully.
-[02:34:44.486467] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\Stopper.lua'...
-[02:34:44.486467] (debug)	New script: 133C0004
-[02:34:44.496469] (system)	Stopper: Loaded successfully.
-[02:34:44.497469] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\syncer.lua'...
-[02:34:44.497469] (debug)	New script: 133C0624
-[02:34:44.519471] (system)	syncer.lua: Loaded successfully.
-[02:34:44.519471] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\Teleport.luac'...
-[02:34:44.519471] (debug)	New script: 133C07AC
-[02:34:44.531471] (system)	Teleport.luac: Loaded successfully.
-[02:34:44.531471] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\textdrawreplace.lua'...
-[02:34:44.531471] (debug)	New script: 132C96BC
-[02:34:44.546472] (system)	CSChatAdd: Loaded successfully.
-[02:34:44.546472] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\thrower.luac'...
-[02:34:44.546472] (debug)	New script: 132C9E64
-[02:34:44.552473] (system)	thrower.luac: Loaded successfully.
-[02:34:44.552473] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\UltraFuck.luac'...
-[02:34:44.552473] (debug)	New script: 132CB0C4
-[02:34:44.571474] (system)	UltraFuck: Loaded successfully.
-[02:34:44.571474] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\underground death.luac'...
-[02:34:44.571474] (debug)	New script: 132CB24C
-[02:34:44.577474] (system)	underground death.luac: Loaded successfully.
-[02:34:44.577474] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\vcrash.lua'...
-[02:34:44.577474] (debug)	New script: 132CAAA4
-[02:34:44.586481] (system)	vcrash.lua: Loaded successfully.
-[02:34:44.586481] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\VCrashModify.lua'...
-[02:34:44.586481] (debug)	New script: 132CA484
-[02:34:44.598476] (system)	VCrashModify: Loaded successfully.
-[02:34:44.599478] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\wheeldestroyer.lua'...
-[02:34:44.599478] (debug)	New script: 132CA91C
-[02:34:44.607477] (system)	wheeldestroyer.lua: Loaded successfully.
-[02:34:44.607477] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\zzzz_astpn (no pickups).lua'...
-[02:34:44.607477] (debug)	New script: 132C9844
-[02:34:44.619478] (system)	zzzz_astpn (no pickups).lua: Loaded successfully.
-[02:34:44.619478] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\zzzz_astpn.lua'...
-[02:34:44.619478] (debug)	New script: 132C99CC
-[02:34:44.627478] (system)	zzzz_astpn.lua: Loaded successfully.
-[02:34:47.498706] (system)	Installing post-load hooks...
-[02:34:47.498706] (system)	Hooks installed.
-[02:34:49.135828] (error)	AntiRvanka.lua: opcode '0AF8' call caused an unhandled exception
+[16:18:27.554898] (info)	Working directory: Y:\Games\SAMP-Sborka-By-Kiko\moonloader
+[16:18:27.554898] (debug)	FP Control: 0009001F
+[16:18:27.554898] (debug)	Game: GTA SA 1.0.0.0 US
+[16:18:27.554898] (system)	Installing pre-game hooks...
+[16:18:27.556897] (system)	Hooks installed.
+[16:18:32.851288] (debug)	Initializing opcode handler table
+[16:18:32.851288] (debug)	package.path = Y:\Games\SAMP-Sborka-By-Kiko\moonloader\lib\?.lua;Y:\Games\SAMP-Sborka-By-Kiko\moonloader\lib\?\init.lua;Y:\Games\SAMP-Sborka-By-Kiko\moonloader\?.lua;Y:\Games\SAMP-Sborka-By-Kiko\moonloader\?\init.lua;.\?.lua;Y:\Games\SAMP-Sborka-By-Kiko\moonloader\lib\?.luac;Y:\Games\SAMP-Sborka-By-Kiko\moonloader\lib\?\init.luac;Y:\Games\SAMP-Sborka-By-Kiko\moonloader\?.luac;Y:\Games\SAMP-Sborka-By-Kiko\moonloader\?\init.luac;.\?.luac
+[16:18:32.851288] (debug)	package.cpath = Y:\Games\SAMP-Sborka-By-Kiko\moonloader\lib\?.dll;
+[16:18:32.857289] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\AntiRvanka.lua'...
+[16:18:32.857289] (debug)	New script: 0F6C3D4C
+[16:18:32.863289] (system)	AntiRvanka.lua: Loaded successfully.
+[16:18:32.863289] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\AntiSpammerForMaksQSpammer.lua'...
+[16:18:32.863289] (debug)	New script: 0F6C3ED4
+[16:18:32.877290] (system)	AntiSpamForMaksQSpam: Loaded successfully.
+[16:18:32.877290] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\arz_carslap.luac'...
+[16:18:32.877290] (debug)	New script: 0F6C405C
+[16:18:32.882291] (system)	arz_carslap.luac: Loaded successfully.
+[16:18:32.882291] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\AutoReboot.lua'...
+[16:18:32.882291] (debug)	New script: 0F6C436C
+[16:18:32.884291] (system)	ML-AutoReboot: Loaded successfully.
+[16:18:32.884291] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\BPS_FLY.lua'...
+[16:18:32.884291] (debug)	New script: 1369D144
+[16:18:32.889291] (system)	BPS_FLY.lua: Loaded successfully.
+[16:18:32.889291] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\ButilkaCrasher.lua'...
+[16:18:32.889291] (debug)	New script: 1369DF0C
+[16:18:32.902301] (system)	ButilkaCrasher.lua: Loaded successfully.
+[16:18:32.902301] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\bypass.lua'...
+[16:18:32.902301] (debug)	New script: 1369D8EC
+[16:18:32.906293] (system)	bypass.lua: Loaded successfully.
+[16:18:32.906293] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\bypasser.lua'...
+[16:18:32.906293] (debug)	New script: 1369D764
+[16:18:32.917293] (system)	bypasser.lua: Loaded successfully.
+[16:18:32.917293] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\carfuncs0_3_3.luac'...
+[16:18:32.917293] (debug)	New script: 1369E094
+[16:18:32.926293] (system)	carfuncs0_3_3.luac: Loaded successfully.
+[16:18:32.926293] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\carshot.lua'...
+[16:18:32.926293] (debug)	New script: 1369DA74
+[16:18:32.931294] (system)	carshot.lua: Loaded successfully.
+[16:18:32.931294] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\carshot_chat_add.lua'...
+[16:18:32.931294] (debug)	New script: 1369C99C
+[16:18:32.939294] (system)	CSChatAdd: Loaded successfully.
+[16:18:32.939294] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\CheatHelper.lua'...
+[16:18:32.939294] (debug)	New script: 1369E21C
+[16:18:32.951295] (system)	CheatHelper: Loaded successfully.
+[16:18:32.951295] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\check-moonloader-updates.lua'...
+[16:18:32.951295] (debug)	New script: 1369E3A4
+[16:18:32.953296] (system)	Check MoonLoader Updates: Loaded successfully.
+[16:18:32.953296] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\CreepTonInvis.luac'...
+[16:18:32.953296] (debug)	New script: 1369CE34
+[16:18:32.974297] (system)	CreepTonInvis.luac: Loaded successfully.
+[16:18:32.974297] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\dammagerBydamag.lua'...
+[16:18:32.974297] (debug)	New script: 1369D2CC
+[16:18:32.975297] (system)	dammagerBydamag.lua: Loaded successfully.
+[16:18:32.975297] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\egun.luac'...
+[16:18:32.975297] (debug)	New script: 1369C68C
+[16:18:32.990298] (system)	egun.luac: Loaded successfully.
+[16:18:32.990298] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\EnterCar.lua'...
+[16:18:32.990298] (debug)	New script: 1369D454
+[16:18:32.996299] (system)	EnterCar.lua: Loaded successfully.
+[16:18:32.996299] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\EnterCrasher (bypass).lua'...
+[16:18:32.996299] (debug)	New script: 1369CFBC
+[16:18:33.000299] (system)	EnterCrasher (bypass): Loaded successfully.
+[16:18:33.001299] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\F-CAR.lua'...
+[16:18:33.001299] (debug)	New script: 1369C814
+[16:18:33.011300] (system)	F-CAR.lua: Loaded successfully.
+[16:18:33.011300] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\fly.luac'...
+[16:18:33.011300] (debug)	New script: 1369D5DC
+[16:18:33.016301] (system)	fly.luac: Loaded successfully.
+[16:18:33.016301] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\FPS_UP_UPDATE.lua'...
+[16:18:33.016301] (debug)	New script: 1369CB24
+[16:18:33.025301] (system)	FPS_UP_UPDATE.lua: Loaded successfully.
+[16:18:33.025301] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\gagarin.lua'...
+[16:18:33.025301] (debug)	New script: 1369DBFC
+[16:18:33.031301] (system)	gagarin.lua: Loaded successfully.
+[16:18:33.031301] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\GORYASHIYCAR.luac'...
+[16:18:33.031301] (debug)	New script: 1369CCAC
+[16:18:33.047302] (system)	GORYASHIYCAR.luac: Loaded successfully.
+[16:18:33.047302] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\INVI.lua'...
+[16:18:33.047302] (debug)	New script: 1369DD84
+[16:18:33.051304] (system)	INVI.lua: Loaded successfully.
+[16:18:33.051304] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\kickASS.lua'...
+[16:18:33.051304] (debug)	New script: 1362AA64
+[16:18:33.058303] (system)	kickASS v2.1: Loaded successfully.
+[16:18:33.058303] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\knockdown.lua'...
+[16:18:33.058303] (debug)	New script: 1362ABEC
+[16:18:33.063303] (system)	knockdown.lua: Loaded successfully.
+[16:18:33.063303] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\Multi_AyE_Cheats_by ]GsH[MeG@LaDo[N].luac'...
+[16:18:33.063303] (debug)	New script: 1362936C
+[16:18:33.073304] (system)	Multi Cheats by ]GsH[MeG@LaDo[N]: Loaded successfully.
+[16:18:33.073304] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\obossivatel_v8.luac'...
+[16:18:33.073304] (debug)	New script: 13629E24
+[16:18:33.084305] (system)	Receiver Loader: Loaded successfully.
+[16:18:33.084305] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\POMOYKA MODE.lua'...
+[16:18:33.084305] (debug)	New script: 1362967C
+[16:18:33.088306] (system)	POMOYKAMod: Loaded successfully.
+[16:18:33.088306] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\RainbowClist.lua'...
+[16:18:33.088306] (debug)	New script: 1362AD74
+[16:18:33.098307] (system)	RainbowClist: Loaded successfully.
+[16:18:33.098307] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\reload_all.lua'...
+[16:18:33.098307] (debug)	New script: 13629FAC
+[16:18:33.099306] (system)	ML-ReloadAll: Loaded successfully.
+[16:18:33.099306] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\scar.lua'...
+[16:18:33.099306] (debug)	New script: 1362A134
+[16:18:33.104307] (system)	scar.lua: Loaded successfully.
+[16:18:33.104307] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\SF Integration.lua'...
+[16:18:33.104307] (debug)	New script: 1362A8DC
+[16:18:33.107306] (system)	SF Integration: Loaded successfully.
+[16:18:33.107306] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\skinc.lua'...
+[16:18:33.107306] (debug)	New script: 13629804
+[16:18:33.116308] (system)	skinc: Loaded successfully.
+[16:18:33.116308] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\SlapperBYs3nder.luac'...
+[16:18:33.116308] (debug)	New script: 1362998C
+[16:18:33.125308] (system)	SlapperBYs3nder.luac: Loaded successfully.
+[16:18:33.125308] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\spammer.lua'...
+[16:18:33.125308] (debug)	New script: 1362AEFC
+[16:18:33.127308] (system)	Spammer: Loaded successfully.
+[16:18:33.127308] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\spoka0_3.luac'...
+[16:18:33.127308] (debug)	New script: 1362A444
+[16:18:33.136309] (system)	spoka0_3.luac: Loaded successfully.
+[16:18:33.136309] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\stopcars.lua'...
+[16:18:33.137309] (debug)	New script: 13629B14
+[16:18:33.138309] (system)	stopcars.lua: Loaded successfully.
+[16:18:33.138309] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\Stopper.lua'...
+[16:18:33.138309] (debug)	New script: 1362A2BC
+[16:18:33.148310] (system)	Stopper: Loaded successfully.
+[16:18:33.149310] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\syncer.lua'...
+[16:18:33.149310] (debug)	New script: 13629C9C
+[16:18:33.163311] (system)	syncer.lua: Loaded successfully.
+[16:18:33.163311] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\Teleport.luac'...
+[16:18:33.163311] (debug)	New script: 1362A5CC
+[16:18:33.168312] (system)	Teleport.luac: Loaded successfully.
+[16:18:33.168312] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\textdrawreplace.lua'...
+[16:18:33.168312] (debug)	New script: 1362A754
+[16:18:33.178312] (system)	CSChatAdd: Loaded successfully.
+[16:18:33.178312] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\thrower.luac'...
+[16:18:33.178312] (debug)	New script: 136291E4
+[16:18:33.183312] (system)	thrower.luac: Loaded successfully.
+[16:18:33.183312] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\UltraFuck.luac'...
+[16:18:33.183312] (debug)	New script: 136294F4
+[16:18:33.199313] (system)	UltraFuck: Loaded successfully.
+[16:18:33.199313] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\underground death.luac'...
+[16:18:33.199313] (debug)	New script: 13777A0C
+[16:18:33.205315] (system)	underground death.luac: Loaded successfully.
+[16:18:33.205315] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\vcrash.lua'...
+[16:18:33.205315] (debug)	New script: 13777D1C
+[16:18:33.213314] (system)	vcrash.lua: Loaded successfully.
+[16:18:33.213314] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\VCrashModify.lua'...
+[16:18:33.213314] (debug)	New script: 13776314
+[16:18:33.220316] (system)	VCrashModify: Loaded successfully.
+[16:18:33.220316] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\wheeldestroyer.lua'...
+[16:18:33.220316] (debug)	New script: 13776ABC
+[16:18:33.226316] (system)	wheeldestroyer.lua: Loaded successfully.
+[16:18:33.226316] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\zzzz_astpn (no pickups).lua'...
+[16:18:33.226316] (debug)	New script: 13777B94
+[16:18:33.232316] (system)	zzzz_astpn (no pickups).lua: Loaded successfully.
+[16:18:33.232316] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\zzzz_astpn.lua'...
+[16:18:33.232316] (debug)	New script: 137770DC
+[16:18:33.237316] (system)	zzzz_astpn.lua: Loaded successfully.
+[16:18:37.453629] (system)	Installing post-load hooks...
+[16:18:37.453629] (system)	Hooks installed.
+[16:18:40.339846] (error)	AntiRvanka.lua: opcode '0AF8' call caused an unhandled exception
 stack traceback:
 	[C]: in function 'sampAddChatMessage'
 	Y:\Games\SAMP-Sborka-By-Kiko\moonloader\AntiRvanka.lua:61: in function 'sendMessage'
 	Y:\Games\SAMP-Sborka-By-Kiko\moonloader\AntiRvanka.lua:7: in function <Y:\Games\SAMP-Sborka-By-Kiko\moonloader\AntiRvanka.lua:5>
-[02:34:49.135828] (error)	AntiRvanka.lua: Script died due to an error. (0F949F34)
-[02:34:50.541337] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\config\UltraFuck\Scripts\speed.lua'...
-[02:34:50.541337] (debug)	New script: 132C9CDC
-[02:34:50.557338] (system)	speed.lua: Loaded successfully.
-[02:34:50.697350] (script)	UltraFuck: {FFFFFF}Обновления не были найдены, текущая версия 2.31
-[02:34:50.697350] (script)	UltraFuck: {FFFFFF}Вы всегда можете отключить авто обновление в настройках.
-[02:35:51.559555] (script)	ML-AutoReboot: Reloading "CheatHelper"...
-[02:35:53.887728] (system)	CheatHelper: Script terminated. (134BAC0C)
-[02:35:53.890726] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\CheatHelper.lua'...
-[02:35:53.890726] (debug)	New script: 1FDCEBFC
-[02:35:53.902728] (system)	CheatHelper: Loaded successfully.
-[02:38:33.188159] (script)	ML-AutoReboot: Reloading "CheatHelper"...
-[02:38:35.507329] (system)	CheatHelper: Script terminated. (1FDCEBFC)
-[02:38:35.509329] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\CheatHelper.lua'...
-[02:38:35.509329] (debug)	New script: 0A3AB53C
-[02:38:35.521331] (system)	CheatHelper: Loaded successfully.
-[02:38:50.094794] (script)	ML-AutoReboot: Reloading "CheatHelper"...
-[02:38:50.114796] (system)	CheatHelper: Script terminated. (0A3AB53C)
-[02:38:50.117798] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\CheatHelper.lua'...
-[02:38:50.117798] (debug)	New script: 1FDCEA74
-[02:38:50.130796] (system)	CheatHelper: Loaded successfully.
-[02:40:00.593190] (script)	ML-AutoReboot: Reloading "CheatHelper"...
-[02:40:00.615191] (system)	CheatHelper: Script terminated. (1FDCEA74)
-[02:40:00.617192] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\CheatHelper.lua'...
-[02:40:00.617192] (debug)	New script: 1FDCF52C
-[02:40:00.629192] (system)	CheatHelper: Loaded successfully.
-[02:47:14.830083] (script)	ML-AutoReboot: Reloading "CheatHelper"...
-[02:47:14.846084] (system)	CheatHelper: Script terminated. (1FDCF52C)
-[02:47:14.851084] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\CheatHelper.lua'...
-[02:47:14.851084] (debug)	New script: 0A3AA5EC
-[02:47:14.864085] (system)	CheatHelper: Loaded successfully.
-[02:47:23.948774] (system)	Unloading...
-[02:47:23.948774] (system)	AntiSpamForMaksQSpam: Script terminated. (0F949A9C)
-[02:47:23.949774] (system)	arz_carslap.luac: Script terminated. (0F94A244)
-[02:47:23.949774] (system)	ML-AutoReboot: Script terminated. (0F94A3CC)
-[02:47:23.950773] (system)	BPS_FLY.lua: Script terminated. (0F94AB74)
-[02:47:23.950773] (system)	ButilkaCrasher.lua: Script terminated. (0F94A554)
-[02:47:23.952773] (system)	bypass.lua: Script terminated. (0F94A9EC)
-[02:47:23.952773] (system)	bypasser.lua: Script terminated. (134BAA84)
-[02:47:23.953773] (system)	carfuncs0_3_3.luac: Script terminated. (134BBFF4)
-[02:47:23.954773] (system)	carshot.lua: Script terminated. (134BBE6C)
-[02:47:23.955773] (system)	CSChatAdd: Script terminated. (134BB3B4)
-[02:47:23.956773] (system)	Check MoonLoader Updates: Script terminated. (134BB53C)
-[02:47:23.956773] (system)	CreepTonInvis.luac: Script terminated. (134BAD94)
-[02:47:23.958775] (system)	dammagerBydamag.lua: Script terminated. (134BC48C)
-[02:47:23.959776] (system)	egun.luac: Script terminated. (134BB9D4)
-[02:47:23.960775] (system)	EnterCar.lua: Script terminated. (134BC304)
-[02:47:23.960775] (system)	EnterCrasher (bypass): Script terminated. (134BBB5C)
-[02:47:23.961775] (system)	F-CAR.lua: Script terminated. (134BC614)
-[02:47:23.962777] (system)	fly.luac: Script terminated. (134BA8FC)
-[02:47:23.963776] (system)	FPS_UP_UPDATE.lua: Script terminated. (133C0934)
-[02:47:23.963776] (system)	gagarin.lua: Script terminated. (133BF6D4)
-[02:47:23.964774] (system)	GORYASHIYCAR.luac: Script terminated. (133BF85C)
-[02:47:23.965776] (system)	INVI.lua: Script terminated. (133C018C)
-[02:47:23.965776] (system)	kickASS v2.1: Script terminated. (133BEC1C)
-[02:47:23.966775] (system)	knockdown.lua: Script terminated. (133BF54C)
-[02:47:23.967774] (system)	Multi Cheats by ]GsH[MeG@LaDo[N]: Script terminated. (133BEDA4)
-[02:47:23.969775] (system)	POMOYKAMod: Script terminated. (133BFB6C)
-[02:47:23.969775] (system)	RainbowClist: Script terminated. (133BFCF4)
-[02:47:23.970776] (system)	ML-ReloadAll: Script terminated. (133BEF2C)
-[02:47:23.971775] (system)	scar.lua: Script terminated. (133BF0B4)
-[02:47:23.971775] (system)	SF Integration: Script terminated. (133C0314)
-[02:47:23.972775] (system)	skinc: Script terminated. (133BF3C4)
-[02:47:23.982776] (system)	SlapperBYs3nder.luac: Script terminated. (133C049C)
-[02:47:23.983776] (system)	Spammer: Script terminated. (133BFE7C)
-[02:47:23.984777] (system)	spoka0_3.luac: Script terminated. (133BF23C)
-[02:47:23.985777] (system)	stopcars.lua: Script terminated. (133BF9E4)
-[02:47:23.985777] (system)	Stopper: Script terminated. (133C0004)
-[02:47:23.986777] (system)	syncer.lua: Script terminated. (133C0624)
-[02:47:23.987777] (system)	Teleport.luac: Script terminated. (133C07AC)
-[02:47:23.988777] (system)	CSChatAdd: Script terminated. (132C96BC)
-[02:47:23.989777] (system)	thrower.luac: Script terminated. (132C9E64)
-[02:47:23.989777] (system)	UltraFuck: Script terminated. (132CB0C4)
-[02:47:23.992778] (system)	underground death.luac: Script terminated. (132CB24C)
-[02:47:23.993778] (system)	vcrash.lua: Script terminated. (132CAAA4)
-[02:47:23.994776] (system)	VCrashModify: Script terminated. (132CA484)
-[02:47:23.994776] (system)	wheeldestroyer.lua: Script terminated. (132CA91C)
-[02:47:23.995776] (system)	zzzz_astpn (no pickups).lua: Script terminated. (132C9844)
-[02:47:23.995776] (system)	zzzz_astpn.lua: Script terminated. (132C99CC)
-[02:47:23.997778] (system)	speed.lua: Script terminated. (132C9CDC)
-[02:47:23.998777] (system)	CheatHelper: Script terminated. (0A3AA5EC)
-[02:47:24.061785] (system)	Session terminated.
+[16:18:40.339846] (error)	AntiRvanka.lua: Script died due to an error. (0F6C3D4C)
+[16:18:42.486007] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\config\UltraFuck\Scripts\speed.lua'...
+[16:18:42.486007] (debug)	New script: 13776624
+[16:18:42.505005] (system)	speed.lua: Loaded successfully.
+[16:18:42.748024] (script)	UltraFuck: {FFFFFF}Обновления не были найдены, текущая версия 2.31
+[16:18:42.748024] (script)	UltraFuck: {FFFFFF}Вы всегда можете отключить авто обновление в настройках.
+[16:18:42.755024] (system)	Loading script 'Y:\Games\SAMP-Sborka-By-Kiko\moonloader\damager-temp.txt'...
+[16:18:42.755024] (debug)	New script: 1377649C
+[16:18:42.866032] (system)	Obossatel: Loaded successfully.
+[16:18:43.337032] (system)	Receiver Loader: Script terminated. (13629E24)
+[16:21:02.755294] (system)	Unloading...
+[16:21:02.755294] (system)	AntiSpamForMaksQSpam: Script terminated. (0F6C3ED4)
+[16:21:02.756521] (system)	arz_carslap.luac: Script terminated. (0F6C405C)
+[16:21:02.756521] (system)	ML-AutoReboot: Script terminated. (0F6C436C)
+[16:21:02.757707] (system)	BPS_FLY.lua: Script terminated. (1369D144)
+[16:21:02.758283] (system)	ButilkaCrasher.lua: Script terminated. (1369DF0C)
+[16:21:02.759296] (system)	bypass.lua: Script terminated. (1369D8EC)
+[16:21:02.759296] (system)	bypasser.lua: Script terminated. (1369D764)
+[16:21:02.761294] (system)	carfuncs0_3_3.luac: Script terminated. (1369E094)
+[16:21:02.762296] (system)	carshot.lua: Script terminated. (1369DA74)
+[16:21:02.763679] (system)	CSChatAdd: Script terminated. (1369C99C)
+[16:21:02.764294] (system)	CheatHelper: Script terminated. (1369E21C)
+[16:21:02.764294] (system)	Check MoonLoader Updates: Script terminated. (1369E3A4)
+[16:21:02.765516] (system)	CreepTonInvis.luac: Script terminated. (1369CE34)
+[16:21:02.766652] (system)	dammagerBydamag.lua: Script terminated. (1369D2CC)
+[16:21:02.766652] (system)	egun.luac: Script terminated. (1369C68C)
+[16:21:02.767295] (system)	EnterCar.lua: Script terminated. (1369D454)
+[16:21:02.767295] (system)	EnterCrasher (bypass): Script terminated. (1369CFBC)
+[16:21:02.768516] (system)	F-CAR.lua: Script terminated. (1369C814)
+[16:21:02.769657] (system)	fly.luac: Script terminated. (1369D5DC)
+[16:21:02.770295] (system)	FPS_UP_UPDATE.lua: Script terminated. (1369CB24)
+[16:21:02.770295] (system)	gagarin.lua: Script terminated. (1369DBFC)
+[16:21:02.770295] (system)	GORYASHIYCAR.luac: Script terminated. (1369CCAC)
+[16:21:02.771515] (system)	INVI.lua: Script terminated. (1369DD84)
+[16:21:02.771515] (system)	kickASS v2.1: Script terminated. (1362AA64)
+[16:21:02.772665] (system)	knockdown.lua: Script terminated. (1362ABEC)
+[16:21:02.773295] (system)	Multi Cheats by ]GsH[MeG@LaDo[N]: Script terminated. (1362936C)
+[16:21:02.774525] (system)	POMOYKAMod: Script terminated. (1362967C)
+[16:21:02.775669] (system)	RainbowClist: Script terminated. (1362AD74)
+[16:21:02.776296] (system)	ML-ReloadAll: Script terminated. (13629FAC)
+[16:21:02.776296] (system)	scar.lua: Script terminated. (1362A134)
+[16:21:02.777296] (system)	SF Integration: Script terminated. (1362A8DC)
+[16:21:02.777296] (system)	skinc: Script terminated. (13629804)
+[16:21:02.786525] (system)	SlapperBYs3nder.luac: Script terminated. (1362998C)
+[16:21:02.788297] (system)	Spammer: Script terminated. (1362AEFC)
+[16:21:02.788297] (system)	spoka0_3.luac: Script terminated. (1362A444)
+[16:21:02.789522] (system)	stopcars.lua: Script terminated. (13629B14)
+[16:21:02.790297] (system)	Stopper: Script terminated. (1362A2BC)
+[16:21:02.790297] (system)	syncer.lua: Script terminated. (13629C9C)
+[16:21:02.792289] (system)	Teleport.luac: Script terminated. (1362A5CC)
+[16:21:02.792289] (system)	CSChatAdd: Script terminated. (1362A754)
+[16:21:02.793696] (system)	thrower.luac: Script terminated. (136291E4)
+[16:21:02.794297] (system)	UltraFuck: Script terminated. (136294F4)
+[16:21:02.798297] (system)	underground death.luac: Script terminated. (13777A0C)
+[16:21:02.799297] (system)	vcrash.lua: Script terminated. (13777D1C)
+[16:21:02.799297] (system)	VCrashModify: Script terminated. (13776314)
+[16:21:02.800298] (system)	wheeldestroyer.lua: Script terminated. (13776ABC)
+[16:21:02.801298] (system)	zzzz_astpn (no pickups).lua: Script terminated. (13777B94)
+[16:21:02.801298] (system)	zzzz_astpn.lua: Script terminated. (137770DC)
+[16:21:02.804299] (system)	speed.lua: Script terminated. (13776624)
+[16:21:02.813299] (system)	Obossatel: Script terminated. (1377649C)
+[16:21:02.833289] (system)	Session terminated.

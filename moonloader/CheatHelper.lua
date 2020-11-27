@@ -19,8 +19,8 @@ u8 = encoding.UTF8
 
 update_status = false
 
-local script_vers = 10
-local script_vers_text = "1.03.6"
+local script_vers = 11
+local script_vers_text = "1.03.7"
 
 local update_url = "https://raw.githubusercontent.com/BadKiko/SAMP-Sborka-by-Kiko/main/moonloader/updateCheatHelp.ini"
 local update_path = getWorkingDirectory().."/updateCheatHelp.ini"
@@ -85,7 +85,6 @@ function main()
 			else
 				sendMessage("Slave, ты красавец, у тебя последняя версия {464446}<CheatHelper> - "..updateIni.script_info.vers_text.."!")
 			end
-			os.remove(update_path)
 		end
 	end)
 
@@ -145,6 +144,7 @@ local bpfly = true
 local rcds = true
 local wd = true
 local sdmg = true
+local taran = true
 
 --Рисуем меню
 function imgui.OnDrawFrame()
@@ -842,6 +842,37 @@ function imgui.OnDrawFrame()
 
 					imgui.TreePop()
 				end
+				imgui.Separator()
+				if (imgui.TreeNode(u8"27) KUKOLD - Дамагер для нубо РП моментально убивает.")) then
+					if imgui.Button(u8"/kldmg [id челика]") then
+						sampSetChatInputText("/kldmg  ")
+						sampSetChatInputEnabled(true)
+					end
+
+					imgui.TreePop()
+				end
+				imgui.Separator()
+				if (imgui.TreeNode(u8"28) TaranCar - Слаппер тачек, Shift чтобы подбрасывать.")) then
+					if taran then
+						if imgui.Button(u8"Включить") then
+							taran = false
+							sampProcessChatInput("/taran")
+						end
+					else
+						if imgui.Button(u8"Отключить") then
+							taran = true
+							sampProcessChatInput("/taran")
+						end
+					end
+
+					imgui.TreePop()
+				end
+
+
+
+
+
+
 
 
 
